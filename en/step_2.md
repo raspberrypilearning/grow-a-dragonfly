@@ -1,13 +1,6 @@
 ## Set the scene
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
-</div>
-<div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
-</div>
-</div>
+In this step, you will set the scene by choosing your backdrop and adding a dragonfly that follows the mouse-pointer around the Stage. 
 
 --- task ---
 
@@ -18,7 +11,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and de
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
+<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
 
 --- task ---
 
@@ -42,7 +35,7 @@ Click 'Choose a Sprite' and search for 'dragonfly' then add the **Dragonfly** sp
 
 --- task ---
 
-Add a script to make the Dragonfly follow the mouse pointer (or your finger):
+Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
 
 ![](images/dragonfly-icon.png)
 
@@ -58,15 +51,15 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the Dragonfly move around the Stage. Is the Dragonfly moving as you'd expect?
+**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the Dragonfly moving as you'd expect?
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right so the wrong part of the Dragonfly is pointing towards the mouse.
+The Dragonfly costume is not facing to the right so the wrong part of the **Dragonfly** sprite is pointing towards the mouse-pointer.
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to highlight the costume. Use the rotation arrows at bottom of the highlighted costume to turn the Dragonfly costume to the right.
+Click on the **Costumes** tab and use the **Select** (arrow) tool to highlight the costume. Use the rotation arrows at bottom of the highlighted costume to turn the Dragonfly costume to face the right.
 
 ![](images/rotated-costume.gif)
 
@@ -77,6 +70,7 @@ Click on the **Costumes** tab and use the **Select** (arrow) tool to highlight t
 Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create a new one.
 
 --- task ---
+
 Add the 'Crank' sound to the Dragonfly sprite.
 
 [[[generic-scratch3-sound-from-library]]]
@@ -91,17 +85,17 @@ The 'Crank' sound is too long and too slow for Dragonfly wings.
 
 --- task ---
 
-Select the end of the sound using your mouse or finger:
+Select the end of the sound using your mouse or finger.
+
+Click 'Copy to New' to make a new sound with just the selected part:
 
 ![](images/crank-copy-end.png)
-
-Click 'Copy to New' to make a new sound with just the selected part.
 
 --- /task ---
 
 --- task ---
 
-Rename your new sound from 'Crank2'to 'Wings'.
+Rename your new sound from 'Crank2' to 'Wings'.
 
 ![](images/crank-wings-sound.png)
 
@@ -116,6 +110,7 @@ Click the 'Faster' button a few times until you like the result:
 --- /task ---
 
 --- task ---
+
 If you like, you can select the very end of the Wings sound and then click 'Delete' to remove it:
 
 ![](images/wings-shorter.png)

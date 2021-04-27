@@ -5,18 +5,6 @@ Now you will make the Dragonfly grow when it eats a fly and stop if it reaches f
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**The largest insect**</span> ever known was Meganeuropsis permiana a dragonfly with a wingspan of approximately 75cm / 30in. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm / 7.5in</p>
 
-
-First, let's improve the way the Dragonfly moves. Have you noticed that it 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly?
-
-You can use a `not`{:class="block3operators"} block with `touching (mouse-pointer)`{:class="block3sensing"} to fix this. The `not`{:class="block3operators"} block turns a condition into it's opposite, just like it would i
-
---- task ---
-
-
-
---- /task ---
-
-
 The fly knows that it has been eaten, it needs to let the Dragonfly know. 
 
 When you need to let another sprite know that something has happened you can use a `broadcast`{:class="block3events"} as you did in Broadcasting spells.
@@ -147,6 +135,54 @@ stop [other scripts in sprite v]
 
 **Test:** Click the green flag and keep eating flies until your Dragonfly reaches full size.
 
+--- /task ---
+
+Have you noticed that the Dragonfly 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly?
+
+You can use a `not`{:class="block3operators"} block with `touching (mouse-pointer)`{:class="block3sensing"} to fix this. The `not`{:class="block3operators"} block turns a condition into it's opposite, just like it would in a sentence. 
+
+--- task ---
+
+Select the Dragonfly and find the script that starts with `when flag clicked`{:class="block3events"}.
+
+Add an `if`{:class="block3control"} inside the `forever`{:class="block3control"}. Drag it under the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3events"} will move inside the `if`{:class="block3control"}.
+
+Check carefully that your code looks like this:
+
+```blocks3
+when flag clicked
+set size to [25] %
+forever
++if < > then
+start sound [Wings v]
+point towards (mouse-pointer v)
+move [5] steps
+end
+end
+```
+--- /task ---
+
+--- task ---
+
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+
+Check that your code looks like this:
+
+```blocks3
+when flag clicked
+set size to [25] %
+forever
++if <not <touching [mouse-pointer v] ?> > then
+start sound [Wings v]
+point towards (mouse-pointer v)
+move [5] steps
+end
+end
+```
+--- /task ---
+
+--- task ---
+**Test:** Check that the glitc
 --- /task ---
 
 --- save ---

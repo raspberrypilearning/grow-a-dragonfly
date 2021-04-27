@@ -8,7 +8,7 @@ Now you will make the Dragonfly grow when it eats a fly and stop if it reaches f
 
 First, let's improve the way the Dragonfly moves. Have you noticed that it 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly?
 
-You can use a `not`{:class="block3operators"} block with `touching (mouse-pointer)`{:class="block3sensing"} to fix this. The `not`{:class="block3operators"} block
+You can use a `not`{:class="block3operators"} block with `touching (mouse-pointer)`{:class="block3sensing"} to fix this. The `not`{:class="block3operators"} block turns a condition into it's opposite, just like it would i
 
 --- task ---
 

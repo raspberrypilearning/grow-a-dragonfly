@@ -12,7 +12,6 @@ steps:
   - title: Grow to fullsize
   - title: More food
   - title: Set the scene
-  - title: Set the scene
   - title: Reflection
     knowledge_quiz:
       path: quiz1

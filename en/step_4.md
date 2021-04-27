@@ -3,7 +3,19 @@
 Now you will make the Dragonfly grow when it eats a fly and stop if it reaches full size.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**The largest insect**</span> ever known was Meganeuropsis permiana a dragonfly with a wingspan of approximately 75cm / 30in. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm / 7.5in</p>
+<span style="color: #0faeb0">**The largest insect**</span> ever known was Meganeuropsis permiana a dragonfly with a wingspan of approximately 75cm / 30in. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm / 7.5in</p>
+
+
+First, let's improve the way the Dragonfly moves. Have you noticed that it 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly?
+
+You can use a `not`{:class="block3operators"} block with `touching (mouse-pointer)`{:class="block3sensing"} to fix this. The `not`{:class="block3operators"} block
+
+--- task ---
+
+
+
+--- /task ---
+
 
 The fly knows that it has been eaten, it needs to let the Dragonfly know. 
 

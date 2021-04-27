@@ -9,7 +9,7 @@ Add a script to **Insect 2** to make it point in a random direction every 1-3 se
 ```blocks3
 when flag clicked
 forever // Keep changing direction
-point in direction (pick random [0] to [360])
+point in direction (pick random [0] to [259])
 wait (pick random [1] to [3]) seconds
 end
 ```

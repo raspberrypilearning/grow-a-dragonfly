@@ -10,8 +10,9 @@ steps:
   - title: Set the scene
   - title: A fly to eat
   - title: Grow to fullsize
+  - title: Improved movement
   - title: More food
-  - title: Set the scene
+  - title: Random insect movement
   - title: Reflection
     knowledge_quiz:
       path: quiz1

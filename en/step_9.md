@@ -1,19 +1,57 @@
-## What next?
+## Upgrade your project
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a (add description here).
-
---- print-only ---
-
-![ProjectName project](images/projectname-project.png)
-
---- /print-only ---
-
---- no-print ---
-
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Try adding more insects, changing the way your project looks and changing the way it behaves.
+</div>
+<div>
+![](images/image.png){:width="300px"}
+</div>
 </div>
 
---- /no-print ---
+### Add more insects
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Add more insects. You might need to make them move faster so they are harder for the Dragonfly to catch.
+
+You can paint your own insects or trying adding an emoji mosquito!
+
+--- task ---
+
+Use the emoji keyboard to add a Mosquito emoji sprite. 
+
+Duplicate an existing insect sprite then click on the **Costumes** tab. Paint a new costume and select the **Text** tool. Instead of typing text use the emoji keyboard shortcut for your Operating System:
+
+Windows - Windows key + '.'
+MacOS - ctrl + cmd + space
+Linux - ctrl + '.'
+
+![desc](images/emoji-keyboard.png)
+
+Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize and rotate your Mosquito until you are happy with it. 
+
+![desc](images/emoji-mosquito.png)
+
+**Tip:** Emojis can look different on different computers so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+
+--- /task ---
+
+--- task ---
+
+Use your backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+
+[[[scratch-backpack]]]
+
+--- /task ---
+
+
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+
+--- /collapse ---
+
+--- save ---

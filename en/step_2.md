@@ -55,7 +55,7 @@ end
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right so the wrong part of the **Dragonfly** sprite is pointing towards the mouse-pointer.
+The Dragonfly costume is not facing to the right so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
 
 --- task ---
 
@@ -91,19 +91,15 @@ Click 'Copy to New' to make a new sound with just the selected part:
 
 ![](images/crank-copy-end.png)
 
---- /task ---
-
---- task ---
-
 Rename your new sound from 'Crank2' to 'Wings'.
 
-![](images/crank-wings-sound.png)
+![](images/crank-wings-sound.png) 
 
-Play the new sound. 
 --- /task ---
 
 --- task ---
-Click the 'Faster' button a few times until you like the result:
+
+Play the new sound. Click the 'Faster' button a few times until you like the result:
 
 ![](images/wings-faster.png)
 
@@ -137,6 +133,13 @@ end
 --- task ---
 
 **Test:** Try out your Dragonfly movement and sound effect.
+
+--- /task ---
+
+--- task ---
+**Tip:** Check that all your sprite and costumes have sensible names, it makes your project easier to understand if you come back to it later.
+
+**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose 'Clean up Blocks' to get Scratch to tidy up your code.
 
 --- /task ---
 

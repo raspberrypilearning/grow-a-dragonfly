@@ -22,9 +22,9 @@ You can either:
 
 --- /task ---
 
-The Fly gets eaten even if it touches the Dragonfly's wing or tail. That doesn't work well when the Dragonfly gets big.
+The Insect gets eaten even if it touches the Dragonfly's wing or tail. That doesn't work well when the Dragonfly gets big.
 
-To fix this you can use the `touching color`{:class="block3sensing"} block so the fly only gets eaten if it is touches a particular colour on the Dragonfly.
+To fix this you can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the Dragonfly.
 
 
 --- task ---
@@ -37,13 +37,15 @@ Use the fill tool to fill in the Dragonfly's mouth. We used purple:
 
 --- /task ---
 
-You need to check that the **Insect 2** sprite is touching the Dragonfly sprite `and`{:class="block3operators"} touching the colour of the Dragonfly's mouth.
+You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the Dragonfly's mouth.
 
 --- task ---
 
-Select 'Insect 2' and click on the 'Code' tab.
+Select the **Insect2** sprite and click on the **Code** tab.
 
 Drag a `and`{:class="block3operators"} block into the `if`{:class="block3control"}. The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out:
+
+![](images/insect2-icon.png)
 
 ```blocks3
 when flag clicked
@@ -61,17 +63,18 @@ end
 
 --- /task ---
 
-
 --- task ---
 
 Drag the `<touching [Dragonfly v] ?>`{:class="block3sensing"} into the left of the `and`{:class="block3operators"} block:
+
+![](images/insect2-icon.png)
 
 ```blocks3
 when flag clicked
 forever
 move [3] steps // Not eaten
 if on edge, bounce
-+if <<<touching [Dragonfly v] ?>> and <>> then
++if <<touching [Dragonfly v] ?> and <>> then
 broadcast [food v]
 hide
 go to (random position v)
@@ -85,6 +88,8 @@ end
 --- task ---
 
 Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
+
+![](images/insect2-icon.png)
 
 ```blocks3
 when flag clicked
@@ -101,7 +106,6 @@ end
 ```
 
 If it doesn't have the colour of the Dragonfly's mouth selected then click on the colour and then click on the Eyedropper to select a colour.
-
 
 ![](images/colour-eyedropper.png)
 

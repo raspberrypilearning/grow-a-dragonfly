@@ -45,7 +45,7 @@ end
 --- /task ---
 
 --- task ---
-**Test:** Check that the glitch is fixed and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"} the mouse pointer.
+**Test:** Check that the glitch is fixed and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
 
 A different condition to try is:
 

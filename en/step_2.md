@@ -51,7 +51,7 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the Dragonfly moving as you'd expect?
+**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the Dragonfly moving as you would expect?
 
 --- /task ---
 
@@ -133,13 +133,6 @@ end
 --- task ---
 
 **Test:** Try out your Dragonfly movement and sound effect.
-
---- /task ---
-
---- task ---
-**Tip:** Check that all your sprite and costumes have sensible names, it makes your project easier to understand if you come back to it later.
-
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose 'Clean up Blocks' to get Scratch to tidy up your code.
 
 --- /task ---
 

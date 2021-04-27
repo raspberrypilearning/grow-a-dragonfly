@@ -5,7 +5,7 @@
 Try adding more insects, changing the way your project looks and changing the way it behaves.
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![](images/more-insects.png){:width="300px"}
 </div>
 </div>
 
@@ -43,6 +43,12 @@ Use your backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- /task ---
 
+--- task ---
+**Tip:** Check that all your sprite and costumes have sensible names, it makes your project easier to understand if you come back to it later.
+
+**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose 'Clean up Blocks' to get Scratch to tidy up your code.
+
+--- /task ---
 
 --- collapse ---
 

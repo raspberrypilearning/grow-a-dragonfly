@@ -3,7 +3,7 @@
 Now you will make the Dragonfly grow when it eats a fly and stop if it reaches full size.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**The largest insect**</span> ever known was Meganeuropsis permiana a dragonfly with a wingspan of approximately 75cm / 30in. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm / 7.5in</p>
+The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span> a dragonfly with a wingspan of approximately 75cm / 30in. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm / 7.5in.</p>
 
 The fly knows that it has been eaten, it needs to let the Dragonfly know. 
 
@@ -11,7 +11,7 @@ When you need to let another sprite know that something has happened you can use
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the Fly sprite with new message 'food':
+Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message 'food':
 
 ![](images/fly-icon.png)
 
@@ -47,7 +47,7 @@ change size by [5]
 --- /task ---
 
 --- task ---
-Add the 'Chomp' sound to the Dragonfly and `start`{:class="block3sounds"} it when a fly gets eaten:
+Add the 'Chomp' sound to the Dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
 
 ![](images/dragonfly-icon.png)
 
@@ -70,7 +70,7 @@ When the Dragonfly reaches its full size, the game will congratulate you and sto
 
 Add an `if`{:class="block3control"} block. 
 
-To check if the dragonfly is full size, or in other terms the `size`{:class="block3looks"} `=`{:class="block3operators"} '100%', add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+The dragonfly is full size when the `size`{:class="block3looks"} `=`{:class="block3operators"} '100%'. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ![](images/dragonfly-icon.png)
 
@@ -120,7 +120,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to stop the fly sprite. 
+At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite. 
 
 ![](images/fly-icon.png)
 

@@ -1,6 +1,9 @@
 ## A fly to eat
 
-Now you will add an insect for the Dragonfly to eat.
+Now you will add an insect for the Dragonfly to eat. You will program the fly to move around following an algorithm.
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+In games and nature simulations it's useful to be able to program characters to move around following an algorithm. Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobile. Can you think of a game that has mobs?</p>
 
 There's a fly in the 'Frog 2' sprite that you can use.
 
@@ -8,9 +11,7 @@ There's a fly in the 'Frog 2' sprite that you can use.
 
 --- task ---
 
-Add the 'Frog 2' sprite to your project.
-
-Rename the sprite to 'Insect':
+Add the 'Frog 2' sprite to your project. Rename the sprite to 'Insect':
 
 ![](images/fly-sprite.png)
 
@@ -64,7 +65,7 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3control"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has. 
+The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has. 
 
 --- /task ---
 

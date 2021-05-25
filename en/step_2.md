@@ -1,10 +1,17 @@
 ## Set the scene
 
-In this step, you will set the scene by choosing your backdrop and adding a dragonfly that follows the mouse-pointer around the Stage. 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+In this step, you will set the scene by choosing your backdrop and adding a dragonfly that follows the mouse-pointer around the Stage.
+</div>
+<div>
+![](images/set-the-scene.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
 
 [[[working-offline]]]
 
@@ -15,7 +22,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and de
 
 --- task ---
 
-**Choose:** Click 'Choose a Backdrop' and add a backdrop of your choice. We used the 'Jurassic' backdrop.
+**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the 'Jurassic' backdrop.
 
 ![](images/choose-backdrop-icon.png)
 
@@ -25,7 +32,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and de
 
 --- task ---
 
-Click 'Choose a Sprite' and search for 'dragonfly' then add the **Dragonfly** sprite.
+Click **Choose a Sprite** and search for 'dragonfly' then add the **Dragonfly** sprite.
 
 ![](images/choose-sprite-icon.png)
 
@@ -41,7 +48,7 @@ Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your 
 
 ```blocks3
 when flag clicked
-set size to [25] %
+set size to [25] % // to start small
 forever
 point towards (mouse-pointer v)
 move [5] steps
@@ -59,11 +66,17 @@ The Dragonfly costume is not facing to the right so the head of the **Dragonfly*
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to highlight the costume. Use the rotation arrows at bottom of the highlighted costume to turn the Dragonfly costume to face the right.
+Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the rotation arrows at bottom of the selected costume to turn the Dragonfly costume to face the right.
 
 ![](images/rotated-costume.gif)
 
 ![](images/rotated-costume.png)
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the green flag and look at how the dragonfly moves now.
 
 --- /task ---
 

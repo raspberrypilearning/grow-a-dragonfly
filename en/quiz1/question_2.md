@@ -5,9 +5,9 @@
 legend: Question 2 of 3
 ---
 
-You wrote code to make the Dragonfly move only if it is `not`{:class="operators"} `touching`{:class="block3sensing"} the mouse pointer.
+You wrote code to make the Dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse pointer.
 
-Where would you put a `start a sound`{:class="block3sounds"} to make the Dragonfly play a sound only when it moves?
+Where would you put a `start sound`{:class="block3sound"} to make the Dragonfly start a sound each time it moves?
 
 --- choices ---
 
@@ -26,7 +26,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sounds"} block is outside the `if`{:class="block3control"} block so it will run every time the `forever`{:class="block3control"} loop runs, even if the Dragonfly doesn't move.
+No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block so it will run every time the `forever`{:class="block3control"} loop runs, even if the Dragonfly doesn't move.
 
 --- /feedback ---
 
@@ -45,7 +45,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sounds"} block inside the `if`{:class="block3control"} block means it will play when the Dragonfly moves.
+Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the Dragonfly moves.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 ```
 
   --- feedback ---
-No, the `start sound`{:class="block3sounds"} block is outside the `if`{:class="block3control"} block so it will run every time the `forever`{:class="block3control"} loop runs, even if the Dragonfly doesn't move.
+No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block so it will run every time the `forever`{:class="block3control"} loop runs, even if the Dragonfly doesn't move.
 
   --- /feedback ---
 

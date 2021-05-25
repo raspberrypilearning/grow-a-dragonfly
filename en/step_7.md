@@ -1,6 +1,13 @@
 ## Random insect movement
 
-The insects move in a very predictable pattern. The `pick random`{:class="block3operators"} block choose a number between a minimum and a maximum. You can use this to make the insect move in a more natural way.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+The insects move in a very predictable pattern. In this step, use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+</div>
+<div>
+![](images/random-movement.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
@@ -19,7 +26,7 @@ end
 --- task ---
 **Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want. 
 
-You can also drag this script to the **Insect** sprite so that it moves randomly.
+You can also drag this script to the **Insect** sprite so that it also moves randomly.
 
 --- /task ---
 

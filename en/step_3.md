@@ -1,9 +1,16 @@
 ## A fly to eat
 
-Now you will add an insect for the Dragonfly to eat. You will program the fly to move around following an algorithm.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+In this step, you will add an insect for the Dragonfly to eat. 
+</div>
+<div>
+![](images/fly-to-eat.png){:width="300px"}
+</div>
+</div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-In games and nature simulations it's useful to be able to program characters to move around following an algorithm. Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobile. Can you think of a game that has mobs?</p>
+Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobile. Can you think of a game that has mobs?</p>
 
 There's a fly in the 'Frog 2' sprite that you can use.
 
@@ -35,7 +42,7 @@ Add a new costume to the sprite using the 'Paint' option:
 --- /task ---
 
 --- task ---
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the center so it lines up with the crosshair.
+Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **center** so it lines up with the crosshair.
 
 You can rename your costume 'Insect' and delete the other costumes as you won't need those:
 
@@ -71,8 +78,6 @@ The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprit
 
 You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite. 
 
-To do this you can use the `touching`{:class="block3sensing"} condition from the `Sensing`{:class="block3sensing"} blocks menu.
-
 --- task ---
 
 Add an `if`{:class="block3control"} block to the Insect's movement script:
@@ -91,7 +96,7 @@ end
 
 The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here. When the `if`{:class="block3control"} block runs, Scratch will check the condition, `if`{:class="block3control"} the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
 
-You want the Insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is touching the **Dragonfly** sprite.
+You want the Insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
 
 --- task ---
 
@@ -104,7 +109,7 @@ when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-+if <touching [Dragonfly v] ?> then
++if <touching [Dragonfly v] ?> then // change from 'mouse-pointer'
 +hide 
 end
 ```
@@ -149,5 +154,7 @@ end
 Make sure you have added the `show`{:class="block3looks"} block to show at the start.
 
 --- /task ---
+
+**Tip:** You can click the red 'Stop' button above the Stage if you want the dragonfly to be quiet while you add more code.
 
 --- save ---

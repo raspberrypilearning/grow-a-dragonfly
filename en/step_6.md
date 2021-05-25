@@ -5,14 +5,14 @@
 In this step, you will give the Dragonfly a choice of insects.
 </div>
 <div>
-![](images/more-food.png){:width="300px"}
+![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
-Right-click on the Insect sprite under the Stage and duplicate it. 
+Right-click on the Insect sprite in the Sprit list under the Stage and duplicate it. 
 
-![](images/duplicate-insect.png)
+![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
 
 --- /task ---
 
@@ -39,7 +39,7 @@ Select the **Dragonfly** sprite and click on the **Costumes** tab.
 
 Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
 
-![](images/dragonfly-mouth-colour.png)
+![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
 
 --- /task ---
 
@@ -94,11 +94,11 @@ end
 
 If it doesn't have the colour of the Dragonfly's mouth selected,  click on the colour circle and then click on the **Eyedropper** tool to select a colour.
 
-![](images/colour-eyedropper.png)
+![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
 
 Click on the Dragonfly's mouth on the Stage to set the colour to match:
 
-![](images/colour-select.png)
+![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
 
 **Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
 

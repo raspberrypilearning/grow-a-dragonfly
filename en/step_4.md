@@ -5,7 +5,7 @@
 In this step, you will make the Dragonfly grow when it eats a fly and stop if it reaches full size.
 </div>
 <div>
-![](images/grow-to-fullsize.png){:width="300px"}
+![The full size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 

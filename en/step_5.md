@@ -5,7 +5,7 @@
 In this step, you will improve the Dragonfly's movement. Have you noticed that the Dragonfly 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly?
 </div>
 <div>
-![](images/improved-movement.png){:width="300px"}
+![THe Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 

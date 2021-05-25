@@ -68,9 +68,9 @@ The Dragonfly costume is not facing to the right so the head of the **Dragonfly*
 
 Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the rotation arrows at bottom of the selected costume to turn the Dragonfly costume to face the right.
 
-![](images/rotated-costume.gif)
+![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
 
-![](images/rotated-costume.png)
+![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -102,11 +102,11 @@ Select the end of the sound using your mouse or finger.
 
 Click 'Copy to New' to make a new sound with just the selected part:
 
-![](images/crank-copy-end.png)
+![The end of the crank sound selected in blue with the 'copy to new' icon highlighted.](images/crank-copy-end.png)
 
 Rename your new sound from 'Crank2' to 'Wings'.
 
-![](images/crank-wings-sound.png) 
+![The rename sound property.](images/crank-wings-sound.png) 
 
 --- /task ---
 
@@ -114,7 +114,7 @@ Rename your new sound from 'Crank2' to 'Wings'.
 
 Play the new sound. Click the 'Faster' button a few times until you like the result:
 
-![](images/wings-faster.png)
+![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 
 --- /task ---
 
@@ -122,7 +122,7 @@ Play the new sound. Click the 'Faster' button a few times until you like the res
 
 If you like, you can select the very end of the Wings sound and then click 'Delete' to remove it:
 
-![](images/wings-shorter.png)
+![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
 
 --- /task ---
 

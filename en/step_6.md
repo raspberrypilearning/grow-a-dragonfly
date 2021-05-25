@@ -1,6 +1,13 @@
 ## More food
 
-Now you will give the Dragonfly a choice of insects.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+In this step, you will give the Dragonfly a choice of insects.
+</div>
+<div>
+![](images/more-food.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 Right-click on the Insect sprite under the Stage and duplicate it. 
@@ -13,25 +20,24 @@ It's helpful if this insect looks different to the fly.
 
 --- task ---
 
-Click on the 'Costumes' tab. 
+Click on the **Costumes** tab. 
 
-You can either:
-+ Use the Fill tool to change the colour of this insect
+**Choose:** You can either:
++ Use the **Fill** tool to change the colour of this insect
 + 'Paint' your own insect costume, or
 + Add another bug costume from Scratch.
 
 --- /task ---
 
-The Insect gets eaten even if it touches the Dragonfly's wing or tail. That doesn't work well when the Dragonfly gets big.
+The Insect gets eaten even if it touches the Dragonfly's wing or tail. That doesn't work well when the **Dragonfly** gets big.
 
-To fix this you can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the Dragonfly.
-
+To fix this you can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
 
 --- task ---
 
-Select the Dragonfly sprite and click on the 'Costumes' tab.
+Select the **Dragonfly** sprite and click on the **Costumes** tab.
 
-Use the fill tool to fill in the Dragonfly's mouth. We used purple:
+Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
 
 ![](images/dragonfly-mouth-colour.png)
 
@@ -49,8 +55,9 @@ Drag a `and`{:class="block3operators"} block into the `if`{:class="block3control
 
 ```blocks3
 when flag clicked
+show
 forever
-move [3] steps // Not eaten
+move [3] steps 
 if on edge, bounce
 +if <<> and <>> then
 broadcast [food v]
@@ -71,8 +78,9 @@ Drag the `<touching [Dragonfly v] ?>`{:class="block3sensing"} into the left of t
 
 ```blocks3
 when flag clicked
+show
 forever
-move [3] steps // Not eaten
+move [3] steps 
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <>> then
 broadcast [food v]
@@ -93,8 +101,9 @@ Drag a `touching color`{:class="block3sensing"} block into the right of the `and
 
 ```blocks3
 when flag clicked
+show
 forever
-move [3] steps // Not eaten
+move [3] steps
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
 broadcast [food v]
@@ -105,7 +114,7 @@ end
 end
 ```
 
-If it doesn't have the colour of the Dragonfly's mouth selected then click on the colour and then click on the Eyedropper to select a colour.
+If it doesn't have the colour of the Dragonfly's mouth selected,  click on the colour circle and then click on the **Eyedropper** tool to select a colour.
 
 ![](images/colour-eyedropper.png)
 
@@ -113,14 +122,14 @@ Click on the Dragonfly's mouth on the Stage to set the colour to match:
 
 ![](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the Dragonfly so it's really big.
+**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
 
 --- /task ---
 
 --- task ---
 **Test:** Now test that the Dragonfly can only eat the second insect with its mouth. 
 
-If you like, you can change the first Insect so that it can only be eaten with the Dragonfly's mouth.
+If you like, you can change the first **Insect** so that it can only be eaten with the Dragonfly's mouth.
 
 --- /task ---
 

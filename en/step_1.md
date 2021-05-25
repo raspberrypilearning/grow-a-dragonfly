@@ -1,9 +1,9 @@
 ## Introduction
 
-You are going to make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+Make a nature simulation game with a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
 
 You will:
-+ Use `if`{:class="block3control"} blocks to change what a sprite does when a condition is true; create conditions using `operators`{:class="block3operators"} and `Sensing`{:class="block3sensing"} blocks including `when touching`{:class="block3sensing"}.
++ Use `if`{:class="block3control"} blocks make decisions based on **conditions** made with `operators`{:class="block3operators"} and `Sensing`{:class="block3sensing"} blocks.
 + Use `random`{:class="block3operators"} numbers to control the movement of a sprite
 + Use the `Sounds`{:class="block3sound"}  editor to edit a sound
 
@@ -16,6 +16,8 @@ We use <span style="color: #0faeb0">**conditions**</span> all the time to make d
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?
+
+Which part of the dragonfly needs to touch the insects to eat them? What happens when the dragonfly reaches full size?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>

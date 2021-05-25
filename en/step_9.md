@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Try adding more insects, changing the way your project looks and changing the way it behaves.
+Try adding more insects, changing the way your project looks and behaves.
 </div>
 <div>
-![](images/more-insects.png){:width="300px"}
+![](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 

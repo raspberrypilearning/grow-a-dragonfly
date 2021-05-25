@@ -1,16 +1,23 @@
 ## Improved movement
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Have you noticed that the Dragonfly 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly?
-
-You can use a `not`{:class="block3operators"} block with `touching (mouse-pointer)`{:class="block3sensing"} to fix this. The `not`{:class="block3operators"} block turns a condition into it's opposite, just like it would in a sentence. 
+</div>
+<div>
+![](images/improved-movement.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
 Select the Dragonfly and find the script that starts with `when flag clicked`{:class="block3events"}.
 
-Add an `if`{:class="block3control"} inside the `forever`{:class="block3control"}. Drag it under the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3events"} will move inside the `if`{:class="block3control"}.
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 Check carefully that your code looks like this:
+
+![](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -31,6 +38,8 @@ Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3co
 
 Check that your code looks like this:
 
+![](images/dragonfly-icon.png)
+
 ```blocks3
 when flag clicked
 set size to [25] %
@@ -42,6 +51,9 @@ move [5] steps
 end
 end
 ```
+
+The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence. 
+
 --- /task ---
 
 --- task ---

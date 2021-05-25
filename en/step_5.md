@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you noticed that the Dragonfly 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly?
+In this step, you will improve the Dragonfly's movement. Have you noticed that the Dragonfly 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly?
 </div>
 <div>
 ![](images/improved-movement.png){:width="300px"}
@@ -70,3 +70,5 @@ This makes the Dragonfly move when it's far enough from the mouse pointer. Try i
 **Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things. If you prefer what you had earlier you can easily put it back.
 
 --- /task ---
+
+--- save ---

@@ -46,33 +46,11 @@ Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
 You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the Dragonfly's mouth.
 
 --- task ---
-
 Select the **Insect2** sprite and click on the **Code** tab.
 
-Drag a `and`{:class="block3operators"} block into the `if`{:class="block3control"}. The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out:
+Drag a `and`{:class="block3operators"} block into the `if`{:class="block3control"} block. 
 
-![](images/insect2-icon.png)
-
-```blocks3
-when flag clicked
-show
-forever
-move [3] steps 
-if on edge, bounce
-+if <<> and <>> then
-broadcast [food v]
-hide
-go to (random position v)
-show
-end
-end
-```
-
---- /task ---
-
---- task ---
-
-Drag the `<touching [Dragonfly v] ?>`{:class="block3sensing"} into the left of the `and`{:class="block3operators"} block:
+The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
 
 ![](images/insect2-icon.png)
 

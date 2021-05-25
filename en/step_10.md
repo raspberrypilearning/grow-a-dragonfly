@@ -1,10 +1,10 @@
 ## What next?
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a (add description here).
+If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
 
 --- print-only ---
 
-![ProjectName project](images/projectname-project.png)
+![The Stage view of completed drum star project.](images/drum-star.png)
 
 --- /print-only ---
 

@@ -5,7 +5,7 @@
 In this step, you will add an insect for the Dragonfly to eat. 
 </div>
 <div>
-![](images/fly-to-eat.png){:width="300px"}
+![THe Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
@@ -14,13 +14,13 @@ Characters that move around on their own in games are sometimes called <span sty
 
 There's a fly in the 'Frog 2' sprite that you can use.
 
-![](images/frog-sprite.png)
+![The costume of the Frog 2 sprite showing the fly as part of the costume.](images/frog-sprite.png)
 
 --- task ---
 
 Add the 'Frog 2' sprite to your project. Rename the sprite to 'Insect':
 
-![](images/fly-sprite.png)
+![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
 
 
 --- /task ---
@@ -30,14 +30,14 @@ You only need the fly, not the Frog.
 --- task ---
 Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
 
-![](images/copy-fly.png)
+![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 Add a new costume to the sprite using the 'Paint' option:
 
-![](images/paint-sprite.png)
+![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
 
 --- /task ---
 
@@ -46,7 +46,7 @@ Click on the **Paste** icon to paste the sprite into the new costume. Drag the f
 
 You can rename your costume 'Insect' and delete the other costumes as you won't need those:
 
-![](images/fly-costume.png)
+![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
 
 --- /task ---
 
@@ -54,7 +54,7 @@ You can rename your costume 'Insect' and delete the other costumes as you won't 
 
 Increase the size of the fly so that it's easier to see and catch:
 
-![Size property set to 150](images/fly-size.png)
+![Size property set to 150.](images/fly-size.png)
 
 --- /task ---
 

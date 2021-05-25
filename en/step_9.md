@@ -5,7 +5,7 @@
 In this step, try adding more insects, changing the way your project looks and behaves.
 </div>
 <div>
-![](images/upgrade-project.png){:width="300px"}
+![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
@@ -25,11 +25,11 @@ Windows - Windows key + '.'
 MacOS - ctrl + cmd + space
 Linux - ctrl + '.'
 
-![desc](images/emoji-keyboard.png)
+![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
 
 Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize and rotate your Mosquito until you are happy with it. 
 
-![desc](images/emoji-mosquito.png)
+![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
 
 **Tip:** Emojis can look different on different computers so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
 

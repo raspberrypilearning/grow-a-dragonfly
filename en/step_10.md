@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch){:target="_blank"} pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star){:target="_blank"} project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
 
 --- print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will make the Dragonfly grow when it eats a fly and stop if it reaches full size.
+You will make the Dragonfly grow when it eats a fly and stop if it reaches full size.
 </div>
 <div>
 ![The full size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
@@ -10,9 +10,9 @@ In this step, you will make the Dragonfly grow when it eats a fly and stop if it
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span> a dragonfly with a wingspan of approximately 75cm / 30in. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm / 7.5in.</p>
+The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span> a dragonfly with a wingspan of about 75cm. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm.</p>
 
-The fly knows that it has been eaten and now the Dragonfly needs to  know. 
+The fly knows that it has been eaten and now the Dragonfly needs to know. 
 
 When you need to let another sprite know that something has happened you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}. 
 

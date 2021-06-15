@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene by choosing your backdrop and adding a dragonfly that follows the mouse-pointer around the Stage.
+You will set the scene by choosing your backdrop and adding a dragonfly that follows the mouse-pointer around the Stage.
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}

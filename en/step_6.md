@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will give the Dragonfly a choice of insects.
+The dragonfly needs a choice of insects.
 </div>
 <div>
 ![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
@@ -10,7 +10,7 @@ In this step, you will give the Dragonfly a choice of insects.
 </div>
 
 --- task ---
-Right-click on the Insect sprite in the Sprit list under the Stage and duplicate it. 
+Right-click on the **Insect** sprite in the Sprite list under the Stage and duplicate it. 
 
 ![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
 
@@ -29,7 +29,7 @@ Click on the **Costumes** tab.
 
 --- /task ---
 
-The Insect gets eaten even if it touches the Dragonfly's wing or tail. That doesn't work well when the **Dragonfly** gets big.
+The Insect gets eaten even if it touches the Dragonfly's wing or tail. 
 
 To fix this you can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
 
@@ -92,7 +92,7 @@ end
 end
 ```
 
-If it doesn't have the colour of the Dragonfly's mouth selected,  click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+If it doesn't have the colour of the Dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
 
 ![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
 

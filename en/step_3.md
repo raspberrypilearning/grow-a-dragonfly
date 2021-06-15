@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add an insect for the Dragonfly to eat. 
+You will add an insect for the Dragonfly to eat. 
 </div>
 <div>
 ![THe Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}

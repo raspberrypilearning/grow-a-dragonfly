@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 The insects move in a very predictable pattern. 
 
-In this step, use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
 </div>
 <div>
 ![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}

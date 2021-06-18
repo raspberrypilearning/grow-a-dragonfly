@@ -31,7 +31,7 @@ Click on the **Costumes** tab.
 
 The Insect gets eaten even if it touches the Dragonfly's wing or tail. 
 
-To fix this you can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
 
 --- task ---
 

@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects move in a very predictable pattern. 
+The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
 
 You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
 </div>

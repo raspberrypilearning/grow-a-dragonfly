@@ -12,7 +12,7 @@ You will make the Dragonfly grow when it eats a fly and stop if it reaches full 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span> a dragonfly with a wingspan of about 75cm. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm.</p>
 
-The fly knows that it has been eaten and now the Dragonfly needs to know. 
+The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows. 
 
 When you need to let another sprite know that something has happened you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}. 
 

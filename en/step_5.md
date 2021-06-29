@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The Dragonfly 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly. You will use another decision to fix this.
+The Dragonfly 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly. You will check another condition to fix this.
 </div>
 <div>
 ![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}

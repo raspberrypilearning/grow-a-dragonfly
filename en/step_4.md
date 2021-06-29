@@ -10,7 +10,7 @@ You will make the Dragonfly grow when it eats a fly and stop if it reaches full 
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span> a dragonfly with a wingspan of about 75cm. The biggest living dragonflies can be found in Central America and have a wingspan of 19cm.</p>
+The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span> a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
 
 The fly knows that it has been eaten and now the Dragonfly needs to know. 
 

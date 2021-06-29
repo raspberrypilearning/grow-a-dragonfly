@@ -14,8 +14,6 @@ Characters that move around on their own in games are sometimes called <span sty
 
 There's a fly in the 'Frog 2' sprite that you can use.
 
-![The costume of the Frog 2 sprite showing the fly as part of the costume.](images/frog-sprite.png)
-
 --- task ---
 
 Add the 'Frog 2' sprite to your project. Rename the sprite to 'Insect':
@@ -110,7 +108,7 @@ forever
 move [3] steps
 if on edge, bounce
 +if <touching [Dragonfly v] ?> then // change from 'mouse-pointer'
-+hide 
++hide // eaten
 end
 ```
 
@@ -126,7 +124,7 @@ The Dragonfly won't get very big if it can only eat one fly!
 
 --- task ---
 
-Add blocks to go to a random position on the Stage and make your sprite `wait`{:class="block3control"} for one second then show:
+Add blocks to `go to a random position`{:class="block3motion"} on the Stage and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -140,7 +138,7 @@ if <touching [Dragonfly v] ?> then
 hide
 +go to (random position v)
 +wait [1] seconds
-+show
++show // to look like a new fly
 end
 end
 ```

@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the cursor around the Stage.
+You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}
@@ -42,7 +42,7 @@ Click **Choose a Sprite** and search for 'dragonfly', then add the **Dragonfly**
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the cursor (or your finger):
+Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
 
 ![](images/dragonfly-icon.png)
 
@@ -62,7 +62,7 @@ end
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the cursor.
+The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
 
 --- task ---
 

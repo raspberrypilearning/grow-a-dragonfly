@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene by choosing your backdrop and adding a dragonfly that follows the mouse-pointer around the Stage.
+You will set the scene. Choose your backdrop and add a dragonfly that follows the cursor around the Stage.
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}
@@ -32,7 +32,7 @@ Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535
 
 --- task ---
 
-Click **Choose a Sprite** and search for 'dragonfly' then add the **Dragonfly** sprite.
+Click **Choose a Sprite** and search for 'dragonfly', then add the **Dragonfly** sprite.
 
 ![](images/choose-sprite-icon.png)
 
@@ -42,7 +42,7 @@ Click **Choose a Sprite** and search for 'dragonfly' then add the **Dragonfly** 
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+Add a script to make the **Dragonfly** sprite follow the cursor (or your finger):
 
 ![](images/dragonfly-icon.png)
 
@@ -62,7 +62,7 @@ end
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the cursor.
 
 --- task ---
 
@@ -80,11 +80,11 @@ Click on the **Costumes** tab and use the **Select** (arrow) tool to select the 
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create a new one.
+Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
 
 --- task ---
 
-Add the 'Crank' sound to the Dragonfly sprite.
+Add the 'Crank' sound to the **Dragonfly** sprite.
 
 [[[generic-scratch3-sound-from-library]]]
 
@@ -98,11 +98,11 @@ The 'Crank' sound is too long and too slow for Dragonfly wings.
 
 --- task ---
 
-Select the end of the sound using your mouse or finger.
+Select the end of the sound using your cursor or finger.
 
 Click 'Copy to New' to make a new sound with just the selected part:
 
-![The end of the crank sound selected in blue with the 'copy to new' icon highlighted.](images/crank-copy-end.png)
+![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
 
 Rename your new sound from 'Crank2' to 'Wings'.
 
@@ -120,7 +120,7 @@ Play the new sound. Click the 'Faster' button a few times until you like the res
 
 --- task ---
 
-If you like, you can select the very end of the Wings sound and then click 'Delete' to remove it:
+If you like, you can select the very end of the Wings sound, and then click 'Delete' to remove it:
 
 ![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
 

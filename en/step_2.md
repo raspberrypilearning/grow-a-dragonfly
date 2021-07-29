@@ -58,7 +58,7 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the Dragonfly moving as you would expect?
+**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
 
 --- /task ---
 
@@ -90,17 +90,17 @@ Add the 'Crank' sound to the **Dragonfly** sprite.
 
 ![](images/crank-sound-editor.png)
 
-Click the 'play' button so you can hear the sound.
+Click the **Play** button so you can hear the sound.
 
 --- /task ---
 
-The 'Crank' sound is too long and too slow for Dragonfly wings.
+The 'Crank' sound is too long and too slow for dragonfly wings.
 
 --- task ---
 
 Select the end of the sound using your cursor or finger.
 
-Click 'Copy to New' to make a new sound with just the selected part:
+Click **Copy to New** to make a new sound with just the selected part:
 
 ![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
 
@@ -112,7 +112,7 @@ Rename your new sound from 'Crank2' to 'Wings'.
 
 --- task ---
 
-Play the new sound. Click the 'Faster' button a few times until you like the result:
+Play the new sound. Click the **Faster** button a few times until you like the result:
 
 ![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 
@@ -120,7 +120,7 @@ Play the new sound. Click the 'Faster' button a few times until you like the res
 
 --- task ---
 
-If you like, you can select the very end of the Wings sound, and then click 'Delete' to remove it:
+If you like, you can select the very end of the Wings sound, and then click **Delete** to remove it:
 
 ![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
 
@@ -128,7 +128,7 @@ If you like, you can select the very end of the Wings sound, and then click 'Del
 
 --- task ---
 
-Now add a block to play the 'Wings' sound when the Dragonfly moves:
+Now add a block to play the 'Wings' sound when the dragonfly moves:
 
 ![](images/dragonfly-icon.png)
 
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your Dragonfly movement and sound effect.
+**Test:** Try out your dragonfly movement and sound effect.
 
 --- /task ---
 

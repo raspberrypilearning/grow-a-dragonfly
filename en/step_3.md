@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the Dragonfly to eat. 
+You will add an insect for the dragonfly to eat. 
 </div>
 <div>
 ![THe Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
@@ -10,20 +10,20 @@ You will add an insect for the Dragonfly to eat.
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobile. Can you think of a game that has mobs?</p>
+Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
 
 There's a fly in the 'Frog 2' sprite that you can use.
 
 --- task ---
 
-Add the 'Frog 2' sprite to your project. Rename the sprite to 'Insect':
+Add the **Frog 2** sprite to your project. Rename the sprite to 'Insect':
 
 ![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the Frog.
+You only need the fly, not the frog.
 
 --- task ---
 Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
@@ -33,16 +33,16 @@ Click on the **Costumes** tab. Click on the fly to select it and click on the **
 --- /task ---
 
 --- task ---
-Add a new costume to the sprite using the 'Paint' option:
+Add a new costume to the sprite using the **Paint** option:
 
 ![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **center** so it lines up with the crosshair.
+Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
 
-You can rename your costume 'Insect' and delete the other costumes as you won't need those:
+You can rename your costume 'Insect' and delete the other costumes, as you won't need those:
 
 ![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
 
@@ -78,7 +78,7 @@ You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="bloc
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the Insect's movement script:
+Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
 
 ![](images/fly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here. When the `if`{:class="block3control"} block runs, Scratch will check the condition, `if`{:class="block3control"} the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
 
-You want the Insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
 
 --- task ---
 
@@ -116,15 +116,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the Dragonfly to eat the fly. The fly should disappear.
+**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
 
 --- /task ---
 
-The Dragonfly won't get very big if it can only eat one fly! 
+The dragonfly won't get very big if it can only eat one fly! 
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -147,12 +147,12 @@ end
 
 --- task ---
 
-**Test:** Test that your Dragonfly can now eat lots of flies.
+**Test:** Test that your dragonfly can now eat lots of flies.
 
 Make sure you have added the `show`{:class="block3looks"} block to show at the start.
 
 --- /task ---
 
-**Tip:** You can click the red 'Stop' button above the Stage if you want the dragonfly to be quiet while you add more code.
+**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
 
 --- save ---

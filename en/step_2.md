@@ -32,7 +32,7 @@ Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535
 
 --- task ---
 
-Click **Choose a Sprite** and search for 'dragonfly', then add the **Dragonfly** sprite.
+Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
 
 ![](images/choose-sprite-icon.png)
 

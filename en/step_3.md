@@ -5,18 +5,18 @@
 You will add an insect for the dragonfly to eat. 
 </div>
 <div>
-![THe Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
 
-There's a fly in the 'Frog 2' sprite that you can use.
+There's a fly in the **Frog 2** sprite that you can use.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to 'Insect':
+Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
 
 ![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
 
@@ -42,7 +42,7 @@ Add a new costume to the sprite using the **Paint** option:
 --- task ---
 Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
 
-You can rename your costume 'Insect' and delete the other costumes, as you won't need those:
+You can rename your costume `Insect` and delete the other costumes, as you won't need those:
 
 ![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
 

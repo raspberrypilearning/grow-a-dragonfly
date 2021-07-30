@@ -22,7 +22,7 @@ Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the 'Jurassic' backdrop.
+**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
 
 ![](images/choose-backdrop-icon.png)
 
@@ -66,7 +66,7 @@ The Dragonfly costume is not facing to the right, so the head of the **Dragonfly
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the rotation arrows at bottom of the selected costume to turn the Dragonfly costume to face the right.
+Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
 
 ![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
 
@@ -84,7 +84,7 @@ Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in
 
 --- task ---
 
-Add the 'Crank' sound to the **Dragonfly** sprite.
+Add the **Crank** sound to the **Dragonfly** sprite.
 
 [[[generic-scratch3-sound-from-library]]]
 
@@ -94,7 +94,7 @@ Click the **Play** button so you can hear the sound.
 
 --- /task ---
 
-The 'Crank' sound is too long and too slow for dragonfly wings.
+The **Crank** sound is too long and too slow for dragonfly wings.
 
 --- task ---
 
@@ -104,7 +104,7 @@ Click **Copy to New** to make a new sound with just the selected part:
 
 ![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
 
-Rename your new sound from 'Crank2' to 'Wings'.
+Rename your new sound from **Crank2** to `Wings`.
 
 ![The rename sound property.](images/crank-wings-sound.png) 
 
@@ -120,7 +120,7 @@ Play the new sound. Click the **Faster** button a few times until you like the r
 
 --- task ---
 
-If you like, you can select the very end of the Wings sound, and then click **Delete** to remove it:
+If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
 
 ![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
 
@@ -128,7 +128,7 @@ If you like, you can select the very end of the Wings sound, and then click **De
 
 --- task ---
 
-Now add a block to play the 'Wings' sound when the dragonfly moves:
+Now add a block to play the **Wings** sound when the dragonfly moves:
 
 ![](images/dragonfly-icon.png)
 

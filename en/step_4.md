@@ -18,7 +18,7 @@ When you need to let another sprite know that something has happened, you can us
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message 'food':
+Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 
@@ -39,7 +39,7 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the 'food' message.
+The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
 
 --- task ---
 Select the **Dragonfly** sprite and add this script:
@@ -54,7 +54,7 @@ change size by [5]
 --- /task ---
 
 --- task ---
-Add the 'Chomp' sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
 
 ![](images/dragonfly-icon.png)
 

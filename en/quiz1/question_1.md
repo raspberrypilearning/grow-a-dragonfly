@@ -2,9 +2,9 @@
 
 Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm! 
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"} and `Sound`{:class="block3sound"} blocks!
+You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
 
-Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
 
 Answer the three questions below to reflect on what you've learned.
 
@@ -33,15 +33,15 @@ What would need to happen for the **Crab** sprite to hide?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**.
+- () The **Crab** sprite would need to touch the **Jellyfish**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue.
+- (x) The **Crab** sprite would need to not be touching the colour blue
 
  --- feedback ---
 
@@ -49,7 +49,7 @@ Yes, the `not`{:class="block3operators"} operator means that the condition is tr
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue.
+- () The **Crab** sprite would need to be touching the colour blue
 
  --- feedback ---
 
@@ -57,7 +57,7 @@ Yes, the `not`{:class="block3operators"} operator means that the condition is tr
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}.
+- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
 
  --- feedback ---
 

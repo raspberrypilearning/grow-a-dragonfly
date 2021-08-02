@@ -92,7 +92,9 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here. When the `if`{:class="block3control"} block runs, Scratch will check the condition, `if`{:class="block3control"} the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here. 
+
+When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
 
 You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
 

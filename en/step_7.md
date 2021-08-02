@@ -13,7 +13,7 @@ You will use the `pick random`{:class="block3operators"} block to make the insec
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1-3 seconds. 
+Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds. 
 
 ```blocks3
 when flag clicked
@@ -37,12 +37,12 @@ Change the insects until they behave the way you want them to.
 
 You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
 
-You could also change the speed of the Dragonfly. 
+You could also change the speed of the dragonfly. 
 
 --- /task ---
 
 --- task ---
-You could also change the size that the Dragonfly needs to grow to reach full size.
+You could also change the size that the dragonfly needs to grow to reach full size.
 
 Make changes until you are happy with your project.
 

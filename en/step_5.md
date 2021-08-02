@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The Dragonfly 'glitches' and changes direction really fast if the mouse pointer is touching the Dragonfly. You will check another condition to fix this.
+The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
 </div>
 <div>
 ![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
@@ -11,7 +11,7 @@ The Dragonfly 'glitches' and changes direction really fast if the mouse pointer 
 
 --- task ---
 
-Select the Dragonfly and find the script that starts with `when flag clicked`{:class="block3events"}.
+Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
 
 Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
@@ -57,7 +57,7 @@ The `not`{:class="block3operators"} block turns a condition into its opposite, j
 --- /task ---
 
 --- task ---
-**Test:** Check that the glitch is fixed and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
 
 A different condition to try is:
 
@@ -65,7 +65,7 @@ A different condition to try is:
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the Dragonfly move when it's far enough from the mouse pointer. 
+This makes the dragonfly move when it's far enough from the mouse-pointer. 
 
 **Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things. 
 

@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene by choosing your backdrop and adding a dragonfly that follows the mouse-pointer around the Stage.
+You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}
@@ -22,7 +22,7 @@ Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the 'Jurassic' backdrop.
+**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
 
 ![](images/choose-backdrop-icon.png)
 
@@ -32,7 +32,7 @@ Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535
 
 --- task ---
 
-Click **Choose a Sprite** and search for 'dragonfly' then add the **Dragonfly** sprite.
+Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
 
 ![](images/choose-sprite-icon.png)
 
@@ -58,15 +58,15 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the Dragonfly moving as you would expect?
+**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the rotation arrows at bottom of the selected costume to turn the Dragonfly costume to face the right.
+Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
 
 ![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
 
@@ -80,31 +80,31 @@ Click on the **Costumes** tab and use the **Select** (arrow) tool to select the 
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create a new one.
+Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
 
 --- task ---
 
-Add the 'Crank' sound to the Dragonfly sprite.
+Add the **Crank** sound to the **Dragonfly** sprite.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the 'play' button so you can hear the sound.
+Click the **Play** button so you can hear the sound.
 
 --- /task ---
 
-The 'Crank' sound is too long and too slow for Dragonfly wings.
+The **Crank** sound is too long and too slow for dragonfly wings.
 
 --- task ---
 
-Select the end of the sound using your mouse or finger.
+Select the end of the sound using your cursor or finger.
 
-Click 'Copy to New' to make a new sound with just the selected part:
+Click **Copy to New** to make a new sound with just the selected part:
 
-![The end of the crank sound selected in blue with the 'copy to new' icon highlighted.](images/crank-copy-end.png)
+![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
 
-Rename your new sound from 'Crank2' to 'Wings'.
+Rename your new sound from **Crank2** to `Wings`.
 
 ![The rename sound property.](images/crank-wings-sound.png) 
 
@@ -112,7 +112,7 @@ Rename your new sound from 'Crank2' to 'Wings'.
 
 --- task ---
 
-Play the new sound. Click the 'Faster' button a few times until you like the result:
+Play the new sound. Click the **Faster** button a few times until you like the result:
 
 ![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 
@@ -120,7 +120,7 @@ Play the new sound. Click the 'Faster' button a few times until you like the res
 
 --- task ---
 
-If you like, you can select the very end of the Wings sound and then click 'Delete' to remove it:
+If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
 
 ![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
 
@@ -128,7 +128,7 @@ If you like, you can select the very end of the Wings sound and then click 'Dele
 
 --- task ---
 
-Now add a block to play the 'Wings' sound when the Dragonfly moves:
+Now add a block to play the **Wings** sound when the dragonfly moves:
 
 ![](images/dragonfly-icon.png)
 
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your Dragonfly movement and sound effect.
+**Test:** Try out your dragonfly movement and sound effect.
 
 --- /task ---
 

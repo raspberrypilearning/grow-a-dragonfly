@@ -2,7 +2,7 @@ title: Grow a dragonfly
 hero_image: images/banner.png
 description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
 version: 4
-listed: false
+listed: list
 copyedit: false
 last_tested: "2021-04-27"
 steps:

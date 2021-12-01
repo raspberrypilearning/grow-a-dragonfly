@@ -12,6 +12,7 @@ We use <span style="color: #0faeb0">**conditions**</span> all the time to make d
 
 --- no-print ---
 --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -23,9 +24,12 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 --- /no-print ---
 
 --- print-only ---
+
 ![Completed project](images/showcase_static.png)
+
 --- /print-only ---

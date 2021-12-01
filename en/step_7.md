@@ -26,6 +26,7 @@ end
 --- /task ---
 
 --- task ---
+
 **Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want. 
 
 You can also drag this script to the **Insect** sprite so that it also moves randomly.
@@ -33,6 +34,7 @@ You can also drag this script to the **Insect** sprite so that it also moves ran
 --- /task ---
 
 --- task ---
+
 Change the insects until they behave the way you want them to. 
 
 You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
@@ -42,6 +44,7 @@ You could also change the speed of the dragonfly.
 --- /task ---
 
 --- task ---
+
 You could also change the size that the dragonfly needs to grow to reach full size.
 
 Make changes until you are happy with your project.

@@ -57,6 +57,7 @@ The `not`{:class="block3operators"} block turns a condition into its opposite, j
 --- /task ---
 
 --- task ---
+
 **Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
 
 A different condition to try is:

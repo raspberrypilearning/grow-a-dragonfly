@@ -42,6 +42,7 @@ end
 The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
 
 --- task ---
+
 Select the **Dragonfly** sprite and add this script:
 
 ![](images/dragonfly-icon.png)
@@ -54,6 +55,7 @@ change size by [5]
 --- /task ---
 
 --- task ---
+
 Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
 
 ![](images/dragonfly-icon.png)

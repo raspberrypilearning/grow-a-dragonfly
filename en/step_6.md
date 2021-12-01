@@ -10,6 +10,7 @@ The dragonfly needs a choice of insects.
 </div>
 
 --- task ---
+
 Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it. 
 
 ![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
@@ -46,6 +47,7 @@ Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
 You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
 
 --- task ---
+
 Select the **Insect2** sprite and click on the **Code** tab.
 
 Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block. 
@@ -105,6 +107,7 @@ Click on the dragonfly's mouth on the Stage to set the colour to match:
 --- /task ---
 
 --- task ---
+
 **Test:** Now test that the dragonfly can only eat the second insect with its mouth. 
 
 If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.

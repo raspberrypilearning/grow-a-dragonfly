@@ -41,14 +41,15 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- /task ---
 
---- task --- **Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+--- task ---
+
+**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
 
 **Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
 
 --- /task ---
 
 --- collapse ---
-
 ---
 title: Completed project
 ---

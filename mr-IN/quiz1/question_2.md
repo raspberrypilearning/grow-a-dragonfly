@@ -1,6 +1,5 @@
 
 --- question ---
-
 ---
 legend: Question 2 of 3
 ---
@@ -63,7 +62,9 @@ end
 end
 ```
 
-  --- feedback --- No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+  --- feedback ---
+
+No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
 
   --- /feedback ---
 

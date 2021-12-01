@@ -33,7 +33,9 @@ Click on the **Costumes** tab. Click on the fly to select it and click on the **
 
 --- /task ---
 
---- task --- Add a new costume to the sprite using the **Paint** option:
+--- task ---
+
+Add a new costume to the sprite using the **Paint** option:
 
 ![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
 

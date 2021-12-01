@@ -25,7 +25,9 @@ Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
 
 You only need the fly, not the frog.
 
---- task --- Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+--- task ---
+
+Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
 
 ![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
 
@@ -37,7 +39,9 @@ You only need the fly, not the frog.
 
 --- /task ---
 
---- task --- Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+--- task ---
+
+Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
 
 You can rename your costume `Insect` and delete the other costumes, as you won't need those:
 

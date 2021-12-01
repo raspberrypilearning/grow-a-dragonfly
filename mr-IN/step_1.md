@@ -11,6 +11,7 @@ You will:
 We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If`{:class="block3control"} blocks and conditions let us write code that does something different depending on whether a condition is true or false.</p>
 
 --- no-print --- --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -22,6 +23,11 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task --- --- /no-print ---
 
---- print-only --- ![Completed project](images/showcase_static.png) --- /print-only ---
+--- print-only ---
+
+![Completed project](images/showcase_static.png)
+
+--- /print-only ---

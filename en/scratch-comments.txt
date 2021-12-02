@@ -11,3 +11,15 @@ to look like a new fly
 change from 'all'
 
 keep changing direction
+
+or try this condition
+
+eaten an insect
+
+start with this
+
+touching Dragonfly mouth
+
+make flies appear from edge
+
+Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Windows key plus . to enter.

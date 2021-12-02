@@ -22,4 +22,4 @@ touching Dragonfly mouth
 
 make flies appear from edge
 
-Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus ' . ' to enter.
+Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus '.' to enter.

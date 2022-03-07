@@ -1,19 +1,19 @@
-## Random insect movement
+## कीटकाची कुठेही हालचाल
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+तुमच्या ऍपमधील कीटक अगदी अंदाज लावता येण्याजोग्या पॅटर्नमध्ये फिरतात, परंतु वास्तविक जीवनात त्यांना पकडणे कठीण आहे. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+कीटक जास्त नैसर्गीक पद्धतीने हलण्यासाठी तुम्ही `pick random`{:class="block3operators"} ब्लॉक वापराल.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![वेगवेगळ्या दिशांना दिशा दाखवणारे कीटक दाखवणारा Stage.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+त्याला प्रत्येक 1-3 सेकंदांनी कुठल्याही दिशेत दाखवण्यासाठी **Insect 2** मध्ये स्क्रिप्ट जोडा.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**चाचणी:** तुमचा प्रोजेक्ट रन कराआणि माशी कशी फिरते ते पहा. तुम्हाला हवा असलेला प्रभाव मिळविण्यासाठी संख्या बदलण्याचा प्रयत्न करा.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+तुम्ही **Insect** sprite ला ही स्क्रिप्ट ड्रॅग करू शकता जेणेकरून तो कुठेही हलेल.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+जोपर्यंत कीटक तुम्हाला हवे तसे वागत नाहीत तोपर्यंत ते बदला.
 
-Make changes until you are happy with your project.
+त्यांना जलद किंवा हळू करण्यासाठी तुम्ही `move`{:class="block3motion"} होणाऱ्या टप्प्यांची संख्या बदलू शकता.
+
+तुम्ही ड्रॅगनफ्लायचा वेग देखील बदलू शकता.
+
+--- /task ---
+
+--- task ---
+
+ड्रॅगनफ्लायला पूर्ण आकारापर्यंत पोहोचण्यासाठी आवश्यक असलेला आकार देखील तुम्ही बदलू शकता.
+
+जोपर्यंत तुम्ही तुमच्या प्रोजेक्टबद्दल समाधानी होत नाही तोपर्यंत बदल करा.
 
 --- /task ---
 

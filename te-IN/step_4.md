@@ -1,24 +1,24 @@
-## Grow to full-size
+## పూర్తి పరిమాణానికి పెంచండి
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+తూనీగ ఈగను తిన్నప్పుడు మీరు దానిని పెరిగేలా చేస్తారు మరియు అది పూర్తి పరిమాణానికి చేరుకున్న తరువాత ఆగిపోతుంది.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![Stage పై ఉన్న పూర్తి-పరిమాణ తూనీగ అంటుంది 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+అతిపెద్ద సజీవ తూనీగలు మధ్య అమెరికాలో కనిపిస్తాయి మరియు రెక్కలు 19 సెం. మీ (మీ చేతి కంటే కొంచెం పెద్దవి) కలిగి ఉంటాయి. ఇప్పటివరకు తెలిసిన అతిపెద్ద కీటకం <span style="color: #0faeb0">**మెగాన్యూరోప్సిస్ పెర్మియానా**</span>, సుమారు 75సెం. మీ రెక్కల విస్తీర్ణం కలిగిన తూనీగ (పెద్ద అడుగుజాడ పరిమాణం).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+ఈగకు అది తినబడిందని తెలుసు, మరియు ఇప్పుడు తూనీగ అది పెరగాలి కాబట్టి తెలుసుకోవాలి.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+ఏదైనా విషయం గురించి మీరు మరొక sprite కు తెలియజేయవలసి వచ్చినప్పుడు, మీరు [Broadcastimg spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"} లో చేసిన విధంగా `broadcast`{:class="block3events"} బ్లాక్‌ని ఉపయోగించవచ్చు.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+కొత్త సందేశం `food`{:class="block3events"} ను **Insect** sprite కి అందించడానికి `broadcast`{:class="block3events"} బ్లాక్‌ని జోడించండి:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+**Dragonfly** sprite, `food`{:class="block3events"} సందేశాన్ని అందుకున్నప్పుడు అది పెరగాలి.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+**Dragonfly** sprite ని ఎంచుకుని, ఈ స్క్రిప్ట్‌ని జోడించండి:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+తూనీగకి **Chomp** ధ్వనిని కీటకాన్ని తిన్నప్పుడు `start`{:class="block3sound"} అయ్యేలా జోడించండి:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**పరీక్ష:** తూనీగ ఎదుగుదలను పరీక్షించడానికి మీ ప్రాజెక్ట్‌ను అమలు చేయండి మరియు అది ఈగను తిన్నప్పుడు శబ్దం చేస్తుంది.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+తూనీగ దాని పూర్తి పరిమాణానికి చేరుకున్నప్పుడు, ఆట మిమ్మల్ని అభినందిస్తుంది మరియు ఆగిపోతుంది.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+`if`{:class = "block3control"} బ్లాక్ ని జోడించండి.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+`size`{:class="block3looks"} `=`{:class="block3operators"} `100%`అయినప్పుడు తూనీగ పూర్తి పరిమాణంలో ఉంటుంది. ముందుగా, `=`{:class="block3operators"} ఆపరేటర్‌ని షడ్భుజి ఇన్ పుట్ లోనికి జోడించండి:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+`size`{:class="block3looks"} వేరియబుల్‌ని జోడించి `100` విలువను టైప్ చేయడం ద్వారా, షరతుని బిల్డ్ చేయండి:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+బ్లాక్‌లను జోడించండి తద్వారా `if`{:class="block3control"} కండిషన్ నిజం అయితే `then`{:class="block3control"} తూనీగ ఒక 'end' సందేశం `broadcast`{:class="block3events"} చేస్తుంది మరియు `say`{:class="block3looks"} `I got to full size!`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+చివరగా, తూనీగ యొక్క ఇతర స్క్రిప్ట్లు ఆగిపోయేలాగా `stop all`{:class="block3control"} బ్లాక్‌ని జోడించండి:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+ప్రస్తుతానికి, ప్రాజెక్ట్ ముగిసిన తర్వాత కూడా ఈగ కదులుతుంది. ఈ స్క్రిప్ట్‌ను **Insect** sprite కి జోడించండి.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**పరీక్ష:** ఆకుపచ్చ జెండాను క్లిక్ చేయండి మరియు మీ డ్రాగన్‌ఫ్లై పూర్తి పరిమాణాన్ని చేరుకునే వరకు ఈగలను తింటూ ఉండనివ్వండి.
 
 --- /task ---
 

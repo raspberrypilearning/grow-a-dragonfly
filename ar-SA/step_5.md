@@ -1,21 +1,21 @@
-## Improved movement
+## تحسين الحركة
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+اليعسوب "فيه خطأ" ويغير اتجاهه بسرعة كبيرة إذا كان مؤشر الماوس يلامس اليعسوب. سوف تتحقق من شرط آخر لإصلاح هذا الخطأ.
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![تظهر المنصة مع يعسوب وحشرة.](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+اختر كائن **Dragonfly** وابحث عن النص الذي يبدأ بالكتلة `عند نقر العلم`{:class="block3events"}.
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+اسحب كتلة `إذا`{: class="block3control"} داخل الكتلة `كرر باستمرار`{:class="block3control"} وستتحرك الكتل الموجودة داخل حلقة `كرر باستمرار`{:class="block3control"} في داخل كتلة `إذا`{:class="block3control"}.
 
-Check carefully that your code looks like this:
+تحقق بعناية من أن الكود الخاص بك يبدو كما يلي:
 
 ![](images/dragonfly-icon.png)
 
@@ -34,9 +34,9 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+ثم اسحب كتلة `ليس`{: class="block3operators"} إلى كتلة `إذا`{:class="block3control"} وضع كتلة `ملامس لـ(مؤشر الفأرة)`{:class="block3sensing"} داخلها.
 
-Check that your code looks like this:
+تحقق من أن الكود الخاص بك يبدو كالتالي:
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+تحول الكتلة `ليس`{:class="block3operators"} الشرط إلى عكسه، تمامًا كما هو الحال في الجملة.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**اختبار:** تحقق من أن الخلل قد تم إصلاحه، وأن كائن اليعسوب Dragonfly يتحرك فقط عندما `لا`{: class="block3operators"} يكون في حالة `ملامس لـ(مؤشر الفأرة)`{:class="block3sensing"}.
 
-A different condition to try is:
+من الممكن تجربة شرط مختلف وهو:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+هذا يجعل اليعسوب يتحرك عندما يكون بعيدًا بما فيه الكفاية عن مؤشر الماوس.
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**نصيحة:** يمكنك سحب الكتل في أي مكان في منطقة الكود البرمجي وتركها هناك أثناء تجربة أشياء مختلفة.
 
 --- /task ---
 

@@ -1,25 +1,25 @@
-to start small
+να εκκινήσει από μικρό
 
-change from 'mouse-pointer'
+αλλαγή από 'δείκτη-ποντικιού''
 
-eaten
+φαγώθηκε
 
-show at the start
+εμφάνιση στην εκκίνηση
 
-to look like a new fly
+να μοιάζει με μια νέα μύγα
 
-change from 'all'
+αλλαγή από 'όλα'
 
-keep changing direction
+συνέχισε να αλλάζεις κατεύθυνση
 
-or try this condition
+ή δοκίμασε αυτήν την συνθήκη
 
-eaten an insect
+έφαγε ένα έντομο
 
-start with this
+ξεκίνησε με αυτό
 
-touching Dragonfly mouth
+αγγίζοντας το στόμα της Λιβελούλας
 
-make flies appear from edge
+κάνε τις μύγες να εμφανίζονται από την άκρη
 
-Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus '.' to enter.
+Χρησιμοποίησε τη μύγα από το αντικείμενο Βάτραχος ή σχεδίασε τη δικιά σου. Ή χρησιμοποιήστε το emoji Κουνούπι. Πάτησε το πλήκτρο 'Windows' μαζί με '.' για είσοδο.

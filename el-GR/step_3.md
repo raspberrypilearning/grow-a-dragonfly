@@ -1,67 +1,67 @@
-## A fly to eat
+## Μια μύγα για φαγητό
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+Θα προσθέσεις ένα έντομο για να φάει η λιβελούλα. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![Η Σκηνή με μια λιβελούλα και ένα έντομο.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+Οι χαρακτήρες που κυκλοφορούν μόνοι τους στα παιχνίδια ονομάζονται μερικές φορές <span style="color: #0faeb0">**mobs (όχλοι)**</span>, συντομογραφία από το mobiles που σημαίνει κινούμενοι. Μπορείς να σκεφτείς ένα παιχνίδι που έχει mobs;</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+Υπάρχει μια μύγα στο αντικείμενο **Frog 2** που μπορείς να χρησιμοποιήσεις.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+Πρόσθεσε το αντικείμενο **Frog 2** στο έργο σου. Μετονόμασε το αντικείμενο σε `Έντομο`:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![Η λίστα Αντικειμένων με προσθήκη του αντικειμένου Frog 2. Η ιδιότητα ονόματος Αντικειμένου δείχνει 'Έντομο'.](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+Χρειάζεσαι μόνο τη μύγα, όχι τον βάτραχο.
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+Κάνε κλικ στην καρτέλα **Ενδυμασίες**. Κάνε κλικ στη μύγα για να την επιλέξεις και κάνε κλικ στο εικονίδιο **Αντιγραφή**.
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
-
---- /task ---
-
---- task ---
-
-Add a new costume to the sprite using the **Paint** option:
-
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
+![Ο επεξεργαστής ζωγραφικής με τη μύγα με επιλεγμένο μέρος του κοστουμιού Frog 2-a και επισημασμένο το εικονίδιο Αντιγραφή.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+Πρόσθεσε μία νέα ενδυμασία στο αντικείμενο χρησιμοποιώντας την επιλογή **Ζωγραφική**:
 
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![Η επιλογή ζωγραφικής έχει επιλεγεί στο μενού επιλογής ενδυμασίας.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+Κάνε κλικ στο εικονίδιο **Επικόλληση** για να επικολλήσεις το αντικείμενο στη νέα ενδυμασία. Σύρε τη μύγα στο **κέντρο** ώστε να ευθυγραμμιστεί με το σταυρόνημα.
 
-![Size property set to 150.](images/fly-size.png)
+Μπορείς να μετονομάσεις την ενδυμασία σου `Έντομο` και να διαγράψεις τις άλλες ενδυμασίες, καθώς δεν θα τις χρειαστείς:
+
+![Το πρόγραμμα επεξεργασίας ζωγραφικής δείχνει επικολλημένο ένα νέο κοστούμι Έντομο με επισημασμένο το εικονίδιο Επικόλληση. Η λίστα ενδυμασιών δείχνει ότι οι άλλες ενδυμασίες έχουν διαγραφεί.](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+Αύξησε το μέγεθος της μύγας ώστε να είναι ευκολότερο να την δεις και να την πιάσεις:
+
+![Η ιδιότητα μεγέθους ορίστηκε σε 150.](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+Κάνε κλικ στην καρτέλα **Κώδικας** και πρόσθεσε ένα script για να αναπηδήσει το αντικείμενο **Έντομο**:
 
 ![](images/fly-icon.png)
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+Το μπλοκ `εάν σε όριο, αναπήδησε`{:class="block3motion"} ελέγχει αν το αντικείμενο έχει φτάσει στην άκρη της σκηνής και δείχνει το αντικείμενο σε διαφορετική κατεύθυνση, αν έχει φτάσει.
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+Θέλεις το αντικείμενο **Έντομο** να `εξαφανίζεται`{:class="block3looks"} `εάν`{:class="block3control"} φαγωθεί από το αντικείμενο **Λιβελούλα**.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
+Πρόσθεσε ένα μπλοκ `εάν`{:class="block3control"} στο script κίνησης του αντικειμένου **Έντομο**:
 
 ![](images/fly-icon.png)
 
@@ -95,15 +95,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+Το `εάν`{:class="block3control"} έχει είσοδο σε σχήμα εξάγωνου. Αυτό σημαίνει ότι μπορείς να βάλεις μια **συνθήκη** εδώ.
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+Όταν εκτελείται το μπλοκ `εάν`{:class="block3control"}, το Scratch θα ελέγξει την συνθήκη. Εάν η συνθήκη είναι "αληθής" `τότε`{:class="block3control"} θα εκτελεστεί ο κώδικας μέσα στο μπλοκ `εάν`{:class="block3control"}.
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+Θέλεις το έντομο να `εξαφανιστεί`{:class="block3looks"} `εάν`{:class="block3control"} `αγγίζει`{:class="block3sensing"} το αντικείμενο **Λιβελούλα**.
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
+Σύρε ένα μπλοκ `αγγίζει [Λιβελούλα v]`{:class="block3sensing"} στο μπλοκ `εάν`{:class="block3control"}. Πρόσθεσε ένα μπλοκ `εξαφανίσου`{:class="block3looks"} μέσα στο μπλοκ `εάν`{:class="block3control"}.
 
 ![](images/fly-icon.png)
 
@@ -121,15 +121,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**Δοκιμή:** Δοκίμασε τον κώδικά σου και έλεγξε την λιβελούλα ώστε να φάει τη μύγα. Η μύγα πρέπει να εξαφανιστεί.
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+Η λιβελούλα δεν θα γίνει πολύ μεγάλη αν μπορεί να φάει μόνο μια μύγα!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Πρόσθεσε μπλοκ `πήγαινε σε τυχαία θέση`{:class="block3motion"} στη Σκηνή και κάνε το αντικείμενό σου να `περιμένει`{:class="block3control"} για ένα δευτερόλεπτο και μετά να `εμφανιστεί`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**Δοκιμή:** Δοκίμασε ότι η λιβελούλα σου μπορεί πλέον να φάει πολλές μύγες.
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+Βεβαιώσου ότι έχεις προσθέσει το μπλοκ `εμφάνιση`{:class="block3looks"} για να εμφανιστεί στην αρχή.
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**Συμβουλή:** Μπορείς να κάνεις κλικ στο κόκκινο κουμπί **Σταμάτα** πάνω από τη Σκηνή εάν θέλεις η λιβελούλα να είναι ήσυχη ενώ προσθέτεις περισσότερο κώδικα.
 
 --- save ---

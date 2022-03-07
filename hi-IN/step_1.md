@@ -1,23 +1,23 @@
-## Introduction
+## परिचय
 
-Make a nature app with a dragonfly that grows bigger as it eats insects.
+ड्रैगनफ्लाई के साथ एक प्रकृति ऐप बनाएं जो कीड़ों को खाते ही बड़ा हो जाता है।
 
-You will:
-+ Use `if`{:class="block3control"} blocks to make decisions based on **conditions** made with `operators`{:class="block3operators"} and `sensing`{:class="block3sensing"} blocks
-+ Use `random`{:class="block3operators"} numbers to control the movement of a sprite
-+ Use the `Sounds`{:class="block3sound"} editor to edit a sound
+आप:
++ **conditions** के आधार पर निर्णय लेने के लिए जो की `operators`{:class="block3operators"} और `sensing`{:class="block3sensing"} ब्लॉक के साथ बनाया गया है `if`{:class="block3control"} का उपयोग करें
++ स्प्राइट की गति को नियंत्रित करने के लिए `random`{:class="block3operators"}संख्याओं का उपयोग करें
++ ध्वनि संपादित करने के लिए `Sounds`{:class="block3sound"} संपादक का उपयोग करें
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If`{:class="block3control"} blocks and conditions let us write code that does something different depending on whether a condition is true or false.</p>
+हम निर्णय लेने के लिए हर समय <span style="color: #0faeb0">**कंडीशन्स**</span> का उपयोग करते हैं। हम कह सकते हैं "यदि पेंसिल कुंद है, तो उसे तेज करें"। `if`{:class="block3control"} ब्लॉक और कंडीशन हमें कोड लिखने देती हैं जो यह कुछ अलग करता है जो इस बात पर निर्भर करता है कि कोई कंडीशन सही है या गलत।</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### इसे आजमाएँ!
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?
+कीड़ों को खाने के लिए माउस (या अपनी उंगली) को Stage के चारों ओर घुमाएँ। कीड़े कैसे चलते हैं?
 
-Which part of the dragonfly needs to touch the insects to eat them? What happens to the dragonfly when the dragonfly eats an insect?
+ड्रैगनफ्लाई के किस भाग को उन्हें खाने के लिए कीड़ों को छूना पड़ता है? जब ड्रैगनफ्लाई किसी कीट को खाता है तो ड्रैगनफ्लाई का क्या होता है?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![पूर्ण प्रोजेक्ट](images/showcase_static.png)
 
 --- /print-only ---

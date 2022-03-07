@@ -1,24 +1,24 @@
-## Grow to full-size
+## Groei tot volledige grootte
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+Je laat de libel groeien als hij een vlieg eet en stopt als hij zijn volledige grootte bereikt.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![De libel op ware grootte op het speelveld die zegt 'Ik heb de volledige grootte bereikt!'.](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+De grootste levende libellen komen voor in Midden-Amerika en hebben een spanwijdte van 19 cm (iets groter dan je hand). Het grootste insect ooit bekend was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, een libel met een spanwijdte van ongeveer 75 cm (ter grootte van een grote voetstap).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+De vlieg weet dat hij is opgegeten, en nu moet de libel dat weten zodat hij groeit.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+Als je een andere sprite moet laten weten dat er iets is gebeurd, kun je een `zend signaal`{:class="block3events"}-blok gebruiken zoals je deed in [Verzend spreuken](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+Voeg een `broadcast`{:class="block3events"} blok toe aan de **Insect** sprite met nieuw bericht `eten`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+De sprite **Dragonfly** moet groeien wanneer hij het bericht `eten`{:class="block3events"} ontvangt.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+Selecteer de sprite **Dragonfly** en voeg dit script toe:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+Voeg het **Chomp** -geluid toe aan de libel en `start`{:class="block3sound"} het wanneer een insect wordt opgegeten:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**Test:** Voer je project uit om te testen of de libel groeit en een kauwgeluid maakt als hij een vlieg eet.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+Wanneer de libel zijn volledige grootte bereikt, zal het spel je feliciteren en stoppen.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+Voeg een `als`{:class="block3control"} blok toe.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+De libel is op volledige grootte wanneer de `grootte`{:class="block3looks"} `=`{:class="block3operators"} `100%` is. Voeg eerst een `=`{:class="block3operators"} functie toe aan de zeshoekige invoer:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+Voltooi het opbouwen van de voorwaarde door een ingebouwde `grootte`{:class="block3looks"} variabele toe te voegen en typ de waarde `100`:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+Voeg blokken toe zodat `als`{:class="block3control"} de voorwaarde waar is `dan`{:class="block3control"} `zend`{:class="block3events"} de libel een 'Einde'-bericht en `zeg`{:class="block3looks"} `Ik heb de volledige grootte bereikt!`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+Voeg ten slotte een `stop alle`{:class="block3control"} blok toe om de andere libel-scripts te stoppen:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+Op dit moment beweegt de vlieg nog steeds nadat het project is afgelopen. Voeg dit script toe aan de sprite **Insect**.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**Test:** Klik op de groene vlag en blijf vliegen eten totdat je libel de volledige grootte heeft bereikt.
 
 --- /task ---
 

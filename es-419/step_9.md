@@ -1,41 +1,41 @@
-## Upgrade your project
+## Mejora tu proyecto
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+En este paso, intenta agregar más insectos, cambiando la apariencia y el comportamiento de tu proyecto.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![El escenario mostrando tres tipos diferentes de insectos y la libélula.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### Añadir más insectos
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+Añade más insectos. Es posible que debas hacer que se muevan más rápido, para que sean más difíciles de atrapar por la libélula.
 
-You can paint your own insects or trying adding an emoji mosquito!
+¡Puedes pintar tus propios insectos o intentar agregar un mosquito emoji!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+Usa el teclado de emoji para agregar un objeto **Mosquito emoji**.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Duplica un obeto **insect** ya existente y luego pulsa en la pestaña **Disfraces**. **Pinta** un disfraz nuevo y selecciona la herramienta **Texto**. En lugar de escribir texto, usa el atajo de teclado emoji para tu sistema operativo:
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows: tecla de Windows + '.' MacOS - ctrl + cmd + espacio Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![El teclado emoji emergente con la categoría 'animales y naturaleza' seleccionada.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Selecciona el emoji **Mosquito** para insertarlo en el editor de Pintura. Usa la herramienta **Seleccionar** (flecha) para centrar, cambiar el tamaño y rotar tu mosquito hasta que estés conforme con el resultado.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![El emoji de mosquito en el editor de pintura.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Sugerencia:** Los emojis pueden verse de manera distinta en diferentes computadoras, por lo que es posible que no se vean igual en una tableta y una computadora de escritorio. Algunos emojis no están disponibles en algunas computadoras, pero la mayoría de las computadoras modernas los admiten.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+Usa tu Mochila para intercambiar insectos con tus amigos desde sus proyectos 'Haz Crecer una Libélula'.
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**Consejo:** Comprueba que todos tus objetos y disfraces tengan nombres adecuados. Esto hará que tu proyecto sea más fácil de entender si vuelves a él más tarde.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**Sugerencia:** Asegúrate de que tu código está bien organizado en el área Código. Haz clic con el botón derecho en el área Código y elige **Ordenar bloques** para que Scratch ordene tu código.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Proyecto terminado
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/521688740/){:target ="_blank"}.
 
 --- /collapse ---
 

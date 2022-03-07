@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Pregunta 2 de 3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+Escribiste código para hacer que la libélula se mueva solo si `no`{:class="block3operators"} está `tocando`{:class="block3sensing"} el puntero del ratón.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+¿Dónde pondrías un bloque `iniciar sonido`{:class="block3sound"} para hacer que la libélula emita un sonido cada vez que se mueve?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+No, con este código el bloque `iniciar sonido`{:class="block3sound"} está fuera del bloque `si`{:class="block3control"}, por lo que se ejecutará cada vez que el ciclo `por siempre`{:class=" block3control"} se ejecute, incluso si la libélula no se mueve.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+Sí, eso es correcto. Colocando el bloque `iniciar sonido`{:class="block3sound"} dentro del bloque `if`{:class="block3control"} significa que se reproducirá cuando la libélula se mueva.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+No, el bloque `iniciar sonido`{:class="block3sound"} está fuera del bloque `si`{:class="block3control"}, por lo que se ejecutará cada vez que el ciclo `por siempre`{:class="block3control"} se ejecute, incluso si la libélula no se mueve.
 
   --- /feedback ---
 

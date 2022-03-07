@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: 3 में से दूसरा प्रश्न
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+आपने ड्रैगनफ्लाई को केवल तभी स्थानांतरित करने के लिए कोड लिखा था जब वह माउस-पॉइंटर को `not`{:class="block3operators"} `touch`{:class="block3sensing"} हो।
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+ड्रैगनफ्लाई के हर बार हिलने पर ध्वनि शुरू करने के लिए आप `start sound`{:class="block3sound"} ब्लॉक कहां रखेंगे?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+नहीं, इस कोड के साथ `start sound`{:class="block3sound"} ब्लॉक `if`{:class="block3control"} ब्लॉक के बाहर है, इसलिए यह हर बार जब `forever`{:class="block3control"} लूप चलता है यह भी चलेगा, भले ही ड्रैगनफ्लाई न हिले।
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+हाँ, यह सही है। `start sound`{:class="block3sound"} ब्लॉक को `if`{:class="block3control"} के अंदर ब्लॉक करने का मतलब है कि यह ड्रैगनफ्लाई के चलने पर बजने लगेगा।
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+नहीं, `start sound`{:class="block3sound"} ब्लॉक `if`{:class="block3control"} ब्लॉक के बाहर है, इसलिए यह हर बार `हमेशा के लिए`{:class="block3control"} लूप चलता है यह भी चलेगा, भले ही ड्रैगनफ्लाई न हिले।
 
   --- /feedback ---
 

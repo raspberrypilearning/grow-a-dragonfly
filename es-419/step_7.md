@@ -1,19 +1,19 @@
-## Random insect movement
+## Movimiento aleatorio de insectos
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+Los insectos en tu aplicación se mueven en un patrón muy predecible, pero en la vida real son difíciles de atrapar. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+Usarás el bloque `elegir número al azar`{:class="block3operators"} para hacer que el insecto se mueva de una forma más natural.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![Escenario que muestra insectos apuntando en diferentes direcciones.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+Agrega un script al **Insect 2** para hacer que apunte en una dirección aleatoria cada 1-3 segundos.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**Prueba:** Ejecuta tu proyecto y observa cómo se mueve la mosca. Intenta cambiar los números para obtener el efecto que quieres.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+También puedes arrastrar este script al objeto **Insecto** para que también se mueva aleatoriamente.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+Cambia los insectos hasta que se comporten como tú quieras.
 
-Make changes until you are happy with your project.
+Puedes cambiar la cantidad de pasos que se `mueven`{:class="block3motion"} para hacerlos más rápidos o más lentos.
+
+También puedes cambiar la velocidad de la libélula.
+
+--- /task ---
+
+--- task ---
+
+También puedes cambiar el tamaño que la libélula necesita crecer para alcanzar su tamaño completo.
+
+Realiza cambios hasta que estés conforme con tu proyecto.
 
 --- /task ---
 

@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: 3లో 2వ ప్రశ్న
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+మౌస్ పాయింటర్ ను `touching`{:class="block3sensing"} `not`{:class="block3operators"} కండిషన్ ఉంటేనే తూనీగ కదిలేలా చేయడానికి మీరు కోడ్‌ని వ్రాసారు.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+డ్రాగన్‌ఫ్లై కదిలిన ప్రతిసారీ ధ్వనిని ప్రారంభించేలా చేయడానికి మీరు `start sound`{:class="block3sound"} బ్లాక్‌ను ఎక్కడ ఉంచాలి?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+లేదు, ఈ కోడ్‌తో `start sound`{:class="block3sound"} బ్లాక్ `if`{:class="block3control"} బ్లాక్‌కి వెలుపల ఉంది కాబట్టి, `forever`{:class="block3control"} లూప్ నడిచిన ప్రతిసారి, ఈ కోడ్ అమలు చేయబడుతుంది, తూనీగ కదలకపోయినా కూడా.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+అవును, అది సరైనది. `start sound`{:class="block3sound"} బ్లాక్‌ను `if`{:class="block3control"} బ్లాక్‌ లోపల ఉంచడం అంటే, తూనీగ కదిలినప్పుడు, అది ప్లే అవుతుంది.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+లేదు, ఈ కోడ్‌తో `start sound`{:class="block3sound"} బ్లాక్ `if`{:class="block3control"} బ్లాక్‌కి వెలుపల ఉంది కాబట్టి, `forever`{:class="block3control"} లూప్ నడిచిన ప్రతిసారి, ఈ కోడ్ అమలు చేయబడుతుంది, తూనీగ కదలకపోయినా కూడా.
 
   --- /feedback ---
 

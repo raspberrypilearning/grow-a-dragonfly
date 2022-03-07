@@ -1,58 +1,58 @@
-## More food
+## Meer eten
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly needs a choice of insects.
+Geef de libel een keuze aan insecten.
 </div>
 <div>
-![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
+![Het toneel toont twee insecten en een libel.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it.
+Klik met de rechtermuisknop op de sprite **Insect** in de lijst Sprite onder het werkgebied en **dupliceer** deze.
 
-![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
-
---- /task ---
-
-It's helpful if this insect looks different to the fly.
-
---- task ---
-
-Click on the **Costumes** tab.
-
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
+![De sprite-lijst met de insecten-sprite geselecteerd en 'dupliceren' gemarkeerd in het menu.](images/duplicate-insect.png)
 
 --- /task ---
 
-The insect gets eaten even if it touches the dragonfly's wing or tail.
-
-To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+Het is handig als dit insect er anders uitziet dan de vlieg.
 
 --- task ---
 
-Select the **Dragonfly** sprite and click on the **Costumes** tab.
+Klik op het tabblad **Uiterlijken**.
 
-Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
-
-![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
+**Kies:** Maak een ander vliegend insect.
++ Je kunt het **Vulling** gereedschap gebruiken om de kleur van het insect te veranderen
++ **Schilder** je eigen insectenuiterlijk
++ **Voeg** een ander insectsprite van Scratch toe
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+Het insect wordt zelfs opgegeten als het de vleugel of staart van de libel raakt.
+
+Om je app realistischer te maken, corrigeer je dit zodat het insect wordt opgegeten door de mond van de libel. Je kunt het `raak ik kleur`{:class="block3sensing"} blok gebruiken, zodat het insect alleen wordt opgegeten als het een bepaalde kleur aanraakt van de **libel**.
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+Selecteer de **Dragonfly** sprite en klik op het tabblad **Uiterlijken**.
 
-Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block.
+Gebruik het vulgereedschap om de mond van de **libel** in te kleuren. We gebruikten paars:
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+![De Teken-editor met het gereedschap Vullen geselecteerd en het libelkostuum met een paarse mond.](images/dragonfly-mouth-colour.png)
+
+--- /task ---
+
+Je moet controleren of de **Insect2** sprite de **libel** sprite `en`{:class="block3operators"} de kleur van de mond van de libel raakt.
+
+--- task ---
+
+Selecteer de **Insect2** sprite en klik op het tabblad **Code**.
+
+Sleep een `en`{:class="block3operators"} blok in het `if`{:class="block3control"} blok.
+
+Het `<touching [Dragonfly v] ?>`{:class="block3sensing"} blok komt tevoorschijn, sleep het naar de linkerkant van het `en`{:class="block3operators"} blok:
 
 ![](images/insect2-icon.png)
 
@@ -75,7 +75,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
+Sleep een `raak ik kleur`{:class="block3sensing"} blok naar de rechterkant van het `en`{:class="block3operators"} blok:
 
 ![](images/insect2-icon.png)
 
@@ -94,23 +94,23 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+Als de kleur van de mond van de libel niet is geselecteerd, klik dan op de kleurencirkel en klik vervolgens op het **Pipet** gereedschap om een kleur te selecteren.
 
-![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
+![Het kleurencirkelmenu met pipetgereedschap.](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+Klik op de mond van de libel in het toneel om de bijpassende kleur in te stellen:
 
-![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
+![Het pipetgereedschap met markeerstift voor kleurselectie die over de paarse mond van de libel zweeft.](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**Tip:** Als dit lastig is om te doen, verander dan de grootte van de sprite **Dragonfly**, zodat hij erg groot is.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth.
+**Test:** Test nu of de libel het tweede insect alleen met zijn mond kan eten.
 
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+Als je wilt, kun je de eerste **Insect** veranderen, zodat deze alleen met de mond van de libel kan worden gegeten.
 
 --- /task ---
 

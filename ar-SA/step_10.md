@@ -1,10 +1,10 @@
-## What next?
+## ماذا بعد؟
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+إذا كنت تتبع مسار [Scratch أكثر](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)، يمكنك الانتقال إلى مشروع [طبل نجم](https://projects.raspberrypi.org/en/projects/drum-star). في هذا المشروع، سوف تصنع لعبة نقر حيث تربح إيقاعات لعزف طبول جديدة في أماكن أكبر.
 
 --- print-only ---
 
-![The Stage view of completed drum star project.](images/drum-star.png)
+![عرض المرحلة لمشروع نجم الطبل المكتمل.](images/drum-star.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+إذا كنت ترغب في الحصول على مزيد من المتعة في استكشاف Scratch، فيمكنك تجربة أي من [هذه المشاريع](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

@@ -1,67 +1,67 @@
-## A fly to eat
+## తినడానికి ఒక ఈగ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+మీరు తూనీగ తినడానికి ఒక కీటకాన్ని జోడిస్తారు. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![Stage మీద తూనీగ మరియు కీటకం.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+గేమ్‌లలో తమంతట తాముగా తిరిగే పాత్రలను కొన్నిసార్లు <span style="color: #0faeb0">**mobs**</span>అని పిలుస్తారు, ఇది మొబైల్‌లకు కుదించిన రూపం. మోబ్ లను కలిగి ఉన్న గేమ్ గురించి మీరు ఆలోచించగలరా?</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+**Frog 2** sprite లో మీరు ఉపయోగించగల కీటకం ఉంది.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+మీ ప్రాజెక్ట్‌కి **Frog 2** sprite ని జోడించండి. Sprite పేరును `Insect` గా మార్చండి:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![Frog 2 spriteతో కూడిన sprite జాబితా జోడించబడింది. Sprite పేరు లక్షణం 'Insect' అని చూపుతుంది.](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+మీకు ఈగ మాత్రమే అవసరం, కప్ప కాదు.
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+**Costumes** ట్యాబ్‌పై క్లిక్ చేయండి. దీన్ని ఎంచుకోవడానికి ఈగ పై క్లిక్ చేసి, ** Copy** చిహ్నంపై క్లిక్ చేయండి.
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
-
---- /task ---
-
---- task ---
-
-Add a new costume to the sprite using the **Paint** option:
-
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
+![Frog 2-a costume యొక్క ఫ్లై పార్ట్‌తో పెయింట్ ఎడిటర్ ఎంపిక చేయబడింది మరియు Copy చిహ్నం హైలైట్ చేయబడింది.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+**Paint** ఎంపికను ఉపయోగించి sprite కి కొత్త costume లను జోడించండి:
 
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![Costume మెనులో సెలెక్ట్ చేయబడిన పెయింట్ ఎంపిక.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+కొత్త costume లలో sprite ను అతికించడానికి **Paste** చిహ్నంపై క్లిక్ చేయండి. ఈగను **centre ** లోకి డ్రాగ్ చేయండి, తద్వారా అది క్రాస్‌హైర్‌తో వరుసలో ఉంటుంది.
 
-![Size property set to 150.](images/fly-size.png)
+మీరు మీ costume కు `Insect` అని పేరు మార్చవచ్చు మరియు ఇతర costume లను తొలగించవచ్చు, ఎందుకంటే మీకు అవి అవసరం లేదు:
+
+![పెయింట్ ఎడిటర్ కొత్తగా పేస్ట్ చేయబడిన కీటకపు costume లను, హైలైట్ చేసిన Paste చిహ్నంతో చూపుతోంది. Costume లిస్ట్ ఇతర costume లు తొలగించబడినట్లు చూపిస్తుంది.](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+ఈగ యొక్క పరిమాణాన్ని పెంచండి, తద్వారా చూడటం మరియు పట్టుకోవడం సులభం:
+
+![పరిమాణం లక్షణం 150కి సెట్ చేయబడింది.](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+**Code** ట్యాబ్‌పై క్లిక్ చేసి, **Insect** sprite బౌన్స్ అయ్యేలా చేయడానికి స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/fly-icon.png)
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+`if on edge, bounce`{:class="block3motion"} బ్లాక్, sprite Stage అంచుకు చేరుకుందో లేదో తనిఖీ చేస్తుంది మరియు sprite ఒకవేళ అంచుకు చేరితే దానిని వేరే దిశలో పంపుతుంది.
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+`if`{:class="block3control"} **Dragon fly** sprite దానిని తిన్నట్లయితే, **Insect ** sprite `hide`{:class="block3looks"} అవ్వాలని మీరు అనుకొంటారు.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
+`if`{:class = "block3control"} బ్లాక్ ని **Insect** sprite యొక్క కదలిక స్క్రిప్ట్ కు జోడించండి:
 
 ![](images/fly-icon.png)
 
@@ -95,15 +95,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+`if`{:class="block3control"} షడ్భుజి ఆకారపు ఇన్‌పుట్‌ని కలిగి ఉంటుంది. అంటే మీరు ఇక్కడ **condition** పెట్టచ్చు.
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+`if`{:class="block3control"} బ్లాక్, రన్ అయినప్పుడు, Scratch కండిషన్ కోసం తనిఖీ చేస్తుంది. కండిషన్ 'true' `then`{:class="block3control"} `if`{:class="block3control"} బ్లాక్ రన్ అవుతుంది.
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+`if`{: class = "block3control"} అది **Dragonfly** sprite కు `touching`{: class = "block3sensing"} అయితే మీరు కీటకం `hide`{: class = "block3looks"} అవ్వాలని కోరుకొంటారు.
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
+`touching [Dragonfly v]`{:class="block3sensing"}ని `if`{:class="block3control"} బ్లాక్‌లోకి లాగండి. `if`{:class="block3control"} బ్లాక్‌లో `hide`{:class="block3looks"} బ్లాక్‌ని జోడించండి.
 
 ![](images/fly-icon.png)
 
@@ -121,15 +121,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**పరీక్ష:** మీ కోడ్‌ని పరీక్షించండి మరియు ఈగని తినడానికి తూనీగని నియంత్రించండి. ఈగ అదృశ్యం కావాలి.
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+తూనీగ ఒక్క ఈగను మాత్రమే తినగలిగితే పెద్దది కాదు!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Stage పై యాదృచ్ఛిక స్థానానికి వెళ్లడానికి, `go to a random position`{:class="block3motion"} బ్లాక్‌లను జోడించండి, మీ sprite ఒక సెకను పాటు `wait`{:class="block3control"} చేసి మరలా `show`{:class="block3looks "}: అయ్యేలా చూడండి:
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**పరీక్ష:** మీ తూనీగ ఇప్పుడు చాలా ఈగలను తినగలదని పరీక్షించండి.
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+మీరు ప్రారంభంలో చూపించడానికి `show`{:class="block3looks"} బ్లాక్‌ని జోడించారని నిర్ధారించుకోండి.
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**చిట్కా:** మీరు మరింత కోడ్‌ను జోడించేటప్పుడు తూనీగ నిశ్శబ్దంగా ఉండాలని మీరు కోరుకుంటే, మీరు Stage పైన ఉన్న ఎరుపు రంగు **Stop** బటన్ క్లిక్ చేయచ్చు.
 
 --- save ---

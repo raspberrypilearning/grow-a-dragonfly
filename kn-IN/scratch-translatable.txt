@@ -1,14 +1,14 @@
-to start small
+ಸಣ್ಣದಾಗಿ ಆರಂಭಿಸಲು
 
 Wings
 
-change from 'mouse-pointer'
+'mouse-pointer' ನಿಂದ ಬದಲಾಯಿಸಿ
 
-eaten
+ತಿನ್ನಲಾಗುತ್ತದೆ
 
-show at the start
+ಪ್ರಾರಂಭದಲ್ಲಿ ತೋರಿಸಿ
 
-to look like a new fly
+ಹೊಸ ನೊಣದಂತೆ ಕಾಣಲು
 
 food
 
@@ -16,6 +16,6 @@ end
 
 I got to full size!
 
-change from 'all'
+"all" ದಿಂದ ಬದಲಾಯಿಸಿ
 
-Keep changing direction
+ದಿಕ್ಕನ್ನು ಬದಲಾಯಿಸುತ್ತಲೇ ಇರಿ

@@ -1,23 +1,23 @@
-## Introduction
+## Εισαγωγή
 
-Make a nature app with a dragonfly that grows bigger as it eats insects.
+Φτιάξε μια εφαρμογή για τη φύση με μια λιβελλούλα που μεγαλώνει καθώς τρώει έντομα.
 
-You will:
-+ Use `if`{:class="block3control"} blocks to make decisions based on **conditions** made with `operators`{:class="block3operators"} and `sensing`{:class="block3sensing"} blocks
-+ Use `random`{:class="block3operators"} numbers to control the movement of a sprite
-+ Use the `Sounds`{:class="block3sound"} editor to edit a sound
+Θα χρειαστεί να:
++ Χρησιμοποιήσεις το μπλοκ `if`{:class="block3control"} για να λάβεις αποφάσεις βάσει **συνθηκών** που έγιναν με `τελεστές`{:class="block3operators"} και μπλοκ `αισθητήρων`{:class="block3sensing"}
++ Χρησιμοποίησε `τυχαίους`{:class="block3operators"} αριθμούς για να ελέγξεις την κίνηση ενός αντικειμένου
++ Χρησιμοποίησε τον επεξεργαστή `Ήχων`{:class="block3sound"} για να επεξεργαστείς έναν ήχο
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If`{:class="block3control"} blocks and conditions let us write code that does something different depending on whether a condition is true or false.</p>
+Χρησιμοποιούμε <span style="color: #0faeb0">**συνθήκες**</span> όλη την ώρα για να λάβουμε αποφάσεις. Θα μπορούσαμε να πούμε «αν το μολύβι δεν είναι μυτερό, τότε ακόνισέ το». Το μπλοκ `If`{:class="block3control"} και οι συνθήκες μας επιτρέπουν να γράψουμε κώδικα που κάνει κάτι διαφορετικό ανάλογα με το αν μια συνθήκη είναι αληθής ή ψευδής.</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### Δοκίμασέ το
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?
+Μετακίνησε το ποντίκι (ή το δάχτυλό σου) γύρω από τη σκηνή για να φας έντομα. Πώς κινούνται τα έντομα;
 
-Which part of the dragonfly needs to touch the insects to eat them? What happens to the dragonfly when the dragonfly eats an insect?
+Ποιο μέρος της λιβελλούλας πρέπει να αγγίξει τα έντομα για να τα φάει; Τι συμβαίνει με τη λιβελλούλα όταν η λιβελλούλα τρώει ένα έντομο;
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Ολοκληρωμένο έργο](images/showcase_static.png)
 
 --- /print-only ---

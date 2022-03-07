@@ -1,41 +1,41 @@
-## Upgrade your project
+## Verbeter je project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+Probeer in deze stap meer insecten toe te voegen en verander de manier waarop jouw project eruitziet en zich gedraagt.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![Het speelveld toont drie verschillende soorten insecten en de libel.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### Voeg meer insecten toe
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+Voeg meer insecten toe. Je moet ze misschien sneller laten bewegen, zodat ze moeilijker te vangen zijn voor de libel.
 
-You can paint your own insects or trying adding an emoji mosquito!
+Je kunt je eigen insecten schilderen of proberen een emoji-mug toe te voegen!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+Gebruik het emoji-toetsenbord om een **Mosquito emoji** sprite toe te voegen.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Dupliceer een bestaande **insecten** sprite en klik vervolgens op het tabblad **Uiterlijken**. **Schilder** een nieuw uiterlijk en selecteer het gereedschap **Tekst**. Gebruik in plaats van tekst te typen de emoji-sneltoets van je besturingssysteem:
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows - Windows-toets + '.' MacOS - ctrl + cmd + spatie Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![Het pop-up emoji-toetsenbord met de categorie 'dieren en natuur' geselecteerd.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Selecteer de **Mosquito** emoji om deze in de Paint-editor in te voegen. Gebruik het gereedschap **Selecteren** (pijl) om je mug te centreren, vergroten of verkleinen en roteren totdat je er tevreden mee bent.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![De mug-emoji in de tekeneditor.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Tip:** Emoji's kunnen er op verschillende computers anders uitzien, dus ze zien er mogelijk niet hetzelfde uit op een tablet en een desktopcomputer. Sommige emoji's zijn niet beschikbaar op sommige computers, maar de meeste moderne computers zullen ze wel ondersteunen.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+Gebruik je rugzak om insecten te ruilen met je vrienden uit hun 'Laat een libel groeien'-projecten.
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**Tip:** Controleer of al je sprites en uiterlijken zinnige namen hebben. Het maakt jouw project gemakkelijker te begrijpen als je er later op terugkomt.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**Tip:** Zorg ervoor dat je code netjes is opgemaakt in het gebied Code. Klik met de rechtermuisknop op het codegebied en kies **Blokken opruimen** om Scratch je code te laten opschonen.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Voltooid project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/521688740/){:target="_blank"} bekijken.
 
 --- /collapse ---
 

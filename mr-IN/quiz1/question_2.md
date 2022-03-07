@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: प्रश्न 3 पैकी 2
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+ड्रॅगनफ्लाय माऊस-पॉइंटरला `touching`{:class="block3sensing"} `not`{:class="block3operators"} केवळ तो हलण्यासाठी तुम्ही कोड लिहीलात.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+ड्रॅगनफ्लाय प्रत्येक वेळी हलतांना साऊंड करण्यासाठी तुम्ही `start sound`{:class="block3sound"} ब्लॉक कोठे ठेवाल?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+नाही, या कोडसह `start sound`{:class="block3sound"} ब्लॉक हा `if`{:class="block3control"} ब्लॉकच्या बाहेर आहे, त्यामुळे तो प्रत्येक वेळी `forever`{:class="block3control"} लूप रन होतो, ड्रॅगनफ्लाय हलला नाही तरीसुद्धा.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+होय, ते बरोबर आहे. `start sound`{:class="block3sound"} ब्लॉक `if`{:class="block3control"} ब्लॉकच्या आत ठेवणे म्हणजे त्यामुळे ड्रॅगनफ्लाय हलतो.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+नाही, `start sound`{:class="block3sound"} ब्लॉक`if`{:class="block3control"} ब्लॉकच्या बाहेर असल्यास, तो प्रत्येक वेळी `forever`{:class="block3control"} लूप रन होतो, ड्रॅगनफ्लाय हलला नाही तरीसुद्धा.
 
   --- /feedback ---
 

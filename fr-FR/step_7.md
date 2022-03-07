@@ -1,19 +1,19 @@
-## Random insect movement
+## Mouvement aléatoire des insectes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+Les insectes de ton application se déplacent selon un schéma très prévisible, mais dans la vraie vie, ils sont difficiles à attraper. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+Tu utiliseras le bloc « nombre aléatoire »{:class="block3operators"} pour faire bouger l'insecte de manière plus naturelle.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![Scène montrant des insectes pointant dans différentes directions.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+Ajoute un script à **Insecte2** pour le faire pointer dans une direction aléatoire toutes les 1 à 3 secondes.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**Test :** Exécute ton projet et observe le mouvement de la mouche. Essaie de changer les nombres pour obtenir l'effet souhaité.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+Tu peux également faire glisser ce script vers le sprite **Insecte** afin qu'il se déplace également de manière aléatoire.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+Modifie les insectes jusqu'à ce qu'ils se comportent comme tu le souhaites.
 
-Make changes until you are happy with your project.
+Tu peux modifier le nombre de pas qu'ils `font`{:class="block3motion"} pour les rendre plus rapides ou plus lents.
+
+Tu peux également modifier la vitesse de la libellule.
+
+--- /task ---
+
+--- task ---
+
+Tu peux également modifier la taille dont la libellule a besoin pour atteindre sa taille maximale.
+
+Apporte des modifications jusqu'à ce que tu sois satisfait de ton projet.
 
 --- /task ---
 

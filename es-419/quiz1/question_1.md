@@ -1,23 +1,23 @@
-## Reflection
+## Reflexión
 
-Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm!
+¡Bien hecho, creaste una aplicación de naturaleza con una libélula controlada por el usuario e insectos que siguen un algoritmo!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+¡Has usado los bloques `Eventos`{:class="block3events"}, `Control`{:class="block3control"}, `Sensores`{:class="block3sensing"}, `Operadores`{:class="block3operators"}, `Movimiento`{:class="block3motion"}, `Apariencia`{:class="block3looks"}, and `Sonido`{:class="block3sound"}!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Ahora es el momento de reflexionar: reflexionar es una parte importante del aprendizaje, porque ayuda a establecer nuevas conexiones en tu cerebro.
 
-Answer the three questions below to reflect on what you've learned.
+Responde a las siguientes tres preguntas para reflexionar sobre lo que has aprendido.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Después de cada pregunta, presiona enviar. Serás guiado hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
 
-Have fun!
+¡Diviértete!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pregunta 1 de 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Un proyecto utiliza el objeto **Crab** y el objeto **Jellyfish**. El objeto **Crab** tiene este código:
 
 ![desc](images/crab-icon.png)
 
@@ -28,39 +28,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+¿Qué tendría que pasar para que el objeto **Crab** se esconda?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () El objeto **Crab** necesitaría tocar el **Jellyfish**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ No, el bloque `si`{:class="block3control"} tiene una condición `Sensores`{:class="block3sensing"}, pero no utiliza el bloque `tocando Jellyfish`{:clase="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) El objeto **Crab** no debería tocar el color azul
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Sí, el operador `no`{:class="block3operators"} significa que la condición es verdadera `si`{:class="block3control"} el objeto **Crab** no está `tocando`{:class="block3sensing"} el color azul.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () El objeto **Crab** tendría que estar tocando el color azul
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ No del todo, mira de cerca el `operador`{:class="block3operators"} en la condición.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) El objeto **Crab** siempre se va a `esconder`{:class="block3looks"} `al presionar la bandera verde`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ No, hay un bloque `si`{:class="block3control"} en el código del objeto **Crab** por lo que solo se ocultará si se cumple la condición.
 
  --- /feedback ---
 

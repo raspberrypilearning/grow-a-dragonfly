@@ -1,67 +1,67 @@
-## A fly to eat
+## Een vlieg om op te eten
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+Je voegt een insect toe voor de libel om te eten. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![Het speelveld met een libel en een insect.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+Personages die in games alleen rondlopen, worden soms <span style="color: #0faeb0">**mobs**</span> genoemd, een afkorting voor mobieltjes. Kun je een spel bedenken met mobs?</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+Er zit een vlieg in de **Frog 2** sprite die je kunt gebruiken.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+Voeg de **Frog 2** sprite toe aan je project. Hernoem de sprite naar `Insect`:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![De Sprite-lijst met Frog 2-sprite toegevoegd. De eigenschap Sprite-naam toont 'Insect'.](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+Je hebt alleen de vlieg nodig, niet de kikker.
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+Klik op het tabblad **Uiterlijken**. Klik op de vlieg om het te selecteren en klik op het **Kopie maken**-pictogram.
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
-
---- /task ---
-
---- task ---
-
-Add a new costume to the sprite using the **Paint** option:
-
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
+![De tekeneditor met het vlieggedeelte van het Frog 2-a uiterlijk geselecteerd en het pictogram Kopiëren gemarkeerd.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+Voeg een nieuw uiterlijk toe aan de sprite met behulp van de **Teken**-optie:
 
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![De tekenoptie die is geselecteerd in het menu Kies een kostuum.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+Klik op het pictogram **Plakken** om de sprite in het nieuwe uiterlijk te plakken. Sleep de vlieg naar de **midden** zodat deze uitgelijnd is met het dradenkruis.
 
-![Size property set to 150.](images/fly-size.png)
+Je kunt je uiterlijk `Insect` hernoemen en de andere uiterlijken verwijderen, want die heb je niet nodig:
+
+![De tekeneditor die een geplakt nieuw Insect-uiterlijk toont met het pictogram Plakken gemarkeerd. De uiterlijkenlijst laat zien dat de andere uiterlijken zijn verwijderd.](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+Vergroot de vlieg zodat deze gemakkelijker te zien en te vangen is:
+
+![Grootte-eigenschap ingesteld op 150.](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+Klik op het tabblad **Code** en voeg een script toe om de sprite **Insect** rond te laten stuiteren:
 
 ![](images/fly-icon.png)
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+Het `keer om aan de rand`{:class="block3motion"}-blok controleert of de sprite de rand van het speelveld heeft bereikt en stuurt de sprite in een andere richting als dat het geval is.
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+Je wilt dat het **Insect** sprite `verdwijnt`{:class="block3looks"} `als`{:class="block3control"} het wordt opgegeten door de **Dragonfly** sprite.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
+Voeg een `als`{:class="block3control"} blok toe aan het bewegingsscript van de **Insect** sprite:
 
 ![](images/fly-icon.png)
 
@@ -95,15 +95,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+De `als`{:class="block3control"} heeft een zeshoekige invoer. Dit betekent dat je hier een **voorwaarde** in kunt plaatsen.
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+Wanneer het `als`{:class="block3control"}-blok wordt uitgevoerd, zal Scratch de voorwaarde controleren. Als de voorwaarde 'waar' is `dan`{:class="block3control"} wordt de code in het `als`{:class="block3control"}-blok uitgevoerd.
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+Je wilt dat het insect `verdwijnt`{:class="block3looks"} ` als`{:class="block3control"} het de **Dragonfly** sprite `aanraakt`{:class="block3sensing"}.
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
+Sleep een `raak ik [Dragonfly v]`{:class="block3sensing"} in het `als`{:class="block3control"}-blok. Voeg een `verdwijn`{:class="block3looks"} blok toe binnen het `als`{:class="block3control"} blok.
 
 ![](images/fly-icon.png)
 
@@ -121,15 +121,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**Test:** Test je code en bestuur de libel om de vlieg op te eten. De vlieg zou moeten verdwijnen.
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+De libel wordt niet erg groot als hij maar één vlieg kan eten!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Voeg een blok `ga naar een willekeurige positie`{:class="block3motion"} toe aan werkgebied, en laat je sprite `een seconde wachten`{:class="block3control"} en dan `verschijnen`{:class="block3looks "}:
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**Test:** Test of je libel nu veel vliegen kan eten.
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+Zorg ervoor dat je het `verschijn`{:class="block3looks"} blok hebt toegevoegd om de sprite weer te geven aan het begin.
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**Tip:** Je kunt op de rode **Stop** knop boven het werkgebied klikken als je wilt dat de libel stil is terwijl je meer code toevoegt.
 
 --- save ---

@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: السؤال 2 من 3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+لقد كتبت شفرة برمجية لجعل اليعسوب يتحرك فقط إذا `لم يكن`{:class="block3operators"} بوضعٍ `ملامس` لمؤشر الماوس.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+أين ستضع كتلة `ابدأ الصوت`{:class="block3sound"} لتجعل اليعسوب يصدر صوتًا في كل مرة يتحرك فيها؟
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+لا، باستخدام هذه الشفرة البرمجية، تكون كتلة `ابدأ الصوت`{:class="block3sound"} خارج كتلة `إذا`{:class="block3control"}، لذلك سيتم تشغيلها في كل مرة تعمل بها الكتلة `كرر باستمرار`{:class="block3control"}، حتى لو لم يتحرك اليعسوب.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+هذا صحيح. وضع كتلة `ابدأ الصوت`{:class="block3sound"} داخل كتلة `اذا`{:class="block3control"} يعني أنه سيتم تشغيله عندما يتحرك اليعسوب.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+لا، كتلة `ابدأ الصوت`{:class="block3control"} خارج كتلة `إذا`{:class="block3control"}، لذلك سيتم تشغيلها في كل مرة تعمل بها الكتلة `كرر باستمرار`{:class="block3control"}، حتى لو لم يتحرك اليعسوب.
 
   --- /feedback ---
 

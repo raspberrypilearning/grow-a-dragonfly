@@ -1,41 +1,41 @@
-## Upgrade your project
+## మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+ఈ దశలో, మీ ప్రాజెక్ట్ కనిపించే మరియు ప్రవర్తించే విధానాన్ని మార్చడం ద్వారా మరిన్ని కీటకాలను జోడించడానికి ప్రయత్నించండి.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![Stage పై చూపబడుతున్న మూడు రకాల కీటకాలు మరియు తూనీగ.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### మరిన్ని కీటకాలను జోడించండి
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+మరిన్ని కీటకాలను జోడించండి. తూనీగకు పట్టుకోవడం కష్టం అయ్యేలా, మీరు వాటిని వేగంగా కదిలేలా చేయాల్సి రావచ్చు.
 
-You can paint your own insects or trying adding an emoji mosquito!
+మీరు మీ స్వంత కీటకాలను పెయింట్ చేయవచ్చు లేదా ఎమోజి దోమను జోడించడానికి ప్రయత్నించవచ్చు!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+**Mosquito emoji** sprite ని జోడించడానికి ఎమోజి కీబోర్డ్‌ని ఉపయోగించండి.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+ఇప్పటికే ఉన్న **Insect** sprite నకలు చేసి, ఆపై **Costumes** ట్యాబ్‌పై క్లిక్ చేయండి. కొత్త costume లను **Paint** చేయండి మరియు **Text** సాధనాన్ని ఎంచుకోండి. వచనాన్ని టైప్ చేయడానికి బదులుగా, మీ ఆపరేటింగ్ సిస్టమ్ కోసం ఎమోజి కీబోర్డ్ వంటి సత్వరమార్గాన్ని ఉపయోగించండి:
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows - Windows కీ + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+!['animals and nature' వర్గంతో పాప్అప్ ఎమోజి కీబోర్డ్ ఎంచుకోబడింది.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+పెయింట్ ఎడిటర్‌లో చొప్పించడానికి **Mosquito** ఎమోజీని ఎంచుకోండి. మీకు సంతృప్తిగా ఉండే వరకు మీ దోమను మధ్యలో ఉంచడానికి, పరిమాణం మార్చడానికి మరియు తిప్పడానికి **Select**(arrow) సాధనాన్ని ఉపయోగించండి.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![పెయింట్ ఎడిటర్‌లో mosquito ఎమోజి.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**చిట్కా:** ఎమోజీలు వేర్వేరు కంప్యూటర్‌లలో విభిన్నంగా కనిపిస్తాయి, కాబట్టి అవి టాబ్లెట్ మరియు డెస్క్‌టాప్ కంప్యూటర్‌లో ఒకేలా కనిపించకపోవచ్చు. కొన్ని కంప్యూటర్‌లలో కొన్ని ఎమోజీలు అందుబాటులో లేవు, కానీ చాలా వరకు ఆధునిక కంప్యూటర్‌లు వాటికి మద్దతు ఇస్తాయి.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+మీ స్నేహితులతో వారి 'గ్రో ఎ డ్రాగన్‌ఫ్లై' ప్రాజెక్ట్‌ల నుండి కీటకాలను ఇచ్చుపుచ్చు కోవడానికి మీ Backpack ని ఉపయోగించండి.
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**చిట్కా:** మీ అన్ని sprite లు మరియు costume లు సరైన పేర్లను కలిగి ఉన్నాయని తనిఖీ చేయండి. మీరు తర్వాత దానికి తిరిగి వస్తే మీ ప్రాజెక్ట్‌ను అర్థం చేసుకోవడం సులభం చేస్తుంది.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**చిట్కా:** Code ప్రాంతంలో మీ కోడ్ చక్కగా ఉంచబడిందని నిర్ధారించుకోండి. Code ప్రాంతంపై రైట్-క్లిక్ చేసి, Scratch మీ కోడ్‌ను చక్కదిద్దడానికి, **Clean up Blocks** ని ఎంచుకోండి.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: పూర్తయిన ప్రాజెక్ట్
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+మీరు [పూర్తయిన ప్రాజెక్ట్‌ను ఇక్కడ](https://scratch.mit.edu/projects/521688740/){:target="_blank"} వీక్షించవచ్చు.
 
 --- /collapse ---
 

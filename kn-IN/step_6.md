@@ -1,58 +1,58 @@
-## More food
+## ಇನ್ನಷ್ಟು ಆಹಾರ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly needs a choice of insects.
+ಡ್ರಾಗನ್‌ಫ್ಲೈಗೆ ಕೀಟಗಳ ಆಯ್ಕೆ ಅಗತ್ಯವಿದೆ.
 </div>
 <div>
-![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
+![ಎರಡು ಕೀಟಗಳು ಮತ್ತು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಇರುವ Stage.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it.
+Stage ಕೆಳಗಿರುವ Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿ **Insect** ಸ್ಪ್ರೈಟ್ ಮೇಲೆ ರೈಟ್‌-ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಅದನ್ನು **duplicate** ಮಾಡಿ.
 
-![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
-
---- /task ---
-
-It's helpful if this insect looks different to the fly.
-
---- task ---
-
-Click on the **Costumes** tab.
-
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
+![Insect ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆಮಾಡಿದ Sprite ಲಿಸ್ಟ್‌ ಮತ್ತು ಮೆನುನಲ್ಲಿ 'duplicate' ಹೈಲೈಟ್‌ ಆಗಿರುವುದು.](images/duplicate-insect.png)
 
 --- /task ---
 
-The insect gets eaten even if it touches the dragonfly's wing or tail.
-
-To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+ಈ ಕೀಟವು ನೊಣಕ್ಕಿಂತ ಭಿನ್ನವಾಗಿ ಕಂಡರೆ ಅನುಕೂಲವಾಗುತ್ತದೆ.
 
 --- task ---
 
-Select the **Dragonfly** sprite and click on the **Costumes** tab.
+**Costumes** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
-
-![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
+**ಆಯ್ಕೆಮಾಡಿ:** ವಿಭಿನ್ನ ಹಾರುವ ಕೀಟವನ್ನು ರಚಿಸಿ.
++ ಈ ಕೀಟದ ಬಣ್ಣವನ್ನು ಬದಲಿಸಲು **Fill** ಟೂಲ್‌ ಉಪಯೋಗಿಸಿ
++ ನಿಮ್ಮದೇ ಕೀಟದ ಉಡುಪನ್ನು **Paint** ಮಾಡಿ
++ Scratch ನಿಂದ ಇನ್ನೊಂದು ಸಣ್ಣ ಕೀಟದ ಉಡುಪನ್ನು**ಸೇರಿಸಿ**
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+ಕೀಟವು ಡ್ರಾಗನ್‌ಫ್ಲೈನ ರೆಕ್ಕೆ ಅಥವಾ ಬಾಲವನ್ನು ಸ್ಪರ್ಶಿಸಿದರೂ ಅದು ತಿನ್ನಲ್ಪಡುತ್ತದೆ.
+
+ಆಪ್‌ನ್ನು ಹೆಚ್ಚು ನೈಜವಾಗಿರುವಂತೆ ಮಾಡಲು, ಇದನ್ನು ಸರಿಪಡಿಸಿ, ಆಗ ಕೀಟಗಳು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯಿಂದ ತಿನ್ನಲ್ಪಡುತ್ತವೆ. ನೀವು `touching color`{:class="block3sensing"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸಬಹುದು, ಆಗ ಕೀಟವು **Dragonfly** ಮೇಲೆ ನಿರ್ದಿಷ್ಟ ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸಿದರೆ ಮಾತ್ರ ಅದು ತಿನ್ನಲ್ಪಡುತ್ತದೆ.
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+**Dragonfly** ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು **Costumes** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block.
+**Dragonfly**ನ ಬಾಯಿಯನ್ನು ಭರ್ತಿಮಾಡಲು ಫಿಲ್‌ ಟೂಲ್‌ ಉಪಯೋಗಿಸಿ. ನಾವು ನೇರಳೆಬಣ್ಣ ಉಪಯೋಗಿಸಿದ್ದೇವೆ:
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+![Fill ಟೂಲ್‌ ಆಯ್ಕೆಯಾಗಿರುವ Paint ಎಡಿಟರ್‌ ಮತ್ತು ನೇರಳೆಬಣ್ಣದ ಬಾಯಿಯಿರುವ dragonfly ಉಡುಪು.](images/dragonfly-mouth-colour.png)
+
+--- /task ---
+
+ನೀವು **Insect2** ಸ್ಪ್ರೈಟ್ **Dragonfly** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ `and`{:class="block3operators"} ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯ ಬಣ್ನವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಬೇಕು.
+
+--- task ---
+
+**Insect2** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು **Code** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
+
+`and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಎಳೆಯಿರಿ.
+
+`<touching [Dragonfly v] ?>`{:class="block3sensing"} ಬ್ಲಾಕ್‌ ಪಾಪ್‌ ಔಟ್‌ ಆಗುತ್ತದೆ, ಅದನ್ನು `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ ಎಡಭಾಗಕ್ಕೆ ಎಳೆಯಿರಿ:
 
 ![](images/insect2-icon.png)
 
@@ -75,7 +75,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
+`touching color`{:class="block3sensing"} ಬ್ಲಾಕ್‌ನ್ನು `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ ಬಲಭಾಗಕ್ಕೆ ಎಳೆಯಿರಿ:
 
 ![](images/insect2-icon.png)
 
@@ -94,23 +94,23 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+ಅದು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯ ಆಯ್ಕೆಮಾಡಿದ ಬಣ್ಣವನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ಬಣ್ಣದ ವೃತ್ತದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಲು **Eyedropper** ಟೂಲ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
+![ಐಡ್ರಾಪರ್‌ ಟೂಲ್‌ನೊಂದಿಗೆ ಬಣ್ಣದ ವೃತ್ತದ ಮೇನು.](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+ಬಣ್ಣವನ್ನು ಹೊಂದಿಸಲು Stage ಮೇಲಿನ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ:
 
-![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
+![ಡ್ರಾಗನ್‌ಫ್ಲೈಯ ನೇರಳೆ ಬಣ್ಣದ ಬಾಯಿಯ ಮೇಲೆ ತೂಗಾಡುತ್ತಿರುವ colour select ಹೈಲೈಟರ್‌ ಇರುವ eyedropper ಟೂಲ್.](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**ಸಲಹೆ:** ಇದು ಮಾಡಲು ಕಷ್ಟವೆನಿಸಿದರೆ, **Dragonfly** ಸ್ಪ್ರೈಟ್‌ನ ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸಿ, ಆಗ ಅದು ಬಹಳ ದೊಡ್ಡದಾಗುತ್ತದೆ.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth.
+**ಪರೀಕ್ಷೆ:** ಈಗ ಡ್ರಾಗನ್‌ಫ್ಲೈ ತನ್ನ ಬಾಯಿಯಿಂದ ಎರಡನೆಯ ಕೀಟವನ್ನು ಮಾತ್ರ ತಿನ್ನಬಹುದು ಎಂಬುವುದನ್ನು ಪರೀಕ್ಷಿಸಿ.
 
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+ನೀವು ಬೇಕಾದರೆ, ಮೊದಲ **Insect** ನ್ನು ಬದಲಾಯಿಸಬಹುದು, ಆಗ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಯಿಂದ ಅದನ್ನು ಮಾತ್ರ ತಿನ್ನಬಹುದು.
 
 --- /task ---
 

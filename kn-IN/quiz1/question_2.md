@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: 3ಪ್ರಶ್ನೆಗಳಲ್ಲಿ 2ನೆಯದು
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+ಡ್ರಾಗನ್‌ಫ್ಲೈ `not`{:class="block3operators"} `touching`{:class="block3sensing"} ಮೌಸ್-ಪಾಯಿಂಟರ್‌ ಆಗಿದ್ದರೆ ಮಾತ್ರ ಅದು ಚಲಿಸುವಂತೆ ಮಾಡಲು ನೀವು ಕೋಡ್‌ ಬರೆದಿರಿ.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+ಡ್ರಾಗನ್‌ಫ್ಲೈ ಪ್ರತಿ ಬಾರಿ ಚಲಿಸಿದಾಗ ಅದು ಶಬ್ದ ಮಾಡಲು ಪ್ರಾರಂಭಿಸಲು ನೀವು `start sound`{:class="block3sound"} ಬ್ಲಾಕ್‌ ಎಲ್ಲಿ ಇರಿಸುವಿರಿ?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+ಇಲ್ಲ, ಈ ಕೋಡ್‌ನಿಂದ `start sound`{:class="block3sound"} ಬ್ಲಾಕ್ `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಹೊರಗಡೆ ಇದೆ, ಆದುದರಿಂದ, ಡ್ರಾಗನ್‌ಫ್ಲೈ ಚಲಿಸದಿದ್ದರೂ, `forever`{:class="block3control"} ಲೂಪ್‌ ರನ್‌ ಆದಾಗ, ಇದು ಪ್ರತಿಬಾರಿ ರನ್‌ ಆಗುತ್ತದೆ.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+ಹೌದು, ಅದು ಸರಿಯಾಗಿದೆ. `start sound`{:class="block3sound"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಇಡುವುದು ಎಂದರೆ ಅದು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಚಲಿಸಿದಾಗ ನುಡಿಸುತ್ತದೆ.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+ಇಲ್ಲ, `start sound`{:class="block3sound"} ಬ್ಲಾಕ್ `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಹೊರಗಡೆ ಇದೆ, ಆದುದರಿಂದ, ಡ್ರಾಗನ್‌ಫ್ಲೈ ಚಲಿಸದಿದ್ದರೂ, ಅದು `forever`{:class="block3control"} ಲೂಪ್‌ ರನ್‌ ಆದಾಗ ಪ್ರತಿಬಾರಿ ರನ್‌ ಆಗುತ್ತದೆ.
 
   --- /feedback ---
 

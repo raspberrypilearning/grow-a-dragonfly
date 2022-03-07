@@ -1,8 +1,8 @@
-## Set the scene
+## ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
+ನೀವು ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸುವಿರಿ. ನೀವು ಹಿನ್ನೆಲೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ ಮತ್ತು Stage ಸುತ್ತ ಮೌಸ್-ಪಾಯಿಂಟರ್‌ ಅನುಸರಿಸುವ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಸೇರಿಸಿ.
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}
@@ -11,38 +11,38 @@ You will set the scene. Choose your backdrop and add a dragonfly that follows th
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
+[ಡ್ರಾಗನ್‌ ಫ್ಲೈ ಬೆಳೆಸಿ ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"} ತೆರೆಯಿರಿ. Scratch ಇನ್ನೊಂದು ಬ್ರೌಸರ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
+ಜಗತ್ತಿನೆಲ್ಲೆಡೆ <span style="color: #0faeb0">**ಡ್ರಾಗನ್‌ಫ್ಲೈಗಳು**</span> ಕಂಡುಬರುತ್ತವೆ ಮತ್ತು ಅವುಗಳು ಸುಮಾರು 300 ಮಿಲಿಯನ್‌ ವರ್ಷಗಳಿಂದಲೂ ಇವೆ!</p>
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
+**ಆಯ್ಕೆ ಮಾಡಿ:** **Choose a Backdrop** ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಆಯ್ಕೆಯ ಹಿನ್ನೆಲೆಯನ್ನು ಸೇರಿಸಿ. ನಾವು **Jurassic** ಹಿನ್ನೆಲೆ ಉಪಯೋಗಿಸಿದ್ದೇವೆ.
 
 ![](images/choose-backdrop-icon.png)
 
-![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
+![Jurassic ಹಿನ್ನೆಲೆಯನ್ನು ತೋರಿಸುವ Stage.](images/Jurassic-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
+**Choose a Sprite** ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು `dragonfly` ಹುಡುಕಿ, ನಂತರ **Dragonfly** ಸ್ಪ್ರೈಟ್‌ ಸೇರಿಸಿ.
 
 ![](images/choose-sprite-icon.png)
 
-![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
+!['dragonfly' ಟೈಪ್‌ ಆಗಿರುವ ಸರ್ಚ್‌ ಬಾಕ್ಸ ಮತ್ತು ಗ್ಯಾಲರಿಯಲ್ಲಿ Dragonfly ಸ್ಪ್ರೈಟ್.](images/dragonfly-search.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+**Dragonfly** ಸ್ಪ್ರೈಟ್‌ ಮೌಸ್-ಪಾಯಿಂಟರ್‌ (ಅಥವಾ ನಿಮ್ಮ ಬೆರಳನ್ನು) ಅನುಸರಿಸುವಂತೆ ಮಾಡಲು ಬರಹವನ್ನು ಸೇರಿಸಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -58,77 +58,77 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು **Dragonfly** ಸ್ಪ್ರೈಟ್‌ Stage ಸುತ್ತ ಚಲಿಸುವಂತೆ ಮಾಡಿ. ನೀವು ನಿರೀಕ್ಷಿಸಿದಂತೆ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಚಲಿಸುತ್ತಿದೆಯೇ?
 
---- /task ---
+--- /ಕಾರ್ಯ ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
-
---- task ---
-
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
-
-![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
-
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
-
---- /task ---
+Dragonfly ಉಡುಪು ಬಲ ಭಾಗಕ್ಕೆ ಮುಖಮಾಡಿಲ್ಲ, ಅದರಿಂದ **Dragonfly** ಸ್ಪ್ರೈಟ್‌ನ ತಲೆ ಮೌಸ್-ಪಾಯಿಂಟರ್‌ ಕಡೆಗೆ ಸೂಚಿಸುತ್ತಿಲ್ಲ.
 
 --- task ---
 
-**Test:** Click the green flag and look at how the dragonfly moves now.
+**Costumes** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು **Select** (ಬಾಣ) ಟೂಲ್‌ನ್ನು ಉಡುಪು ಆಯ್ಕೆ ಮಾಡಲು ಉಪಯೋಗಿಸಿ. **Dragonfly** ಉಡುಪು ಬಲ ಭಾಗಕ್ಕೆ ಮುಖಮಾಡುವಂತೆ ತಿರುಗಿಸಲು ಆಯ್ಕೆ ಮಾಡಿದ ಉಡುಪಿನ ಕೆಳಭಾಗದಲ್ಲಿರುವ **Rotate** ಟೂಲ್‌ ಉಪಯೋಗಿಸಿ.
+
+![ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಲಕ್ಕೆ ಮುಖಮಾಡುವಂತೆ ಮಾಡಲು ತಿರುಗುವ ಬಾಣಗಳನ್ನು ಎಳೆದು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಉಡುಪನ್ನು ಹೇಗೆ ತಿರುಗಿಸಬೇಕೆಂದು ತೋರಿಸುವ ಅನಿಮೇಟೆಡ್‌ ಚಿತ್ರ.](images/rotated-costume.gif)
+
+![ಆಯ್ಕೆ ಮಾಡಿದ ಮತ್ತು ಬಲಭಾಗಕ್ಕೆ ಮುಖಮಾಡಲು ತಿರುಗಿಸಿರುವ dragonfly ಉಡುಪು.](images/rotated-costume.png)
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
+--- task ---
+
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಈಗ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಹೇಗೆ ಚಲಿಸುತ್ತದೆ ಎಂದು ನೋಡಿ.
+
+--- /task ---
+
+ಡ್ರಾಗನ್‌ಫ್ಲೈ ರೆಕ್ಕೆಗಳು ಕಂಪಿಸಿದಾಗ ರೆಕ್ಕೆಬಡಿತದ ಶಬ್ದ ಮಾಡುತ್ತವೆ. Scratchನಲ್ಲಿ ನೀವು ನಿಮ್ಮದೇ ಧ್ವನಿಯನ್ನು ರಚಿಸಲು ಧ್ವನಿಯನ್ನು ಎಡಿಟ್‌ ಮಾಡಬಹುದು.
 
 --- task ---
 
-Add the **Crank** sound to the **Dragonfly** sprite.
+**Crank** ಧ್ವನಿಯನ್ನು **Dragonfly** ಸ್ಪ್ರೈಟ್‌ಗೆ ಸೇರಿಸಿ.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
+**Play** ಬಟನ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿ ನೀವು ಧ್ವನಿಯನ್ನು ಕೇಳಬಹುದು.
 
 --- /task ---
 
-The **Crank** sound is too long and too slow for dragonfly wings.
+**Crank** ಧ್ವನಿಯು ಡ್ರಾಗನ್‌ಫ್ಲೈ ರೆಕ್ಕೆಗಳಿಗೆ ಬಹಳ ಉದ್ದ ಮತ್ತು ನಿಧಾನವಾಗಿದೆ.
 
 --- task ---
 
-Select the end of the sound using your cursor or finger.
+ನಿಮ್ಮ ಕರ್ಸರ್‌ ಅಥವಾ ಬೆರಳನ್ನು ಉಪಯೋಗಿಸಿಕೊಂಡು ಧ್ವನಿಯ ಅಂತ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.
 
-Click **Copy to New** to make a new sound with just the selected part:
+ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡ ಭಾಗಕ್ಕಷ್ಟೆ ಹೊಸ ಧ್ವನಿಯನ್ನು ಮಾಡಲು **Copy to New** ಕ್ಲಿಕ್‌ ಮಾಡಿ:
 
-![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
+![ಆಯ್ಕೆ ಮಾಡಿದ crank ಧ್ವನಿಯ ತುದಿ ನೀಲಿ ಬಣ್ಣದಲ್ಲಿದೆ ಮತ್ತು 'Copy to New' ಐಕಾನ್‌ ಹೈಲೈಟ್‌ ಆಗಿದೆ.](images/crank-copy-end.png)
 
-Rename your new sound from **Crank2** to `Wings`.
+ನಿಮ್ಮ ಹೊಸ ಧ್ವನಿಯನ್ನು **Crank2**ದಿಂದ `Wings` ಎಂದು ಮರುನಾಮಕರಣ ಮಾಡಿ.
 
-![The rename sound property.](images/crank-wings-sound.png)
-
---- /task ---
-
---- task ---
-
-Play the new sound. Click the **Faster** button a few times until you like the result:
-
-![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
+![Sound ಗುಣಲಕ್ಷಣವನ್ನು rename‌ ಮಾಡಿ.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+ಹೊಸ ಧ್ವನಿಯನ್ನು ನುಡಿಸಿ. ಫಲಿತಾಂಶವು ನಿಮಗೆ ಇಷ್ಟವಾಗುವವರೆಗೆ ಕೆಲವು ಬಾರಿ **Faster** ಬಟನ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿ:
 
-![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+!['Faster' ಐಕಾನ್‌ ಹೈಲೈಟ್‌ ಮಾಡುವುದರೊಂದಿಗೆ ವೇಗದ ಧ್ವನಿ ತರಂಗ.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Now add a block to play the **Wings** sound when the dragonfly moves:
+ನಿಮಗಿಷ್ಟವಾದರೆ, ನೀವು **Wings** ಧ್ವನಿಯ ಅಂತ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು ಮತ್ತು ನಂತರ ಅದನ್ನು ತೆಗದುಹಾಕಲು **Delete** ಕ್ಲಿಕ್‌ ಮಾಡಬಹುದು:
+
+!['Delete' ಟೂಲ್‌ ಹೈಲೈಟ್‌ ಮಾಡುವುದರೊಂದಿಗೆ ಆಯ್ಕೆಮಾಡಿದ ಧ್ವನಿ ತರಂಗದ ಅಂತ್ಯ.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+ಈಗ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಚಲಿಸುವಾಗ **Wings** ಧ್ವನಿಯನ್ನು ನುಡಿಸಲು ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your dragonfly movement and sound effect.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಚಲನೆಯನ್ನು ಮತ್ತು ಧ್ವನಿಯ ಪರಿಣಾಮವನ್ನು ಪ್ರಯತ್ನಿಸಿ.
 
 --- /task ---
 

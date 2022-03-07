@@ -1,24 +1,24 @@
-## Grow to full-size
+## ಪೂರ್ಣ ಗಾತ್ರಕ್ಕೆ ಬೆಳೆಸಿರಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+ಡ್ರಾಗನ್‌ಫ್ಲೈ ನೋಣವನ್ನು ತಿಂದಾಗ ಅದು ಬೆಳೆಯುವಂತೆ ನೀವು ಮಾಡುತ್ತೀರಿ ಮತ್ತು ಅದು ಪೂರ್ಣ ಗಾತ್ರವನ್ನು ತಲುಪಿದರೆ ನಿಲ್ಲಿಸುತ್ತೀರಿ.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![Stage ಮೇಲಿನ ಪೂರ್ಣ-ಗಾತ್ರದ ಡ್ರಾಗನ್‌ಫ್ಲೈ 'I got to full size!' ಹೇಳುತ್ತಿರುವುದು.](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+ಜೀವಿಸಿರುವ ಅತ್ಯಂತ ದೊಡ್ಡ ಡ್ರಾಗನ್‌ಫ್ಲೈಗಳು ಮಧ್ಯ ಅಮೇರಿಕಾದಲ್ಲಿ ಕಂಡುಬರುತ್ತವೆ ಮತ್ತು ಅವುಗಳ ರೆಕ್ಕೆಗಳ ಅಗಲ 19ಸೆಂಮೀ ಇರುತ್ತದೆ (ನಿಮ್ಮ ಕೈಗಿಂತ ಸ್ವಲ್ಪ ದೊಡ್ಡದು). ಇದುವರೆಗೆ ತಿಳಿದಿರುವ ಅತಿದೊಡ್ಡ ಕೀಟವೆಂದರೆ <span style="color: #0faeb0">**ಮೆಗಾನ್ಯೂರೋಪ್ಸಿಸ್ ಪರ್ಮಿಯಾನಾ**</span>, ಸುಮಾರು 75ಸೆಂಮೀ ರೆಕ್ಕೆ ಅಗಲ ಹೊಂದಿರುವ ಡ್ರಾಗನ್‌ಫ್ಲೈ (ಒಂದು ದೊಡ್ಡ ಹೆಜ್ಜೆಗುರುತಿನ ಗಾತ್ರ).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+ನೊಣಕ್ಕೆ ಅದು ತಿನ್ನಲ್ಪಟ್ಟಿದೆ ಎಂದು ತಿಳಿದಿದೆ, ಮತ್ತು ಈಗ ಡ್ರಾಗನ್‌ಫ್ಲೈಗೆ ಅದು ತಿಳಿಯಬೇಕು, ಆಗ ಅದು ಬೆಳೆಯುತ್ತದೆ.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+ಎನಾದರೂ ಸಂಭವಿಸಿದೆ ಎಂದು ಇನ್ನೊಂದು ಸ್ಪ್ರೈಟ್‌ಗೆ ತಿಳಿಸಬೇಕೆಂದರೆ, ನೀವು `broadcast`{:class="block3events"} ಬ್ಲಾಕ್‌ನ್ನು [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}ರಲ್ಲಿ ಮಾಡಿದಂತೆ ಉಪಯೋಗಿಸಬಹುದು.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+`broadcast`{:class="block3events"} ಬ್ಲಾಕ್‌ನ್ನು **Insect** ಸ್ಪ್ರೈಟ್‌ಗೆ ಹೊಸ ಸಂದೇಶದೊಂದಿಗೆ `food`{:class="block3events"} ಸೇರಿಸಿ:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+**Dragonfly** ಸ್ಪ್ರೈಟ್‌ `food`{:class="block3events"} ಸಂದೇಶವನ್ನು ಸ್ವೀಕರಿಸಿದಾಗ ಅದು ಬೆಳೆಯಬೇಕು.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+**Dragonfly** ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು ಈ ಬರಹವನ್ನು ಸೇರಿಸಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+ಡ್ರಾಗನ್‌ಫ್ಲೈಗೆ **Chomp** ಧ್ವನಿಯನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಕೀಟವನ್ನು ತಿಂದಾಗ ಅದನ್ನು `start`{:class="block3sound"} ಮಾಡಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**ಪರೀಕ್ಷೆ:** ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬೆಳೆಯುವುದು ಮತ್ತು ಅದು ನೋಣವನ್ನು ತಿಂದಾಗ ಚಾಂಪ್‌ ಧ್ವನಿ ಮಾಡುತ್ತದೆಯೇ ಎಂದು ಪರೀಕ್ಷಿಸಲು ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ರನ್‌ ಮಾಡಿ.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+ಡ್ರಾಗನ್‌ಫ್ಲೈ ಅದರ ಪೂರ್ಣ ಗಾತ್ರವನ್ನು ತಲುಪಿದಾಗ, ಆಟವು ನಿಮಗೆ ಶುಭಾಶಯ ತಿಳಿಸುತ್ತದೆ ಮತ್ತು ನಿಂತು ಹೋಗುತ್ತದೆ.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+`if`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+`size`{:class="block3looks"} `=`{:class="block3operators"} `100%` ಆದಾಗ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಪೂರ್ಣ-ಗಾತ್ರದ್ದಾಗುತ್ತದೆ. ಮೊದಲಿಗೆ, `=`{:class="block3operators"} ಆಪರೇಟರ್‌ನ್ನು ಷಡ್ಭುಜಾಕೃತಿಯ ಇನ್‌ಪುಟ್‌ಗೆ ಸೇರಿಸಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+ಅಂತರ್ನಿರ್ಮಿತ `size`{:class="block3looks"} ವೇರಿಯೇಬಲ್‌ ಸೇರಿಸಿ ಷರತ್ತು ರಚನೆಯನ್ನು ಮುಗಿಸಿ ಮತ್ತು ಮೌಲ್ಯ `100`ನ್ನು ಟೈಪ್‌ ಮಾಡಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ `if`{:class="block3control"} ಷರತ್ತು ಸರಿ ಆದರೆ `then`{:class="block3control"} ಡ್ರಾಗನ್‌ಫ್ಲೈ 'end' ಸಂದೇಶ `broadcast`{:class="block3events"} ಮಾಡುತ್ತದೆ ಮತ್ತು `say`{:class="block3looks"} `I got to full size!`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+ಅಂತಿಮವಾಗಿ, ಉಳಿದ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬರಹಗಳನ್ನು ನಿಲ್ಲಿಸಲು `stop all`{:class="block3control"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+ಈ ಸಮಯದಲ್ಲಿ, ಪ್ರಾಜೆಕ್ಟ ಮುಗಿದ ನಂತರವೂ ನೊಣ ಚಲಿಸುತ್ತದೆ. ಈ ಬರಹವನ್ನು **Insect** ಸ್ಪ್ರೈಟ್‌ಗೆ ಸೇರಿಸಿ.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಪೂರ್ಣ-ಗಾತ್ರ ತಲುಪುವವರೆಗೆ ನೊಣಗಳನ್ನು ತಿನ್ನುತ್ತಲೇ ಇರಿ.
 
 --- /task ---
 

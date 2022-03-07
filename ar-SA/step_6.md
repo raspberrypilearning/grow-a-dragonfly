@@ -1,58 +1,58 @@
-## More food
+## المزيد من الطعام
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly needs a choice of insects.
+يحتاج اليعسوب إلى مجموعة من الحشرات ليختار منها.
 </div>
 <div>
-![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
+![المنصة مع حشرتين واليعسوب.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it.
+انقر بزر الماوس الأيمن فوق الكائن **Insect** في قائمة الكائنات أسفل المنصة و اختر **مضاعفة**.
 
-![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
-
---- /task ---
-
-It's helpful if this insect looks different to the fly.
-
---- task ---
-
-Click on the **Costumes** tab.
-
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
+![قائمة الكائنات مع كائن الحشرات و"مضاعفة" محدَّدةً في القائمة.](images/duplicate-insect.png)
 
 --- /task ---
 
-The insect gets eaten even if it touches the dragonfly's wing or tail.
-
-To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+من المفيد أن تبدو هذه الحشرة مختلفة عن الذبابة.
 
 --- task ---
 
-Select the **Dragonfly** sprite and click on the **Costumes** tab.
+انقر فوق علامة التبويب **الأزياء**.
 
-Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
-
-![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
+**اختر:** اصنع حشرةً طائرةً مختلفة.
++ يمكنك استخدام **ملء** لتغيير لون هذه الحشرة
++ **ارسم** الحشرات الخاص بك
++ **أضف** مظهر حشرة آخر من Scratch
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+يأكل اليعسوب الحشرة حتى لو لامست جناحه أو ذيله.
+
+لنجعل تطبيقنا أكثر واقعية، أصلح هذا الأمر بحيث يتم أكل الحشرة فقط من فم اليعسوب. يمكنك استخدام كتلة `ملامس للون`{:class="block3sensing"} حتى لا تؤكل الحشرة إلا إذا كانت تلامس لونًا معينًا على كائن **Dragonfly**.
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+حدد كائن ** Dragonfly ** وانقر فوق علامة التبويب **المظاهر**.
 
-Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block.
+استخدم أداة التعبئة لملء فم كائن اليعسوب **Dragonfly**. استخدمنا اللون الأرجواني (البنفسجي):
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+![محرر الرسام مع تحديد أداة ملء ومظهر اليعسوب بفم أرجواني.](images/dragonfly-mouth-colour.png)
+
+--- /task ---
+
+تحتاج إلى التحقق من أن كائن الحشرة **Insect2** يلامس كائن اليعسوب **Dragonfly** `و`{:class="block3operators"} يلامس لون فم اليعسوب.
+
+--- task ---
+
+حدد كائن ** Insect2 ** وانقر فوق علامة التبويب **المقاطع البرمجية**.
+
+اسحب كتلة `و`{:class="block3operators"} إلى الكتلة `إذا`{:class="block3control"}.
+
+ستظهر الكتلة `<touching [Dragonfly v] ?>`{:class="block3sensing"}، اسحبها إلى يسار كتلة `و`{:class="block3operators"}:
 
 ![](images/insect2-icon.png)
 
@@ -75,7 +75,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
+اسحب كتلة `ملامس للون`{:class="block3sensing"} إلى يمين الكتلة `و`:class="block3operators"}:
 
 ![](images/insect2-icon.png)
 
@@ -94,23 +94,23 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+إذا لم يتم تحديد لون فم اليعسوب، فانقر فوق دائرة اللون ثم انقر فوق أداة **القطارة** لتحديد اللون.
 
-![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
+![قائمة دائرة الألوان باستخدام أداة القطارة.](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+انقر على فم اليعسوب على المنصة لضبط اللون المناسب:
 
-![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
+![أداة القطارة مع أداة تمييز الألوان فوق الفم الأرجواني لليعسوب.](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**نصيحة:** إذا كان هذا صعبًا، فقم بتغيير حجم كائن اليعسوب **Dragonfly** حتى يكون كبيرًا جدًّا.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth.
+**اختبار:** الآن اختبر أن اليعسوب لا يمكنه أكل الحشرة الثانية إلا بفمه.
 
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+إذا أردت، يمكنك تغيير أول حشرة ** Insect** بحيث لا يمكن أكلها إلا بفم اليعسوب.
 
 --- /task ---
 

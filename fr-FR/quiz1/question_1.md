@@ -1,23 +1,23 @@
-## Reflection
+## Réflexion
 
-Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm!
+Bravo, tu as créé une application sur la nature avec une libellule contrôlée par l'utilisateur et des insectes qui suivent un algorithme !
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+Tu as utilisé les blocs `Événements`{:class="block3events"}, `Contrôle`{:class="block3control"}, `Capteurs`{:class="block3sensing"}, `Opérateurs`{:class="block3operators"}, `Mouvement`{:class="block3motion"}, `Apparence`{:class="block3looks"}, et `Son`{:class="block3sound"} !
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Maintenant, il est temps de réfléchir - la réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
 
-Answer the three questions below to reflect on what you've learned.
+Réponds aux trois questions ci-dessous pour réfléchir sur ce que tu as appris.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Après chaque question, appuie sur Soumettre. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend : Question 1 sur 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Un projet utilise le sprite **Crabe** et le sprite **Méduse**. Le sprite **Crabe** contient ce code :
 
 ![desc](images/crab-icon.png)
 
@@ -28,39 +28,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+Que devrait-il se passer pour que le sprite **Crabe** se cache ?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () Le sprite **Crabe** aurait besoin de toucher la **Méduse**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ Non, le bloc `si`{:class="block3control"} a une condition `Capteurs`{:class="block3sensing"}, mais il n'utilise pas le bloc `touche la Méduse`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) Le sprite **Crabe** ne devrait pas toucher la couleur bleue
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Oui, l'opérateur `non`{:class="block3operators"} signifie que la condition est vraie `si`{:class="block3control"} le sprite **Crabe** ne `touche`{:class="block3sensing"} pas la couleur bleue.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () Le sprite **Crabe** devrait toucher la couleur bleue
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ Pas tout à fait, regarde attentivement l'`opérateur`{:class="block3operators"} dans la condition.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) Le sprite **Crabe** sera toujours `caché`{:class="block3looks"} `quand le drapeau vert est cliqué`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ Non, il y a un bloc `si`{:class="block3control"} dans le code du sprite **Crabe** donc il ne se cachera que si la condition est remplie.
 
  --- /feedback ---
 

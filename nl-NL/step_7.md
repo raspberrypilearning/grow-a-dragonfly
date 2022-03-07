@@ -1,19 +1,19 @@
-## Random insect movement
+## Willekeurige beweging van insecten
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+De insecten in je app bewegen in een zeer voorspelbaar patroon, maar in het echte leven zijn ze moeilijk te vangen. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+Je gebruikt het `willekeurig getal tussen`{:class="block3operators"} blok om het insect op een meer natuurlijke manier te laten bewegen.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![Speelveldmet insecten die in verschillende richtingen wijzen.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+Voeg een script toe aan **Insect 2** zodat het elke 1 tot 3 seconden in een willekeurige richting wijst.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**Test:** Test je project en bekijk hoe de insecten vliegen. Probeer de getallen te veranderen om het gewenste effect te krijgen.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+Je kunt dit script ook naar de sprite **Insect** slepen, zodat het ook willekeurig beweegt.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+Verander de insecten totdat ze zich gedragen zoals jij dat wilt.
 
-Make changes until you are happy with your project.
+Je kunt het aantal stappen dat ze `verplaatsen`{:class="block3motion"} wijzigen om ze sneller of langzamer te maken.
+
+Je kunt ook de snelheid van de libel veranderen.
+
+--- /task ---
+
+--- task ---
+
+Je kunt ook de grootte wijzigen die de libel nodig heeft om te groeien om de volledige grootte te bereiken.
+
+Breng wijzigingen aan totdat je tevreden bent met jouw project.
 
 --- /task ---
 

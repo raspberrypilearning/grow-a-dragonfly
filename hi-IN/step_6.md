@@ -1,58 +1,58 @@
-## More food
+## अधिक भोजन
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly needs a choice of insects.
+ड्रैगनफ्लाई को कीड़ों के विकल्प की आवश्यकता होती है।
 </div>
 <div>
-![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
+![ दो कीड़ों और ड्रैगनफ्लाई के साथ Stage।](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it.
+Stage के तहत Sprite सूची में **Insect** स्प्राइट पर राइट-क्लिक करें और **duplicate** करें ।
 
-![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
-
---- /task ---
-
-It's helpful if this insect looks different to the fly.
-
---- task ---
-
-Click on the **Costumes** tab.
-
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
+![मेनू में कीट स्प्राइट के साथ Sprite सूची चयनित और 'डुप्लिकेट' हाइलाइट किया गया।](images/duplicate-insect.png)
 
 --- /task ---
 
-The insect gets eaten even if it touches the dragonfly's wing or tail.
-
-To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+यह मददगार होगा अगर यह कीट मक्खी से अलग दिखता है।
 
 --- task ---
 
-Select the **Dragonfly** sprite and click on the **Costumes** tab.
+**Costumes** टैब पर क्लिक करें।
 
-Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
-
-![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
+**चयन करें:** एक उड़ने वाला अलग कीट बनाएं।
++ इस कीट का रंग बदलने के लिए **Fill**> टूल का उपयोग करें
++ अपनी खुद की कीट पोशाक **Paint** करें
++ Scratch से और बग पोशाक **Add** करें
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+अगर कीट ड्रैगनफ्लाई के पंख या पूंछ को छूता भी है तो ड्रैगनफ्लाई उसे खा जाती है।
+
+अपने ऐप को और अधिक यथार्थवादी बनाने के लिए, इसे ठीक करें ताकि ड्रैगनफ्लाई कीट को मूँह से खाए। आप `touching color`{:class="block3sensing"} ब्लॉक का उपयोग कर सकते हैं ताकि कीट केवल तभी खाए जब वह **Dragonfly**पर किसी विशेष रंग को छूता है।
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+**Dragonfly** स्प्राइट चुनें और **Costumes** टैब पर क्लिक करें।
 
-Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block.
+**Dragonfly** का मुंह भरने के लिए fill tool का उपयोग करें। हमने बैंगनी का इस्तेमाल किया:
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+![Fill टूल के साथ Paint एडिटर चयनित और बैंगनी मुंह वाली ड्रैगनफ्लाई पोशाक।](images/dragonfly-mouth-colour.png)
+
+--- /task ---
+
+आपको यह जांचना होगा कि **Insect2** स्प्राइट **Dragonfly** स्प्राइट `and`{:class="block3operators"} ड्रैगनफ्लाई के मुंह के रंग को छू रहा है।
+
+--- task ---
+
+**Insect2** स्प्राइट चुनें और **Code** टैब पर क्लिक करें।
+
+`and`{:class="block3operators"} ब्लॉक को `if`{:class="block3control"} ब्लॉक में खीचें।
+
+`<touching [Dragonfly v] ?>`{:class="block3sensing"} ब्लॉक पॉप आउट हो जाएगा, इसे `and`{:class="block3operators"} ब्लॉक के बाईं ओर खीचें:
 
 ![](images/insect2-icon.png)
 
@@ -75,7 +75,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
+`touching color`{:class="block3sensing"} ब्लॉक को `and`{:class="block3operators"} ब्लॉक के दाईं ओर खींचें:
 
 ![](images/insect2-icon.png)
 
@@ -94,23 +94,23 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+अगर इसमें ड्रैगनफ्लाई के मुंह का रंग नहीं चुना गया है, तो रंग सर्कल पर क्लिक करें और फिर रंग चुनने के लिए **Eyedropper** टूल पर क्लिक करें।
 
-![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
+![आईड्रॉपर टूल के साथ कलर सर्कल मेन्यू।](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+रंग को मिलान के लिए सेट करने के लिए Stage पर ड्रैगनफ्लाई के मुंह पर क्लिक करें:
 
-![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
+![ड्रैगनफ्लाई के बैंगनी मुंह पर मँडराते हुए कलर सिलेक्ट हाइलाइटर के साथ आईड्रॉपर टूल।](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**सलाह:** यदि ऐसा करना मुश्किल है, तो **Dragonfly** स्प्राइट का आकार बदलें ताकि यह वास्तविक रूप से बड़ा हो जाए।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth.
+**परीक्षण:** अब परीक्षण करें कि ड्रैगनफ्लाई केवल दूसरे कीट को अपने मुंह से खा सकती है।
 
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+आप चाहें तो पहले **Insect** को बदल सकते हैं ताकि इसे केवल ड्रैगनफ्लाई के मुंह से ही खाया जा सके।
 
 --- /task ---
 

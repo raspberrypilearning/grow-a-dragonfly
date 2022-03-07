@@ -1,42 +1,42 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Ερώτηση 3 από 3
 ---
 
-In your project, you used `pick random`{:class="block3operators"} blocks to move the **Insect** sprite in a natural, unpredictable flying pattern.
+Στο έργο σου, χρησιμοποίησες μπλοκ `επίλεξε τυχαία`{:class="block3operators"} για να μετακινήσεις το αντικείμενο **Έντομο** σε ένα φυσικό, απρόβλεπτο μοτίβο πτήσης.
 
-Which `pick random`{:class="block3operators"} block could give the number `10`?
+Ποιο μπλοκ `επίλεξε τυχαία`{:class="block3operators"} θα μπορούσε να δώσει τον αριθμό `10`;
 
 --- choices ---
 
 - ( )
 
-`pick random [0] to [9]`{:class="block3operators"}
+`επίλεξε τυχαία [0] έως [9]`{:class="block3operators"}
 
   --- feedback ---
 
-  No, this block can give you any of the numbers from 0 up to 9.
+  Όχι, αυτό το μπλοκ μπορεί να σου δώσει οποιονδήποτε αριθμό από το 0 έως το 9.
 
   --- /feedback ---
 
 - ( )
 
-`pick random [20] to [100]`{:class="block3operators"}
+`επίλεξε τυχαία [20] έως [100]`{:class="block3operators"}
 
   --- feedback ---
 
-No the smallest number this block can give you is 20.
+Όχι, ο μικρότερος αριθμός που μπορεί να σου δώσει αυτό το μπλοκ είναι το 20.
 
   --- /feedback ---
 
 - (x)
 
-`pick random [1] to [50]`{:class="block3operators"}
+`επίλεξε τυχαία [1] έως [50]`{:class="block3operators"}
 
   --- feedback ---
 
-Yes, this block can give you numbers from 1 up to 50, which includes 10.
+Ναι, αυτό το μπλοκ μπορεί να σου δώσει αριθμούς από το 1 έως το 50, το οποίο περιλαμβάνει το 10.
 
   --- /feedback ---
 

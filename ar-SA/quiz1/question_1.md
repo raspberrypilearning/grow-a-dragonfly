@@ -1,23 +1,23 @@
-## Reflection
+## تفكير
 
-Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm!
+أحسنت صنعًا، لقد أنشأت تطبيقًا للطبيعة باستخدام اليعسوب الذي يتحكم فيه المستخدم، وحشرات تتبع خوارزمية!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+قمت باستخدام كتل `الاحداث`{:class="block3events"}، `التحكم`{:class="block3control"}، `الاستشعار`{:class="block3sensing"}، `العمليات`{:class="block3operators"}، `الحركة`{:class="block3motion"}، `الهيئة`{:class="block3looks"}، and `الصوت`{:class="block3sound"}!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+الآن، حان وقت التفكير - التفكير جزء مهم من التعلم، لأنه يساعد في إنشاء روابط جديدة في عقلك.
 
-Answer the three questions below to reflect on what you've learned.
+أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+بعد كل سؤال، اضغط على إرسال. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
 
-Have fun!
+استمتع!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: السؤال 1 من 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+يستخدم المشروع كائن**Crab** وكائن **Jellyfish**. يحتوي الكائن **Crab** على هذا الرمز البرمجي:
 
 ![desc](images/crab-icon.png)
 
@@ -28,39 +28,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+ما الذي يجب أن يحدث لكائن **Crab** لإخفائه؟
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () سيحتاج الكائن **Crab** إلى لمس كائن **Jellyfish**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ لا، كتلة `إذا`{:class="block3control"} تحتوي على شرط `تحسس`{:class="block3sensing"}، لكنها لا تستخدم كتلة Jellyfish `ملامس لـ`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) يجب ألا يلامس الكائن **Crab** اللون الأزرق
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+نعم، العملية `ليس`{:class="block3operators"} يعني أن الشرط صحيح `إذا`{:class="block3control"} كان الكائن **Crab** لا `يلامس`{:class="block3sensing"} اللون الازرق.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () يجب أن يلامس الكائن **Crab** اللون الأزرق
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ ليس تمامًا، انظر عن كثب إلى `العملية`:class="block3operators"} المستخدمة في الشرط.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- () سيخفي الكائن **Crab** دائمًا ``{:class="block3looks"} `عند نقر العلم`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ لا، هناك كتلة `إذا`{:class="block3control"} في الشفرة البرمجية لكائن**Crab** لذلك ستختفي فقط إذا تحقق الشرط.
 
  --- /feedback ---
 

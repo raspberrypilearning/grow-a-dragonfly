@@ -1,24 +1,24 @@
-## Grow to full-size
+## पूर्ण आकारात वाढवा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+ड्रॅगनफ्लाय जेव्हा माशी खाईल तेव्हा तुम्ही वाढवाल आणि पूर्ण आकारात पोहोचल्यास थांबाल.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![Stage वरील पूर्ण आकाराचा ड्रॅगनफ्लाय म्हणत आहे, 'मला पूर्ण आकार मिळाला!'.](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+सर्वात मोठे जिवंत ड्रॅगनफ्लाय मध्य अमेरिकेमध्ये आढळू शकतात आणि त्यांच्या पंखांचा आकार 19 सेमी असतो (तुमच्या हातापेक्षा थोडासा मोठा). सर्वात मोठी कीटक ज्याला ओळखले जात होते <span style="color: #0faeb0">**मेगान्युरोसीस पर्मियाना**</span>, तो 75 सेमी पंख असलेला ड्रॅगनफ्लाय आहे (मोठ्या पावलाचा आकार).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+माशीला तीला खाल्ले गेले आहे हे माहिती आहे, आणि आता ड्रॅगनफ्लायला ते माहिती असावे जेणेकरून तो वाढेल.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+तुम्हाला दुसऱ्या स्प्राईटला काहीतरी घडले हे माहिती करून द्यायचे असल्यास, तुम्ही `broadcast`{:class="block3events"} ब्लॉक वापरू शकता जसेकी तुम्ही [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"} मध्ये केलेत.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+`broadcast`{:class="block3events"} ब्लॉक **Insect** sprite मध्ये जोडा`food`{:class="block3events"} या मेसेजसह:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+**Dragonfly** sprite वाढायला हवा जेव्हा त्याला`food`{:class="block3events"} मेसेज मिळतो.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+**Dragonfly** sprite निवडा आणि या स्क्रिप्टला जोडा:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+ड्रॅगनफ्लायला **Chomp** साऊंड जोडा आणि कीटक खाल्ला गेल्यावर `start`{:class="block3sound"} करा:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**चाचणी:** ड्रॅगनफ्लाय वाढतो आणि त्याने माशी खाल्ल्यावर तो chomp साऊंड करतो याची चाचणी करण्यासाठी तुमचा प्रोजेक्ट रन करा.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+ड्रॅगनफ्लाय जेव्हा पूर्ण आकारात पोहोचेल, गेम तुमचे अभिनंदन करेल आणि थांबेल.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+`if`{:class="block3control"} ब्लॉक जोडा.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+ड्रॅनगफ्लाय पूर्ण आकारात जातो जेव्हा `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. प्रथम, षटकोन-आकाराच्या इनपुटमध्ये `=`{:class="block3operators"} ऑपरेटर जोडा:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+बिल्ट-इन `size`{:class="block3looks"} व्हेरिएबल जोडून आणि व्हॅल्यू `100` टाई करून स्थिती तयार करणे पूर्ण करा:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+ब्लॉक्स जोडा जेणेकरून `if`{:class="block3control"} स्थिती बरोबर असेल `then`{:class="block3control"} ड्रॅगनफ्लाय `broadcast`{:class="block3events"} करेल 'end' मेसेज आणि `say`{:class="block3looks"} `मला पूर्ण आकार मिळाला!`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+शेवटी, `stop all`{:class="block3control"} ब्लॉक जोडा इतर ड्रॅगनफ्लाय स्क्रिप्ट थांबविण्यासाठी:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+या क्षणी, प्रोजेक्ट संपल्यानंतरही माशी फिरते. **Insect** sprite ला ही स्क्रिप्ट जोडा.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**चाचणी:** हिरव्या झेंड्यावर क्लिक करा आणि ड्रॅगनफ्लाय पूर्ण-आकारात पोहोचेपर्यंत माशा खाणे चालू ठेवा.
 
 --- /task ---
 

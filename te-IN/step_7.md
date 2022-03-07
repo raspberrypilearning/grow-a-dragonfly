@@ -1,19 +1,19 @@
-## Random insect movement
+## యాదృచ్ఛికంగా కీటకాల కదలిక
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+మీ యాప్‌లోని కీటకాలు చాలా వరకు ఊహాజనిత నమూనాలో కదులుతాయి, కానీ నిజ జీవితంలో వాటిని పట్టుకోవడం కష్టం. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+కీటకాన్ని మరింత సహజమైన రీతిలో తరలించడానికి మీరు `pick random`{:class="block3operators"} బ్లాక్‌ని ఉపయోగిస్తారు.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![వివిధ దిశలలో కీటకాలను చూపుతున్న Stage](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+ప్రతి 1-3 సెకన్లకు యాదృచ్ఛిక దిశలో పాయింట్ చేయడానికి **Insect 2** కి స్క్రిప్ట్‌ను జోడించండి.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**పరీక్ష:** మీ ప్రాజెక్ట్‌ని అమలు చేయండి మరియు ఈగ ఎలా కదులుతుందో చూడండి. మీకు కావలసిన ప్రభావాన్ని పొందడానికి సంఖ్యలను మార్చడానికి ప్రయత్నించండి.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+మీరు ఈ స్క్రిప్ట్‌ను **Insect** sprite కి కూడా డ్రాగ్ చేయవచ్చు, తద్వారా ఇది కూడా యాదృచ్ఛికంగా కదులుతుంది.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+కీటకాలు మీరు కోరుకున్న విధంగా ప్రవర్తించే వరకు వాటిని మార్చండి.
 
-Make changes until you are happy with your project.
+అవి `move`{:class="block3motion"} అడుగుల సంఖ్యను మీరు మార్చవచ్చు తద్వారా వాటిని వేగంగా లేదా నెమ్మదిగా చేయడానికి.
+
+మీరు తూనీగ వేగాన్ని కూడా మార్చవచ్చు.
+
+--- /task ---
+
+--- task ---
+
+డ్రాగన్‌ఫ్లై పూర్తి పరిమాణాన్ని చేరుకోవడానికి పెరగాల్సిన పరిమాణాన్ని కూడా మీరు మార్చవచ్చు.
+
+మీరు మీ ప్రాజెక్ట్‌తో సంతృప్తిగా అయ్యే వరకు మార్పులు చేయండి.
 
 --- /task ---
 

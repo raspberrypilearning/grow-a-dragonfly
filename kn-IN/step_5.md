@@ -1,21 +1,21 @@
-## Improved movement
+## ಸುಧಾರಿತ ಚಲನೆ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+ಮೌಸ್-ಪಾಯಿಂಟರ್‌ ಡ್ರಾಗನ್‌ಫ್ಲೈಯನ್ನು ಸ್ಪರ್ಶಿಸಿದರೆ ಡ್ರಾಗನ್‌ಫ್ಲೈ ʼಹಠಾತ್‌ ನಿಲ್ಲುತ್ತದೆʼ ಮತ್ತು ದಿಕ್ಕನ್ನು ಬಹಳ ವೇಗವಾಗಿ ಬದಲಾಯಿಸುತ್ತದೆ. ಇದನ್ನು ಸರಿಪಡಿಸಲು ನೀವು ಇನ್ನೊಂದು ಷರತ್ತನ್ನು ಪರಿಶೀಲಿಸುತ್ತೀರಿ.
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![ಕೀಟ ಮತ್ತು ಡ್ರಾಗನ್‌ಫ್ಲೈ ತೋರಿಸುತ್ತಿರುವ Stage.](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+**Dragonfly**ನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು `when flag clicked`{:class="block3events"}ದಿಂದ ಶುರುವಾಗುವ ಬರಹವನ್ನು ಹುಡುಕಿ.
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+`if`{:class="block3control"}ನ್ನು `forever`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಎಳೆಯಿರಿ ಮತ್ತು `forever`{:class="block3control"} ಒಳಗಿರುವ ಬ್ಲಾಕ್‌ಗಳು `if`{:class="block3control"} ಒಳಗೆ ಚಲಿಸುತ್ತವೆ.
 
-Check carefully that your code looks like this:
+ನಿಮ್ಮ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ ಎಂಬುವುದನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಪರಿಶೀಲಿಸಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -30,13 +30,13 @@ move [5] steps
 end
 end
 ```
---- /task ---
+--- /ಕಾರ್ಯ ---
 
---- task ---
+--- ಕಾರ್ಯ ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+ನಂತರ `not`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಒಳಗೆ ಎಳೆಯಿರಿ ಮತ್ತು `touching (mouse-pointer)`{:class="block3sensing"} ನ್ನು ಅದರೊಳಗೆ ಎಳೆಯಿರಿ.
 
-Check that your code looks like this:
+ನಿಮ್ಮ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ ಎಂಬುವುದನ್ನು ಪರಿಶೀಲಿಸಿ:
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+ವಾಕ್ಯದಲ್ಲಿ ಹೇಗೆ ಮಾಡುತ್ತದೆಯೋ ಹಾಗೆ `not`{:class="block3operators"} ಬ್ಲಾಕ್‌ ಷರತ್ತನ್ನು ಅದರ ವಿರುದ್ಧಕ್ಕೆ ಪರಿವರ್ತಿಸುತ್ತದೆ.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**ಪರೀಕ್ಷೆ:** ಹಠಾತ್ ನಿಲ್ಲುವಿಕೆ ಸರಿಯಾಗಿದೆಯೇ ಮತ್ತು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಅದು `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"} ಆದಾಗ ಮಾತ್ರ ಚಲಿಸುತ್ತದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ.
 
-A different condition to try is:
+ಪ್ರಯತ್ನಿಸಲು ಬೇರೆ ಷರತ್ತು:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+ಇದು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಮೌಸ್-ಪಾಯಿಂಟರ್‌ನಿಂದ ಸಾಕಷ್ಟು ದೂರದಲ್ಲಿರುವಾಗಲೇ ಅದು ಚಲಿಸುವಂತೆ ಮಾಡುತ್ತದೆ.
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**ಸಲಹೆ:** ನೀವು ಬೇರೆ ಸಂಗತಿಗಳನ್ನು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಾಗ ಬ್ಲಾಕ್‌ಗಳನ್ನು Code ಪ್ರದೇಶದಲ್ಲಿ ಎಲ್ಲಿಯಾದರೂ ಎಳೆದು ಅವುಗಳನ್ನು ಅಲ್ಲಿಯೇ ಬಿಡಬಹುದು.
 
 --- /task ---
 

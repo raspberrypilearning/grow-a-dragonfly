@@ -1,10 +1,10 @@
-## What next?
+## ¿Qué sigue?
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+Si estás siguiendo el camino [Más scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), puedes continuar con el proyecto [Drum star](https://projects.raspberrypi.org/en/projects/drum-star). En este proyecto, harás un juego interactivo en el que ganarás ritmos para tocar nuevos tambores en lugares más grandes.
 
 --- print-only ---
 
-![The Stage view of completed drum star project.](images/drum-star.png)
+![La vista del Escenario del proyecto estrella del tambor terminado.](images/drum-star.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Si quieres divertirte más explorando Scratch, puedes probar cualquiera de [estos proyectos](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

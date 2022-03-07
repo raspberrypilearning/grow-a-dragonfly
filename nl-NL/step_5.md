@@ -1,21 +1,21 @@
-## Improved movement
+## Verbeterde beweging
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+De libel 'hapert' en verandert heel snel van richting als de muisaanwijzer de libel aanraakt. Je gaat een andere voorwaarde proberen om dit op te lossen.
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![Het speelveld toont een insect en een libel.](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+Selecteer de **libel** en zoek het script dat begint met `wanneer op de vlag wordt geklikt`{:class="block3events"}.
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+Sleep een `als`{:class="block3control"} blok binnen in het `herhaal`{:class="block3control"} blok en de blokken binnen het `herhaal`{:class="block3control"} blok zullen naar binnenin het `als` blok verplaatsen {:class="block3control"}.
 
-Check carefully that your code looks like this:
+Controleer zorgvuldig of je code er als volgt uitziet:
 
 ![](images/dragonfly-icon.png)
 
@@ -34,9 +34,9 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+Sleep vervolgens een `niet`{:class="block3operators"} blok naar het `als`{:class="block3control"} blok en een `raak ik (muiswijzer)`{:class="block3sensing"} blok daarin.
 
-Check that your code looks like this:
+Kijk eerst of de code er zo uitziet:
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+Het `niet`{:class="block3operators"} blok verandert een voorwaarde in zijn tegenovergestelde, net zoals in een zin.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**Test:** Controleer of de hapering is verholpen en dat de libel alleen beweegt als hij `niet`{:class="block3operators"} `de (muisaanwijzer) aanraakt`{:class="block3sensing"}.
 
-A different condition to try is:
+Een andere voorwaarde om te proberen is:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+Dit zorgt ervoor dat de libel beweegt wanneer deze ver genoeg van de muisaanwijzer verwijderd is.
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**Tip:** Je kunt blokken overal in het codegebied slepen en daar laten terwijl je verschillende dingen probeert.
 
 --- /task ---
 

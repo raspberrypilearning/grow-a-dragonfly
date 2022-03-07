@@ -1,41 +1,41 @@
-## Upgrade your project
+## प्रोजेक्ट को अपग्रेड करें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+इस चरण में, अपने प्रोजेक्ट के दिखने और व्यवहार करने के तरीके को बदलते हुए और अधिक कीड़े जोड़ने का प्रयास करें।
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![तीन अलग-अलग प्रकार के कीट और ड्रैगनफ्लाई दिखाने वाला Stage।](images/upgrad-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### अधिक कीड़े जोड़ें
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+अधिक कीड़े जोड़ें आपको उन्हें तेजी से आगे चलाने की आवश्यकता हो सकती है, ताकि ड्रैगनफ्लाई के लिए उनको पकड़ना कठिन हो जाए।
 
-You can paint your own insects or trying adding an emoji mosquito!
+आप अपने स्वयं के कीड़ों को पेंट कर सकते हैं या इमोजी मच्छर जोड़ने का प्रयास कर सकते हैं!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+**Mosquito emoji** स्प्राइट जोड़ने के लिए इमोजी कीबोर्ड का उपयोग करें।
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+मौजूदा **insect** स्प्राइट को डुप्लिकेट करें और फिर **Costumes** टैब पर क्लिक करें। एक नई पोशाक**Paint** करें और **Text** का चयन करें । टेक्स्ट टाइप करने के बजाय, अपने ऑपरेटिंग सिस्टम के लिए इमोजी कीबोर्ड शॉर्टकट का उपयोग करें:
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows- Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![पॉपअप इमोजी कीबोर्ड को 'जानवरों और प्रकृति' श्रेणी के साथ चुना गया है।](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Paint एडिटर में डालने के लिए **Mosquito** इमोजी चुनें। अपने मच्छर को तब तक केन्द्रित करने, उसका आकार बदलने और घुमाने के लिए **Select** (तीर) टूल का उपयोग करें जब तक कि आप इससे खुश न हों।
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![Paint एडिटर में mosquito इमोजी।](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**सलाह:** इमोजी अलग-अलग कंप्यूटर पर अलग दिख सकते हैं, इसलिए हो सकता है कि वे टैबलेट और डेस्कटॉप कंप्यूटर पर एक जैसे न दिखें। कुछ कंप्यूटर पर कुछ इमोजी उपलब्ध नहीं हैं, लेकिन अधिकांश आधुनिक कंप्यूटर उनको दिखा पाएँगे।
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+अपने दोस्तों के साथ उनके 'ग्रो ए ड्रैगनफ्लाई' प्रोजेक्ट से कीड़ों का व्यापार करने के लिए अपने Backpack का उपयोग करें।
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**सलाह:** जांचें कि आपके सभी स्प्राइट्स और परिधानों में नाम व्यावहारिक हैं। यदि आप बाद में इस पर वापस आते हैं तो यह आपके प्रोजेक्ट को समझने में आसान बनाता है।
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**सलाह:** सुनिश्चित करें कि आपका कोड Code क्षेत्र में करीने से रखा गया है । Code क्षेत्र पर राइट-क्लिक करें और अपने कोड को Scratch द्वारा ठीक कराने के लिए **Clean up Blocks** चुनें।
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: पूरा किया हुआ प्रोजेक्ट।
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+आप [पूर्ण किए गये प्रोजेक्ट को यहां](https://scratch.mit.edu/projects/521688740/){:target="_blank"} देख सकते हैं।
 
 --- /collapse ---
 

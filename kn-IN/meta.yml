@@ -1,30 +1,30 @@
 ---
-title: Grow a dragonfly
-hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+title: ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬೆಳೆಸಿ
+hero_image: images / banner.png
+description: ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡುವ ಸೊಳ್ಳೆಗಳನ್ನು ಮತ್ತು ಇತರ ಕೀಟಗಳನ್ನು ತಿನ್ನುತ್ತ ದೊಡ್ಡದಾಗಿ ಬೆಳೆಯುವ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಮಾಡಿ.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-04-27"
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Set the scene
+    title: ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಿ
   - 
-    title: A fly to eat
+    title: ತಿನ್ನಲು ಒಂದು ನೊಣ
     completion: engaged
   - 
-    title: Grow to full-size
+    title: ಪೂರ್ಣ ಗಾತ್ರಕ್ಕೆ ಬೆಳೆಸಿರಿ
   - 
-    title: Improved movement
+    title: ಸುಧಾರಿತ ಚಲನೆ
   - 
-    title: More food
+    title: ಇನ್ನಷ್ಟು ಆಹಾರ
   - 
-    title: Random insect movement
+    title: ಯಾದೃಚ್ಛಿಕ ಕೀಟ ಚಲನೆ
     completion: internal
   - 
-    title: Reflection
+    title: ಪುನರ್ಮನನ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?

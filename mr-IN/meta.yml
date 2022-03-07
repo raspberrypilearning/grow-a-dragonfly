@@ -1,30 +1,30 @@
 ---
-title: Grow a dragonfly
+title: ड्रॅगनफ्लाय वाढवा
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+description: एक ड्रॅगनफ्लाय बनवा जो मोठा होतो कारण तो त्रासदायक डास आणि इतर कीटक खातो.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-04-27"
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Set the scene
+    title: दृश्य सेट करा
   - 
-    title: A fly to eat
+    title: खाण्यासाठी एक माशी
     completion: engaged
   - 
-    title: Grow to full-size
+    title: पूर्ण आकारात वाढवा
   - 
-    title: Improved movement
+    title: सुधारित हालचाल
   - 
-    title: More food
+    title: अधिक अन्न
   - 
-    title: Random insect movement
+    title: कीटकाची कुठेही हालचाल
     completion: internal
   - 
-    title: Reflection
+    title: परावर्तन
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: तुमचा प्रोजेक्ट अपग्रेड करा
   - 
-    title: What next?
+    title: पुढे काय?

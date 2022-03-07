@@ -1,41 +1,41 @@
-## Upgrade your project
+## Αναβάθμισε το έργο σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+Σε αυτό το βήμα, δοκίμασε να προσθέσεις περισσότερα έντομα, αλλάζοντας τον τρόπο εμφάνισης και συμπεριφοράς του έργου σου.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![Η σκηνή δείχνει τρεις διαφορετικούς τύπους εντόμων και τη λιβελούλα.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### Πρόσθεσε περισσότερα έντομα
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+Πρόσθεσε περισσότερα έντομα. Ίσως χρειαστεί να τα κάνεις να κινούνται πιο γρήγορα, ώστε να είναι πιο δύσκολο να τα πιάσει η λιβελούλα.
 
-You can paint your own insects or trying adding an emoji mosquito!
+Μπορείς να βάψεις τα δικά σου έντομα ή να προσπαθήσεις να προσθέσεις ένα emoji κουνούπι!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+Χρησιμοποίησε το πληκτρολόγιο των emoji για να προσθέσεις ένα αντικείμενο **Emoji κουνούπι**.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Αντέγραψε ένα υπάρχον αντικείμενο **έντομο** και μετά κάνε κλικ στην καρτέλα **Ενδυμασίες**. **Ζωγράφισε** μια νέα ενδυμασία και επίλεξε το εργαλείο **Κείμενο**. Αντί να πληκτρολογήσεις κείμενο, χρησιμοποίησε τη συντόμευση πληκτρολογίου emoji για το λειτουργικό σου σύστημα:
 
 Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![Το αναδυόμενο πληκτρολόγιο emoji με επιλεγμένη την κατηγορία «ζώα και φύση».](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Επίλεξε το emoji **Κουνούπι** για να το εισαγάγεις στο πρόγραμμα επεξεργασίας Ζωγραφικής. Χρησιμοποίησε το εργαλείο **Επιλογή** (βέλος) για να κεντράρεις, να αλλάξεις το μέγεθος και να περιστρέψεις το κουνούπι σου μέχρι να είσαι ευχαριστημένος με αυτό.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![Το emoji κουνούπι στο πρόγραμμα επεξεργασίας ζωγραφικής.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Συμβουλή:** Τα Emojis μπορεί να φαίνονται διαφορετικά σε διαφορετικούς υπολογιστές, επομένως ενδέχεται να μην φαίνονται ίδια σε tablet και επιτραπέζιο υπολογιστή. Ορισμένα emoji δεν είναι διαθέσιμα σε ορισμένους υπολογιστές, αλλά οι περισσότεροι σύγχρονοι υπολογιστές τα υποστηρίζουν.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+Χρησιμοποίησε το σακίδιό σου για να ανταλλάξεις έντομα με τους φίλους σου από τα έργα τους «Μεγαλώνοντας μια Λιβελούλα».
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**Συμβουλή:** Έλεγξε ότι όλα τα αντικείμενα και οι ενδυμασίες σου έχουν λογικά ονόματα. Κάνει το έργο σου πιο κατανοητό εάν επιστρέψεις σε αυτό αργότερα.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**Συμβουλή:** Βεβαιώσου ότι ο κώδικάς σου είναι τοποθετημένος σωστά στην περιοχή Κώδικας. Κάνε δεξί κλικ στην περιοχή Κώδικας και επέλεξε **Εκκαθάριση των Μπλόκ** ώστε το Scratch να τακτοποιήσει τον κώδικά σου.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο έργο εδώ](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
 
 --- /collapse ---
 

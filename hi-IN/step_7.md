@@ -1,19 +1,19 @@
-## Random insect movement
+## यादृच्छिक कीट गतिविधि
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+आपके ऐप में कीड़े बहुत अनुमानित पैटर्न में चलते हैं, लेकिन वास्तविक जीवन में उन्हें पकड़ना मुश्किल होता है। 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+कीट को अधिक प्राकृतिक तरीके से हिलाने के लिए आप `pick random`{:class="block3operators"} ब्लॉक का उपयोग करेंगे।
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![विभिन्न दिशाओं की ओर इशारा करते हुए कीड़ों को दिखाने वाला Stage।](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+हर 1-3 सेकंड में एक यादृच्छिक दिशा की तरफ मूँह करने के लिए **Insect 2** में एक स्क्रिप्ट जोड़ें।
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**परीक्षण:** अपना प्रोजेक्ट चलाएँ और देखें कि मक्खी कैसे चलती है। आप जो प्रभाव चाहते हैं उसे प्राप्त करने के लिए संख्याओं को बदलने का प्रयास करें।
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+आप इस स्क्रिप्ट को **Insect** स्प्राइट तक भी खींच सकते हैं ताकि यह भी बेतरतीब ढंग से चलती रहे।
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+कीड़ों को तब तक बदलें जब तक वे वैसा व्यवहार न करें जैसा आप चाहते हैं।
 
-Make changes until you are happy with your project.
+उन्हें तेज या धीमा करने के लिए आप उन कदमों की संख्या को बदल सकते हैं जीतने वह `move`{:class="block3motion"} हैं ।
+
+आप ड्रैगनफ्लाई की गति को भी बदल सकते हैं।
+
+--- /task ---
+
+--- task ---
+
+आप उस आकार को भी बदल सकते हैं जिसे पूर्ण आकार तक पहुंचने के लिए ड्रैगनफ्लाई को बढ़ने की जरूरत है।
+
+जब तक आप अपने प्रोजेक्ट से खुश न हों तब तक बदलाव करें।
 
 --- /task ---
 

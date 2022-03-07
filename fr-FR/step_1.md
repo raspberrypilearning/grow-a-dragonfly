@@ -1,23 +1,23 @@
 ## Introduction
 
-Make a nature app with a dragonfly that grows bigger as it eats insects.
+Crée une application sur la nature avec une libellule qui grandit en mangeant des insectes.
 
-You will:
-+ Use `if`{:class="block3control"} blocks to make decisions based on **conditions** made with `operators`{:class="block3operators"} and `sensing`{:class="block3sensing"} blocks
-+ Use `random`{:class="block3operators"} numbers to control the movement of a sprite
-+ Use the `Sounds`{:class="block3sound"} editor to edit a sound
+Tu vas devoir :
++ Utiliser les blocs `si`{:class="block3control"} pour prendre des décisions basées sur les **conditions** faites avec les blocs `opérateurs`{:class="block3operators"} et `capteurs`{:class="block3sensing"}
++ Utiliser les nombres `aléatoires`{:class="block3operators"} pour contrôler le mouvement d'un sprite
++ Utiliser l'éditeur `Sons`{:class="block3sound"} pour éditer un son
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If`{:class="block3control"} blocks and conditions let us write code that does something different depending on whether a condition is true or false.</p>
+Nous utilisons les <span style="color: #0faeb0">**conditions**</span> tout le temps pour prendre des décisions. On pourrait dire « si le crayon est émoussé, alors taille-le ». Les blocs et conditions "si"{:class="block3control"} nous permettent d'écrire du code qui fait quelque chose de différent selon qu'une condition est vraie ou fausse.</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### Essaie-le
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?
+Déplace la souris (ou ton doigt) autour de la scène pour manger des insectes. Comment se déplacent les insectes ?
 
-Which part of the dragonfly needs to touch the insects to eat them? What happens to the dragonfly when the dragonfly eats an insect?
+Quelle partie de la libellule doit toucher les insectes pour les manger ? Qu'arrive-t-il à la libellule quand la libellule mange un insecte ?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Projet terminé](images/showcase_static.png)
 
 --- /print-only ---

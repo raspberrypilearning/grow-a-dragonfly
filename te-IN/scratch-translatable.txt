@@ -1,21 +1,21 @@
-to start small
+చిన్నగా ప్రారంభించడానికి
 
-Wings
+రెక్కలు
 
-change from 'mouse-pointer'
+'మౌస్-పాయింటర్' నుండి మార్చండి
 
-eaten
+తినబడినది
 
-show at the start
+ప్రారంభంలో చూపించండి
 
-to look like a new fly
+కొత్త ఈగలా కనిపించడానికి
 
-food
+ఆహారం
 
-end
+ముగింపు
 
-I got to full size!
+నేను పూర్తి పరిమాణానికి వచ్చాను!
 
-change from 'all'
+'All' నుండి మార్చండి
 
-Keep changing direction
+దిశను మారుస్తూ ఉండండి

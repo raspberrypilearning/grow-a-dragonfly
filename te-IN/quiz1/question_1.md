@@ -1,23 +1,23 @@
-## Reflection
+## విశ్లేషణ
 
-Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm!
+బాగా చేసారు, మీరు యూజర్ చే నియంత్రించబడే తూనీగతో మరియు అల్గారిథమ్‌ను అనుసరించే కీటకాలతో ప్రకృతి యాప్‌ని సృష్టించారు!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+మీరు `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, మరియు `Sound`{:class="block3sound"} బ్లాక్‌లని ఉపయోగించారు!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+ఇప్పుడు, విశ్లేషించే సమయం వచ్చింది — విశ్లేషించడం అనేది నేర్చుకోవడంలో ముఖ్యమైన భాగం, ఎందుకంటే ఇది మీ మెదడులో కొత్త కనెక్షన్‌లను ఏర్పరచడంలో సహాయపడుతుంది.
 
-Answer the three questions below to reflect on what you've learned.
+మీరు నేర్చుకున్న వాటిని పరిశీలించడానికి దిగువ మూడు ప్రశ్నలకు సమాధానం ఇవ్వండి.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+ప్రతి ప్రశ్న తర్వాత, సబ్మిట్ నొక్కండి. మీరు సరైన సమాధానం వైపు మార్గనిర్దేశం చేయబడతారు. మీరు ఈ చర్యను మీకు కావలసినన్ని సార్లు చేయవచ్చు.
 
-Have fun!
+ఆస్వాదించండి!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: 3లో 1వ ప్రశ్న
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+ఒక ప్రాజెక్ట్ **Crab** sprite మరియు **Jellyfish** sprite లను ఉపయోగిస్తుంది. **Crab** sprite ఈ కోడ్‌ని కలిగి ఉంది:
 
 ![desc](images/crab-icon.png)
 
@@ -28,39 +28,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+**Crab** sprite దాగడానికి ఏమి జరగాలి?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () **Crab** sprite **Jellyfish**ని తాకాలి
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ కాదు, `if`{:class="block3control"} బ్లాక్‌ లో `Sensing`{:class="block3sensing"} షరతు ఉంది, కానీ అది `touching Jellyfish`{:class="block3sensing"} బ్లాక్‌ని ఉపయోగించదు.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) **Crab** sprite నీలం రంగును తాకకూడదు
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+అవును, `not`{:class="block3operators"} ఆపరేటర్ అంటే కండిషన్ ట్రూ అని అర్థం. `if`{:class="block3control"} **Crab** sprite `not touching`{:class="block3sensing"} ఉంటే నీలం రంగు.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () **Crab** sprite నీలం రంగును తాకాలి
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ నిజానికి కాదు, `operator`{:class="block3operators"}ని దగ్గరగా చూడండి.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( )`when the flag is clicked`{:class="block3events"} **Crab** sprite`hide`{:class="block3looks"} అవుతుంది
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ లేదు, **Crab** sprite కోడ్ లో `if`{:class="block3control"} బ్లాక్ ఉంది కాబట్టి అది షరతుకు అనుగుణంగా ఉంటే మాత్రమే దాచబడుతుంది.
 
  --- /feedback ---
 

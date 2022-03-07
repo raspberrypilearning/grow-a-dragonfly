@@ -1,24 +1,24 @@
-## Grow to full-size
+## Μεγάλωσέ την σε πλήρες μέγεθος
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+Θα κάνεις τη λιβελούλα να μεγαλώσει όταν φάει μια μύγα και να σταματήσει αν φτάσει σε πλήρες μέγεθος.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![Η λιβελούλα πλήρους μεγέθους στη Σκηνή που λέει "Έφτασα σε πλήρες μέγεθος!".](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+Οι μεγαλύτερες ζωντανές λιβελούλες βρίσκονται στην Κεντρική Αμερική και έχουν άνοιγμα φτερών 19 cm (λίγο μεγαλύτερο από το χέρι σου). Το μεγαλύτερο γνωστό έντομο ήταν το <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, μια λιβελούλα με άνοιγμα φτερών περίπου 75 cm (το μέγεθος ενός μεγάλου βήματος).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+Η μύγα ξέρει ότι έχει φαγωθεί, και τώρα η Λιβελούλα πρέπει να μάθει ότι την έφαγε για να μεγαλώσει.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+Όταν χρειάζεται να ενημερώσεις ένα άλλο αντικείμενο ότι κάτι έχει συμβεί, μπορείς να χρησιμοποιήσεις ένα μπλοκ `μετάδωσε`{:class="block3events"} όπως έκανες στα [Ξόρκια μετάδοσης](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+Πρόσθεσε ένα μπλοκ `μετάδωσε`{:class="block3events"} στο αντικείμενο **Έντομο** με νέο μήνυμα `φαγητό`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+Το αντικείμενο **Λιβελούλα** πρέπει να μεγαλώσει όταν λάβει το μήνυμα `φαγητό`{:class="block3events"}.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+Επίλεξε το αντικείμενο **Λιβελούλα** και πρόσθεσε αυτό το script:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+Πρόσθεσε τον ήχο **Chomp** στην λιβελούλα και `ξεκίνησέ`{:class="block3sound"} τον όταν φαγωθεί ένα έντομο:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**Δοκιμή:** Εκτέλεσε το έργο σου για να δοκιμάσεις ότι η λιβελούλα μεγαλώνει και κάνει έναν ήχο chomp όταν τρώει μια μύγα.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+Όταν η λιβελούλα φτάσει στο πλήρες μέγεθός της, το παιχνίδι θα σε συγχαρεί και θα σταματήσει.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+Πρόσθεσε ένα μπλοκ `εάν`{:class="block3control"}.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+Η λιβελούλα είναι σε πλήρες μέγεθος όταν το `μέγεθος`{:class="block3looks"} `=`{:class="block3operators"} `100%`. Αρχικά, πρόσθεσε έναν τελεστή `=`{:class="block3operators"} στην είσοδο σε σχήμα εξάγωνου:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+Ολοκλήρωσε τη δημιουργία της συνθήκης προσθέτοντας μια ενσωματωμένη μεταβλητή `μέγεθος`{class="block3looks"} και πληκτρολόγησε την τιμή `100`:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+Πρόσθεσε μπλοκ έτσι ώστε `εάν`{:class="block3control"} η συνθήκη είναι αληθής `τότε`{:class="block3control"} η λιβελούλα θα `μεταδώσει`{:class="block3events"} ένα μήνυμα 'τέλος' και θα `λέει`{:class="block3looks"} `Έφτασα σε πλήρες μέγεθος!`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+Τέλος, πρόσθεσε ένα μπλοκ `σταμάτησε όλα`{:class="block3control"} για να σταματήσεις τα άλλα script της λιβελούλας:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+Προς το παρόν, η μύγα εξακολουθεί να κινείται μετά το τέλος του έργου. Προσθέστε αυτό το script στο αντικείμενο **Έντομο**.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και συνέχισε να τρως μύγες μέχρι η λιβελούλα σου να φτάσει σε πλήρες μέγεθος.
 
 --- /task ---
 

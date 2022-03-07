@@ -1,30 +1,30 @@
 ---
-title: Grow a dragonfly
+title: Hacer crecer una libélula
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+description: Haz una libélula que crezca a medida que come molestos mosquitos y otros insectos.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-04-27"
 steps:
   - 
-    title: Introduction
+    title: Introducción
   - 
-    title: Set the scene
+    title: Establece la escena
   - 
-    title: A fly to eat
+    title: Una mosca para comer
     completion: engaged
   - 
-    title: Grow to full-size
+    title: Crecer a tamaño completo
   - 
-    title: Improved movement
+    title: Movimiento mejorado
   - 
-    title: More food
+    title: Más comida
   - 
-    title: Random insect movement
+    title: Movimiento aleatorio de insectos
     completion: internal
   - 
-    title: Reflection
+    title: Reflexión
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: Mejora tu proyecto
   - 
-    title: What next?
+    title: '¿Qué sigue?'

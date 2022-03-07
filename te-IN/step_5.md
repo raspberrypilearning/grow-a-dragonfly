@@ -1,21 +1,21 @@
-## Improved movement
+## మెరుగైన కదలిక
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+మౌస్-పాయింటర్ తూనీగని తాకినట్లయితే తూనీగ 'గ్లిచ్' అవుతుంది మరియు దిశను చాలా వేగంగా మారుస్తుంది. దీన్ని పరిష్కరించడానికి మీరు మరొక కండిషన్ ను తనిఖీ చేస్తారు.
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![ఒక కీటకం మరియు తూనీగని చూపుతున్న Stage.](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+**Dragonfly**ని ఎంచుకోండి మరియు `when flag clicked`{:class="block3events"} తో మొదలయ్యే స్క్రిప్ట్‌ను కనుగొనండి.
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+`if`{: class = "block3control"} బ్లాక్ ని `forever`{: class = "block3control"} బ్లాక్ లోపలికి డ్రాగ్ చేయండి మరియు `forever`{: class = "block3control"} లోపలనున్న బ్లాక్స్ `if`{:class="block3control"} లోపలికి చేరుకొంటాయి.
 
-Check carefully that your code looks like this:
+మీ కోడ్ ఇలా ఉందో లేదో జాగ్రత్తగా తనిఖీ చేయండి:
 
 ![](images/dragonfly-icon.png)
 
@@ -34,9 +34,9 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+ఆపై `not`{:class="block3operators"} బ్లాక్‌ని `if`{:class="block3control"}లోకి మరియు `touching (mouse-pointer)`{:class="block3sensing"}ని డ్రాగ్ చేయండి.
 
-Check that your code looks like this:
+మీ కోడ్ ఇలా ఉందో లేదో తనిఖీ చేయండి:
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+`not`{:class="block3operators"} బ్లాక్ ఒక కండిషన్ ను దాని వ్యతిరేక స్థితిగా మారుస్తుంది, అది వాక్య ప్రయోగంలో వాడకం వలే.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**పరీక్ష:** గ్లిచ్ పరిష్కరించబడిందో లేదో తనిఖీ చేయండి మరియు Dragonfly `touching (mouse-pointer`{:class="block3sensing"} లేనప్పుడు ` not`{:class="block3operators"} మాత్రమే కదులుతుంది.
 
-A different condition to try is:
+ప్రయత్నించడానికి వేరొక కండిషన్:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+ఇది మౌస్-పాయింటర్ నుండి తగినంత దూరంలో ఉన్నప్పుడు తూనీగ కదిలేలా చేస్తుంది.
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**చిట్కా:** మీరు కోడ్ ప్రాంతంలో ఎక్కడైనా బ్లాక్‌లను లాగవచ్చు మరియు మీరు వివిధ విషయాలను ప్రయత్నించినప్పుడు వాటిని అక్కడ వదిలివేయవచ్చు.
 
 --- /task ---
 

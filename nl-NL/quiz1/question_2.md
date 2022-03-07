@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+Je hebt code geschreven om de libel alleen te laten bewegen als deze `niet`{:class="block3operators"} de muisaanwijzer `aanraakt`{:class="block3sensing"}.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+Waar zou je een `start geluid`{:class="block3sound"}-blok plaatsen om de libel een geluid te laten starten elke keer dat hij beweegt?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class=" block3control"} lus loopt, zelfs als de libel niet beweegt.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+Ja dat is goed. Het plaatsen van het `start geluid`{:class="block3sound"} blok binnen het `als`{:class="block3control"} blok betekent dat het zal spelen wanneer de libel beweegt.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class=" block3control"} lus loopt, zelfs als de libel niet beweegt.
 
   --- /feedback ---
 

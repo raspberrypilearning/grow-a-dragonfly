@@ -1,42 +1,42 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: 3 में से तीसरा प्रश्न
 ---
 
-In your project, you used `pick random`{:class="block3operators"} blocks to move the **Insect** sprite in a natural, unpredictable flying pattern.
+अपने प्रोजेक्ट में, आपने **Insect** स्प्राइट को एक प्राकृतिक, अप्रत्याशित उड़ान पैटर्न में स्थानांतरित करने के लिए `pick random`{:class="block3operators"} ब्लॉक का उपयोग किया।
 
-Which `pick random`{:class="block3operators"} block could give the number `10`?
+कौन सा `pick random`{:class="block3operators"} ब्लॉक संख्या `10` दे सकता है?
 
 --- choices ---
 
 - ( )
 
-`pick random [0] to [9]`{:class="block3operators"}
+`यादृच्छिक [0] से [9] चुनें` {:class="block3operators"}
 
   --- feedback ---
 
-  No, this block can give you any of the numbers from 0 up to 9.
+  नहीं, यह ब्लॉक आपको 0 से 9 तक की कोई भी संख्या दे सकता है।
 
   --- /feedback ---
 
 - ( )
 
-`pick random [20] to [100]`{:class="block3operators"}
+`यादृच्छिक [20] से [100] चुनें` {:class="block3operators"}
 
   --- feedback ---
 
-No the smallest number this block can give you is 20.
+नहीं, यह ब्लॉक आपको सबसे छोटी संख्या 20 दे सकता है।
 
   --- /feedback ---
 
 - (x)
 
-`pick random [1] to [50]`{:class="block3operators"}
+`यादृच्छिक [1] से [50] चुनें` {:class="block3operators"}
 
   --- feedback ---
 
-Yes, this block can give you numbers from 1 up to 50, which includes 10.
+हां, यह ब्लॉक आपको 1 से लेकर 50 तक के नंबर दे सकता है, जिसमें 10 शामिल हैं।
 
   --- /feedback ---
 

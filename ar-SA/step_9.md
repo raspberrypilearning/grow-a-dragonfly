@@ -1,41 +1,41 @@
-## Upgrade your project
+## قم بترقية أو تطوير مشروعك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+في هذه الخطوة، حاول إضافة المزيد من الحشرات، وتغيير الطريقة التي يبدو ويتصرف بها مشروعك.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![يظهر على المسرح ثلاثة أنواع مختلفة من الحشرات مع اليعسوب.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### أضف المزيد من الحشرات
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+أضف المزيد من الحشرات. قد تحتاج إلى جعلها تتحرك بشكل أسرع، حتى يصعب على اليعسوب الإمساك بها.
 
-You can paint your own insects or trying adding an emoji mosquito!
+يمكنك طلاء الحشرات الخاصة بك أو محاولة إضافة إيموجي لبعوضة!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+استخدم رموز الإيموجي للوحة المفاتيح لإضافة كائن **إيموجي بعوضة**.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+ضاعف كائن </strong> حشرة **موجود ثم انقر فوق علامة التبويب** المظاهر **. **ارسم** زيًّا جديدًا وحدد أداة **نص**. بدلاً من كتابة نص، استخدم اختصار لوحة مفاتيح للإيموجي الخاصة بنظام التشغيل الخاص بك:</p>
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+نظام التشغيل ويندوز - مفتاح Windows + '.' نظام تشغيل MacOS - ctrl + cmd + space Linux - ctrl نظام تشغيل + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![لوحة مفاتيح الإيموجي المنبثقة مع تحديد فئة "الحيوانات والطبيعة".](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+حدد رمز الإيموجي **بعوضة** لإدراجه في محرر الرسام. استخدم أداة **تحديد** (السهم) لتوسيط البعوضة وتغيير حجمها وتدويرها حتى تصبح راضيًا عنها.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![إيموجي البعوضة في محرر الرسام.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**نصيحة:** يمكن أن تبدو الإيموجي مختلفة على أجهزة كمبيوتر مختلفة، لذلك قد لا تبدو متشابهة على الكمبيوتر اللوحي وجهاز الكمبيوتر المنضدي. لا تتوفر بعض رموز الإيموجي على بعض أجهزة الكمبيوتر، ولكن معظم أجهزة الكمبيوتر الحديثة تدعمها.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+استخدم حقيبة الظهر الخاصة بك لتتبادل الحشرات مع أصدقائك من مشاريعهم الّتي تخصّ "نموّ اليعسوب".
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**نصيحة:** تأكد من أن جميع الكائنات والأزياء لها أسماء معقولة. هذا يسهل فهم مشروعك إذا عدت إليه لاحقًا.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**نصيحة:** تأكد من وضع التعليمات البرمجية بدقة في منطقة التعليمات البرمجية. انقر بزر الماوس الأيمن فوق منطقة الرمز البرمجي واختر **ترتيب اللبنات** لجعل برنامج Scratch يرتب التعليمات البرمجية الخاصة بك.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: مشروع مكتمل
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
 
 --- /collapse ---
 

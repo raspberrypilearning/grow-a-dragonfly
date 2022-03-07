@@ -1,67 +1,67 @@
-## A fly to eat
+## ذبابة للأكل
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+سوف تضيف حشرة ليأكلها اليعسوب. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![المنصة مع يعسوب وحشرة.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+يطلق على الشخصيات التي تتحرك من تلقاء نفسها في الألعاب أحيانًا اسم <span style="color: #0faeb0">** موب **</span>، وهي اختصار لكلمة موبايل (الهاتف المحمول). هل يمكنك التفكير في لعبة بها كائنات متحركة (موب)؟</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+هناك ذبابة في كائن **Frog 2** يمكنك استخدامها.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+أضف الكائن **Frog 2** إلى مشروعك. أعد تسمية الكائن إلى ` Insect `:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![إضافة كائن Frog 2 إلى قائمة الكائنات. تعرض خاصيةُ اسم الكائنَ "Insect".](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+تحتاج فقط الذبابة، وليس الضفدع.
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+انقر فوق علامة التبويب **الأزياء**. انقر فوق الحشرة لتحديدها وانقر على أيقونة **نسخ**.
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
-
---- /task ---
-
---- task ---
-
-Add a new costume to the sprite using the **Paint** option:
-
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
+![محرر الرسم مع تحديد جزء الطيران من زي Frog 2-a وتم تمييز أيقونة النسخ.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+أضف زيًّا جديدًّا للكائن باستخدام خيار **رسم**:
 
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![خيار الرسم محدَّدًا في قائمة اختيار الشكل.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+انقر على أيقونة **لصق** للصق الكائن في الزي الجديد. اسحب الذبابة إلى **المركز** بحيث تصطف مع الخطوط المتعامدة.
 
-![Size property set to 150.](images/fly-size.png)
+يمكنك إعادة تسمية الزي الخاص بك `Insect` وحذف الأزياء الأخرى، لأنك لن تحتاج إليها:
+
+![يعرض محرر الرسم زي حشرة جديد تم لصقه مع تحديد أيقونة لصق. تظهر قائمة الأزياء أن الأزياء الأخرى قد تم حذفها.](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+قم بزيادة حجم الذبابة بحيث يسهل رؤيتها والتقاطها:
+
+![تم ضبط خاصية الحجم على 150.](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+انقر فوق علامة التبويب **المقاطع البرمجية** وأضف نصًّا لجعل كائن الحشرة **Insect** يرتد:
 
 ![](images/fly-icon.png)
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+تتحقق كتلة `ارتد إذا كنت عند الحافة`{:class="block3motion"} مما إذا كان الكائن قد وصل إلى حافة المنصة ويجعل الكائن يتحرك في اتجاه مختلف إذا وصل عند الحافة.
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+تريد أن تقول لكائن الحشرة ** Insect ** `اختف`{:class="block3looks"} `إذا`{:class="block3control"} تم أكلها بواسطة كائن اليعسوب **Dragonfly**.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
+أضف كتلة `إذا`{:class="block3control"} إلى النص البرمجي لحركة كائن الحشرة **Insect**:
 
 ![](images/fly-icon.png)
 
@@ -95,15 +95,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+تحتوي كتلة `إذا`{:class="block3control"} على إدخال على شكل سداسي. هذا يعني أنه يمكنك وضع **شرط** هنا.
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+عند تشغيل كتلة `إذا`{:class="block3control"}، سيتحقق برنامج Scratch من الشرط. إذا كان الشرط "صحيحًا" `، فسيتم تشغيل`{:class="block3control"} الكود داخل الكتلة `إذا`{:class="block3control"}.
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+تريد من الحشرة أن `تختفي`{:class="block3looks"} `إذا`{:class="block3control"} كانت بشكل `ملامس`{:class="block3sensing"} لكائن اليعسوب **Dragonfly**.
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
+اسحب كتلة `ملامس لـ [Dragonfly v]`{:class="block3sensing"} في داخل كتلة `إذا`{:class="block3control"}. أضف كتلة `اختفِ`{:class="block3looks"} داخل كتلة `إذا`{:class="block3control"}.
 
 ![](images/fly-icon.png)
 
@@ -121,15 +121,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**اختبار:** اختبر الكود الخاص بك وتحكم في اليعسوب لأكل الذبابة. يجب أن تختفي الذبابة.
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+اليعسوب لن يكبر إذا أكل ذبابة واحدة فقط!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+أضف الكتلة `اذهب إلى موضع عشوائي`{:class="block3control"} على المنصة، واجعل الكائن الخاص بك `ينتظر`{:class="block3control"} لمدة ثانية واحدة ثم `يظهر`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**اختبار:** اختبر أن اليعسوب يمكنه الآن أكل الكثير من الذباب.
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+تأكد من إضافة كتلة `اظهر`{:class="block3looks"} لتظهر في البداية.
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**نصيحة:** يمكنك النقر فوق الزر الأحمر **توقف** فوق المنصة إذا كنت تريد أن يكون اليعسوب هادئًا أثناء إضافة المزيد من التعليمات البرمجية.
 
 --- save ---

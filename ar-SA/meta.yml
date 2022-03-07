@@ -1,30 +1,30 @@
 ---
-title: Grow a dragonfly
+title: نمو اليعسوب
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+description: اجعل اليعسوب عندما يأكل البعوض المزعج والحشرات الأخرى.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-04-27"
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Set the scene
+    title: جهز المشهد
   - 
-    title: A fly to eat
+    title: ذبابة للأكل
     completion: engaged
   - 
-    title: Grow to full-size
+    title: تنمو إلى الحجم الكامل
   - 
-    title: Improved movement
+    title: تحسين الحركة
   - 
-    title: More food
+    title: المزيد من الطعام
   - 
-    title: Random insect movement
+    title: حركة الحشرات العشوائية
     completion: internal
   - 
-    title: Reflection
+    title: تفكير
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: قم بترقية مشروعك
   - 
-    title: What next?
+    title: ما التالي؟

@@ -1,23 +1,23 @@
-## Introduction
+## المقدمة
 
-Make a nature app with a dragonfly that grows bigger as it eats insects.
+اصنع تطبيقًا طبيعيًّا باستخدام اليعسوب الذي يكبر كلما أكل الحشرات.
 
-You will:
-+ Use `if`{:class="block3control"} blocks to make decisions based on **conditions** made with `operators`{:class="block3operators"} and `sensing`{:class="block3sensing"} blocks
-+ Use `random`{:class="block3operators"} numbers to control the movement of a sprite
-+ Use the `Sounds`{:class="block3sound"} editor to edit a sound
+سوف تقوم بما يلي:
++ استخدام المقطع البرمجي `اذا`{: class = "block3control"} لاتخاذ قرارات بناءً على شروط **تم إجراؤه مع **`عمليات`: class = "block3operators"} والمقطع البرمجي `استشعار`{: class = "block3sensing"}
++ استخدام أرقام `عشوائية`{: class = "block3operators"} للتحكم في حركة الكائن
++ استخدام محرر `الأصوات`{:class="block3sound"} لتحرير الصوت
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If`{:class="block3control"} blocks and conditions let us write code that does something different depending on whether a condition is true or false.</p>
+نحن نستخدم <span style="color: #0faeb0">**الشروط**</span> طوال الوقت لاتخاذ القرارات. يمكننا أن نقول "إذا كان قلم الرَّصاص غير حاد، فقم بشحذه". تتيح لنا كتل وشروط `if` {:class="block3control"} كتابة رمز برمجي يقوم بعمل شيء مختلف اعتمادًا على إذا ما كان الشرط صحيحًا أم خطأً.</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### جربها
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?
+حرك الماوس (أو إصبعك) حول المنصة لأكل الحشرات. كيف تتحرك الحشرات؟
 
-Which part of the dragonfly needs to touch the insects to eat them? What happens to the dragonfly when the dragonfly eats an insect?
+أي جزء من اليعسوب يحتاج إلى لمس الحشرات لأكلها؟ ماذا يحدث لليعسوب عندما يأكل حشرة؟
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![مشروع مكتمل](images/showcase_static.png)
 
 --- /print-only ---

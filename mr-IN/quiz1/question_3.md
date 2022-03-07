@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: प्रश्न 3 पैकी 3
 ---
 
-In your project, you used `pick random`{:class="block3operators"} blocks to move the **Insect** sprite in a natural, unpredictable flying pattern.
+तुमच्या प्रोजेक्टमध्ये, तुम्ही **Insect** नैसर्गीक, अप्रत्याशित उडण्याच्या पॅटर्नमध्ये हलविण्यासाठी `pick random`{:class="block3operators"} ब्लॉक्सचा वापर केला.
 
-Which `pick random`{:class="block3operators"} block could give the number `10`?
+कोणता `pick random`{:class="block3operators"} ब्लॉक संख्या `10` देऊ शकतो?
 
 --- choices ---
 
@@ -16,7 +16,7 @@ Which `pick random`{:class="block3operators"} block could give the number `10`?
 
   --- feedback ---
 
-  No, this block can give you any of the numbers from 0 up to 9.
+  नाही, हा ब्लॉक तुम्हाला 0 ते 9 पर्यंत कोणतीही संख्या देऊ शकतो.
 
   --- /feedback ---
 
@@ -26,7 +26,7 @@ Which `pick random`{:class="block3operators"} block could give the number `10`?
 
   --- feedback ---
 
-No the smallest number this block can give you is 20.
+हा ब्लॉक तुम्हाला देऊ शकणारी सर्वात लहान संख्या 20 नाही.
 
   --- /feedback ---
 
@@ -36,7 +36,7 @@ No the smallest number this block can give you is 20.
 
   --- feedback ---
 
-Yes, this block can give you numbers from 1 up to 50, which includes 10.
+होय, हा ब्लॉक तुम्हाला 1 ते 50 पर्यंत संख्या देऊ शकतो, ज्यामध्ये 10 समाविष्ट आहेत.
 
   --- /feedback ---
 

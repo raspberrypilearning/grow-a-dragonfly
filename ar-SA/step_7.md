@@ -1,19 +1,19 @@
-## Random insect movement
+## حركة الحشرات العشوائية
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+تتحرك الحشرات في تطبيقك بنمط يمكن التنبؤ به للغاية، ولكن في الحياة الواقعية يصعب الإمساك بها. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+ستستخدم كتلة `عدد عشوائي`{:class="block3operators"} لجعل الحشرة تتحرك بطريقة طبيعية أكثر.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![تظهر المنصة حشرات تؤشر في اتجاهات مختلفة.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+أضف نصًّا إلى **Insect 2** لتجعله يشير في اتجاه عشوائي كل 1-3 ثوانٍ.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**اختبار:** قم بتشغيل مشروعك وشاهد كيف تتحرك الذبابة. حاول تغيير الأرقام للحصول على التأثير الذي تريده.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+يمكنك أيضًا سحب هذا البرنامج النصي إلى الكائن **Insect** بحيث يتحرك أيضًا بشكل عشوائي.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+قم بتغيير الحشرات حتى تتصرف بالطريقة التي تريدها.
 
-Make changes until you are happy with your project.
+يمكنك تغيير عدد الخطوات التي `تتحرك` بها لجعلها أسرع أو أبطأ.
+
+يمكنك أيضًا تغيير سرعة اليعسوب.
+
+--- /task ---
+
+--- task ---
+
+يمكنك أيضًا تغيير الحجم الذي تحتاجه حشرة اليعسوب لتصل إلى الحجم الكامل.
+
+قم بإجراء التغييرات حتى تصبح راضيًا عن مشروعك.
 
 --- /task ---
 

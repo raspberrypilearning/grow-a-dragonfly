@@ -1,67 +1,67 @@
-## A fly to eat
+## खाने के लिए एक मक्खी
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+आप ड्रैगनफ्लाई के खाने के लिए एक कीट जोड़ देंगे। 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![एक ड्रैगनफ्लाई और एक कीट के साथ Stage।](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+गेम में अपने आप घूमने वाले चरित्रों को कभी-कभी <span style="color: #0faeb0">**mobs**</span> कहा जाता है, जो मोबाइल का संक्षिप्त रूप होता है। क्या आप ऐसे खेल के बारे में सोच सकते हैं जिसमें mobs हो?</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+**Frog 2** स्प्राइट में एक मक्खी है जिसका आप उपयोग कर सकते हैं।
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+अपने प्रोजेक्ट में **Frog 2** स्प्राइट जोड़ें स्प्राइट का नाम बदलकर `Insect` करें:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![Frog 2 स्प्राइट के साथ Sprite सूची जोड़ी गई। Sprite नाम की गुण 'Insect' दिखाती है।](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+आपको केवल मक्खी की जरूरत है, मेंढक की नहीं।
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+**Costumes** टैब पर क्लिक करें। इसे चुनने के लिए मक्खी पर क्लिक करें और **Copy** आइकन पर क्लिक करें।
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
-
---- /task ---
-
---- task ---
-
-Add a new costume to the sprite using the **Paint** option:
-
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
+![Frog 2-a costume selected चयनित किया हुआ paint संपादक Copy आइकन हाइलाइट किया गया।](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+**Paint** विकल्प का उपयोग करके स्प्राइट में एक नई पोशाक जोड़ें:
 
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![Choose a costume मेनू चुनें में चयनित paint विकल्प।](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+स्प्राइट को नई पोशाक में पेस्ट के लिए **Paste** आइकन पर क्लिक करें। मक्खी को **centre** तक खींचें ताकि वह क्रॉसहेयर के साथ संरेखित हो जाए।
 
-![Size property set to 150.](images/fly-size.png)
+आप अपनी पोशाक का नाम बदलकर `Insect` कर सकते हैं और अन्य पोशाक हटा सकते हैं, क्योंकि आपको उनकी आवश्यकता नहीं होगी:
+
+![हाइलाइट किए गए Paste आइकन के साथ एक चिपकाया हुआ नया कीट पोशाक दिखाते हुए पेंट संपादक। पोशाक सूची से पता चलता है कि अन्य पोशाकें हटा दी गई हैं।](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+मक्खी का आकार बढ़ाएं ताकि उसे देखना और पकड़ना आसान हो:
+
+![आकार गुण 150 पर सेट है।](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+**Code** टैब पर क्लिक करें और **Insect** स्प्राइट को चारों ओर उछालने के लिए एक स्क्रिप्ट जोड़ें:
 
 ![](images/fly-icon.png)
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+`if on edge, bounce`{:class="block3motion"} ब्लॉक यह जाँचता है कि क्या स्प्राइट Stage के किनारे तक पहुंच गया है और अगर ऐसा है तो यह स्प्राइट को एक अलग दिशा में जाने का इशारा करता है।
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+आप चाहते हैं कि अगर **Insect** स्प्राइट **Dragonfly** स्प्राइट द्वारा खाया जाता है तो वह `hide`{:class="block3looks"} `if`{:class="block3control"}।
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
+**Insect** स्प्राइट को हिलाने वाली स्क्रिप्ट में `if`{:class="block3control"} ब्लॉक जोड़ें:
 
 ![](images/fly-icon.png)
 
@@ -95,15 +95,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+`if`{:class="block3control"} में षट्भुज के आकार का इनपुट है। इसका मतलब है कि आप यहां **कंडीशन** लगा सकते हैं।
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+जब `if`{:class="block3control"} ब्लॉक चलता है, तो Scratch कंडीशन की जांच करेगा। अगर कंडीशन 'सही' है `then`{:class="block3control"} तो ब्लॉक `if`{:class="block3control"} के अंदर का कोड चलेगा।
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+अगर यह `if`{:class="block3control"} **Dragonfly** स्प्राइट को `touching`{:class="block3sensing"} कर रहा है तो आप चाहते हैं कि कीट `hide`{:class="block3looks"} जाए।
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
+`touching [Dragonfly v]`{:class="block3sensing"} को `if`{:class="block3control"} ब्लॉक में खींचें। `if`{:class="block3control"} ब्लॉक के अंदर `hide`{:class="block3looks"} ब्लॉक जोड़ें।
 
 ![](images/fly-icon.png)
 
@@ -121,15 +121,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**परीक्षण:** अपने कोड का परीक्षण करें और मक्खी को खाने के लिए ड्रैगनफ्लाई को नियंत्रित करें। मक्खी गायब हो जानी चाहिए।
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+ड्रैगनफ्लाई बहुत बड़ी नहीं होगी यदि वह केवल एक मक्खी खा सकती है!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Stage पर `go to a random position`{:class="block3motion"} में ब्लॉक जोड़ें और अपने स्प्राइट को एक सेकंड के लिए `wait`{:class="block3control"} कराएँ फिर `show`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**परीक्षण:** परीक्षण करें कि आपका ड्रैगनफ्लाईअब बहुत सारी मक्खियाँ खा सकता है।
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+सुनिश्चित करें कि आपने शुरुआत में दिखाने के लिए `show`{:class="block3looks"} ब्लॉक जोड़ा है।
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**सलाह:** यदि आप चाहते हैं कि ड्रैगनफ्लाई अधिक कोड जोड़ते समय शांत रहे तो आप स्टेज के ऊपर लाल **Stop** बटन पर क्लिक कर सकते हैं।
 
 --- save ---

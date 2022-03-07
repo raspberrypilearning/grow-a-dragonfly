@@ -1,23 +1,23 @@
-## Reflection
+## Reflectie
 
-Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm!
+Goed gedaan, je hebt een natuur-app gemaakt met een libel die wordt bestuurd door de gebruiker en insecten die een algoritme volgen!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+Je hebt `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Beweging`{:class="block3motion"}, `Uiterlijken`{:class="block3looks"} en `Geluid`{:class="block3sound"} blokken gebruikt!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
 
-Answer the three questions below to reflect on what you've learned.
+Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Een project maakt gebruik van de **Crab** (krab) sprite en de **Jellyfish** (kwal) sprite. De sprite **Crab** heeft deze code:
 
 ![desc](images/crab-icon.png)
 
@@ -28,39 +28,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+Wat moet er gebeuren om de sprite **Crab** te laten verdwijnen?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () De **Crab** sprite zou de **Jellyfish** moeten raken
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ Nee, het `als`{:class="block3control"}-blok heeft een `waarnemen`{:class="block3sensing"}-voorwaarde, maar het maakt geen gebruik van het `raak ik Jellyfish`{:class="block3sensing"}-blok.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) De **Crab** sprite zou de kleur blauw niet moeten raken
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Ja, de `niet`{:class="block3operators"} operator betekent dat de voorwaarde waar is `als`{:class="block3control"} de **Crab** sprite niet de kleur blauw `aanraakt`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () De **Crab** sprite zou de kleur blauw moeten raken
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ Niet helemaal, kijk goed naar de `voorwaarde`{:class="block3operators"} in de functie.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) De **Crab** sprite zal altijd `verdwijnen`{:class="block3looks"} `wanneer op de groen vlag wordt geklikt`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ Nee, er is een `als`{:class="block3control"}-blok in de code van de **Crab** sprite, dus het wordt alleen verborgen als aan de voorwaarde wordt voldaan.
 
  --- /feedback ---
 

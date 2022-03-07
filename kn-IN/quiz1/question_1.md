@@ -1,23 +1,23 @@
-## Reflection
+## ಪುನರ್ಮನನ
 
-Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm!
+ಭೇಷ್, ಬಳಕೆದಾರ ನಿಯಂತ್ರಿಸುವ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಮತ್ತು ಒಂದು ಕ್ರಮಾವಳಿಯನ್ನು ಅನುಸರಿಸುವ ಕೀಟಗಳೊಂದಿಗೆ ನೀವು ಪ್ರಕೃತಿ ಆಪ್‌ ರಚಿಸಿದ್ದೀರಿ!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+ನೀವು `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, ಮತ್ತು `Sound`{:class="block3sound"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿದ್ದೀರಿ!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+ಈಗ ಪುನರ್ಮನನ ಮಾಡುವ ಸಮಯ — ಪುನರ್ಮನನ ಕಲಿಕೆಯ ಒಂದು ಮಹತ್ವದ ಭಾಗ, ಏಕೆಂದರೆ ಅದು ನಿಮ್ಮ ಮೆದುಳಿನಲ್ಲಿ ಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
 
-Answer the three questions below to reflect on what you've learned.
+ನೀವು ಕಲಿತಿದ್ದನ್ನು ಪುನರ್ಮನನ ಮಾಡಲು ಈ ಕೆಳಗಿನ ಮೂರು ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+ಪ್ರತಿಯೊಂದು ಪ್ರಶ್ನೆಯ ನಂತರ, ಸಬ್ಮಿಟ್‌ ಒತ್ತಿ. ಸರಿಯಾದ ಉತ್ತರದೆಡೆಗೆ ನಿಮಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡಲಾಗುತ್ತದೆ. ಈ ಚಟುವಟಿಕೆಯನ್ನು ನೀವು ಎಷ್ಟು ಸಲ ಬೇಕಾದರೂ ಮಾಡಬಹುದು.
 
-Have fun!
+ಆನಂದಿಸಿ!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: 3 ಪ್ರಶ್ನೆಗಳಲ್ಲಿ 1ನೆಯದು
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+ಪ್ರಾಜೆಕ್ಟೊಂದು **Crab** ಸ್ಪ್ರೈಟ್‌ ಮತ್ತು **Jellyfish** ಸ್ಪ್ರೈಟ್‌ ಉಪಯೋಗಿಸುತ್ತದೆ. **Crab** ಸ್ಪ್ರೈಟ್‌ ಈ ಕೋಡ್‌ ಹೊಂದಿದೆ:
 
 ![desc](images/crab-icon.png)
 
@@ -28,39 +28,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+**Crab** ಸ್ಪ್ರೈಟ್‌ ಮರೆಮಾಡಲು ಏನಾಗಬೇಕು?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () **Crab** ಸ್ಪ್ರೈಟ್ **Jellyfish**ನ್ನು ಸ್ಪರ್ಶಿಸಬೇಕು
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ ಇಲ್ಲ, `if`{:class="block3control"} ಬ್ಲಾಕ್‌ `Sensing`{:class="block3sensing"} ಷರತ್ತು ಹೊಂದಿದೆ, ಆದರೆ ಅದು `touching Jellyfish`{:class="block3sensing"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸುವುದಿಲ್ಲ.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) **Crab** ಸ್ಪ್ರೈಟ್‌ ನೀಲಿ ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿರಬಾರದು
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+ಹೌದು, `not`{:class="block3operators"} ಆಪರೇಟರ್‌ ಎಂದರೆ `if`{:class="block3control"} **Crab** ಸ್ಪ್ರೈಟ್ ನೀಲಿ ಬಣ್ಣ `touching`{:class="block3sensing"} ಸ್ಪರ್ಶಿಸುತ್ತಿಲ್ಲ ಎನ್ನುವ ಷರತ್ತು ಸರಿಯಾಗಿರುತ್ತದೆ.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () **Crab** ಸ್ಪ್ರೈಟ್‌ ನೀಲಿ ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿರಬೇಕು
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ ಅಷ್ಟು ಸರಿಯಾಗಿಲ್ಲ, ಷರತ್ತಿನಲ್ಲಿ `operator`{:class="block3operators"} ಕಡೆಗೆ ಸೂಕ್ಷ್ಮವಾಗಿ ಗಮನಿಸಿ.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) **Crab** ಸ್ಪ್ರೈಟ್‌ ಯಾವಾಗಲೂ `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ ಇಲ್ಲ, **Crab** ಸ್ಪ್ರೈಟ್‌ ಕೋಡ್‌ನಲ್ಲಿ `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಇದೆ, ಆದುದರಿಂದ ಷರತ್ತು ಪೂರೈಕೆಯಾದರೆ ಮಾತ್ರ ಅದು ಮರೆಯಾಗುತ್ತದೆ.
 
  --- /feedback ---
 

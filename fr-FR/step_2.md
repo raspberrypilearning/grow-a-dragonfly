@@ -1,8 +1,8 @@
-## Set the scene
+## Créer la scène
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
+Tu vas créer la scène. Choisis ton arrière-plan et ajoute une libellule qui suit le pointeur de la souris autour de la scène.
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}
@@ -11,38 +11,38 @@ You will set the scene. Choose your backdrop and add a dragonfly that follows th
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
+Ouvre le projet de démarrage [Faire grandir une libellule](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
+<span style="color: #0faeb0">**Les libellules**</span> peuvent être trouvées partout dans le monde et existent depuis plus de 300 millions d'années !</p>
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
+**Choisir :** Clique sur **Choisir un arrière-plan** et ajoute un arrière-plan de ton choix. Nous avons utilisé l'arrière-plan **Jurassic**.
 
 ![](images/choose-backdrop-icon.png)
 
-![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
+![La scène montrant l'arrière-plan Jurassic .](images/Jurassic-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
+Clique sur **Choisir un sprite** et recherche `dragonfly`, puis ajoute le sprite **Dragonfly** (Libellule).
 
 ![](images/choose-sprite-icon.png)
 
-![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
+![Le champ de recherche avec "dragonfly" tapé et le sprite Dragonfly dans la galerie.](images/dragonfly-search.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+Ajoute un script pour que le sprite **Libellule** suive le pointeur de la souris (ou ton doigt) :
 
 ![](images/dragonfly-icon.png)
 
@@ -58,77 +58,77 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
+**Test :** Clique sur le drapeau vert et fais bouger le sprite **Libellule** autour de la scène. La libellule se déplace-t-elle comme prévu ?
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+Le costume Libellule n'est pas tourné vers la droite, donc la tête du sprite **Libellule** n'est pas pointée vers le pointeur de la souris.
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
+Clique sur l'onglet **Costumes** et utilise l'outil **Sélectionner** (flèche) pour sélectionner le costume. Utilise l'outil **Rotation** en bas du costume sélectionné pour tourner le costume **Libellule** vers la droite.
 
-![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
+![Une image animée montrant comment faire pivoter le costume Libellule en faisant glisser les flèches de rotation pour que la libellule soit tournée vers la droite.](images/rotated-costume.gif)
 
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
+![Le costume Libellule sélectionné et tourné pour faire face à la droite.](images/rotated-costume.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and look at how the dragonfly moves now.
+**Test :** Clique sur le drapeau vert et regarde comment la libellule se déplace maintenant.
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
+Les ailes de libellule émettent un son de battement lorsqu'elles vibrent. Tu peux éditer un son dans Scratch pour créer ton propre son.
 
 --- task ---
 
-Add the **Crank** sound to the **Dragonfly** sprite.
+Ajoute le son **Crank** au sprite **Libellule**.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
+Clique sur le bouton **Jouer** pour entendre le son.
 
 --- /task ---
 
-The **Crank** sound is too long and too slow for dragonfly wings.
+Le son **Crank** est trop long et trop lent pour les ailes de libellule.
 
 --- task ---
 
-Select the end of the sound using your cursor or finger.
+Sélectionne la fin du son à l'aide de ton curseur ou de ton doigt.
 
-Click **Copy to New** to make a new sound with just the selected part:
+Clique sur **Copier dans un nouveau** pour créer un nouveau son avec uniquement la partie sélectionnée :
 
-![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
+![La fin du son crank sélectionné en bleu avec l'icône "Copier dans un nouveau" en surbrillance.](images/crank-copy-end.png)
 
-Rename your new sound from **Crank2** to `Wings`.
+Renomme ton nouveau son de **Crank2** à `Ailes`.
 
-![The rename sound property.](images/crank-wings-sound.png)
-
---- /task ---
-
---- task ---
-
-Play the new sound. Click the **Faster** button a few times until you like the result:
-
-![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
+![La propriété du son renommé.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+Joue le nouveau son. Clique plusieurs fois sur le bouton **Plus vite** jusqu'à ce que le résultat te plaise :
 
-![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+![Une onde sonore plus rapide avec l'icône "Plus vite" en surbrillance.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Now add a block to play the **Wings** sound when the dragonfly moves:
+Si tu le souhaite, tu peux sélectionner la toute fin du son **Ailes** , puis clique sur **Supprimer** pour le supprimer :
+
+![La fin de l'onde sonore sélectionnée avec l'outil "Supprimer" en surbrillance.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Ajoute maintenant un bloc pour jouer le son **Ailes** lorsque la libellule se déplace :
 
 ![](images/dragonfly-icon.png)
 
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your dragonfly movement and sound effect.
+**Test :** Essaie le mouvement et l'effet sonore de ta libellule.
 
 --- /task ---
 

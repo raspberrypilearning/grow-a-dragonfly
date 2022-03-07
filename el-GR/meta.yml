@@ -1,30 +1,30 @@
 ---
-title: Grow a dragonfly
+title: Μεγαλώνοντας μια λιβελούλα
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+description: Φτιάξε μια λιβελούλα που μεγαλώνει καθώς τρώει ενοχλητικά κουνούπια και άλλα έντομα.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-04-27"
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Set the scene
+    title: Στήνοντας τη σκηνή
   - 
-    title: A fly to eat
+    title: Μια μύγα για φαγητό
     completion: engaged
   - 
-    title: Grow to full-size
+    title: Μεγάλωσέ την σε πλήρες μέγεθος
   - 
-    title: Improved movement
+    title: Βελτιωμένη κίνηση
   - 
-    title: More food
+    title: Περισσότερο φαγητό
   - 
-    title: Random insect movement
+    title: Τυχαία κίνηση εντόμων
     completion: internal
   - 
-    title: Reflection
+    title: Αναστοχασμός
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: Αναβάθμιση του έργου σου
   - 
-    title: What next?
+    title: Τι υπάρχει στη συνέχεια;

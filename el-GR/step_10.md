@@ -1,10 +1,10 @@
-## What next?
+## Τι υπάρχει στη συνέχεια;
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+Εάν ακολουθείς το μονοπάτι [Περισσότερο Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Αστέρι στα Τύμπανα](https://projects.raspberrypi.org/en/projects/drum-star). Σε αυτό το έργο, θα δημιουργήσεις ένα παιχνίδι με κλικ όπου κερδίζεις κτύπους για να παίξεις νέα ντραμς σε μεγαλύτερους χώρους.
 
 --- print-only ---
 
-![The Stage view of completed drum star project.](images/drum-star.png)
+![Η άποψη της Σκηνής του ολοκληρωμένου έργου αστέρι στα τύμπανα.](images/drum-star.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Αν θέλεις να διασκεδάσεις περισσότερο εξερευνώντας το Scratch, τότε μπορείς να δοκιμάσεις οποιοδήποτε από [αυτά τα έργα](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

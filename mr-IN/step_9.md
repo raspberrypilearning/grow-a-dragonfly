@@ -1,41 +1,41 @@
-## Upgrade your project
+## तुमचा प्रोजेक्ट अपग्रेड करा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+या टप्प्यात, तुमचा प्रकल्प दिसण्याचा आणि वागण्याचा मार्ग बदलून अधिक कीटक जोडण्याचा प्रयत्न करा.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![कीटक आणि ड्रॅगनफ्लायचे तीन वेगवेगळे प्रकार दाखवणारा Stage.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### अधिक कीटक जोडा
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+अधिक कीटक जोडा. तुम्हाला त्यांना कदाचीत जलद हलवावे लागेल, त्यामुळे ड्रॅगनफ्लायसाठी ते पकडणे कठीण होईल.
 
-You can paint your own insects or trying adding an emoji mosquito!
+तुम्ही स्वतःचे कीटक पेंट करू शकता किंवा mosquito हा इमोजी जोडून प्रयत्न करू शकता!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+**Mosquito emoji** sprite जोडण्यासाठी इमोजी कीबोर्ड वापरा.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+आधीचा **insect** sprite डुप्लीकेट करा त्यानंतर **Costumes** टॅबवर क्लिक करा. नवीन कॉश्चुम **Paint** करा आणि **Text** टूल निवडा. टेक्स्ट टाईप करण्याऐवजी, तुमच्या ऑपरेटिंग सिस्टीमसाठी इमोजी कीबोर्ड शॉर्टकट वापरा:
 
 Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![निवडलेल्या 'animals and nature' कॅटेगरीसह पॉपअप इमोजी कीबोर्ड.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Paint एडिटरमध्ये तो इंसर्ट करण्यासाठी **Mosquito** इमोजी निवडा. तुमचे समाधान होईपर्यंत तुमच्या डासाला मध्यभागी आणण्यासाठी, रीसाईज करण्यासाठी आणि फिरवण्यासाठी **Select** (arrow) टूल वापरा.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![Paint एडिटरमध्ये डासांचा इमोजी.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**टीप:** इमोजी वेगवेगळ्या कंप्युटर्सवर वेगवेगळे दिसू शकतात, त्यामुळे ते टॅबलेट आणि डेस्कटॉप कंप्युटर यांवर कदाचीत सारखेच दिसणार नाहीत. काही इमोजी काही कंप्युटरवर उपलब्ध नाहीत, परंतु बहुतेक आधुनिक कंप्युटरवर ते चालतील.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+त्यांच्या 'Grow a Dragonfly' प्रोजेक्टमधून तुमच्या मित्रांसोबत कीटकांचा व्यापार करण्यासाठी तुमचा बॅकपॅक वापरा.
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**टीप:** तुमच्या सर्व स्प्राईट्स आणि कॉश्चुम यांना योग्य नावे दिली आहेत ना ते तपासा. यामुळे तुम्ही तुमच्या प्रोजेक्टवर काही काळाने परत आलात तरीही तो समजून घेण्यास सोपा जाईल.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**टीप:** तुमचा कोड Code एरियामध्ये व्यवस्थित मांडलेला असल्याची खात्री करा. Code एरियावर राईट-क्लिक करा आणि तुमचा कोड व्यवस्थित करून Scratch मिळवण्यासाठी **Clean up Blocks** निवडा.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: पूर्ण झालेला प्रोजेक्ट
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+तुम्ही [पूर्ण झालेला प्रोजेक्ट येथे](https://scratch.mit.edu/projects/521688740/){:target="_blank"} बघू शकता.
 
 --- /collapse ---
 

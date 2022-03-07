@@ -1,30 +1,30 @@
 ---
-title: Grow a dragonfly
+title: తూనీగను గ్రో చేయండి
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+description: చికాకు కలిగించే దోమలు మరియు ఇతర కీటకాలను తిని పెద్దగా పెరిగే తూనిగను తయారు చేయండి.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-04-27"
 steps:
   - 
-    title: Introduction
+    title: పరిచయం
   - 
-    title: Set the scene
+    title: సన్నివేశాన్ని సెట్ చేయండి
   - 
-    title: A fly to eat
+    title: తినడానికి ఒక ఈగ
     completion: engaged
   - 
-    title: Grow to full-size
+    title: పూర్తి పరిమాణానికి పెంచండి
   - 
-    title: Improved movement
+    title: మెరుగైన కదలిక
   - 
-    title: More food
+    title: మరింత ఆహారం
   - 
-    title: Random insect movement
+    title: యాదృచ్ఛికంగా కీటకాల కదలిక
     completion: internal
   - 
-    title: Reflection
+    title: విశ్లేషణ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
   - 
-    title: What next?
+    title: తర్వాత ఏంటి?

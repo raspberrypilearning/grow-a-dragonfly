@@ -1,25 +1,25 @@
-to start small
+klein beginnen
 
-change from 'mouse-pointer'
+wijzigen van 'muisaanwijzer'
 
-eaten
+opgegeten
 
-show at the start
+toon aan het begin
 
-to look like a new fly
+eruit zien als een nieuwe vlieg
 
-change from 'all'
+veranderen van 'alle'
 
-keep changing direction
+blijf van richting veranderen
 
-or try this condition
+of probeer deze voorwaarde
 
-eaten an insect
+een insect gegeten
 
-start with this
+begin hiermee
 
-touching Dragonfly mouth
+de bek van de libel aanraken
 
-make flies appear from edge
+laat vliegen vanaf de rand verschijnen
 
-Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus '.' to enter.
+Gebruik vliegen van de Frog sprite of teken je eigen. Of gebruik de Mosquito-emoji. Druk op de 'Windows'-toets plus '.' om te beginnen.

@@ -1,8 +1,8 @@
-## Set the scene
+## جهز المشهد
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
+سوف تقوم بإعداد المشهد. اختر الخلفية الخاصة بك وأضف اليعسوب الذي يتبع مؤشر الماوس حول المنصة.
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}
@@ -11,38 +11,38 @@ You will set the scene. Choose your backdrop and add a dragonfly that follows th
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
+افتح [مشروع البداية كبّر اليعسوب](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
+<span style="color: #0faeb0">** اليعاسيب **</span> يمكن العثور عليها في جميع أنحاء العالم وهي موجودة منذ أكثر من 300 مليون سنة!</p>
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
+**اختر:** انقر فوق **اختيار خلفية** وأضف خلفية من اختيارك. استخدمنا خلفية **Jurassic**.
 
 ![](images/choose-backdrop-icon.png)
 
-![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
+![تُظهر المنصةُ الخلفيةَ Jurassic.](images/Jurassic-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
+انقر فوق **اختيار كائن** وابحث عن كلمة `dragonfly`، ثم أضف كائن **Dragonfly**.
 
 ![](images/choose-sprite-icon.png)
 
-![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
+![مربع البحث المكتوب فيه "dragonfly" وكائن اليعسوب في المعرض.](images/dragonfly-search.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+أضف نصًّا لجعل الكائن **Dragonfly** يتبع مؤشر الماوس (أو إصبعك):
 
 ![](images/dragonfly-icon.png)
 
@@ -58,77 +58,77 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
+**اختبار:** انقر فوق العلم الأخضر واجعل الكائن **Dragonfly** يتحرك حول المنصة. هل اليعسوب يتحرك كما تتوقع؟
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+لا يتجه مظهر اليعسوب إلى اليمين، لذا فإن رأس الكائن **Dragonfly** لا يشير إلى مؤشر الماوس.
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
+انقر فوق علامة التبويب **المظاهر** واستخدم أداة **حدد** (السهم) لتحديد الزي. استخدم أداة **دوّر** في الجزء السفلي من الزي المحدد لقلب شكل الكائن **Dragonfly** لمواجهة اليمين.
 
-![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
+![صورة متحركة توضح كيفية تدوير زي اليعسوب عن طريق سحب أسهم الدوران بحيث تواجه اليعسوب جهة اليمين.](images/rotated-costume.gif)
 
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
+![تم اختيار زي اليعسوب واستدار لمواجهة اليمين.](images/rotated-costume.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and look at how the dragonfly moves now.
+**اختبار:** انقر على العلم الأخضر وشاهد كيف يتحرك اليعسوب.
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
+تُصدر أجنحة اليعسوب صوت رفرفة أثناء اهتزازها. يمكنك تحرير الصوت في Scratch لإنشاء الصوت الخاص بك.
 
 --- task ---
 
-Add the **Crank** sound to the **Dragonfly** sprite.
+أضف صوت **Crank** إلى كائن **Dragonfly**.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
+انقر فوق الزر **تشغيل** حتى تتمكن من سماع الصوت.
 
 --- /task ---
 
-The **Crank** sound is too long and too slow for dragonfly wings.
+صوت ** Crank ** طويل جدًّا وبطيء جدًّا بالنسبة لأجنحة اليعسوب.
 
 --- task ---
 
-Select the end of the sound using your cursor or finger.
+حدد نهاية الصوت باستخدام المؤشر أو الإصبع.
 
-Click **Copy to New** to make a new sound with just the selected part:
+انقر فوق **نسخ إلى صوت جديد** لإنشاء صوت جديد بالجزء المحدد فقط:
 
-![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
+![تحديد نهاية صوت crank باللون الأزرق مع تمييز رمز "نسخ إلى صوت جديد".](images/crank-copy-end.png)
 
-Rename your new sound from **Crank2** to `Wings`.
+أعد تسمية صوتك الجديد من **Crank2** إلى `Wings`.
 
-![The rename sound property.](images/crank-wings-sound.png)
-
---- /task ---
-
---- task ---
-
-Play the new sound. Click the **Faster** button a few times until you like the result:
-
-![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
+![خاصية إعادة تسمية الصوت.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+قم بتشغيل الصوت الجديد. انقر فوق الزر **تسريع** عدة مرات إلى أن تعجبك النتيجة:
 
-![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+![موجة صوتية أسرع مع تمييز الرمز "تسريع".](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Now add a block to play the **Wings** sound when the dragonfly moves:
+إذا أردت، يمكنك تحديد نهاية الصوت **Wings**، ثم النقر فوق **Delete** لإزالته:
+
+![نهاية الموجة الصوتية مُحدَّدة، مع أداة "حذف" المؤشَّرة.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+أضف الآن كتلة لتشغيل صوت **Wings** عندما يتحرك اليعسوب:
 
 ![](images/dragonfly-icon.png)
 
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your dragonfly movement and sound effect.
+**اختبار:** جرب حركة اليعسوب وتأثير الصوت.
 
 --- /task ---
 

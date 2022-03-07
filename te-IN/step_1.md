@@ -1,23 +1,23 @@
-## Introduction
+## పరిచయం
 
-Make a nature app with a dragonfly that grows bigger as it eats insects.
+కీటకాలను తిని, పెద్దదిగా పెరిగే తూనీగతో ప్రకృతి యాప్‌ను రూపొందించండి.
 
-You will:
-+ Use `if`{:class="block3control"} blocks to make decisions based on **conditions** made with `operators`{:class="block3operators"} and `sensing`{:class="block3sensing"} blocks
-+ Use `random`{:class="block3operators"} numbers to control the movement of a sprite
-+ Use the `Sounds`{:class="block3sound"} editor to edit a sound
+మీరు:
++ `operators`{:class="block3operators"} తో కూడిన **conditions** మరియు `sensing`{:class="block3sensing"} బ్లాక్స్ ఆధారంగా నిర్ణయాలు తీసుకొనేందుకు, `if`{:class="block3control"} బ్లాక్‌లను ఉపయోగించండి
++ sprite కదలికను నియంత్రించేందుకు ` random`{:class="block3operators"} సంఖ్యలను ఉపయోగించండి
++ ధ్వనులను మార్పు చేయడానికి `Sounds`{:class="block3sound"} ఎడిటర్‌ని ఉపయోగించండి
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If`{:class="block3control"} blocks and conditions let us write code that does something different depending on whether a condition is true or false.</p>
+మనము నిర్ణయాలు తీసుకొనే అన్ని సమయాలలో <span style="color: #0faeb0">**షరతుల**</span> ను ఉపయోగిస్తాము. "పెన్సిల్ మొద్దుబారినట్లయితే, దానిని పదును పెట్టండి" అని మనం చెప్పవచ్చు. `if`{:class="block3control"} బ్లాక్‌లు మరియు షరతులను ఉపయోగించి, మనం ఒక షరతు లేదా కండిషన్ ఒప్పు లేదా తప్పు అనేదానిపై ఆధారపడి విభిన్నంగా పని చేసే కోడ్‌ని వ్రాద్దాము.</p>
 
 --- no-print --- --- task ---
 
-### Try it
+### ప్రయత్నించండి
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?
+కీటకాలను తినడానికి Stage చుట్టూ మౌస్ (లేదా మీ వేలిని) తరలించండి. కీటకాలు ఎలా కదులుతాయి?
 
-Which part of the dragonfly needs to touch the insects to eat them? What happens to the dragonfly when the dragonfly eats an insect?
+కీటకాలను తినడానికి తూనీగలో ఏ భాగం వాటిని తాకాలి? తూనీగ ఒక క్రిమిని తిన్నప్పుడు తూనీగకు ఏమి జరుగుతుంది?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![పూర్తయిన ప్రాజెక్ట్](images/showcase_static.png)
 
 --- /print-only ---

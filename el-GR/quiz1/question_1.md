@@ -1,23 +1,23 @@
-## Reflection
+## Αναστοχασμός
 
-Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm!
+Μπράβο, δημιούργησες μια εφαρμογή φύσης με λιβελούλα που ελέγχεται από τον χρήστη και έντομα που ακολουθούν έναν αλγόριθμο!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Αισθητήρες`{:class="block3sensing"}, `Τελεστές`{:class="block3operators"}, `Κίνηση`{:class="block3motion"}, `Όψεις`{:class="block3looks"} και `Ήχος`{:class="block3sound"}!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Τώρα ήρθε η ώρα να εξετάσεις τις νέες γνώσεις — ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you've learned.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Ένα έργο χρησιμοποιεί το αντικείμενο **Κάβουρας** και **Μέδουσα**. Το αντικείμενο **Κάβουρας** έχει αυτόν τον κώδικα:
 
 ![desc](images/crab-icon.png)
 
@@ -28,39 +28,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+Τι θα έπρεπε να συμβεί για να εξαφανιστεί το αντικείμενο **Κάβουρας**;
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () Το αντικείμενο **Κάβουρας** θα πρέπει να αγγίξει τη **Μέδουσα**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ Όχι, το μπλοκ `εάν`{:class="block3control"} έχει μια συνθήκη `Αισθητήρα`{:class="block3sensing"}, αλλά δεν χρησιμοποιεί το μπλοκ `αγγίζει Μέδουσα`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) Το αντικείμενο **Κάβουρας** θα πρέπει να μην αγγίζει το μπλε χρώμα
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Ναι, ο τελεστής `όχι`{:class="block3operators"} σημαίνει ότι η συνθήκη είναι αληθής `εάν`{:class="block3control"} το αντικείμενο **Κάβουρας** δεν `αγγίζει`{:class="block3sensing"} το μπλε χρώμα.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- (x) Το αντικείμενο **Κάβουρας** θα πρέπει να αγγίζει το μπλε χρώμα
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ Όχι ακριβώς, κοίταξε προσεκτικά τον `τελεστή`{:class="block3operators"} στην συνθήκη.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) Το αντικείμενο **Κάβουρας** θα `εξαφανίζεται`{:class="block3looks"} πάντα `όταν γίνει κλικ στη σημαία`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ Όχι, υπάρχει ένα μπλοκ `εάν`{:class="block3control"} στον κώδικα του αντικειμένου **Κάβουρας**, οπότε θα εξαφανίζεται μόνο εάν πληρούται η συνθήκη.
 
  --- /feedback ---
 

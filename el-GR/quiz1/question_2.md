@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+Έγραψες κώδικα για να κάνεις τη λιβελούλα να κινείται μόνο αν είναι `δεν`{:class="block3operators"} `αγγίζει`{:class="block3sensing"} τον δείκτη του ποντικιού.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+Πού θα έβαζες ένα μπλοκ `παίξε ήχο`{:class="block3sound"} για να κάνεις τη λιβελούλα να ξεκινά έναν ήχο κάθε φορά που κινείται;
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Όχι, με αυτόν τον κώδικα το μπλοκ `παίξε ήχο`{:class="block3sound"} βρίσκεται εκτός του μπλοκ `εάν`{:class="block3control"}, επομένως θα εκτελείται κάθε φορά που ο βρόγχος `για πάντα`{:class=" block3control"} εκτελείται, ακόμα κι αν η λιβελούλα δεν κινείται.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+Ναι, αυτό είναι σωστό. Τοποθετώντας το μπλοκ `παίξε ήχο`{:class="block3sound"} μέσα στο μπλοκ `εάν`{:class="block3control"} σημαίνει ότι θα παίζει όταν κινείται η λιβελούλα.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Όχι, με αυτόν τον κώδικα το μπλοκ `παίξε ήχο`{:class="block3sound"} βρίσκεται εκτός του μπλοκ `εάν`{:class="block3control"}, επομένως θα εκτελείται κάθε φορά που ο βρόγχος `για πάντα`{:class=" block3control"} εκτελείται, ακόμα κι αν η λιβελούλα δεν κινείται.
 
   --- /feedback ---
 

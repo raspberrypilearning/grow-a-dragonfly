@@ -1,21 +1,21 @@
-## Improved movement
+## बेहतर गतिविधि
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+यदि माउस-पॉइंटर ड्रैगनफ्लाई को छू रहा है तो ड्रैगनफ्लाई 'झटके लेता है' और दिशा वास्तव में तेजी से बदलता है। इसे ठीक करने के लिए आप एक और कंडीशन की जांच करेंगे।
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![एक कीट और ड्रैगनफ्लाई दिखाने वाला Stage।](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+**Dragonfly** का चयन करें और उस स्क्रिप्ट को खोजें जो `when flag clicked`{:class="block3events"} से शुरू होती है।
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+एक `if`{:class="block3control"} को `forever`{:class="block3control"} ब्लॉक के अंदर खींचें और `forever`{:class="block3control"} के अंदर के ब्लॉक `if`{:class="block3control"} के अंदर चले जाएंगे।
 
-Check carefully that your code looks like this:
+ध्यान से जांचें कि आपका कोड इस तरह दिखता है:
 
 ![](images/dragonfly-icon.png)
 
@@ -34,9 +34,9 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+फिर एक `not`{:class="block3operators"} ब्लॉक को `if`{:class="block3control"} में खींचें और एक `touching (mouse-pointer)`{:class="block3sensing"} को उसके अंदर खींचें।
 
-Check that your code looks like this:
+जांचें कि आपका कोड इस तरह दिखता है:
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+`not`{:class="block3operators"} ब्लॉक एक कंडीशन को इसके विपरीत में बदल देता है, ठीक वैसे ही जैसे यह एक वाक्य में करेगा।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**परीक्षण:** जाँच करें कि गड़बड़ ठीक हो गई है, और ड्रैगनफ्लाई केवल तभी चलती है जब वह `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"} होती है।
 
-A different condition to try is:
+आज़माने के लिए एक अलग कंडीशन है:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+यह माउस-पॉइंटर से काफी दूर होने पर ड्रैगनफ्लाई को आगे बढ़ाता है।
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**सलाह:** आप ब्लॉक को Code क्षेत्र में कहीं भी खींच सकते हैं और अलग-अलग चीजों को आजमाने के दौरान उन्हें वहीं छोड़ सकते हैं।
 
 --- /task ---
 

@@ -1,30 +1,30 @@
 ---
-title: Grow a dragonfly
+title: Laat een libel groeien
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+description: Maak een libel die groter wordt als hij vervelende muggen en andere insecten eet.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-04-27"
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Set the scene
+    title: Maak het speelveld
   - 
-    title: A fly to eat
+    title: Een vlieg om te eten
     completion: engaged
   - 
-    title: Grow to full-size
+    title: Groei tot volledige grootte
   - 
-    title: Improved movement
+    title: Verbeterde beweging
   - 
-    title: More food
+    title: Meer eten
   - 
-    title: Random insect movement
+    title: Willekeurige beweging van insecten
     completion: internal
   - 
-    title: Reflection
+    title: Reflectie
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?

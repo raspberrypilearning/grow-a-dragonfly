@@ -1,21 +1,21 @@
-to start small
+لتبدأ بحجم صغير
 
-Wings
+أجنحة
 
-change from 'mouse-pointer'
+تغيير من "مؤشر الماوس"
 
-eaten
+يؤكل (يختفي)
 
-show at the start
+تظهر في البداية
 
-to look like a new fly
+لتبدو وكأنها ذبابة جديدة
 
-food
+طعام
 
-end
+النهاية
 
-I got to full size!
+اكتمل نموي!
 
-change from 'all'
+تغيير من "الكل"
 
-Keep changing direction
+استمر في تغيير الاتجاه

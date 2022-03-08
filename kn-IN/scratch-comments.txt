@@ -1,25 +1,25 @@
-to start small
+ಸಣ್ಣದಾಗಿ ಆರಂಭಿಸಲು
 
-change from 'mouse-pointer'
+'mouse-pointer' ನಿಂದ ಬದಲಾಯಿಸಿ
 
-eaten
+ತಿನ್ನಲಾಗುತ್ತದೆ
 
-show at the start
+ಪ್ರಾರಂಭದಲ್ಲಿ ತೋರಿಸಿ
 
-to look like a new fly
+ಹೊಸ ನೊಣದಂತೆ ಕಾಣಲು
 
-change from 'all'
+"all" ದಿಂದ ಬದಲಾಯಿಸಿ
 
-keep changing direction
+ದಿಕ್ಕನ್ನು ಬದಲಾಯಿಸುತ್ತಲೇ ಇರಿ
 
-or try this condition
+ಅಥವಾ ಈ ಷರತ್ತು ಪ್ರಯತ್ನಿಸಿ
 
-eaten an insect
+ಕೀಟವೊಂದನ್ನು ತಿಂದಿತು
 
-start with this
+ಇದರಿಂದ ಪ್ರಾರಂಭಿಸಿ
 
-touching Dragonfly mouth
+ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿ ಮುಟ್ಟುವುದು
 
-make flies appear from edge
+ನೊಣಗಳು ಅಂಚಿನಿಂದ ಕಾಣುವಂತೆ ಮಾಡಿ
 
-Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus '.' to enter.
+Frog ಸ್ಪ್ರೈಟ್‌ನಿಂದ ನೊಣವನ್ನು ಉಪಯೋಗಿಸಿ ಅಥವಾ ನೀವೆ ಒಂದನ್ನು ಚಿತ್ರಿಸಿ. ಅಥವಾ Mosquito ಇಮೊಜಿ ಉಪಯೋಗಿಸಿ. ಎಂಟರ್‌ ಮಾಡಲು 'Windows' ಕೀ ಪ್ಲಸ್‌ '.'‌ ಒತ್ತಿ.

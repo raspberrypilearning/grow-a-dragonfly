@@ -1,25 +1,25 @@
-to start small
+empezar con tamaño pequeño
 
-change from 'mouse-pointer'
+cambiar de 'puntero del ratón'
 
-eaten
+comido
 
-show at the start
+mostrar al comenzar
 
-to look like a new fly
+para parecer una mosca nueva
 
-change from 'all'
+cambiar desde 'todos'
 
-keep changing direction
+sigue cambiando de dirección
 
-or try this condition
+o prueba esta condición
 
-eaten an insect
+un insecto comido
 
-start with this
+empieza con esto
 
-touching Dragonfly mouth
+tocando la boca de la libélula
 
-make flies appear from edge
+hace que aparezcan moscas desde el borde
 
-Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus '.' to enter.
+Usa la mosca del dibujo Rana o dibújala tú. O usa el emoji de Mosquito. Presiona la tecla 'Windows' más '.' para entrar.

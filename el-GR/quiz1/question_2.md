@@ -15,7 +15,7 @@ legend: Ερώτηση 2 από 3
 ```blocks3
 when flag clicked
 forever
-+start sound [Wings v]
++start sound [Φτερά v]
 if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
@@ -35,7 +35,7 @@ end
 when flag clicked
 forever
 if <not <touching [mouse-pointer v] ?> > then
-+start sound [Wings v]
++start sound [Φτερά v]
 point towards (mouse-pointer v)
 move [5] steps
 end
@@ -58,7 +58,7 @@ if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
 end
-+start sound [Wings v]
++start sound [Φτερά v]
 end
 ```
 

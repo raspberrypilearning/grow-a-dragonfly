@@ -1,21 +1,21 @@
-to start small
+να εκκινήσει από μικρό
 
-Wings
+Φτερά
 
-change from 'mouse-pointer'
+αλλαγή από 'δείκτη-ποντικιού''
 
-eaten
+φαγώθηκε
 
-show at the start
+εμφάνιση στην εκκίνηση
 
-to look like a new fly
+να μοιάζει με μια νέα μύγα
 
-food
+φαγητό
 
-end
+τέλος
 
-I got to full size!
+Έφτασα σε πλήρες μέγεθος!
 
-change from 'all'
+αλλαγή από 'όλα'
 
-Keep changing direction
+Συνέχισε να αλλάζεις κατεύθυνση

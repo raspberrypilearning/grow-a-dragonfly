@@ -1,25 +1,25 @@
-to start small
+చిన్నగా ప్రారంభించడానికి
 
-change from 'mouse-pointer'
+'mouse-pointer' నుండి మార్చు
 
-eaten
+తినబడినది
 
-show at the start
+ప్రారంభంలో చూపించు
 
-to look like a new fly
+కొత్త ఈగలా కనిపించడానికి
 
-change from 'all'
+'All' నుండి మార్చు
 
-keep changing direction
+దిశను మారుస్తూ ఉండండి
 
-or try this condition
+లేదా ఈ పరిస్థితిని ప్రయత్నించండి
 
-eaten an insect
+ఒక కీటకాన్ని తినుట
 
-start with this
+దీనితో ప్రారంభించండి
 
-touching Dragonfly mouth
+తూనీగ నోటిని తాకడం
 
-make flies appear from edge
+అంచు నుండి ఈగలు కనిపించేలా చేయండి
 
-Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus '.' to enter.
+Frog sprite నుండి ఈగని ఉపయోగించండి లేదా మీ స్వంతంగా గీయండి. లేదా దోమ ఎమోజీని ఉపయోగించండి. లోపలికి ప్రవేశించడానికి 'Windows' కీ ప్లస్ '.' ని నొక్కండి.

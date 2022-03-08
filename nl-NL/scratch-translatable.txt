@@ -1,21 +1,21 @@
-to start small
+klein beginnen
 
-Wings
+Vleugels
 
-change from 'mouse-pointer'
+wijzigen van 'muisaanwijzer'
 
-eaten
+opgegeten
 
-show at the start
+toon aan het begin
 
-to look like a new fly
+eruit zien als een nieuwe vlieg
 
-food
+eten
 
-end
+einde
 
-I got to full size!
+Ik ben op maximale grootte!
 
-change from 'all'
+veranderen van 'alle'
 
-Keep changing direction
+Blijf van richting veranderen

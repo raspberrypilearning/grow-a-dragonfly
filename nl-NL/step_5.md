@@ -13,7 +13,7 @@ De libel 'hapert' en verandert heel snel van richting als de muisaanwijzer de li
 
 Selecteer de **libel** en zoek het script dat begint met `wanneer op de vlag wordt geklikt`{:class="block3events"}.
 
-Sleep een `als`{:class="block3control"} blok binnen in het `herhaal`{:class="block3control"} blok en de blokken binnen het `herhaal`{:class="block3control"} blok zullen naar binnenin het `als` blok verplaatsen{:class="block3control"}.
+Sleep een `als`{:class="block3control"} blok binnen in het `herhaal`{:class="block3control"} blok en de blokken binnen het `herhaal`{:class="block3control"} blok zullen naar binnenin het `als`{:class="block3control"} blok verplaatsen.
 
 Controleer zorgvuldig of je code er als volgt uitziet:
 

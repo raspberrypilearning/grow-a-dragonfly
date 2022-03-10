@@ -36,7 +36,7 @@ end
 
  --- feedback ---
 
- No, el bloque `si`{:class="block3control"} tiene una condición `Sensores`{:class="block3sensing"}, pero no utiliza el bloque `tocando Jellyfish`{:clase="block3sensing"}.
+ No, el bloque `si`{:class="block3control"} tiene una condición `Sensores`{:class="block3sensing"}, pero no utiliza el bloque `tocando Jellyfish`{:class="block3sensing"}.
 
  --- /feedback ---
 

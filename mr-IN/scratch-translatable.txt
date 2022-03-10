@@ -1,21 +1,21 @@
-to start small
+छोटी सुरूवात करण्यासाठी
 
-Wings
+पंख
 
-change from 'mouse-pointer'
+'माउस-पॉइंटर' मधून बदल
 
-eaten
+खाल्ले
 
-show at the start
+सुरुवातीला दाखवा
 
-to look like a new fly
+नवीन माशीसारखे दिसण्यासाठी
 
-food
+अन्न
 
-end
+समाप्त
 
 I got to full size!
 
-change from 'all'
+'सर्व' मधून बदला
 
-Keep changing direction
+दिशा बदलत रहा

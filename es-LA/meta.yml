@@ -1,0 +1,27 @@
+---
+title: Hacer crecer una libélula
+hero_image: images/banner.png
+description: Haz una libélula que crezca a medida que come molestos mosquitos y otros insectos.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-04-27"
+steps:
+  - title: Introducción
+  - title: Prepara la escena
+  - title: Una mosca para comer
+    completion: engaged
+  - title: Crecer a tamaño completo
+  - title: Movimiento mejorado
+  - title: Más comida
+  - title: Movimiento aleatorio de insectos
+    completion: internal
+  - title: Reflexión
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: Mejora tu proyecto
+  - title: '¿Qué sigue?'

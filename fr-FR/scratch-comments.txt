@@ -1,0 +1,25 @@
+pour démarrer petit
+
+change à partir du "pointeur de la souris"
+
+mangé
+
+montrer au début
+
+pour ressembler à une nouvelle mouche
+
+changer à partir de "tout"
+
+continue à changer de direction
+
+ou essaie cette condition
+
+a mangé un insecte
+
+commence par ça
+
+touche la bouche de la libellule
+
+fait apparaître les mouches du bord
+
+Utilise le sprite Grenouille ou dessine le tien. Ou utilise l'emoji Moustique. Appuie sur la touche "Windows" et "." pour entrer.

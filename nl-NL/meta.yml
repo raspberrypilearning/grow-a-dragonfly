@@ -1,0 +1,27 @@
+---
+title: Laat een libel groeien
+hero_image: images/banner.png
+description: Maak een libel die groter wordt als hij vervelende muggen en andere insecten eet.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-04-27"
+steps:
+  - title: Inleiding
+  - title: Maak het speelveld
+  - title: Een vlieg om te eten
+    completion: engaged
+  - title: Groei tot volledige grootte
+  - title: Verbeterde beweging
+  - title: Meer eten
+  - title: Willekeurige beweging van insecten
+    completion: internal
+  - title: Reflectie
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?

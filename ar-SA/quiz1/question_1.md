@@ -56,7 +56,7 @@ end
 
  --- /feedback ---
 
-- () سيخفي الكائن **Crab** دائمًا ``{:class="block3looks"} `عند نقر العلم`{:class="block3events"}
+- () سوف `يختفي`{:class="block3looks"} الكائن **Crab** دائمًا `عند نقر العلم`{:class="block3events"}
 
  --- feedback ---
 

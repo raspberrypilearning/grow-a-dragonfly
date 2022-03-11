@@ -1,0 +1,27 @@
+---
+title: తూనీగను గ్రో చేయండి
+hero_image: images/banner.png
+description: చికాకు కలిగించే దోమలు మరియు ఇతర కీటకాలను తిని పెద్దగా పెరిగే తూనిగను తయారు చేయండి.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-04-27"
+steps:
+  - title: పరిచయం
+  - title: సన్నివేశాన్ని సెట్ చేయండి
+  - title: తినడానికి ఒక ఈగ
+    completion: engaged
+  - title: పూర్తి పరిమాణానికి పెంచండి
+  - title: మెరుగైన కదలిక
+  - title: మరింత ఆహారం
+  - title: యాదృచ్ఛికంగా కీటకాల కదలిక
+    completion: internal
+  - title: విశ్లేషణ
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
+  - title: తర్వాత ఏంటి?

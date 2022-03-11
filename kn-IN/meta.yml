@@ -1,0 +1,27 @@
+---
+title: ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬೆಳೆಸಿ
+hero_image: images/banner.png
+description: ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡುವ ಸೊಳ್ಳೆಗಳನ್ನು ಮತ್ತು ಇತರ ಕೀಟಗಳನ್ನು ತಿನ್ನುತ್ತ ದೊಡ್ಡದಾಗಿ ಬೆಳೆಯುವ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಮಾಡಿ.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-04-27"
+steps:
+  - title: ಪರಿಚಯ
+  - title: ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಿ
+  - title: ತಿನ್ನಲು ಒಂದು ನೊಣ
+    completion: engaged
+  - title: ಪೂರ್ಣ ಗಾತ್ರಕ್ಕೆ ಬೆಳೆಸಿರಿ
+  - title: ಸುಧಾರಿತ ಚಲನೆ
+  - title: ಇನ್ನಷ್ಟು ಆಹಾರ
+  - title: ಕೀಟದ ಯಾದೃಚ್ಛಿಕ ಚಲನೆ
+    completion: internal
+  - title: ಪುನರ್ಮನನ
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
+  - title: ಮುಂದೆ ಏನು?

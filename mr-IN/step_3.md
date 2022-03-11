@@ -113,7 +113,7 @@ forever
 move [3] steps
 if on edge, bounce
 +if <touching [Dragonfly v] ?> then // 'mouse-pointer' मधून बदल
-+hide // eaten
++hide // खाल्ले
 end
 ```
 

@@ -30,9 +30,9 @@ move [5] steps
 end
 end
 ```
---- /ಕಾರ್ಯ ---
+--- /task ---
 
---- ಕಾರ್ಯ ---
+--- task ---
 
 ನಂತರ `not`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಒಳಗೆ ಎಳೆಯಿರಿ ಮತ್ತು `touching (mouse-pointer)`{:class="block3sensing"} ನ್ನು ಅದರೊಳಗೆ ಎಳೆಯಿರಿ.
 

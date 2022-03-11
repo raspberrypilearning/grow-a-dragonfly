@@ -14,14 +14,14 @@
 
 ನೀವು ಉಪಯೋಗಿಸಬಹುದಾದ **Frog 2**ಸ್ಪ್ರೈಟ್‌ನಲ್ಲಿ ನೋಣವಿದೆ.
 
---- ಕಾರ್ಯ ---
+--- task ---
 
 **Frog 2** ಸ್ಪ್ರೈಟ್‌ನ್ನು ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಸೇರಿಸಿ. ಸ್ಪ್ರೈಟ್‌ನ್ನು `Insect` ಎಂದು ಮರುನಾಮಕರಣ ಮಾಡಿ:
 
 ![Frog 2 ಸ್ಪ್ರೈಟ್‌ ಸೇರಿಸಿರುವ Sprite ಲಿಸ್ಟ್. Sprite name‌ ಗುಣಲಕ್ಷಣ 'Insect' ತೋರಿಸುತ್ತದೆ.](images/fly-sprite.png)
 
 
---- /ಕಾರ್ಯ ---
+--- /task ---
 
 ನಿಮಗೆ ನೊಣ ಮಾತ್ರ ಬೇಕು, ಕಪ್ಪೆ ಅಲ್ಲ.
 
@@ -113,7 +113,7 @@ forever
 move [3] steps
 if on edge, bounce
 +if <touching [Dragonfly v] ?> then // 'mouse-pointer' ನಿಂದ ಬದಲಾಯಿಸಿ
-+hide // eaten
++hide // ತಿನ್ನಲಾಗುತ್ತದೆ
 end
 ```
 

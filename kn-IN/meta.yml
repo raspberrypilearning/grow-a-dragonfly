@@ -14,7 +14,7 @@ steps:
   - title: ಪೂರ್ಣ ಗಾತ್ರಕ್ಕೆ ಬೆಳೆಸಿರಿ
   - title: ಸುಧಾರಿತ ಚಲನೆ
   - title: ಇನ್ನಷ್ಟು ಆಹಾರ
-  - title: ಯಾದೃಚ್ಛಿಕ ಕೀಟ ಚಲನೆ
+  - title: ಕೀಟದ ಯಾದೃಚ್ಛಿಕ ಚಲನೆ
     completion: internal
   - title: ಪುನರ್ಮನನ
     knowledge_quiz:

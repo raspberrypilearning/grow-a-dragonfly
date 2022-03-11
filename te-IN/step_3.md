@@ -113,7 +113,7 @@ forever
 move [3] steps
 if on edge, bounce
 +if <touching [Dragonfly v] ?> then // 'mouse-pointer' నుండి మార్చు
-+hide // eaten
++hide // తినబడినది
 end
 ```
 

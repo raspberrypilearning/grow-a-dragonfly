@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+ステージ上の`どこかの場所へ行く`{:class="block3motion"}ブロックを追加し、スプライトを`待つ`{:class="block3control"}で1秒間待機させてから`表示する`{:class="block3looks"}で表示します。
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**テスト：** トンボがたくさんのハエを食べることができることをテストします。
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+スタートした時に表示されるよう、`表示する`{:class="block3looks"} ブロックが追加されていることを確認します。
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**ヒント：** コードを追加している間、トンボを静かにしたい場合は、ステージの上にある赤い **停止** ボタンをクリックできます。
 
 --- save ---

@@ -1,21 +1,21 @@
-to start small
+小さく始める
 
-Wings
+羽音
 
-change from 'mouse-pointer'
+「マウスのポインター」から変更
 
-eaten
+食べられた
 
-show at the start
+最初に表示
 
-to look like a new fly
+新しいハエのように見せる
 
-food
+エサ
 
-end
+終わり
 
-I got to full size!
+大きくなったよ！
 
-change from 'all'
+「すべてを止める」から変更
 
-Keep changing direction
+方向転換を繰り返す

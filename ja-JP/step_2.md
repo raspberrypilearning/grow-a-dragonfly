@@ -1,8 +1,8 @@
-## Set the scene
+## シーンを設定する
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
+シーンを設定します。 背景を選び、マウスポインターを追ってステージを回るトンボを追加します。
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}
@@ -11,38 +11,38 @@ You will set the scene. Choose your backdrop and add a dragonfly that follows th
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
+[成長するトンボスタータープロジェクト](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}を開きます。 スクラッチはブラウザの別のタブで開きます。
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
+<span style="color: #0faeb0">**トンボ***</span>は世界中に生息しており、3億年以上前から生息しているそうです</p>
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
+**選択：****背景を選ぶ**をクリックし、お好みの背景を追加します。 **Jurassic** の背景を使用しました。
 
 ![](images/choose-backdrop-icon.png)
 
-![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
+![Jurassicの背景を使ったステージ。](images/Jurassic-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
+**スプライトを選ぶ**をクリックし、`dragonfly`を検索して、**Dragonfly**スプライトを追加します。
 
 ![](images/choose-sprite-icon.png)
 
-![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
+![「dragonfly」と入力された検索ボックスと、ギャラリー内のDragonflyのスプライト。](images/dragonfly-search.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+**Dragonfly** スプライトをマウスポインタ(または指) に追従させるスクリプトを追加する。
 
 ![](images/dragonfly-icon.png)
 
@@ -58,11 +58,11 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
+**テスト：** 緑の旗をクリックし、**Dragonfly**のスプライトをステージ上で移動させます。 トンボは期待通りに動いていますか？
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+トンボの衣装は右向きではないので、**Dragonfly**スプライトの頭はマウスポインタの方に向いていません。
 
 --- task ---
 

@@ -66,69 +66,69 @@ end
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
+**コスチューム**タブをクリックし、**選択**(矢印) ツールでコスチュームを選択します。 選択したコスチュームの下にある**回転**ツールを使って、**Dragonfly**コスチュームを右向きにします。
 
-![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
+![トンボのコスチュームが右を向くように回転矢印をドラッグして回転させる様子を示すアニメーション画像。](images/rotated-costume.gif)
 
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
+![選択され、右を向いたトンボのコスチューム。](images/rotated-costume.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and look at how the dragonfly moves now.
+**テスト：**緑の旗をクリックして、トンボの動きを見てください。
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
+トンボの羽は、振動するとヒラヒラと音がします。 Scratchで音を編集して、自分だけの音を作ることができます。
 
 --- task ---
 
-Add the **Crank** sound to the **Dragonfly** sprite.
+**Dragonfly** スプライトに**クランク**サウンドを追加します。
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
+**再生**ボタンをクリックすると、音が出ます。
 
 --- /task ---
 
-The **Crank** sound is too long and too slow for dragonfly wings.
+**クランク** の音は、トンボの羽音には長すぎて遅すぎます。
 
 --- task ---
 
-Select the end of the sound using your cursor or finger.
+カーソルまたは指で音の終わりの部分を選択します。
 
-Click **Copy to New** to make a new sound with just the selected part:
+**音をコピー**をクリックすると、選択した部分だけを使った新しいサウンドが作成されます。
 
-![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
+![クランク音の末尾が青く選択され、「音をコピー」アイコンが強調表示されます。](images/crank-copy-end.png)
 
-Rename your new sound from **Crank2** to `Wings`.
+新しいサウンドの名前を**Crank2**から`羽音`に変更します。
 
-![The rename sound property.](images/crank-wings-sound.png)
-
---- /task ---
-
---- task ---
-
-Play the new sound. Click the **Faster** button a few times until you like the result:
-
-![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
+![サウンドの名前の変更プロパティ。](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+新しいサウンドを再生します。 気に入った結果が得られるまで、**速く**ボタンを数回クリックしてください。
 
-![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+![「速く」のアイコンが強調表示された、より速い波形。](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Now add a block to play the **Wings** sound when the dragonfly moves:
+お好みで、**羽音**の音の最後の部分を選択し、**削除**をクリックして削除することもできます。
+
+![波形の最後の部分が選択された波形と強調表示された「削除」ツール。](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+次に、トンボが動いたときに**羽音**という音を鳴らすブロックを追加します。
 
 ![](images/dragonfly-icon.png)
 
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your dragonfly movement and sound effect.
+**テスト：** トンボの動きと効果音を試してみる。
 
 --- /task ---
 

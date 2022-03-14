@@ -1,33 +1,33 @@
-## A fly to eat
+## 食べるハエ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+トンボが食べる昆虫を追加します。 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![トンボと昆虫のいるステージ。](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+ゲーム内で勝手に動き回るキャラクターを、モビールを略して<span style="color: #0faeb0">**モブ**</span>と呼ぶことがある。 モブがいるゲームを思いつきますか？</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+**Frog 2**のスプライトにハエがいるので、それを利用します。
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+プロジェクトに **Frog 2** のスプライトを追加しましょう。 スプライトの名前を`昆虫`に変更します。
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![Frog2スプライトが追加されたスプライトリスト。 「昆虫」を示していスプライト名プロパティ。](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+カエルではなく、ハエだけが必要です。
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+**コスチューム** タブをクリックします。 ハエをクリックして選択し、**コピー**アイコンをクリックします。
 
 ![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
 

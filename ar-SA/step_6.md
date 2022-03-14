@@ -75,7 +75,7 @@ end
 
 --- task ---
 
-اسحب كتلة `ملامس للون`{:class="block3sensing"} إلى يمين الكتلة `و`:class="block3operators"}:
+اسحب كتلة `ملامس للون`{:class="block3sensing"} إلى يمين الكتلة `و`{:class="block3operators"}:
 
 ![](images/insect2-icon.png)
 

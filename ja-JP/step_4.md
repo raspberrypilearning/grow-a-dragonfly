@@ -1,24 +1,24 @@
-## Grow to full-size
+## フルサイズに成長する
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+トンボがハエを食べると成長し、フルサイズになると停止します
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![ステージで「大きくなったよ！」と言っているフルサイズのトンボ。](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+現存する最大のトンボは中米に生息し、羽を広げると19cm(手のひらより少し大きい) にもなります。 これまで知られている最大の昆虫は、<span style="color: #0faeb0">**メガニューロプシス パーミアナ**</span> というトンボで、羽を広げると約75cm(大またの一歩くらい) ありました。</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+ハエは自分が食べられたことを知り、今度はトンボが成長するために知る必要があるのです。
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+何かが起こったことを他のスプライトに知らせる必要があるときは、[呪文の送信](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}で行ったように、`()を送る`{:class="block3events"}ブロックを使用することができます。
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+`()を送信する`ブロックを**昆虫**スプライトに追加し、新しいメッセージ`エサ`{:class="block3events"}をセットします：
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+**Dragonfly** スプライトは、 `エサ`{:class="block3events"}メッセージを受信したときに成長する必要があります。
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+**Dragonfly** スプライトを選択し、次のスクリプトを追加します。
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+トンボに**Chomp**という音を追加し、虫が食べられた時に`再生`{:class="block3sound"}します。
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**テスト：** プロジェクトを実行して、ハエを食べると、トンボが成長し音が鳴るのをテストします。
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+トンボの大きさがフルサイズに達すると、ゲームはあなたを祝福して停止します。
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+`もし`{:class="block3control"}ブロックを追加する。
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+`大きさ`{:class="block3looks"}`=`{:class="block3operators"}`100％`の場合、トンボはフルサイズです。 まず、六角形の入力に`=`{:class="block3operators"}という演算子を追加します。
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+組み込みの`大きさ`{:class="block3looks"}変数を追加して、値`100`を入力して条件構築を終了します。
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+`もし`{:class="block3control"} 真 `ならば`{:class="block3control"} '終わり' `を送信する`{:class="block3events"}と`大きくなったよ！`と `言う`{:class="block3looks"} ブロックを追加する。
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+最後に、`すべてを止める`{:class="block3control"} ブロックを追加して、他のトンボスクリプトを停止させます。
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+現時点では、プロジェクトが終了した後もハエは動きます。 Add this script to the **Insect** sprite.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**テスト：** 緑色の旗をクリックし、トンボがフルサイズになるまでハエを食べ続けます。
 
 --- /task ---
 

@@ -2,20 +2,20 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+マウスポインターがトンボに触れてしまうと、トンボは壊れたよう機械の用に激しく方向を変え続けます。 これを修正するには、別の条件を確認する必要があります。
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![昆虫とトンボが映し出されるステージ。](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+**Dragonfly**を選択し、`「緑の旗」が押されたとき`{:class="block3events"}で始まるスクリプトを見つけます。
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+`ずっと`{:class="block3control"}ブロックの中に`もし`{:class="block3control"}をドラッグすると、`ずっと`{:class="block3control"}の中のブロックは`もし`{:class="block3control"}の中に移動します。
 
-Check carefully that your code looks like this:
+コードが次のようになっていることを注意深く確認してください。
 
 ![](images/dragonfly-icon.png)
 
@@ -34,9 +34,9 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+そして、`ではない`{:class="block3operators"}ブロックを`もし`{:class="block3control"}に、`(マウスポインター)に触れた`{:class="block3sensing"} をその中にドラッグしてください。
 
-Check that your code looks like this:
+以下のようなコードになっているか確認してください。
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+`ではない`{:class="block3operators"} ブロックは、文章と同じように、条件をその反対に変えます。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**テスト:**不具合が修正され、トンボが`(マウスポインター)に触れた`{:class="block3sensing"}の`ではない`{:class="block3operators"}ときにのみ動くことを確認します。
 
-A different condition to try is:
+別の条件で試してみる場合は：
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+これにより、マウスポインターから十分に離れているときに、トンボが移動します。
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**ヒント：** コード領域の任意の場所にブロックをドラッグして、さまざまなことを試す間、そこに置いたままにすることができます。
 
 --- /task ---
 

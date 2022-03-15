@@ -1,23 +1,23 @@
-## Reflection
+## ふりかえり
 
-Well done, you created a nature app with a dragonfly controlled by the user and insects that follow an algorithm!
+よくできました。ユーザーが制御するトンボと、アルゴリズムに従う昆虫を使って、ネイチャーアプリを作成しました。
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+`イベント`{:class="block3events"}、 `制御`{:class="block3control"}、 `調べる`{:class="block3sensing"}、`演算`{:class="block3operators"}、`動き`{:class="block3motion"}、 `見た目`{:class="block3looks"}および `音`{:class="block3sound"}ブロックを使用しました！
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+次はふりかえりの時間です。ふりかえりを行うことで、脳に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
 
-Answer the three questions below to reflect on what you've learned.
+以下の3つの質問に答えて、学んだことをふりかえってみましょう。
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+各質問の後で、送信を押します。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
 
-Have fun!
+楽しんで!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: 質問1/3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+あるプロジェクトで**Crab**スプライトと**Jellyfish**スプライトが使用されています。 **Crab**スプライトは、このようなコードを持っています。
 
 ![desc](images/crab-icon.png)
 
@@ -28,39 +28,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+**Crab**のスプライトが隠れるには何が必要ですか？
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () **Crab** スプライトは **Jellyfish**に触れる必要があります
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ 残念！、`もし`{:class="block3control"}ブロックには`調べる`{:class="block3sensing"}条件がありますが、`Jellyfishに触れた`{:class="block3sensing"} ブロックは使用されていません。
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) **Crab** スプライトは青色に触れていない必要があります。
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+正解！、`ではない`{:class="block3operators"}演算子は、`もし`{:class="block3control"}**Crab**スプライトが青色に`触れている`{:class="block3sensing"}ではない、という条件が真であることを意味します。
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () **Crab** スプライトは青色をふれる必要があります。
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ 残念！、条件の中の`演算子`{:class="block3operators"}をよく見てみてください。
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) `旗が押されたとき`{:class="block3events"}、**Crab**スプライトは常に`隠れる`{:class="block3looks"}ようになります。
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ 残念！、`もし`{:class="block3control"}ブロックが**Crab**スプライトのコードにあり、条件が満たされたときだけ隠れるようになっています。
 
  --- /feedback ---
 

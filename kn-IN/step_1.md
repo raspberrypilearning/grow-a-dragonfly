@@ -20,7 +20,7 @@
 ಕೀಟಗಳನ್ನು ತಿನ್ನಲು ಡ್ರಾಗನ್‌ಫ್ಲೈನ ಯಾವ ಭಾಗವು ಅವುಗಳನ್ನು ಸ್ಪರ್ಶಿಸಬೇಕು? ಡ್ರಾಗನ್‌ಫ್ಲೈ ಕೀಟವನ್ನು ತಿಂದಾಗ ಡ್ರಾಗನ್‌ಫ್ಲೈಗೆ ಏನಾಗುತ್ತದೆ?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660049996/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

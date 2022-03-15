@@ -21,7 +21,9 @@
 
 आधीचा **insect** sprite डुप्लीकेट करा त्यानंतर **Costumes** टॅबवर क्लिक करा. नवीन कॉश्चुम **Paint** करा आणि **Text** टूल निवडा. टेक्स्ट टाईप करण्याऐवजी, तुमच्या ऑपरेटिंग सिस्टीमसाठी इमोजी कीबोर्ड शॉर्टकट वापरा:
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows - Windows key + '.' 
+MacOS - ctrl + cmd + space 
+Linux - ctrl + '.'
 
 ![निवडलेल्या 'animals and nature' कॅटेगरीसह पॉपअप इमोजी कीबोर्ड.](images/emoji-keyboard.png)
 

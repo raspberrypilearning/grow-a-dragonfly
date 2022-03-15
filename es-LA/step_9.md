@@ -21,7 +21,9 @@ Usa el teclado de emoji para agregar un objeto **Mosquito emoji**.
 
 Duplica un obeto **insect** ya existente y luego pulsa en la pestaña **Disfraces**. **Pinta** un disfraz nuevo y selecciona la herramienta **Texto**. En lugar de escribir texto, usa el atajo de teclado emoji para tu sistema operativo:
 
-Windows: tecla de Windows + '.' MacOS - ctrl + cmd + espacio Linux - ctrl + '.'
+Windows: tecla de Windows + '.' 
+MacOS - ctrl + cmd + espacio 
+Linux - ctrl + '.'
 
 ![El teclado emoji emergente con la categoría 'animales y naturaleza' seleccionada.](images/emoji-keyboard.png)
 

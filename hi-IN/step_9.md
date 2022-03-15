@@ -21,7 +21,9 @@
 
 मौजूदा **insect** स्प्राइट को डुप्लिकेट करें और फिर **Costumes** टैब पर क्लिक करें। एक नई पोशाक **Paint** करें और **Text** का चयन करें । टेक्स्ट टाइप करने के बजाय, अपने ऑपरेटिंग सिस्टम के लिए इमोजी कीबोर्ड शॉर्टकट का उपयोग करें:
 
-Windows- Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows- Windows key + '.' 
+MacOS - ctrl + cmd + space 
+Linux - ctrl + '.'
 
 ![पॉपअप इमोजी कीबोर्ड को 'जानवरों और प्रकृति' श्रेणी के साथ चुना गया है।](images/emoji-keyboard.png)
 

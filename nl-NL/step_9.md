@@ -21,7 +21,9 @@ Gebruik het emoji-toetsenbord om een **Mosquito emoji** sprite toe te voegen.
 
 Dupliceer een bestaande **insecten** sprite en klik vervolgens op het tabblad **Uiterlijken**. **Schilder** een nieuw uiterlijk en selecteer het gereedschap **Tekst**. Gebruik in plaats van tekst te typen de emoji-sneltoets van je besturingssysteem:
 
-Windows - Windows-toets + '.' MacOS - ctrl + cmd + spatie Linux - ctrl + '.'
+Windows - Windows-toets + '.' 
+MacOS - ctrl + cmd + spatie 
+Linux - ctrl + '.'
 
 ![Het pop-up emoji-toetsenbord met de categorie 'dieren en natuur' geselecteerd.](images/emoji-keyboard.png)
 

@@ -21,7 +21,9 @@
 
 ಈಗಿರುವ **insect** ಸ್ಪ್ರೈಟ್‌ನ್ನು ನಕಲು ಮಾಡಿ ನಂತರ **Costumes** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಹೊಸ ಉಡುಪನ್ನು **Paint** ಮಾಡಿ ಮತ್ತು **Text** ಟೂಲ್‌ ಆಯ್ಕೆಮಾಡಿ. ಅಕ್ಷರಗಳನ್ನು ಟೈಪ್‌ ಮಾಡುವ ಬದಲು, ನಿಮ್ಮ ಆಪರೇಟಿಂಗ್‌ ಸಿಸ್ಟಮ್‌ನ ಇಮೋಜಿ ಕೀಬೋರ್ಡ್‌ ಶಾರ್ಟ್‌ಕಟ್‌ ಉಪಯೋಗಿಸಿ:
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows - Windows key + '.' 
+MacOS - ctrl + cmd + space 
+Linux - ctrl + '.'
 
 !['ಪ್ರಾಣಿಗಳು ಮತ್ತು ಪ್ರಕೃತಿ' ವರ್ಗ ಆಯ್ಕೆಯಾಗಿರುವ ಪಾಪ್‌ಅಪ್‌ ಎಮೋಜಿ ಕೀಬೋರ್ಡ್.](images/emoji-keyboard.png)
 

@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-現時点では、プロジェクトが終了した後もハエは動きます。 Add this script to the **Insect** sprite.
+現時点では、プロジェクトが終了した後もハエは動きます。 このスクリプトを**昆虫**スプライトに追加する。
 
 ![](images/fly-icon.png)
 

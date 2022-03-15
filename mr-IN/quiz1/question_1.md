@@ -56,7 +56,7 @@ end
 
  --- /feedback ---
 
-- `when the flag is clicked`{:class="block3events"} तेव्हा ( ) **Crab** sprite नेहमी `hide`{:class="block3looks"} होईल
+- () `when the flag is clicked`{:class="block3events"} तेव्हा ( ) **Crab** sprite नेहमी `hide`{:class="block3looks"} होईल
 
  --- feedback ---
 

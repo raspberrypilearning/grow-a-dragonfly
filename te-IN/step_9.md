@@ -54,7 +54,7 @@ Windows - Windows కీ + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
 title: పూర్తయిన ప్రాజెక్ట్
 ---
 
-మీరు [పూర్తయిన ప్రాజెక్ట్‌ను ఇక్కడ](https://scratch.mit.edu/projects/521688740/){:target="_blank"} వీక్షించవచ్చు.
+మీరు [పూర్తయిన ప్రాజెక్ట్‌ను ఇక్కడ](https://scratch.mit.edu/projects/660054403/){:target="_blank"} వీక్షించవచ్చు.
 
 --- /collapse ---
 

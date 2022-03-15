@@ -20,7 +20,7 @@
 కీటకాలను తినడానికి తూనీగలో ఏ భాగం వాటిని తాకాలి? తూనీగ ఒక క్రిమిని తిన్నప్పుడు తూనీగకు ఏమి జరుగుతుంది?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660054403/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

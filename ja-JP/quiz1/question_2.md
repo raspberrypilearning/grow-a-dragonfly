@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: 質問2/3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+トンボがマウスポインターに`触れた`の{:class="block3sensing"}`ではない`{:class="block3operators"}ときだけ動くようにコードを書きましたね。
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+トンボが動くたびに音が鳴るようにするには、`音を鳴らす`{:class="block3sound"} ブロックはどこに置くべきでしょうか。
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+残念！、このコードでは`音を鳴らす`{:class="block3sound"} ブロックは `もし`{:class="block3control"} ブロックの外にあるので、トンボが動かなくても`ずっと`{:class="block3control"} ループが走る度に実行されることになるのです。
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+正解です！ `音を鳴らす`{:class="block3sound"} ブロックを `もし`{:class="block3control"} ブロックの中に置くと、トンボが動いた時に再生されることになります。
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+残念！、このコードでは`音を鳴らす`{:class="block3sound"} ブロックは `もし`{:class="block3control"} ブロックの外にあるので、トンボが動かなくても`ずっと`{:class="block3control"} ループが走る度に実行されることになるのです。
 
   --- /feedback ---
 

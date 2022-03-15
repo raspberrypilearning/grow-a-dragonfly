@@ -1,42 +1,42 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: 質問3/3
 ---
 
-In your project, you used `pick random`{:class="block3operators"} blocks to move the **Insect** sprite in a natural, unpredictable flying pattern.
+このプロジェクトでは、`乱数`{:class="block3operators"} ブロックを使って、**昆虫** スプライトを自然で予測不可能な飛行パターンで動かしていましたね。
 
-Which `pick random`{:class="block3operators"} block could give the number `10`?
+`乱数`{:class="block3operators"} ブロックの中で、`10`という数字を与えられるのはどれでしょうか？
 
 --- choices ---
 
 - ( )
 
-`pick random [0] to [9]`{:class="block3operators"}
+`[0]から[9]までの乱数`{:class="block3operators"}
 
   --- feedback ---
 
-  No, this block can give you any of the numbers from 0 up to 9.
+  残念！、このブロックは0から9までの数字のいずれかを与えることができます。
 
   --- /feedback ---
 
 - ( )
 
-`pick random [20] to [100]`{:class="block3operators"}
+`[20]から[100]までの乱数`{:class="block3operators"}
 
   --- feedback ---
 
-No the smallest number this block can give you is 20.
+このブロックがあなたに与えられる最小の数は20です。
 
   --- /feedback ---
 
 - (x)
 
-`pick random [1] to [50]`{:class="block3operators"}
+`[1]から[50]までの乱数`{:class="block3operators"}
 
   --- feedback ---
 
-Yes, this block can give you numbers from 1 up to 50, which includes 10.
+正解！、このブロックは1から50までの数字を与えることができます。これには10が含まれます。
 
   --- /feedback ---
 

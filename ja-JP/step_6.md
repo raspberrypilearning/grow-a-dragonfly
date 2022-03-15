@@ -1,58 +1,58 @@
-## More food
+## より多くのエサ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly needs a choice of insects.
+トンボには昆虫の選択が必要です。
 </div>
 <div>
-![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
+![2匹の昆虫とトンボのステージ。](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it.
+ステージの下のスプライトリストで **昆虫** スプライトを右クリックし、 **複製** します。
 
-![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
-
---- /task ---
-
-It's helpful if this insect looks different to the fly.
-
---- task ---
-
-Click on the **Costumes** tab.
-
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
+![昆虫のスプライトが選択され、メニューで「複製」が強調表示されたスプライトリスト。](images/duplicate-insect.png)
 
 --- /task ---
 
-The insect gets eaten even if it touches the dragonfly's wing or tail.
-
-To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+この昆虫がハエと違うように見えると役立ちます。
 
 --- task ---
 
-Select the **Dragonfly** sprite and click on the **Costumes** tab.
+**コスチューム** タブをクリックします。
 
-Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
-
-![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
+**選択：**別の飛ぶ昆虫を作成する方法。
++ **塗りつぶし** ツールでこの昆虫の色を変更する
++ 昆虫のコスチュームを自分で**描く**
++ 別の昆虫コスチュームをScratchから**追加**する
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+昆虫はトンボの羽や尻尾に触れただけでも食べられてしまいます。
+
+よりリアルなゲームにするために、昆虫がトンボの口に食べられるように修正します。 `()色に触れた`{:class="block3sensing"} ブロックを使って、**Dragonfly**の特定の色に触れたときだけ、その虫が食べられるようにすることができます。
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+**Dragonfly**スプライトを選択し、**コスチューム**タブをクリックします。
 
-Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block.
+塗りつぶしツールで**Dragonfly**の口を塗りつぶす。 紫を使用しました：
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+![塗りつぶしツールが選択されたペイントエディタと紫色の口を持つトンボのコスチューム。](images/dragonfly-mouth-colour.png)
+
+--- /task ---
+
+**昆虫2**スプライトが**Dragonfly**スプライトに触れていて、`かつ`{:class="block3operators"}トンボの口の色に触れていることを確認する必要があります。
+
+--- task ---
+
+**昆虫2**スプライトを選択し、**コード**タブをクリックします。
+
+`かつ`{:class="block3operators"} ブロックを `もし`{:class="block3control"} ブロックの中にドラッグします。
+
+`<[Dragonfly v]に触れた>`{:class="block3sensing"}ブロックが飛び出しますので、これを`かつ`{:class="block3operators"}ブロックの左側にドラッグしてください。
 
 ![](images/insect2-icon.png)
 
@@ -75,7 +75,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
+`()色に触れた`{:class="block3sensing"}ブロックを`かつ`{:class="block3operators"}ブロックの右にドラッグしてください。
 
 ![](images/insect2-icon.png)
 
@@ -94,23 +94,23 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+トンボの口に選択された色がない場合は、色のついた丸い部分をクリックし、**スポイト**ツールをクリックして色を選択します。
 
-![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
+![スポイトツール付きのカラーサークルメニュー。](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+ステージ上のトンボの口をクリックして、色を合わせて設定します：
 
-![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
+![トンボの紫色の口の上にホバリングしたとき色が強調表示されたスポイトツール。](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**ヒント：** これが難しい場合は、**Dragonfly**スプライトのサイズを大きくしてください。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth.
+**テスト：**ここで、トンボが2番目の昆虫を口だけでしか食べられないことをテストします。
 
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+お好みで、最初の**昆虫**をトンボの口でないと食べられないように変更することもできます。
 
 --- /task ---
 

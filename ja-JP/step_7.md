@@ -1,19 +1,19 @@
-## Random insect movement
+## ランダムな昆虫の動き
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+アプリの中の昆虫は非常に予測しやすい動きをしていますが、現実にはなかなか捕まえられないものです。 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+昆虫の動きをより自然にするために、`乱数`{:class="block3operators"} ブロックを使用することになります。
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![昆虫が様々な方向を向いているステージ。](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+**昆虫2**にスクリプトを追加し、1〜3秒ごとにランダムな方向を向くようにします。
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**テスト：** プロジェクトを実行し、ハエの動きを見てみましょう。 必要な効果を得るために数値を変更してみてください。
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+また、このスクリプトを**昆虫**スプライトにドラッグすると、そちらもランダムに動くようになります。
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+昆虫が思い通りの動きをするようになるまで、変えてみてください。
 
-Make changes until you are happy with your project.
+`動かす`{:class="block3motion"}のステップ数を変えて、速くしたり遅くしたりできます。
+
+トンボの速度を変更することもできます。
+
+--- /task ---
+
+--- task ---
+
+トンボがフルサイズに達するまで成長するのに必要なサイズを変更することもできます。
+
+プロジェクトに満足するまで変更を加えます。
 
 --- /task ---
 

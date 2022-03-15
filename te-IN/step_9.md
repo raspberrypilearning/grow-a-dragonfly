@@ -21,7 +21,9 @@
 
 ఇప్పటికే ఉన్న **Insect** sprite నకలు చేసి, ఆపై **Costumes** ట్యాబ్‌పై క్లిక్ చేయండి. కొత్త costume లను **Paint** చేయండి మరియు **Text** సాధనాన్ని ఎంచుకోండి. వచనాన్ని టైప్ చేయడానికి బదులుగా, మీ ఆపరేటింగ్ సిస్టమ్ కోసం ఎమోజి కీబోర్డ్ వంటి సత్వరమార్గాన్ని ఉపయోగించండి:
 
-Windows - Windows కీ + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows - Windows కీ + '.' 
+MacOS - ctrl + cmd + space 
+Linux - ctrl + '.'
 
 !['animals and nature' వర్గంతో పాప్అప్ ఎమోజి కీబోర్డ్ ఎంచుకోబడింది.](images/emoji-keyboard.png)
 

@@ -21,7 +21,9 @@ Utilise le clavier emoji pour ajouter un sprite **Emoji moustique**.
 
 Duplique un sprite **insecte** existant puis clique sur l'onglet **Costumes**. **Peins** un nouveau costume et sélectionne l'outil **Texte**. Au lieu de saisir du texte, utilise le raccourci clavier emoji pour ton système d'exploitation :
 
-Windows - Touche Windows + '.' MacOS - ctrl + cmd + espace Linux - ctrl + '.'
+Windows - Touche Windows + '.' 
+MacOS - ctrl + cmd + espace 
+Linux - ctrl + '.'
 
 ![Le clavier emoji contextuel avec la catégorie "animaux et nature" sélectionnée.](images/emoji-keyboard.png)
 

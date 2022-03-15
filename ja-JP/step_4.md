@@ -18,7 +18,7 @@
 
 --- task ---
 
-`()を送信する`ブロックを**昆虫**スプライトに追加し、新しいメッセージ`エサ`{:class="block3events"}をセットします：
+`()を送信する`{:class="block3events"}ブロックを**昆虫**スプライトに追加し、新しいメッセージ`エサ`{:class="block3events"}をセットします：
 
 ![](images/fly-icon.png)
 

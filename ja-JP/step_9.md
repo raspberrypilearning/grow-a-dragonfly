@@ -1,41 +1,41 @@
-## Upgrade your project
+## プロジェクトをアップグレードする
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+このステップでは、昆虫を追加して、プロジェクトの外観と動作を変更してみてください。
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![3種類の昆虫とトンボが登場するステージ。](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### 昆虫を追加する
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+昆虫を追加する. トンボに捕まりにくいように、動きを速くする必要があるかもしれません。
 
-You can paint your own insects or trying adding an emoji mosquito!
+自分で虫を描いたり、絵文字の蚊を追加してみたりできます！
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+絵文字キーボードを使用して、**蚊の絵文字** スプライトを追加します。
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+既存の**昆虫**スプライトを複製し、**コスチューム**タブをクリックします。 **描く**で新しいコスチュームを作り、**テキスト**ツールを選択します。 テキストを入力する代わりに、オペレーティングシステムの絵文字キーボードショートカットを使用します。
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows - Windowsキー + '.' MacOS - ctrl + cmd + スペース Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![「動物と自然」カテゴリが選択されたポップアップ絵文字キーボード。](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+**蚊** 絵文字を選択して、ペイントエディタに挿入します。 **選択**(矢印) ツールを使って、蚊の中心を合わせたり、サイズを変えたり、回転させたりして、納得のいくまで調整します。
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![ペイントエディタの蚊の絵文字。](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**ヒント：** 絵文字はコンピューターによって異なる場合があるため、タブレットとデスクトップコンピューターでは同じように見えない場合があります。 一部の絵文字は一部のコンピューターでは使用できませんが、最近のほとんどのコンピューターはそれらをサポートします。
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+バックパックを使って、「トンボを育てよう」プロジェクトに参加した友だちと昆虫を交換しよう。
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**ヒント：** すべてのスプライトとコスチュームにわかりやすい名前が付いていることを確認します。 後で戻ってきた場合に、プロジェクトを理解しやすくなります。
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**ヒント：** コードがコード領域にきちんと配置されていることを確認してください。 コード領域を右クリックし、 **ブロック** をクリーンアップを選択して、Scratchでコードを整理します。
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: 完成したプロジェクト
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/521688740/){:target="_blank"}で確認できます。
 
 --- /collapse ---
 

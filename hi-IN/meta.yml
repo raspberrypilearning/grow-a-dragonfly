@@ -17,11 +17,11 @@ steps:
   - title: यादृच्छिक कीट गतिविधि
     completion: internal
   - title: सोचिए
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: external
   - title: अपना प्रोजेक्ट अपग्रेड करें
   - title: आगे क्या?

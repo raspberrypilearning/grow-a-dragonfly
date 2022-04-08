@@ -17,11 +17,11 @@ steps:
   - title: యాదృచ్ఛికంగా కీటకాల కదలిక
     completion: internal
   - title: విశ్లేషణ
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: external
   - title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
   - title: తర్వాత ఏంటి?

@@ -5,23 +5,26 @@ description: एक ड्रॅगनफ्लाय बनवा जो मो
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-04-27"
+last_tested: '2021-04-27'
 steps:
-  - title: परिचय
-  - title: दृश्य सेट करा
-  - title: खाण्यासाठी एक माशी
-    completion: engaged
-  - title: पूर्ण आकारात वाढवा
-  - title: सुधारित हालचाल
-  - title: अधिक अन्न
-  - title: कीटकाची कुठेही हालचाल
-    completion: internal
-  - title: परावर्तन
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: तुमचा प्रोजेक्ट अपग्रेड करा
-  - title: पुढे काय?
+- title: परिचय
+- title: दृश्य सेट करा
+- title: खाण्यासाठी एक माशी
+  completion:
+  - engaged
+- title: पूर्ण आकारात वाढवा
+- title: सुधारित हालचाल
+- title: अधिक अन्न
+- title: कीटकाची कुठेही हालचाल
+  completion:
+  - internal
+- title: परावर्तन
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: तुमचा प्रोजेक्ट अपग्रेड करा
+- title: पुढे काय?

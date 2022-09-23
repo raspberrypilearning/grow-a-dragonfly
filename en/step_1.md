@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make a nature app with a dragonfly that grows bigger as it eats insects.
 
@@ -13,7 +13,7 @@ We use <span style="color: #0faeb0">**conditions**</span> all the time to make d
 --- no-print ---
 --- task ---
 
-### Try it
+### Play ▶️ 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?

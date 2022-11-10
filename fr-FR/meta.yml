@@ -5,15 +5,16 @@ description: Créer une libellule qui grandit en mangeant les moustiques et autr
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-04-27"
+last_tested: '2021-04-27'
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
     title: Créer la scène
   - 
     title: Une mouche à manger
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Faire grandir jusqu'à sa taille maximale
   - 
@@ -22,15 +23,17 @@ steps:
     title: Plus de nourriture
   - 
     title: Mouvement aléatoire des insectes
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Réflexion
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Améliorer ton projet
   - 

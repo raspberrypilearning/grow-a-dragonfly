@@ -5,15 +5,16 @@ description: اجعل اليعسوب عندما يأكل البعوض المزع
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-04-27"
+last_tested: '2021-04-27'
 steps:
   - 
-    title: المقدمة
+    title: You will make
   - 
     title: جهز المشهد
   - 
     title: ذبابة للأكل
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: تنمو إلى الحجم الكامل
   - 
@@ -22,15 +23,17 @@ steps:
     title: المزيد من الطعام
   - 
     title: حركة الحشرات العشوائية
-    completion: internal
+    completion:
+      - internal
   - 
-    title: تفكير
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: قم بترقية مشروعك
   - 

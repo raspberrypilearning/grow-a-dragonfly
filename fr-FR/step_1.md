@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Crée une application sur la nature avec une libellule qui grandit en mangeant des insectes.
 
@@ -12,7 +12,7 @@ Nous utilisons les <span style="color: #0faeb0">**conditions**</span> tout le te
 
 --- no-print --- --- task ---
 
-### Essaie-le
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Déplace la souris (ou ton doigt) autour de la scène pour manger des insectes. Comment se déplacent les insectes ?

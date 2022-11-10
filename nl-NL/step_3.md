@@ -43,7 +43,7 @@ Voeg een nieuw uiterlijk toe aan de sprite met behulp van de **Teken**-optie:
 
 --- task ---
 
-Klik op het pictogram **Plakken** om de sprite in het nieuwe uiterlijk te plakken. Sleep de vlieg naar de **midden** zodat deze uitgelijnd is met het dradenkruis.
+Klik op het pictogram **Plakken** om de sprite in het nieuwe uiterlijk te plakken. Sleep de vlieg naar de **midden** zodat deze uitgelijnd is met het raster.
 
 Je kunt je uiterlijk `Insect` hernoemen en de andere uiterlijken verwijderen, want die heb je niet nodig:
 

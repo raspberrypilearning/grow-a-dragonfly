@@ -5,15 +5,16 @@ description: Maak een libel die groter wordt als hij vervelende muggen en andere
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-04-27"
+last_tested: '2021-04-27'
 steps:
   - 
-    title: Inleiding
+    title: You will make
   - 
     title: Maak het speelveld
   - 
     title: Een vlieg om te eten
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Groei tot volledige grootte
   - 
@@ -22,15 +23,17 @@ steps:
     title: Meer eten
   - 
     title: Willekeurige beweging van insecten
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Reflectie
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Verbeter je project
   - 

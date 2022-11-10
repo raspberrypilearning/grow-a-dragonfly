@@ -1,6 +1,6 @@
 ## Τι υπάρχει στη συνέχεια;
 
-Εάν ακολουθείς το μονοπάτι [Περισσότερο Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Αστέρι στα Τύμπανα](https://projects.raspberrypi.org/en/projects/drum-star). Σε αυτό το έργο, θα δημιουργήσεις ένα παιχνίδι με κλικ όπου κερδίζεις κτύπους για να παίξεις νέα ντραμς σε μεγαλύτερους χώρους.
+Εάν ακολουθείς το μονοπάτι [Περισσότερη Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Αστέρι στα Τύμπανα](https://projects.raspberrypi.org/en/projects/drum-star). Σε αυτό το έργο, θα δημιουργήσεις ένα παιχνίδι με κλικ όπου κερδίζεις κτύπους για να παίξεις νέα ντραμς σε μεγαλύτερους χώρους.
 
 --- print-only ---
 

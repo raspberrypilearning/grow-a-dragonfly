@@ -5,15 +5,16 @@ description: एक ड्रैगनफ्लाई बनाएं जो ज
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-04-27"
+last_tested: '2021-04-27'
 steps:
   - 
-    title: परिचय
+    title: You will make
   - 
     title: दृश्य को स्थापित करें
   - 
     title: खाने के लिए एक मक्खी
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: पूर्ण आकार तक बड़ा हो
   - 
@@ -22,15 +23,17 @@ steps:
     title: अधिक भोजन
   - 
     title: यादृच्छिक कीट गतिविधि
-    completion: internal
+    completion:
+      - internal
   - 
-    title: सोचिए
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: अपना प्रोजेक्ट अपग्रेड करें
   - 

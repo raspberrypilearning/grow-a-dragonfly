@@ -1,23 +1,17 @@
-## परावर्तन
+## Quick quiz
 
-छान केलेत, तुम्ही यूजरने नियंत्रीत केलेल्या ड्रॅगनफ्लाय सह नेचर ऍप आणि अल्गोरिदम फॉलो करणारे कीटक तयार केलेत!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-तुम्ही `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, आणि`Sound`{:class="block3sound"} ब्लॉक्स वापरलेत!
+When you have answered each question, click on **Check my answer**.
 
-आता, चिंतन करण्याची वेळ आहे - चिंतन हा अभ्यासाचा महत्वाचा भाग आहे, कारण त्यामुळे तुमच्या मेंदूला नवीन माहिती मिळण्यास मदत होते.
-
-तुम्ही काय शिकलात याचे चिंतन करण्यासाठी खालील तीन प्रश्नांची उत्तरे द्या.
-
-प्रत्येक प्रश्नानंतर submit दाबा. तुम्हाला योग्य उत्तराचे मार्गदर्शन केले जाईल. तुम्हाला हवे तेवढ्या वेळा तुम्ही ही कृती करू शकता.
-
-मजा करा!
+Have fun!
 
 --- question ---
 ---
 legend: प्रश्न 3 पैकी 1
 ---
 
-प्रोजेक्ट **Crab** sprite आणि **Jellyfish** sprite वापरतो. **Crab** sprite मध्ये हा कोड आहे:
+A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
 
 ![desc](images/crab-icon.png)
 
@@ -28,7 +22,7 @@ hide
 end
 ```
 
-**Crab** sprite लपवण्यासाठी काय करावे लागेल?
+What would need to happen for the **Crab** sprite to hide?
 
 --- choices ---
 
@@ -44,7 +38,7 @@ end
 
  --- feedback ---
 
-हो, `not`{:class="block3operators"} ऑपरेटर म्हणजे स्थिती बरोबर आहे `if`{:class="block3control"} **Crab** sprite निळ्या रंगाला `touching`{:class="block3sensing"} करत नसेल.
+Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
 
  --- /feedback ---
 

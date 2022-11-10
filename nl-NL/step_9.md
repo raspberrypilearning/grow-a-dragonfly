@@ -43,7 +43,7 @@ Gebruik je rugzak om insecten te ruilen met je vrienden uit hun 'Laat een libel 
 
 --- task ---
 
-**Tip:** Controleer of al je sprites en uiterlijken zinnige namen hebben. Het maakt jouw project gemakkelijker te begrijpen als je er later op terugkomt.
+**Tip:** Controleer of al je sprites en uiterlijken duidelijke namen hebben. Het maakt jouw project gemakkelijker te begrijpen als je er later op terugkomt.
 
 **Tip:** Zorg ervoor dat je code netjes is opgemaakt in het gebied Code. Klik met de rechtermuisknop op het codegebied en kies **Blokken opruimen** om Scratch je code te laten opschonen.
 

@@ -1,23 +1,17 @@
-## تفكير
+## Quick quiz
 
-أحسنت صنعًا، لقد أنشأت تطبيقًا للطبيعة باستخدام اليعسوب الذي يتحكم فيه المستخدم، وحشرات تتبع خوارزمية!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-قمت باستخدام كتل `الاحداث`{:class="block3events"}، `التحكم`{:class="block3control"}، `الاستشعار`{:class="block3sensing"}، `العمليات`{:class="block3operators"}، `الحركة`{:class="block3motion"}، `الهيئة`{:class="block3looks"}، and `الصوت`{:class="block3sound"}!
+When you have answered each question, click on **Check my answer**.
 
-الآن، حان وقت التفكير - التفكير جزء مهم من التعلم، لأنه يساعد في إنشاء روابط جديدة في عقلك.
-
-أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
-
-بعد كل سؤال، اضغط على إرسال. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
-
-استمتع!
+Have fun!
 
 --- question ---
 ---
 legend: السؤال 1 من 3
 ---
 
-يستخدم المشروع كائن**Crab** وكائن **Jellyfish**. يحتوي الكائن **Crab** على هذا الرمز البرمجي:
+A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
 
 ![desc](images/crab-icon.png)
 
@@ -28,7 +22,7 @@ hide
 end
 ```
 
-ما الذي يجب أن يحدث لكائن **Crab** لإخفائه؟
+What would need to happen for the **Crab** sprite to hide?
 
 --- choices ---
 
@@ -44,7 +38,7 @@ end
 
  --- feedback ---
 
-نعم، العملية `ليس`{:class="block3operators"} يعني أن الشرط صحيح `إذا`{:class="block3control"} كان الكائن **Crab** لا `يلامس`{:class="block3sensing"} اللون الازرق.
+Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
 
  --- /feedback ---
 

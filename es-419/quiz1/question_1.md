@@ -1,23 +1,17 @@
-## Reflexión
+## Quick quiz
 
-¡Bien hecho, creaste una aplicación de naturaleza con una libélula controlada por el usuario e insectos que siguen un algoritmo!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-¡Has usado los bloques `Eventos`{:class="block3events"}, `Control`{:class="block3control"}, `Sensores`{:class="block3sensing"}, `Operadores`{:class="block3operators"}, `Movimiento`{:class="block3motion"}, `Apariencia`{:class="block3looks"}, and `Sonido`{:class="block3sound"}!
+When you have answered each question, click on **Check my answer**.
 
-Ahora es el momento de reflexionar: reflexionar es una parte importante del aprendizaje, porque ayuda a establecer nuevas conexiones en tu cerebro.
-
-Responde a las siguientes tres preguntas para reflexionar sobre lo que has aprendido.
-
-Después de cada pregunta, presiona enviar. Serás guiado hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
-
-¡Diviértete!
+Have fun!
 
 --- question ---
 ---
 legend: Pregunta 1 de 3
 ---
 
-Un proyecto utiliza el objeto **Crab** y el objeto **Jellyfish**. El objeto **Crab** tiene este código:
+A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
 
 ![desc](images/crab-icon.png)
 
@@ -28,7 +22,7 @@ hide
 end
 ```
 
-¿Qué tendría que pasar para que el objeto **Crab** se esconda?
+What would need to happen for the **Crab** sprite to hide?
 
 --- choices ---
 
@@ -44,7 +38,7 @@ end
 
  --- feedback ---
 
-Sí, el operador `no`{:class="block3operators"} significa que la condición es verdadera `si`{:class="block3control"} el objeto **Crab** no está `tocando`{:class="block3sensing"} el color azul.
+Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
 
  --- /feedback ---
 

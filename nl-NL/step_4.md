@@ -18,7 +18,7 @@ Als je een andere sprite moet laten weten dat er iets is gebeurd, kun je een `ze
 
 --- task ---
 
-Voeg een `broadcast`{:class="block3events"} blok toe aan de **Insect** sprite met nieuw bericht `eten`{:class="block3events"}:
+Voeg een `zend signaal`{:class="block3events"} blok toe aan de **Insect** sprite met nieuw bericht `eten`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 

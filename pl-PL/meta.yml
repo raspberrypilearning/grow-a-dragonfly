@@ -5,15 +5,16 @@ description: Make a dragonfly that grows bigger as it eats annoying mosquitos an
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-04-27"
+last_tested: '2021-04-27'
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
     title: Set the scene
   - 
     title: A fly to eat
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Grow to full-size
   - 
@@ -22,15 +23,17 @@ steps:
     title: More food
   - 
     title: Random insect movement
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Upgrade your project
   - 

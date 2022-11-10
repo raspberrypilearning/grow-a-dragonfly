@@ -5,15 +5,16 @@ description: చికాకు కలిగించే దోమలు మర�
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-04-27"
+last_tested: '2021-04-27'
 steps:
   - 
-    title: పరిచయం
+    title: You will make
   - 
     title: సన్నివేశాన్ని సెట్ చేయండి
   - 
     title: తినడానికి ఒక ఈగ
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: పూర్తి పరిమాణానికి పెంచండి
   - 
@@ -22,15 +23,17 @@ steps:
     title: మరింత ఆహారం
   - 
     title: యాదృచ్ఛికంగా కీటకాల కదలిక
-    completion: internal
+    completion:
+      - internal
   - 
-    title: విశ్లేషణ
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
   - 

@@ -1,4 +1,4 @@
-## Inleiding
+## You will make
 
 Maak een natuur-app met een libel die groter wordt als hij insecten eet.
 
@@ -12,7 +12,7 @@ We gebruiken altijd <span style="color: #0faeb0">**voorwaarden**</span> om besli
 
 --- no-print --- --- task ---
 
-### Probeer het uit
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Beweeg de muis (of je vinger) over het speelveld om insecten te eten. Hoe bewegen de insecten?

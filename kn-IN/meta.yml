@@ -5,15 +5,16 @@ description: ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡುವ ಸೊಳ್�
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-04-27"
+last_tested: '2021-04-27'
 steps:
   - 
-    title: ಪರಿಚಯ
+    title: You will make
   - 
     title: ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಿ
   - 
     title: ತಿನ್ನಲು ಒಂದು ನೊಣ
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: ಪೂರ್ಣ ಗಾತ್ರಕ್ಕೆ ಬೆಳೆಸಿರಿ
   - 
@@ -22,15 +23,17 @@ steps:
     title: ಇನ್ನಷ್ಟು ಆಹಾರ
   - 
     title: ಯಾದೃಚ್ಛಿಕ ಕೀಟ ಚಲನೆ
-    completion: internal
+    completion:
+      - internal
   - 
-    title: ಪುನರ್ಮನನ
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
   - 

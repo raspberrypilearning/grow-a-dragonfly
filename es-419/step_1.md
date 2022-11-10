@@ -1,4 +1,4 @@
-## Introducción
+## You will make
 
 Crea una app de naturaleza con una libélula que se hace más grande a medida que come insectos.
 
@@ -12,7 +12,7 @@ Usamos <span style="color: #0faeb0">**condiciones**</span> todo el tiempo para t
 
 --- no-print --- --- task ---
 
-### Inténtalo
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Mueve el ratón (o tu dedo) por el Escenario para comer insectos. ¿Cómo se mueven los insectos?

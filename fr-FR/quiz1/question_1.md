@@ -1,23 +1,17 @@
-## Réflexion
+## Quick quiz
 
-Bravo, tu as créé une application sur la nature avec une libellule contrôlée par l'utilisateur et des insectes qui suivent un algorithme !
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Tu as utilisé les blocs `Événements`{:class="block3events"}, `Contrôle`{:class="block3control"}, `Capteurs`{:class="block3sensing"}, `Opérateurs`{:class="block3operators"}, `Mouvement`{:class="block3motion"}, `Apparence`{:class="block3looks"}, et `Son`{:class="block3sound"} !
+When you have answered each question, click on **Check my answer**.
 
-Maintenant, il est temps de réfléchir - la réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
-
-Réponds aux trois questions ci-dessous pour réfléchir sur ce que tu as appris.
-
-Après chaque question, appuie sur Soumettre. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
-
-Amuse-toi bien !
+Have fun!
 
 --- question ---
 ---
 legend : Question 1 sur 3
 ---
 
-Un projet utilise le sprite **Crabe** et le sprite **Méduse**. Le sprite **Crabe** contient ce code :
+A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
 
 ![desc](images/crab-icon.png)
 
@@ -28,7 +22,7 @@ hide
 end
 ```
 
-Que devrait-il se passer pour que le sprite **Crabe** se cache ?
+What would need to happen for the **Crab** sprite to hide?
 
 --- choices ---
 
@@ -44,7 +38,7 @@ Que devrait-il se passer pour que le sprite **Crabe** se cache ?
 
  --- feedback ---
 
-Oui, l'opérateur `non`{:class="block3operators"} signifie que la condition est vraie `si`{:class="block3control"} le sprite **Crabe** ne `touche`{:class="block3sensing"} pas la couleur bleue.
+Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
 
  --- /feedback ---
 

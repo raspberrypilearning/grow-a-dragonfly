@@ -1,23 +1,17 @@
-## Αναστοχασμός
+## Quick quiz
 
-Μπράβο, δημιούργησες μια εφαρμογή φύσης με λιβελούλα που ελέγχεται από τον χρήστη και έντομα που ακολουθούν έναν αλγόριθμο!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Αισθητήρες`{:class="block3sensing"}, `Τελεστές`{:class="block3operators"}, `Κίνηση`{:class="block3motion"}, `Όψεις`{:class="block3looks"} και `Ήχος`{:class="block3sound"}!
+When you have answered each question, click on **Check my answer**.
 
-Τώρα ήρθε η ώρα να εξετάσεις τις νέες γνώσεις — ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
-
-Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
-
-Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
-
-Καλή διασκέδαση!
+Have fun!
 
 --- question ---
 ---
 legend: Ερώτηση 1 από 3
 ---
 
-Ένα έργο χρησιμοποιεί το αντικείμενο **Κάβουρας** και **Μέδουσα**. Το αντικείμενο **Κάβουρας** έχει αυτόν τον κώδικα:
+A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
 
 ![desc](images/crab-icon.png)
 
@@ -28,7 +22,7 @@ hide
 end
 ```
 
-Τι θα έπρεπε να συμβεί για να εξαφανιστεί το αντικείμενο **Κάβουρας**;
+What would need to happen for the **Crab** sprite to hide?
 
 --- choices ---
 
@@ -44,11 +38,11 @@ end
 
  --- feedback ---
 
-Ναι, ο τελεστής `όχι`{:class="block3operators"} σημαίνει ότι η συνθήκη είναι αληθής `εάν`{:class="block3control"} το αντικείμενο **Κάβουρας** δεν `αγγίζει`{:class="block3sensing"} το μπλε χρώμα.
+Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
 
  --- /feedback ---
 
-- (x) Το αντικείμενο **Κάβουρας** θα πρέπει να αγγίζει το μπλε χρώμα
+- () Το αντικείμενο **Κάβουρας** θα πρέπει να αγγίζει το μπλε χρώμα
 
  --- feedback ---
 

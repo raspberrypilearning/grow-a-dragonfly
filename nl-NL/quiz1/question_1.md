@@ -1,23 +1,17 @@
-## Reflectie
+## Quick quiz
 
-Goed gedaan, je hebt een natuur-app gemaakt met een libel die wordt bestuurd door de gebruiker en insecten die een algoritme volgen!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Je hebt `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Beweging`{:class="block3motion"}, `Uiterlijken`{:class="block3looks"} en `Geluid`{:class="block3sound"} blokken gebruikt!
+When you have answered each question, click on **Check my answer**.
 
-Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
-
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
-
-Veel plezier!
+Have fun!
 
 --- question ---
 ---
 legend: Vraag 1 van 3
 ---
 
-Een project maakt gebruik van de **Crab** (krab) sprite en de **Jellyfish** (kwal) sprite. De sprite **Crab** heeft deze code:
+A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
 
 ![desc](images/crab-icon.png)
 
@@ -28,7 +22,7 @@ hide
 end
 ```
 
-Wat moet er gebeuren om de sprite **Crab** te laten verdwijnen?
+What would need to happen for the **Crab** sprite to hide?
 
 --- choices ---
 
@@ -44,7 +38,7 @@ Wat moet er gebeuren om de sprite **Crab** te laten verdwijnen?
 
  --- feedback ---
 
-Ja, de `niet`{:class="block3operators"} operator betekent dat de voorwaarde waar is `als`{:class="block3control"} de **Crab** sprite niet de kleur blauw `aanraakt`{:class="block3sensing"}.
+Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
 
  --- /feedback ---
 

@@ -5,7 +5,7 @@
 Geef de libel een keuze aan insecten.
 </div>
 <div>
-![Het toneel toont twee insecten en een libel.](images/more-food.png){:width="300px"}
+![Het speelveld toont twee insecten en een libel.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
@@ -98,7 +98,7 @@ Als de kleur van de mond van de libel niet is geselecteerd, klik dan op de kleur
 
 ![Het kleurencirkelmenu met pipetgereedschap.](images/colour-eyedropper.png)
 
-Klik op de mond van de libel in het toneel om de bijpassende kleur in te stellen:
+Klik op de mond van de libel in het speelveld om de bijpassende kleur in te stellen:
 
 ![Het pipetgereedschap met markeerstift voor kleurselectie die over de paarse mond van de libel zweeft.](images/colour-select.png)
 

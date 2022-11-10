@@ -7,7 +7,7 @@ De insecten in je app bewegen in een zeer voorspelbaar patroon, maar in het echt
 Je gebruikt het `willekeurig getal tussen`{:class="block3operators"} blok om het insect op een meer natuurlijke manier te laten bewegen.
 </div>
 <div>
-![Speelveldmet insecten die in verschillende richtingen wijzen.](images/random-movement.png){:width="300px"}
+![Speelveld met insecten die in verschillende richtingen wijzen.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
@@ -29,7 +29,7 @@ end
 
 **Test:** Test je project en bekijk hoe de insecten vliegen. Probeer de getallen te veranderen om het gewenste effect te krijgen.
 
-Je kunt dit script ook naar de sprite **Insect** slepen, zodat het ook willekeurig beweegt.
+Je kunt dit script ook naar de sprite **Insect** slepen, zodat die ook willekeurig beweegt.
 
 --- /task ---
 

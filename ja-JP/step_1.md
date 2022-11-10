@@ -1,4 +1,4 @@
-## はじめに
+## You will make
 
 昆虫を食べて大きくなるトンボのアプリを作りましょう。
 
@@ -12,7 +12,7 @@
 
 --- no-print --- --- task ---
 
-### 試してみる
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 マウス(または指) を動かして、虫を食べながらステージを進んでいきます。 昆虫はどのように動きますか？

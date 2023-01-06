@@ -1,58 +1,58 @@
-## More food
+## Mwy o fwyd
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly needs a choice of insects.
+Mae angen detholiad o bryfed ar y gwas-y-neidr.
 </div>
 <div>
-![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
+![Y Llwyfan gyda dau bryfyn a gwas-y-neidr.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it.
+De-glicia'r corlun **Insect** yn y rhestr Corluniau o dan y Llwyfan a'i **ddyblygu**.
 
-![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
-
---- /task ---
-
-It's helpful if this insect looks different to the fly.
-
---- task ---
-
-Click on the **Costumes** tab.
-
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
+![Y rhestr Corluniau gyda'r corlun insect wedi'i ddewis a 'duplicate' wedi'i amlygu yn y ddewislen.](images/duplicate-insect.png)
 
 --- /task ---
 
-The insect gets eaten even if it touches the dragonfly's wing or tail.
-
-To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+Mae'n ddefnyddiol os ydy'r pryfyn yma yn edrych yn wahanol i'r pry.
 
 --- task ---
 
-Select the **Dragonfly** sprite and click on the **Costumes** tab.
+Clicia'r tab **Gwisgoedd**.
 
-Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
-
-![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
+**Dewis:** Galli di greu pryfyn ehedog gwahanol.
++ Defnyddia'r offeryn **Fill** i newid lliw'r pryfyn yma
++ **Paentia** dy wisg pryfyn dy hun
++ **Ychwanega** wisg chwilen gwahanol o Scratch
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+Mae'r pryfyn yn cael ei fwyta hyd yn oed os mae'n cyffwrdd ag adain neu gynffon y gwas-y-neidr.
+
+I wneud dy ap yn fwy realistig, newidia hyn fel bod y pryfyn yn cael ei fwyta gan geg y gwas-y-neidr. Galli di ddefnyddio'r bloc `lliw cyffwrdd`{:class="block3sensing"} fel bod y pryfyn ddim ond yn cael ei fwyta os yw'n cyffwrdd â lliw penodol ar y **Gwas y Neidr**.
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+Dewisa'r corlun **Dragonfly** a chlicio'r tab **Gwisgoedd**.
 
-Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block.
+Defnyddia'r offeryn llenwi i lenwi ceg y **Gwas-y-neidr**. Fe wnaethon ni ddefnyddio porffor:
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+![Y golygydd Paent gyda'r teclyn Fill wedi'i ddewis a'r wisg dragonfly gyda cheg borffor.](images/dragonfly-mouth-colour.png)
+
+--- /task ---
+
+Mae angen i ti wneud yn siŵr bod y corlun **Insect2** yn cyffwrdd â'r corlun **Dragonfly** `ac`{:class="block3operators"} ei fod yn cyffwrdd â lliw ceg y gwas-y-neidr.
+
+--- task ---
+
+Dewisa'r corlun **Insect2** a chlicio'r tab **Cod**.
+
+Llusga floc `a`{:class="block3operators"} i mewn i'r bloc `os`{:class="block3control"}.
+
+Bydd y bloc `<touching [Dragonfly v] ?>`{:class="block3sensing"} yn neidio allan, nawr galli di ei lusgo i'r chwith o'r bloc `a`{:class="block3operators"}:
 
 ![](images/insect2-icon.png)
 
@@ -75,7 +75,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
+Llusga floc `lliw cyffwrdd`{:class="block3sensing"} i'r dde o'r bloc `a`{:class="block3operators"}:
 
 ![](images/insect2-icon.png)
 
@@ -94,23 +94,23 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+Os nad ydy lliw ceg y gwas-y-neidr wedi'i ddewis, clicia ar y cylch lliwiau ac yna clicia'r offeryn **Diferydd** i ddewis lliw.
 
-![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
+![Y ddewislen cylch lliwiau gyda'r offeryn diferydd.](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+Clicia ar geg y gwas-y-neidr ar y Llwyfan i osod y lliw i gyd-fynd:
 
-![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
+![Yr offeryn diferydd gydag amlygwr dewis lliwiau yn hofran dros geg borffor y gwas-y-neidr.](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**Awgrym:** Os ydy hyn yn anodd i'w wneud, newidia faint y corlun **Dragonfly** fel ei fod yn fawr iawn.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth.
+**Profi:** Nawr galli di brofi mai dim ond yr ail bryfyn all y gwas-y-neidr ei fwyta gyda'i geg.
 
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+Os dymuni di, galli di newid yr **Insect** cyntaf fel mai dim ond ceg y gwas-y-neidr sy'n gallu ei fwyta.
 
 --- /task ---
 

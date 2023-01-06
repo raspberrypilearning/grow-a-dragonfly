@@ -1,41 +1,41 @@
-## Upgrade your project
+## Uwchraddio dy brosiect
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+Yn y cam yma, byddi di'n rhoi cynnig ar ychwanegu mwy o bryfed, gan newid y ffordd mae dy brosiect yn edrych ac yn ymddwyn.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![Y Llwyfan yn dangos tri math gwahanol o bryfed a'r gwas-y-neidr.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### Ychwanegu mwy o bryfed
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+Ychwanega rhagor o bryfed. Efallai bydd angen i ti wneud iddyn nhw symud yn gyflymach, fel eu bod nhw'n anoddach i'r gwas-y-neidr eu dal.
 
-You can paint your own insects or trying adding an emoji mosquito!
+Galli di beintio dy bryfed dy hun neu geisio ychwanegu mosgito emoji!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+Defnyddia'r bysellfwrdd emojis i ychwanegu corlun **emoji Mosquito**.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Dyblyga gorlun **insect** sy'n bodoli ac wedyn clicio ar y tab **Gwisgoedd**. **Paentia** wisg newydd a dewis yr offeryn **Testun**. Yn lle teipio testun, defnyddia'r llwybr byr ar gyfer y bysellfwrdd emojis sydd ar dy System Weithredu di:
 
 Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![Y bysellfwrdd emojis naid gyda'r categori 'anifeiliaid a natur' wedi'i ddewis.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Dewisa'r emoji **Mosquito** i'w fewnosod yn y golygydd Paent. Defnyddia'r offeryn **Dewis** (saeth) i ganoli, newid maint, a chylchdroi dy fosgito nes dy fod yn hapus ag ef.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![Yr emoji mosgito yn y golygydd paent.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Awgrym:** Gall emojis edrych yn wahanol ar wahanol gyfrifiaduron, felly efallai fyddan nhw ddim yn edrych yr un peth ar dabled a chyfrifiadur bwrdd gwaith. Dydy rhai emojis ddim ar gael ar rai cyfrifiaduron, ond bydd y mwyafrif o gyfrifiaduron modern yn gallu delio â nhw.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+Defnyddia dy Backpack i gyfnewid pryfed gyda dy ffrindiau o'u prosiectau 'Tyfu Gwas-y-neidr'.
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**Awgrym:** Gwna'n siŵr bod gan dy holl gorluniau a gwisgoedd enwau synhwyrol. Mae'n gwneud dy brosiect yn haws i'w ddeall os byddi di'n dod yn ôl ato yn nes ymlaen.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**Awgrym:** Gwna'n siŵr fod dy god wedi'i osod allan yn daclus yn ardal y Cod. De-glicia ar ardal y Cod a dewis **Clean up Blocks** i gael Scratch i dacluso dy god.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+teitl: Prosiect gorffenedig
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
 
 --- /collapse ---
 

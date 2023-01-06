@@ -1,42 +1,42 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Cwestiwn 3 o 3
 ---
 
-In your project, you used `pick random`{:class="block3operators"} blocks to move the **Insect** sprite in a natural, unpredictable flying pattern.
+Yn dy brosiect, fe wnes ti ddefnyddio'r blociau `dewis ar hap`{:class="block3operators"} i symud y corlun **Pryfedyn** mewn patrwm hedfan naturiol annisgwyliedig.
 
-Which `pick random`{:class="block3operators"} block could give the number `10`?
+Pa floc `dewis ar hap`{:class="block3operators"} allai roi'r rhif `10`?
 
 --- choices ---
 
 - ( )
 
-`pick random [0] to [9]`{:class="block3operators"}
+`dewis ar hap [0] i [9]`{:class="block3operators"}
 
   --- feedback ---
 
-  No, this block can give you any of the numbers from 0 up to 9.
+  Na. Byddai'r bloc hwn yn gallu rhoi unrhyw rif rhwng 0 a 9.
 
   --- /feedback ---
 
 - ( )
 
-`pick random [20] to [100]`{:class="block3operators"}
+`dewis ar hap [20] i [100]`{:class="block3operators"}
 
   --- feedback ---
 
-No the smallest number this block can give you is 20.
+Na, y rhif lleiaf fyddai'r bloc hwn yn gallu ei roi yw 20.
 
   --- /feedback ---
 
 - (x)
 
-`pick random [1] to [50]`{:class="block3operators"}
+`dewis ar hap [1] i [50]`{:class="block3operators"}
 
   --- feedback ---
 
-Yes, this block can give you numbers from 1 up to 50, which includes 10.
+Cywir. Gall y bloc hwn roi rhifau rhwng 1 a 50, gan gynnwys 10.
 
   --- /feedback ---
 

@@ -1,21 +1,21 @@
-## Improved movement
+## Symud yn well
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+Bydd y gwas-y-neidr yn 'nogio' ac yn newid ei gyfeiriad yn gyflym iawn os ydy pwyntydd y llygoden yn cyffwrdd â'r gwas-y-neidr. Byddi di'n gwirio amod arall i ddatrys hyn.
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![Y Llwyfan yn dangos pryfyn a gwas-y-neidr.](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+Dewisa'r **Gwas-y-neidr** a chwilia am y sgript sy'n dechrau gyda `pan fydd y faner wedi'i chlicio`{:class="block3events"}.
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+Llusga floc `os`{:class="block3control"} y tu mewn i'r bloc `am byth`{:class="block3control"} a bydd y blociau y tu mewn i'r bloc `am byth`{:class="block3control"} yn symud y tu mewn i'r bloc `os`{:class="block3control"}.
 
-Check carefully that your code looks like this:
+Gwiria yn ofalus fod dy god yn edrych fel hyn:
 
 ![](images/dragonfly-icon.png)
 
@@ -34,9 +34,9 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+Yna llusga floc `nid`{:class="block3operators"} i mewn i'r bloc `os`{:class="block3control"} a bloc `cyffwrdd (pwyntydd y llygoden)`{:class="block3sensing"} y tu mewn i hwnnw.
 
-Check that your code looks like this:
+Gwna'n siŵr fod dy god yn edrych fel hyn:
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+Mae'r bloc `nid`{:class="block3operators"} yn troi amod i'r gwrthwyneb, yn union fel y byddai mewn brawddeg.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**Profi:** Gwna'n siŵr fod y broblem wedi'i thrwsio, ac mai dim ond pan `nid`{:class="block3operators"} yn `cyffwrdd (pwyntydd y llygoden)`{:class="block3sensing"} y bydd y Gwas-y-neidr yn symud.
 
-A different condition to try is:
+Amod gwahanol i roi cynnig arno yw:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+Mae hyn yn gwneud i'r gwas-y-neidr symud pan fydd yn ddigon pell o bwyntydd y llygoden.
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**Awgrym:** Galli di lusgo blociau unrhyw le yn ardal y Cod a'u gadael yno wrth roi cynnig ar wahanol bethau.
 
 --- /task ---
 

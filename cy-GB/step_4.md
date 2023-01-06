@@ -1,24 +1,24 @@
-## Grow to full-size
+## Tyfu i llawn faint
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+Byddi di'n gwneud i'r gwas-y-neidr dyfu pan fydd yn bwyta pry, a stopio os bydd yn cyrraedd maint llawn.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![Gwas-y-neidr llawn ei faint ar y Llwyfan yn dweud 'Dw i 'di cyrraedd fy maint llawn!'.](delweddau/grow-to-fulsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+Mae'r gweision y neidr byw mwyaf i'w cael yng Nghanolbarth America ac mae ganddyn nhw led adenydd o 19cm (ychydig yn fwy na dy law di). Y pryfyn mwyaf y gwyddom amdano erioed oedd <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, gwas-y-neidr gyda lled adenydd tua 75cm (maint cam mawr).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+Mae'r pry yn gwybod ei fod wedi'i fwyta, a nawr mae angen i'r Gwas-y-neidr wybod er mwyn iddo dyfu.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+Pan fyddi di angen rhoi gwybod i gorlun arall bod rhywbeth wedi digwydd, galli di ddefnyddio bloc `darlledu`{:class="block3events"} fel wnes di yn [Darlledu swynion](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+Ychwanega floc `darlledu`{:class="block3events"} i'r corlun **Insect** gyda neges newydd `bwyd`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+Mae angen i'r corlun **Dragonfly** dyfu pan fydd yn derbyn y neges `bwyd`{:class="block3events"}.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+Dewisa'r corlun **Dragonfly** ac ychwanegu'r sgript yma:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+Ychwanega'r sain **Chomp** at y gwas-y-neidr a `dechrau`{:class="block3sound"} pan fydd pryfyn yn cael ei fwyta:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**Profi:** Rheda dy brosiect i brofi bod y gwas-y-neidr yn tyfu ac yn gwneud sain chomp wrth fwyta pryfyn.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+Pan fydd y gwas-y-neidr yn cyrraedd ei faint llawn, bydd y gêm yn dy longyfarch ac yn stopio.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+Ychwanega floc `os`{:class="block3control"}.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+Bydd y gwas-y-neidr yn cyrraedd ei faint llawn pan fydd y `maint`{:class="block3looks"} `=`{:class="block3operators"} `100%`. Yn gyntaf, ychwanega weithredwr `=`{:class="block3operators"} i'r mewnbwn siâp hecsagon:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+Galli di orffen llunio'r amod drwy ychwanegu newidyn `maint`{:class="block3looks"} parod a theipio'r gwerth `100`:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+Ychwanega flociau sy'n pennu `os`{:class="block3control"} yw'r cyflwr yn wir `yna`{:class="block3control"} bydd y gwas-y-neidr yn `darlledu`{:class="block3events"} neges 'diwedd' ac yn `dweud`{:class="block3looks"} `Dw i 'di cyrraedd fy maint llawn!`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+Yn olaf, ychwanega floc `aros y cyfan`{:class="block3control"} i stopio'r sgriptiau gwas-y-neidr eraill:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+Ar hyn o bryd, mae'r pry yn dal i symud ar ôl i'r prosiect ddod i ben. Ychwanega'r sgript yma at y corlun **Insect**.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**Profi:** Clicia'r faner werdd a dalia ati i fwyta pryfed nes bod dy was-y-neidr yn cyrraedd ei faint llawn.
 
 --- /task ---
 

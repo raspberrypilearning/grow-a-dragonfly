@@ -1,8 +1,8 @@
-## Set the scene
+## Gosod yr olygfa
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
+Byddi di'n gosod y cyd-destun. Dewisa dy gefnlen ac ychwanegu gwas-y-neidr sy'n dilyn pwyntydd y llygoden o amgylch y Llwyfan.
 </div>
 <div>
 ![](images/set-the-scene.png){:width="300px"}
@@ -11,38 +11,38 @@ You will set the scene. Choose your backdrop and add a dragonfly that follows th
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
+Agora'r prosiect cychwynnol [Tyfu gwas-y-neidr](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
+Mae modd gweld <span style="color: #0faeb0">**Gweision y neidr**</span> ym mhedwar ban byd ac mae nhw wedi bodoli ers dros 300 miliwn o flynyddoedd!</p>
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
+**Dewisa:** Clicia **Dewiswch Gefnlen** ac ychwanegu cefnlen o dy ddewis. Rydyn ni wedi defnyddio'r gefnlen **Jurassic**.
 
 ![](images/choose-backdrop-icon.png)
 
-![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
+![Y Llwyfan yn dangos y gefnlen Jurassic.](images/Jurassic-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
+Clicia **Dewiswch Gorlun** a chwilia am `dragonfly`, wedyn ychwanegu'r corlun **Dragonfly**.
 
 ![](images/choose-sprite-icon.png)
 
-![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
+![Y blwch chwilio gyda 'dragonfly' wedi'i deipio i mewn a'r corlun Dragonfly yn yr oriel.](images/dragonfly-search.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+Ychwanega sgript i wneud i'r corlun **Dragonfly** ddilyn pwyntydd y llygoden (neu dy fys):
 
 ![](images/dragonfly-icon.png)
 
@@ -58,77 +58,77 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
+**Profi:** Clicia'r faner werdd a gwnud i'r corlun **Dragonfly** symud o amgylch y Llwyfan. Ydy'r gwas-y-neidr yn symud fel y byddet ti'n ei ddisgwyl?
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+Dydy'r wisg Dragonfly ddim yn wynebu i'r dde, felly dydy pen y corlun **Dragonfly** ddim yn pwyntio at bwyntydd y llygoden.
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
+Cliciwch ar y tab **Gwisgoedd** a defnyddia'r offeryn **Dewis** (saeth) i ddewis y wisg. Defnyddia'r offeryn **Cylchdroi** ar waelod y wisg a ddewiswyd i droi'r wisg **Dragonfly** i wynebu'r dde.
 
-![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
+![Delwedd animeiddiedig yn dangos sut i gylchdroi'r wisg dragonfly drwy lusgo'r saethau cylchdroi fel bod y gwas y neidr yn wynebu i'r dde.](images/rotated-costume.gif)
 
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
+![Y wisg dragonfly wedi'i dewis ac wedi'i throi i wynebu'r dde.](images/rotated-costume.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and look at how the dragonfly moves now.
+**Profi:** Clicia'r faner werdd ac edrycha sut mae'r gwas-y-neidr yn symud nawr.
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
+Mae adenydd gwas-y-neidr yn gwneud sŵn siffrwd wrth iddynt ddirgrynu. Galli di olygu sain yn Scratch i greu dy sain dy hun.
 
 --- task ---
 
-Add the **Crank** sound to the **Dragonfly** sprite.
+Ychwanega'r sain **Crank** at y corlun **Dragonfly**.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
+Clicia'r botwm **Chwarae** er mwyn i ti allu clywed y sain.
 
 --- /task ---
 
-The **Crank** sound is too long and too slow for dragonfly wings.
+Mae'r sain **Crank** yn rhy hir ac yn rhy araf ar gyfer adenydd gwas-y-neidr.
 
 --- task ---
 
-Select the end of the sound using your cursor or finger.
+Dewisa ddiwedd y sain gan ddefnyddio'ch cyrchwr neu dy fys.
 
-Click **Copy to New** to make a new sound with just the selected part:
+Clicia **Copy to New** i greu sain newydd gyda'r rhan a ddewiswyd yn unig:
 
-![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
+![Diwedd y sain crank wedi'i ddewis mewn glas gyda'r eicon 'Copi to New' wedi'i hamlygu.](images/crank-copy-end.png)
 
-Rename your new sound from **Crank2** to `Wings`.
+Newidia enw dy sain newydd o **Crank2** i `Wings`.
 
-![The rename sound property.](images/crank-wings-sound.png)
-
---- /task ---
-
---- task ---
-
-Play the new sound. Click the **Faster** button a few times until you like the result:
-
-![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
+![Y briodwedd rename sound.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+Chwaraea'r sain newydd. Clicia'r botwm **Faster** ychydig o weithiau nes dy fod ti'n hoffi'r canlyniad:
 
-![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+![Ton sain gyflymach gyda'r eicon 'Faster' wedi'i hamlygu.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Now add a block to play the **Wings** sound when the dragonfly moves:
+Os wyt ti'n dymuno, galli di ddewis diwedd y sain **Wings**, ac wedyn clicio ar **Delete** i'w dynnu:
+
+![Diwedd y don sain wedi'i ddewis gyda'r offeryn 'Delete' wedi'i hamlygu.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Nawr ychwanega floc i chwarae'r sain **Wings** pan fydd y gwas-y-neidr yn symud:
 
 ![](images/dragonfly-icon.png)
 
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your dragonfly movement and sound effect.
+**Profi:** Rho gynnig ar gael y gwas-y-neidr i symud a chwarae'r effaith sain.
 
 --- /task ---
 

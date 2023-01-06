@@ -1,19 +1,19 @@
-## Random insect movement
+## Symudiad pryfyn ar hap
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+Mae'r pryfed yn dy ap yn symud mewn patrwm cyson iawn, ond mewn bywyd go iawn maen nhw'n anodd eu dal. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+Byddi di'n defnyddio'r bloc `dewis ar hap`{:class="block3operators"} i wneud i'r pryfyn symud mewn ffordd fwy naturiol.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![Y Llwyfan yn dangos pryfed yn pwyntio i gyfeiriadau gwahanol.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+Ychwanega sgript at **Insect 2** i wneud iddo bwyntio i gyfeiriad ar hap bob 1–3 eiliad.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**Profi:** Rheda dy brosiect a gwylia sut mae'r pry yn symud. Rho gynnig ar newid y rhifau i gael yr effaith rwyt ti ei heisiau.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+Galli di hefyd lusgo'r sgript yma i'r corlun **Insect** fel ei fod hefyd yn symud ar hap.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+Newidia'r pryfed nes eu bod nhw'n ymddwyn yn y ffordd rwyt ti am iddyn nhw wneud.
 
-Make changes until you are happy with your project.
+Gallet ti newid nifer y camau maen nhw'n eu `symud`{:class="block3motion"} i'w gwneud yn gyflymach neu'n arafach.
+
+Gallet ti hefyd newid cyflymder y gwas-y-neidr.
+
+--- /task ---
+
+--- task ---
+
+Gallet ti hefyd newid y maint sydd ei angen ar y gwas-y-neidr i dyfu i gyrraedd ei lawn faint.
+
+Gwna ragor o newidiadau nes dy fod ti'n hapus gyda dy brosiect.
 
 --- /task ---
 

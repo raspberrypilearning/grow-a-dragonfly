@@ -1,25 +1,25 @@
-to start small
+i ddechrau'n fach
 
-change from 'mouse-pointer'
+newid o 'bwyntydd llygoden'
 
-eaten
+wedi'i fwyta
 
-show at the start
+dangos ar y dechrau
 
-to look like a new fly
+i edrych fel pry newydd
 
-change from 'all'
+newid o 'all'
 
-keep changing direction
+dal ati i newid cyfeiriad
 
-or try this condition
+neu roi cynnig ar yr amod hwn
 
-eaten an insect
+wedi bwyta pryfyn
 
-start with this
+dechrau gyda hyn
 
-touching Dragonfly mouth
+cyffwrdd â cheg y Gwas-y-Neidr
 
-make flies appear from edge
+gwneud i bryfed ymddangos o'r ymyl
 
-Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus '.' to enter.
+Defnyddia bry o'r corlun Frog neu dynnu dy lun dy hun. Neu defnyddia'r emoji Mosgito. Pwysa'r fysell 'Windows' a '.' i fynd i mewn.

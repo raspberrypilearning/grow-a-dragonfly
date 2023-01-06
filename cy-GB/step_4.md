@@ -5,7 +5,7 @@
 Byddi di'n gwneud i'r gwas-y-neidr dyfu pan fydd yn bwyta pry, a stopio os bydd yn cyrraedd maint llawn.
 </div>
 <div>
-![Gwas-y-neidr llawn ei faint ar y Llwyfan yn dweud 'Dw i 'di cyrraedd fy maint llawn!'.](images/grow-to-fulsize.png){:width="300px"}
+![Gwas-y-neidr llawn ei faint ar y Llwyfan yn dweud 'Dw i 'di cyrraedd fy maint llawn!'.](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 

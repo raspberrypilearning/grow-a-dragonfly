@@ -100,11 +100,11 @@ Mae'r sain **Crank** yn rhy hir ac yn rhy araf ar gyfer adenydd gwas-y-neidr.
 
 Dewisa ddiwedd y sain gan ddefnyddio'ch cyrchwr neu dy fys.
 
-Clicia **Copy to New** i greu sain newydd gyda'r rhan a ddewiswyd yn unig:
+Clicia **Copïo i'r Newydd** i greu sain newydd gyda'r rhan a ddewiswyd yn unig:
 
-![Diwedd y sain crank wedi'i ddewis mewn glas gyda'r eicon 'Copi to New' wedi'i hamlygu.](images/crank-copy-end.png)
+![Diwedd y sain crank wedi'i ddewis mewn glas gyda'r eicon 'Copïo i'r Newydd' wedi'i hamlygu.](images/crank-copy-end.png)
 
-Newidia enw dy sain newydd o **Crank2** i `Wings`.
+Newidia enw dy sain newydd o **Crank2** i `Adenydd`.
 
 ![Y briodwedd rename sound.](images/crank-wings-sound.png)
 
@@ -112,23 +112,23 @@ Newidia enw dy sain newydd o **Crank2** i `Wings`.
 
 --- task ---
 
-Chwaraea'r sain newydd. Clicia'r botwm **Faster** ychydig o weithiau nes dy fod ti'n hoffi'r canlyniad:
+Chwaraea'r sain newydd. Clicia'r botwm **Yn gyflymach** ychydig o weithiau nes dy fod ti'n hoffi'r canlyniad:
 
-![Ton sain gyflymach gyda'r eicon 'Faster' wedi'i hamlygu.](images/wings-faster.png)
-
---- /task ---
-
---- task ---
-
-Os wyt ti'n dymuno, galli di ddewis diwedd y sain **Wings**, ac wedyn clicio ar **Delete** i'w dynnu:
-
-![Diwedd y don sain wedi'i ddewis gyda'r offeryn 'Delete' wedi'i hamlygu.](images/wings-shorter.png)
+![Ton sain gyflymach gyda'r eicon 'Yn gyflymach' wedi'i hamlygu.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Nawr ychwanega floc i chwarae'r sain **Wings** pan fydd y gwas-y-neidr yn symud:
+Os wyt ti'n dymuno, galli di ddewis diwedd y sain **Adenydd**, ac wedyn clicio ar **Dileu** i'w dynnu:
+
+![Diwedd y don sain wedi'i ddewis gyda'r offeryn 'Dileu' wedi'i hamlygu.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Nawr ychwanega floc i chwarae'r sain **Adenydd** pan fydd y gwas-y-neidr yn symud:
 
 ![](images/dragonfly-icon.png)
 

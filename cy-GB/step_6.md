@@ -24,7 +24,7 @@ Mae'n ddefnyddiol os ydy'r pryfyn yma yn edrych yn wahanol i'r pry.
 Clicia'r tab **Gwisgoedd**.
 
 **Dewis:** Galli di greu pryfyn ehedog gwahanol.
-+ Defnyddia'r offeryn **Fill** i newid lliw'r pryfyn yma
++ Defnyddia'r offeryn **Llanw** i newid lliw'r pryfyn yma
 + **Paentia** dy wisg pryfyn dy hun
 + **Ychwanega** wisg chwilen gwahanol o Scratch
 

@@ -1,32 +1,32 @@
 ---
-title: Grow a dragonfly
+title: Tyfu gwas-y-neidr
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
+description: Dyma gyfle i ti greu gwas-y-neidr sy'n tyfu'n fwy wrth iddo fwyta pryfetach a mosgitos blîn.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: Byddi di'n creu
   - 
-    title: Set the scene
+    title: Gosod yr olygfa
   - 
-    title: A fly to eat
+    title: Pryfyn i'w fwyta
     completion:
       - engaged
   - 
-    title: Grow to full-size
+    title: Tyfu i llawn faint
   - 
-    title: Improved movement
+    title: Symud yn well
   - 
-    title: More food
+    title: Mwy o fwyd
   - 
-    title: Random insect movement
+    title: Symudiad pryfyn ar hap
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Cwis cyflym
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Uwchraddio dy brosiect
   - 
-    title: What next?
+    title: Beth nesaf?

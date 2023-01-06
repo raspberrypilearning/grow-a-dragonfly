@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Cwestiwn 2 o 3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+Fe wnes ti ysgrifennu cod i wneud i'r gwas-y-neidr symud dim ond pan `na fydd` {:class="block3operators"} pwyntydd y llygoden yn `cyffwrdd`{:class="block3sensing"} ag ef.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+Ble fydde ti'n rhoi bloc `cychwyn sain`{:class="block3sound"} i wneud i'r gwas-y-neidr wneud sŵn bob tro cyn iddo ddechrau symud?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Na, gyda'r cod hwn bydd y bloc `cychwyn sain`{:class="block3sound"} y tu allan i'r bloc `os`{:class="block3control"}, felly bydd yn rhedeg bob tro bydd y ddolen `am byth`{:class="block3control"} yn rhedeg, hyd yn oed os na fydd y gwas-y-neidr yn symud.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+Cywir! Bydd gosod y bloc `cychwyn sain`{:class="block3sound"} y tu mewn i'r bloc `os`{:class="block3control"} yn golygu y bydd yn chwarae pan fydd y gwas-y-neidr yn symud.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Na. Mae'r bloc sain `cychwyn sain`{:class="block3sound"} y tu allan i'r bloc `os`{:class="block3control"}, felly bydd yn rhedeg bob tro y bydd y ddolen `am byth`{:class="block3control"} yn rhedeg, hyd yn oed os nad yw'r gwas-y-neidr yn symud.
 
   --- /feedback ---
 

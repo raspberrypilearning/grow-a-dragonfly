@@ -45,7 +45,7 @@ Defnyddia dy Backpack i gyfnewid pryfed gyda dy ffrindiau o'u prosiectau 'Tyfu G
 
 **Awgrym:** Gwna'n siŵr bod gan dy holl gorluniau a gwisgoedd enwau synhwyrol. Mae'n gwneud dy brosiect yn haws i'w ddeall os byddi di'n dod yn ôl ato yn nes ymlaen.
 
-**Awgrym:** Gwna'n siŵr fod dy god wedi'i osod allan yn daclus yn ardal y Cod. De-glicia ar ardal y Cod a dewis **Clean up Blocks** i gael Scratch i dacluso dy god.
+**Awgrym:** Gwna'n siŵr fod dy god wedi'i osod allan yn daclus yn ardal y Cod. De-glicia ar ardal y Cod a dewis **Glanhau'r Blociau** i gael Scratch i dacluso dy god.
 
 --- /task ---
 

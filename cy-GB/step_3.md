@@ -27,15 +27,15 @@ Dim ond y pry sydd ei angen arnat ti, nid y broga.
 
 --- task ---
 
-Clicia'r tab **Gwisgoedd**. Clicia'r pry i'w ddewis a chlicio ar yr eicon **Copy**.
+Clicia'r tab **Gwisgoedd**. Clicia'r pry i'w ddewis a chlicio ar yr eicon **Copïo**.
 
-![Y golygydd paent gyda rhan pry y wisg Frog 2-a wedi'i dewis a'r eicon Copy wedi'i hamlygu.](images/copy-fly.png)
+![Y golygydd paent gyda rhan pry y wisg Frog 2-a wedi'i dewis a'r eicon Copïo wedi'i hamlygu.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Ychwanega wisg newydd i'r corlun drwy ddefnyddio'r opsiwn **Paint**:
+Ychwanega wisg newydd i'r corlun drwy ddefnyddio'r opsiwn **Paentio**:
 
 ![Yr opsiwn paent wedi'i ddewis yn y ddewislen dewis gwisgoedd.](images/paint-sprite.png)
 
@@ -43,11 +43,11 @@ Ychwanega wisg newydd i'r corlun drwy ddefnyddio'r opsiwn **Paint**:
 
 --- task ---
 
-Clicia ar yr eicon **Paste** i ludo'r corlun i mewn i'r wisg newydd. Llusga'r pry i'r **canol** fel ei fod wedi'i alinio a'r groes.
+Clicia ar yr eicon **Gludo** i ludo'r corlun i mewn i'r wisg newydd. Llusga'r pry i'r **canol** fel ei fod wedi'i alinio a'r groes.
 
 Galli di ailenwi dy wisg yn `Insect` a dileu'r gwisgoedd eraill, gan na fydd angen y rhain arnat ti:
 
-![Y golygydd paent yn dangos gwisg Insect newydd wedi'i gludo gyda'r eicon Paste wedi'i hamlygu. Y rhestr gwisgoedd yn dangos bod y gwisgoedd eraill wedi'u dileu.](images/fly-costume.png)
+![Y golygydd paent yn dangos gwisg Insect newydd wedi'i gludo gyda'r eicon Gludo wedi'i hamlygu. Y rhestr gwisgoedd yn dangos bod y gwisgoedd eraill wedi'u dileu.](images/fly-costume.png)
 
 --- /task ---
 
@@ -158,6 +158,6 @@ Gwna'n siŵr dy fod wedi ychwanegu'r bloc `dangos`{:class="block3looks"} er mwyn
 
 --- /task ---
 
-**Awgrym:** Galli di glicio ar y botwm **Stop** coch uwchben y Llwyfan os wyt ti am i'r gwas-y-neidr fod yn dawel wrth i ti ychwanegu mwy o god.
+**Awgrym:** Galli di glicio ar y botwm **Aros** coch uwchben y Llwyfan os wyt ti am i'r gwas-y-neidr fod yn dawel wrth i ti ychwanegu mwy o god.
 
 --- save ---

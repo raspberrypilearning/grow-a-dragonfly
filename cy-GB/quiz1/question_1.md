@@ -1,19 +1,19 @@
-## Quick quiz
+## Cwis cyflym
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Ateba'r tri chwestiwn. Mae yna awgrymiadau i dy helpu i gael yr ateb cywir.
 
-When you have answered each question, click on **Check my answer**.
+Pan fyddi di wedi ateb bob cwestiwn, clicia ar **Gwirio fy ateb**.
 
-Have fun!
+Mwynha!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Cwestiwn 1 o 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Mae prosiect yn defnyddio'r corlun **Crab** a'r corlun **Jellyfish**. Dyma god y corlun **Crab**:
 
-![desc](images/crab-icon.png)
+![disgrifiad](images/crab-icon.png)
 
 ```blocks3
 when flag clicked
@@ -22,39 +22,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+Beth fyddai'n rhaid digwydd i guddio'r corlun **Crab**?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () Byddai angen i'r corlun **Crab** gyffwrdd â'r **Jellyfish**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ Na, mae gan y bloc `os`{:class="block3control"} amod `Synhwyro`{:class="block3sensing"}, ond nid yw'n defnyddio'r bloc `cyffwrdd â Jellyfish`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) Byddai angen i'r corlun **Crab** fod yn cyffwrdd â'r lliw glas
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Cywir. Mae'r gweithredwr `nid`{:class="block3operators"} yn golygu bod yr amod yn gywir `os`{:class="block3control"} nad yw'r corlun **Crab** yn `cyffwrdd`{:class="block3sensing"} â'r lliw glas.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () Byddai angen i'r corlun **Crab** fod yn cyffwrdd â'r lliw glas
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ Bron â bod. Edrycha'n ofalus ar y `gweithredwr`{:class="block3operators"} yn yr amod.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) Bydd y corlun **Crab** bob amser yn `cuddio`{:class="block3looks"} `pan fydd y faner wedi'i chlicio`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ Na, mae yna floc `os`{:class="block3control"} yng nghod y corlun **Crab** felly bydd yn cuddio pan fydd yr amod wedi'i bodloni.
 
  --- /feedback ---
 

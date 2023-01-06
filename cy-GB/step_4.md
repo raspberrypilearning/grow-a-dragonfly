@@ -5,7 +5,7 @@
 Byddi di'n gwneud i'r gwas-y-neidr dyfu pan fydd yn bwyta pry, a stopio os bydd yn cyrraedd maint llawn.
 </div>
 <div>
-![Gwas-y-neidr llawn ei faint ar y Llwyfan yn dweud 'Dw i 'di cyrraedd fy maint llawn!'.](delweddau/grow-to-fulsize.png){:width="300px"}
+![Gwas-y-neidr llawn ei faint ar y Llwyfan yn dweud 'Dw i 'di cyrraedd fy maint llawn!'.](images/grow-to-fulsize.png){:width="300px"}
 </div>
 </div>
 
@@ -109,7 +109,7 @@ end
 
 --- task ---
 
-Ychwanega flociau sy'n pennu `os`{:class="block3control"} yw'r cyflwr yn wir `yna`{:class="block3control"} bydd y gwas-y-neidr yn `darlledu`{:class="block3events"} neges 'diwedd' ac yn `dweud`{:class="block3looks"} `Dw i 'di cyrraedd fy maint llawn!`
+Ychwanega flociau sy'n pennu `os`{:class="block3control"} yw'r cyflwr yn wir `yna`{:class="block3control"} bydd y gwas-y-neidr yn `darlledu`{:class="block3events"} neges 'diwedd' ac yn `dweud`{:class="block3looks"} `Dw i 'di tyfu'n llawn!`
 
 Yn olaf, ychwanega floc `aros y cyfan`{:class="block3control"} i stopio'r sgriptiau gwas-y-neidr eraill:
 

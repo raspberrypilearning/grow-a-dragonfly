@@ -1,67 +1,67 @@
-## A fly to eat
+## Pryfyn i'w fwyta
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+Byddi di'n ychwanegu pryfyn i'r gwas-y-neidr gael ei fwyta. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![Y Llwyfan gyda gwas y neidr a phryfyn.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+Weithiau mae cymeriadau sy'n symud o gwmpas ar eu pen eu hunain mewn gemau yn cael eu galw'n <span style="color: #0faeb0">**mobs**</span>, sy'n ffordd gyflym o ddweud "mobiles". Alli di feddwl am gêm sydd â mobs?</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+Mae pry yn y corlun **Frog 2** y galli di ei ddefnyddio.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+Ychwanega'r corlun **Frog 2** at dy brosiect. Ail-enwa'r corlun yn `Insect`:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![Y rhestr Corluniau gyda'r corlun Frog 2 wedi'i ychwanegu. Y briodwedd enw corlun yn dangos 'Insect'.](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+Dim ond y pry sydd ei angen arnat ti, nid y broga.
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+Clicia'r tab **Gwisgoedd**. Clicia'r pry i'w ddewis a chlicio ar yr eicon **Copy**.
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
-
---- /task ---
-
---- task ---
-
-Add a new costume to the sprite using the **Paint** option:
-
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
+![Y golygydd paent gyda rhan pry y wisg Frog 2-a wedi'i dewis a'r eicon Copy wedi'i hamlygu.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+Ychwanega wisg newydd i'r corlun drwy ddefnyddio'r opsiwn **Paint**:
 
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![Yr opsiwn paent wedi'i ddewis yn y ddewislen dewis gwisgoedd.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+Clicia ar yr eicon **Paste** i ludo'r corlun i mewn i'r wisg newydd. Llusga'r pry i'r **canol** fel ei fod wedi'i alinio a'r groes.
 
-![Size property set to 150.](images/fly-size.png)
+Galli di ailenwi dy wisg yn `Insect` a dileu'r gwisgoedd eraill, gan na fydd angen y rhain arnat ti:
+
+![Y golygydd paent yn dangos gwisg Insect newydd wedi'i gludo gyda'r eicon Paste wedi'i hamlygu. Y rhestr gwisgoedd yn dangos bod y gwisgoedd eraill wedi'u dileu.](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+Cynydda faint y pry fel ei fod yn haws ei weld a'i ddal:
+
+![Y briodwedd Maint wedi'i gosod i 150.](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+Clicia'r tab **Cod** ac ychwanegu sgript i wneud i'r corlun **Insect** fownsio o gwmpas:
 
 ![](images/fly-icon.png)
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+Mae'r bloc `os ar ymyl, bowndio`{:class="block3motion"} yn gwirio bloc i weld a yw'r corlun wedi cyrraedd ymyl y Llwyfan ac yn troi'r corlun i wynebu i gyfeiriad gwahanol os ydyw.
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+Rwyt ti eisiau i'r corlun **Insect** `guddio`{:class="block3looks"} `os`{:class="block3control"} mae'n cael ei fwyta gan y corlun **Dragonfly**.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
+Ychwanega floc `os`{:class="block3control"} i sgript symud y corlun **Insect**:
 
 ![](images/fly-icon.png)
 
@@ -95,15 +95,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+Mae gan `os`{:class="block3control"} fewnbwn siâp hecsagon. Mae hyn yn golygu y galli di roi **amod** yma.
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+Pan fydd y bloc `os`{:class="block3control"} yn rhedeg, bydd Scratch yn gwirio'r amod. Os ydy'r cyflwr yn 'wir' `yna`{:class="block3control"} bydd y cod y tu mewn i'r bloc `os`{:class="block3control"} yn rhedeg.
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+Rwyt ti eisiau i'r pryfyn `guddio`{:class="block3looks"} `os`{:class="block3control"} mae'n `cyffwrdd`{:class="block3sensing"} y corlun **Dragonfly**.
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
+Llusga `cyffwrdd [Dragonfly v]`{:class="block3sensing"} i mewn i'r bloc `os`{:class="block3control"}. Ychwanega floc `cuddio`{:class="block3looks"} y tu mewn i'r bloc `os`{:class="block3control"}.
 
 ![](images/fly-icon.png)
 
@@ -121,15 +121,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**Profi:** Profa'r cod a rheola'r gwas-y-neidr i fwyta'r pry. Dylai'r pry ddiflannu.
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+Fydd y gwas-y-neidr ddim yn tyfu'n fawr iawn os mai dim ond un pry mae'n gallu ei fwyta!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Ychwanega flociau i `fynd i safle ar hap`{:class="block3motion"} ar y Llwyfan, a gwneud i dy gorlun `aros`{:class="block3control"} am eiliad yna `dangos`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**Profi:** Profa fod dy was-y-neidr yn gallu bwyta llawer o bryfed bellach.
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+Gwna'n siŵr dy fod wedi ychwanegu'r bloc `dangos`{:class="block3looks"} er mwyn ei ddangos ar y dechrau.
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**Awgrym:** Galli di glicio ar y botwm **Stop** coch uwchben y Llwyfan os wyt ti am i'r gwas-y-neidr fod yn dawel wrth i ti ychwanegu mwy o god.
 
 --- save ---

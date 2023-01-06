@@ -1,10 +1,10 @@
-## What next?
+## Beth nesaf?
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+Os wyt ti'n dilyn y llwybr [Mwy o scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), galli di symud ymlaen i'r prosiect [Seren Ddrymiau](https://projects.raspberrypi.org/en/projects/drum-star). Yn y prosiect hwn, byddi di'n creu gêm clicio lle byddi di'n ennill curiadau er mwyn chwarae drymiau newydd mewn lleoliadau mwy.
 
 --- print-only ---
 
-![The Stage view of completed drum star project.](images/drum-star.png)
+![Gweld Llwyfan prosiect seren drymiau ar ôl ei gwblhau.](images/drum-star.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Os wyt ti am gael mwy o hwyl wrth ddysgu Scratch, gallet ti roi cynnig ar unrhyw un o'r [prosiectau hyn](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

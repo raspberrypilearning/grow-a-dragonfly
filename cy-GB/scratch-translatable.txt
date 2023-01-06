@@ -1,21 +1,21 @@
-to start small
+i ddechrau'n fach
 
-Wings
+Adenydd
 
-change from 'mouse-pointer'
+newid o 'bwyntydd llygoden'
 
-eaten
+wedi'i fwyta
 
-show at the start
+dangos ar y dechrau
 
-to look like a new fly
+i edrych fel pry newydd
 
-food
+bwyd
 
 end
 
-I got to full size!
+Dw i 'di tyfu'n llawn!
 
-change from 'all'
+newid o 'all'
 
-Keep changing direction
+Dal ati i newid cyfeiriad

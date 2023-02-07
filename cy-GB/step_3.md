@@ -16,9 +16,9 @@ Mae pry yn y corlun **Frog 2** y galli di ei ddefnyddio.
 
 --- task ---
 
-Ychwanega'r corlun **Frog 2** at dy brosiect. Ail-enwa'r corlun yn `Insect`:
+Ychwanega'r corlun **Frog 2** at dy brosiect. Ail-enwa'r corlun yn `Pryfyn`:
 
-![Y rhestr Corluniau gyda'r corlun Frog 2 wedi'i ychwanegu. Y briodwedd enw corlun yn dangos 'Insect'.](images/fly-sprite.png)
+![Y rhestr Corluniau gyda'r corlun Frog 2 wedi'i ychwanegu. Y briodwedd enw corlun yn dangos 'Pryfyn'.](images/fly-sprite.png)
 
 
 --- /task ---
@@ -45,9 +45,9 @@ Ychwanega wisg newydd i'r corlun drwy ddefnyddio'r opsiwn **Paentio**:
 
 Clicia ar yr eicon **Gludo** i ludo'r corlun i mewn i'r wisg newydd. Llusga'r pry i'r **canol** fel ei fod wedi'i alinio a'r groes.
 
-Galli di ailenwi dy wisg yn `Insect` a dileu'r gwisgoedd eraill, gan na fydd angen y rhain arnat ti:
+Galli di ailenwi dy wisg yn `Pryfyn` a dileu'r gwisgoedd eraill, gan na fydd angen y rhain arnat ti:
 
-![Y golygydd paent yn dangos gwisg Insect newydd wedi'i gludo gyda'r eicon Gludo wedi'i hamlygu. Y rhestr gwisgoedd yn dangos bod y gwisgoedd eraill wedi'u dileu.](images/fly-costume.png)
+![Y golygydd paent yn dangos gwisg Pryfyn newydd wedi'i gludo gyda'r eicon Gludo wedi'i hamlygu. Y rhestr gwisgoedd yn dangos bod y gwisgoedd eraill wedi'u dileu.](images/fly-costume.png)
 
 --- /task ---
 
@@ -61,7 +61,7 @@ Cynydda faint y pry fel ei fod yn haws ei weld a'i ddal:
 
 --- task ---
 
-Clicia'r tab **Cod** ac ychwanegu sgript i wneud i'r corlun **Insect** fownsio o gwmpas:
+Clicia'r tab **Cod** ac ychwanegu sgript i wneud i'r corlun **Pryfyn** fownsio o gwmpas:
 
 ![](images/fly-icon.png)
 
@@ -77,11 +77,11 @@ Mae'r bloc `os ar ymyl, bowndio`{:class="block3motion"} yn gwirio bloc i weld a 
 
 --- /task ---
 
-Rwyt ti eisiau i'r corlun **Insect** `guddio`{:class="block3looks"} `os`{:class="block3control"} mae'n cael ei fwyta gan y corlun **Dragonfly**.
+Rwyt ti eisiau i'r corlun **Pryfyn** `guddio`{:class="block3looks"} `os`{:class="block3control"} mae'n cael ei fwyta gan y corlun **Dragonfly**.
 
 --- task ---
 
-Ychwanega floc `os`{:class="block3control"} i sgript symud y corlun **Insect**:
+Ychwanega floc `os`{:class="block3control"} i sgript symud y corlun **Pryfyn**:
 
 ![](images/fly-icon.png)
 

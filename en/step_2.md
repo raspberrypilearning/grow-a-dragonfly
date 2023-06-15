@@ -5,7 +5,7 @@
 You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@ Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535
 
 **Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@ Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535
 
 Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@ Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly**
 
 Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ If you like, you can select the very end of the **Wings** sound, and then click 
 
 Now add a block to play the **Wings** sound when the dragonfly moves:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

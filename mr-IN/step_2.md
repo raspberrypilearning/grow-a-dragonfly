@@ -5,7 +5,7 @@
 तुम्ही दृश्य सेट कराल. तुमचा बॅकड्रॉप निवडा आणि ड्रॅगनफ्लाय जोडा जो स्टेज भोवती माऊस-पॉइंटर फॉलो करेल.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@
 
 **निवडा:** **Choose a Backdrop** क्लिक करा आणि तुमच्या आवडीचे बॅकड्रॉप जोडा. आम्ही **Jurassic** बॅकड्रॉप वापरला.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![Jurassic बॅकड्रॉप दाखवणारा Stage.](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@
 
 **Choose a Sprite** वर क्लिक करा आणि `dragonfly` शोधा, त्यानंतर**Dragonfly** sprite जोडा.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 !['ड्रॅगनफ्लाय' टाईप केलेला सर्च बॉक्स आणि गॅलरीमधील Dragonfly sprite.](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@
 
 **Dragonfly** sprite ने माऊस-पॉइंटर (किंवा तुमचे बोट) फॉलो करण्यासाठी स्क्रिप्ट जोडा:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ end
 
 ड्रॅगनफ्लाय हलतांना **Wings** साऊंड प्ले करण्यासाठी ब्लॉक जोडा:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

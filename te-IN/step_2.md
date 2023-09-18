@@ -5,7 +5,7 @@
 మీరు సన్నివేశాన్ని సెట్ చేస్తారు. మీ బ్యాక్‌డ్రాప్‌ను ఎంచుకుని, Stage చుట్టూ ఉన్న మౌస్ పాయింటర్‌ను అనుసరించే తూనీగని జోడించండి.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@
 
 **ఎంచుకోండి:** **Choose a backdrop** మీద క్లిక్ చేయండి మరియు మీకు నచ్చిన బ్యాక్‌డ్రాప్‌ను జోడించండి. మనము **Jurassic** బ్యాక్‌డ్రాప్‌ని ఉపయోగించాము.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![జురాసిక్ బ్యాక్‌డ్రాప్‌ని చూపించే Stage.](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@
 
 **Choose a sprite** మీద క్లిక్ చేయండి మరియు `dragonfly` అని శోధించండి, అటుపై **Dragonfly** sprite ను జోడించండి.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![గ్యాలరీలో 'dragonfly' అని టైప్ చేసిన సెర్చ్ బాక్స్ మరియు Dragonfly sprite.](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@
 
 **Dragonfly** sprite మౌస్-పాయింటర్‌ను (లేదా మీ వేలు) అనుసరించేలా చేయడానికి స్క్రిప్ట్‌ను జోడించండి:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ end
 
 తూనీగ కదిలినప్పుడు **Wings** సౌండ్‌ని ప్లే చేయడానికి ఇప్పుడు ఒక బ్లాక్‌ని జోడించండి:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

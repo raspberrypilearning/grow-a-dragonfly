@@ -5,7 +5,7 @@
 Θα στήσεις τη σκηνή. Επίλεξε το σκηνικό σου και πρόσθεσε μια λιβελούλα που ακολουθεί τον δείκτη του ποντικιού γύρω από τη Σκηνή.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@
 
 **Επιλογή:** Κάνε κλικ στο **Επιλέξτε Υπόβαθρο** και πρόσθεσε ένα υπόβαθρο της επιλογής σου. Χρησιμοποιήσαμε το υπόβαθρο **Jurassic**.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![Η Σκηνή που δείχνει το υπόβαθρο Jurassic.](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@
 
 Κάνε κλικ στο **Επίλεξε ένα αντικείμενο** και αναζήτησε την `dragonfly` (λιβελούλα), στη συνέχεια πρόσθεσε το αντικείμενο **Dragonfly**.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![Το πλαίσιο αναζήτησης όπου πληκτρολογείται 'dragonfly' (λιβελούλα) και το αντικείμενο Dragonfly στη συλλογή.](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@
 
 Πρόσθεσε ένα script για να κάνεις το αντικείμενο **Λιβελούλα** να ακολουθεί τον δείκτη του ποντικιού (ή το δάχτυλό σου):
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ end
 
 Τώρα πρόσθεσε ένα μπλοκ για να αναπαράγεις τον ήχο **Φτερά** όταν η λιβελούλα κινείται:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

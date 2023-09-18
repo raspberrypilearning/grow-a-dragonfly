@@ -1,17 +1,17 @@
-## Quick quiz
+## Examen Rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Contesta las tres preguntas. Hay pistas para guiarte a la respuesta correcta.
 
-When you have answered each question, click on **Check my answer**.
+Cuando hayas respondido cada pregunta, haz clic en **Revisar mi respuesta**.
 
-Have fun!
+¡Que te diviertas!
 
 --- question ---
 ---
 legend: Pregunta 1 de 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Un proyecto utiliza el objeto **Crab** y **Jellyfish**. El objeto **Crab** tiene este código:
 
 ![desc](images/crab-icon.png)
 
@@ -22,7 +22,7 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+¿Qué tendría que pasar para que el objeto **Crab** se esconda?
 
 --- choices ---
 
@@ -30,7 +30,7 @@ What would need to happen for the **Crab** sprite to hide?
 
  --- feedback ---
 
- No, el bloque `si`{:class="block3control"} tiene una condición `Sensores`{:class="block3sensing"}, pero no utiliza el bloque `tocando Jellyfish`{:clase="block3sensing"}.
+ No, el bloque `si`{:class="block3control"} tiene una condición `Sensorial`{:class="block3sensing"}, pero no utiliza el bloque `tocando Jellyfish`{:clase="block3sensing"}.
 
  --- /feedback ---
 
@@ -38,15 +38,15 @@ What would need to happen for the **Crab** sprite to hide?
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Sí, el operador `no`{:class="block3operators"} significa que la condición es cierta `si`{:class="block3control"} el objeto **Crab** no está `tocando`{:class="block3sensing"} el color azul.
 
  --- /feedback ---
 
-- () El objeto **Crab** tendría que estar tocando el color azul
+- () El **Crab** tendría que estar tocando el color azul
 
  --- feedback ---
 
- No del todo, mira de cerca el `operador`{:class="block3operators"} en la condición.
+ No del todo, mira de cerca al `operador`{:class="block3operators"} en la condición.
 
  --- /feedback ---
 
@@ -54,7 +54,7 @@ Yes, the `not`{:class="block3operators"} operator means that the condition is tr
 
  --- feedback ---
 
- No, hay un bloque `si`{:class="block3control"} en el código del objeto **Crab** por lo que solo se ocultará si se cumple la condición.
+ No, hay un bloque `si`{:class="block3control"} en el código del objeto **Crab**, por lo que solo se ocultará si se cumple la condición.
 
  --- /feedback ---
 

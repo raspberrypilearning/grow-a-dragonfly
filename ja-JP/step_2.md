@@ -5,7 +5,7 @@
 シーンを設定します。 背景を選び、マウスポインターを追ってステージを回るトンボを追加します。
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@
 
 **選択：****背景を選ぶ**をクリックし、お好みの背景を追加します。 **Jurassic** の背景を使用しました。
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![Jurassicの背景を使ったステージ。](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@
 
 **スプライトを選ぶ**をクリックし、`dragonfly`を検索して、**Dragonfly**スプライトを追加します。
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![「dragonfly」と入力された検索ボックスと、ギャラリー内のDragonflyのスプライト。](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@
 
 **Dragonfly** スプライトをマウスポインタ(または指) に追従させるスクリプトを追加する。
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ end
 
 次に、トンボが動いたときに**羽音**という音を鳴らすブロックを追加します。
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

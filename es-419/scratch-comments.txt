@@ -1,4 +1,4 @@
-empezar con tamaño pequeño
+empezar con un tamaño pequeño
 
 cambiar de 'puntero del ratón'
 
@@ -22,4 +22,4 @@ tocando la boca de la libélula
 
 hace que aparezcan moscas desde el borde
 
-Usa la mosca del dibujo Rana o dibújala tú. O usa el emoji de Mosquito. Presiona la tecla 'Windows' más '.' para entrar.
+Usa la mosca del dibujo Rana o dibújala tú. O usa el Mosquito. Presiona la tecla 'Windows' más '.' para entrar.

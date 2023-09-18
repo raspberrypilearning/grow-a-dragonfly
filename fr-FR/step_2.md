@@ -5,7 +5,7 @@
 Tu vas créer la scène. Choisis ton arrière-plan et ajoute une libellule qui suit le pointeur de la souris autour de la scène.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@ Ouvre le projet de démarrage [Faire grandir une libellule](https://scratch.mit.
 
 **Choisir :** Clique sur **Choisir un arrière-plan** et ajoute un arrière-plan de ton choix. Nous avons utilisé l'arrière-plan **Jurassic**.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![La scène montrant l'arrière-plan Jurassic .](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@ Ouvre le projet de démarrage [Faire grandir une libellule](https://scratch.mit.
 
 Clique sur **Choisir un sprite** et recherche `dragonfly`, puis ajoute le sprite **Dragonfly** (Libellule).
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![Le champ de recherche avec "dragonfly" tapé et le sprite Dragonfly dans la galerie.](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@ Clique sur **Choisir un sprite** et recherche `dragonfly`, puis ajoute le sprite
 
 Ajoute un script pour que le sprite **Libellule** suive le pointeur de la souris (ou ton doigt) :
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ Si tu le souhaite, tu peux sélectionner la toute fin du son **Ailes** , puis cl
 
 Ajoute maintenant un bloc pour jouer le son **Ailes** lorsque la libellule se déplace :
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

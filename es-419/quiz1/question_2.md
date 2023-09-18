@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Sí, eso es correcto. Colocando el bloque `iniciar sonido`{:class="block3sound"} dentro del bloque `if`{:class="block3control"} significa que se reproducirá cuando la libélula se mueva.
+Sí, correcto. Colocando el bloque `iniciar sonido`{:class="block3sound"} dentro del bloque `if`{:class="block3control"} significa que se reproducirá cuando la libélula se mueva.
 
   --- /feedback ---
 

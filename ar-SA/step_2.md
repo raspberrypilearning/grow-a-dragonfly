@@ -5,7 +5,7 @@
 سوف تقوم بإعداد المشهد. اختر الخلفية الخاصة بك وأضف اليعسوب الذي يتبع مؤشر الماوس حول المنصة.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@
 
 **اختر:** انقر فوق **اختيار خلفية** وأضف خلفية من اختيارك. استخدمنا خلفية **Jurassic**.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![تُظهر المنصةُ الخلفيةَ Jurassic.](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@
 
 انقر فوق **اختيار كائن** وابحث عن كلمة `dragonfly`، ثم أضف كائن **Dragonfly**.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![مربع البحث المكتوب فيه "dragonfly" وكائن اليعسوب في المعرض.](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@
 
 أضف نصًّا لجعل الكائن **Dragonfly** يتبع مؤشر الماوس (أو إصبعك):
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ end
 
 أضف الآن كتلة لتشغيل صوت **أجنحة** عندما يتحرك اليعسوب:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

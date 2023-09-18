@@ -5,7 +5,7 @@
 Jij gaat het speelveld bepalen. Kies je achtergrond en voeg een libel toe die de muisaanwijzer binnen het speelveld volgt.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@ Open het [Laat een libel groeien start-project](https://scratch.mit.edu/projects
 
 **Kies:** Klik op **Kies een achtergrond** en voeg een achtergrond naar keuze toe. We gebruikten de **Jurassic** achtergrond.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![Het speelveld met de Jurassic-achtergrond.](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@ Open het [Laat een libel groeien start-project](https://scratch.mit.edu/projects
 
 Klik op **Kies een sprite** en zoek naar `dragonfly` (libel) en voeg vervolgens de **dragonfly** sprite toe.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![Het zoekvak met 'dragonfly' ingetypt en de sprite Dragonfly in de galerij.](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@ Klik op **Kies een sprite** en zoek naar `dragonfly` (libel) en voeg vervolgens 
 
 Voeg een script toe om de sprite **Dragonfly** de muisaanwijzer (of je vinger) te laten volgen:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ Als je wilt, kun je het einde van het **Vleugels**-geluid selecteren en vervolge
 
 Voeg nu een blok toe om het **Vleugels**-geluid te spelen wanneer de libel beweegt:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

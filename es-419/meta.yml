@@ -1,14 +1,16 @@
 ---
-title: Hacer crecer una libélula
+title: Haz crecer una libélula
 hero_image: images/banner.png
 description: Haz una libélula que crezca a medida que come molestos mosquitos y otros insectos.
+meta_title: Scratch coding projects for kids and teens | Grow a dragonfly
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: Lo que harás
   - 
     title: Prepara la escena
   - 
@@ -16,7 +18,7 @@ steps:
     completion:
       - engaged
   - 
-    title: Crecer a tamaño completo
+    title: Que crezca a tamaño completo
   - 
     title: Movimiento mejorado
   - 
@@ -26,7 +28,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Examen Rápido
     knowledge_quiz:
       path: quiz1
       version: 1

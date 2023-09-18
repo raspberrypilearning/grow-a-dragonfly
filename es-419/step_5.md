@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-La libélula 'falla' y cambia de dirección muy rápido si el puntero del ratón está tocando la libélula. Comprobarás otra condición para arreglar esto.
+La libélula 'falla' y cambia de dirección muy rápido si el puntero del ratón está tocándola. Comprobarás otra condición para arreglar esto.
 </div>
 <div>
 ![El escenario mostrando un insecto y una libélula.](images/improved-movement.png){:width="300px"}
@@ -36,7 +36,7 @@ end
 
 Luego arrastra un bloque `no`{:class="block3operators"} dentro del `si`{:class="block3control"} y un `tocando (el puntero del ratón)`{:class="block3sensing"} dentro suyo.
 
-Comprueba que tu código sea como esto:
+Comprueba que tu código sea así:
 
 ![](images/dragonfly-icon.png)
 
@@ -58,7 +58,7 @@ El bloque `no`{:class="block3operators"} convierte una condición en su opuesta,
 
 --- task ---
 
-**Prueba:** Comprueba que el fallo está arreglado y que el Dragonfly solo se mueve cuando está `no`{:class="block3operators"} `tocando (puntero del ratón)`{:class="block3sensing"}.
+**Prueba:** Comprueba que el fallo está arreglado y que la libélula solo se mueve cuando `no`{:class="block3operators"} `está tocando (puntero del ratón)`{:class="block3sensing"}.
 
 Una condición diferente para probar es:
 
@@ -66,9 +66,9 @@ Una condición diferente para probar es:
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-Esto hace que la libélula se mueva cuando está lo suficientemente lejos del puntero del ratón.
+Esto hace que la libélula se mueva cuando está lo suficientemente lejos del puntero.
 
-**Sugerencia:** Puedes arrastrar bloques a cualquier parte del área de Código y dejarlos allí mientras intentas diferentes cosas.
+**Consejo:** Puedes arrastrar bloques a cualquier parte del área de Código y dejarlos allí mientras intentas diferentes cosas.
 
 --- /task ---
 

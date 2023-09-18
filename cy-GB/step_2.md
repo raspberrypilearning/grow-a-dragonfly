@@ -5,7 +5,7 @@
 Byddi di'n gosod y cyd-destun. Dewisa dy gefnlen ac ychwanegu gwas-y-neidr sy'n dilyn pwyntydd y llygoden o amgylch y Llwyfan.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@ Mae modd gweld <span style="color: #0faeb0">**Gweision y neidr**</span> ym mhedw
 
 **Dewisa:** Clicia **Dewiswch Gefnlen** ac ychwanegu cefnlen o dy ddewis. Rydyn ni wedi defnyddio'r gefnlen **Jurassic**.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![Y Llwyfan yn dangos y gefnlen Jurassic.](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@ Mae modd gweld <span style="color: #0faeb0">**Gweision y neidr**</span> ym mhedw
 
 Clicia **Dewiswch Gorlun** a chwilia am `dragonfly`, wedyn ychwanegu'r corlun **Dragonfly**.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![Y blwch chwilio gyda 'dragonfly' wedi'i deipio i mewn a'r corlun Dragonfly yn yr oriel.](images/dragonfly-search.png)
 
@@ -44,7 +44,7 @@ Clicia **Dewiswch Gorlun** a chwilia am `dragonfly`, wedyn ychwanegu'r corlun **
 
 Ychwanega sgript i wneud i'r corlun **Dragonfly** ddilyn pwyntydd y llygoden (neu dy fys):
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,7 +130,7 @@ Os wyt ti'n dymuno, galli di ddewis diwedd y sain **Adenydd**, ac wedyn clicio a
 
 Nawr ychwanega floc i chwarae'r sain **Adenydd** pan fydd y gwas-y-neidr yn symud:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Los insectos en tu aplicación se mueven en un patrón muy predecible, pero en la vida real son difíciles de atrapar. 
 
-Usarás el bloque `elegir número al azar`{:class="block3operators"} para hacer que el insecto se mueva de una forma más natural.
+Usarás el bloque `elegir número al azar`{:class="block3operators"} para hacer que se mueva de una forma más natural.
 </div>
 <div>
 ![Escenario que muestra insectos apuntando en diferentes direcciones.](images/random-movement.png){:width="300px"}
@@ -37,7 +37,7 @@ También puedes arrastrar este script al objeto **Insecto** para que también se
 
 Cambia los insectos hasta que se comporten como tú quieras.
 
-Puedes cambiar la cantidad de pasos que se `mueven`{:class="block3motion"} para hacerlos más rápidos o más lentos.
+Puedes cambiar la cantidad de pasos que `realizan`{:class="block3motion"} para hacerlos más rápidos o más lentos.
 
 También puedes cambiar la velocidad de la libélula.
 
@@ -45,7 +45,7 @@ También puedes cambiar la velocidad de la libélula.
 
 --- task ---
 
-También puedes cambiar el tamaño que la libélula necesita crecer para alcanzar su tamaño completo.
+También puedes cambiar el tamaño que necesita crecer para alcanzar su tamaño completo.
 
 Realiza cambios hasta que estés conforme con tu proyecto.
 

@@ -1,4 +1,4 @@
-## Crecer a tamaño completo
+## Que crezca a tamaño completo
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -12,7 +12,7 @@ Harás que la libélula crezca cuando se coma una mosca, y se detendrá si alcan
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Las libélulas vivas más grandes se pueden encontrar en América Central y tienen una envergadura de 19 cm (un poco más grande que tu mano). El insecto más grande jamás conocido fue <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, una libélula con una envergadura de unos 75 cm (el tamaño de una pisada grande).</p>
 
-La mosca sabe que ha sido comida, y ahora la Libélula necesita saberlo para crecer.
+La mosca sabe que ha sido comida, y ahora la libélula necesita saberlo para crecer.
 
 Cuando necesites que otro objeto sepa que algo sucedió, puedes usar un bloque `enviar`{:class="block3events"} como lo hiciste en [Enviando hechizos](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
@@ -43,7 +43,7 @@ El objeto **Dragonfly** necesita crecer cuando recibe el mensaje `comida`{:class
 
 --- task ---
 
-Selecciona el objeto **Dragonfly** y agrega este script:
+Selecciona el objeto **Libélula** y agrega este script:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Agrega el sonido **Chomp** a la libélula e `inicia sonido`{:class="block3sound"} cuando un insecto es comido:
+Agrega el sonido **Chomp** a la libélula e `iniciálo`{:class="block3sound"} cuando un insecto sea comido:
 
 ![](images/dragonfly-icon.png)
 
@@ -73,7 +73,7 @@ change size by [5]
 
 --- /task ---
 
-Cuando la libélula alcance su tamaño completo, el juego te felicitará y se detendrá.
+Cuando esta alcance su tamaño completo, el juego te felicitará y se detendrá.
 
 --- task ---
 
@@ -109,7 +109,7 @@ end
 
 --- task ---
 
-Agregue bloques de modo que `si`{:class="block3control"} la condición es verdadera `entonces`{:class="block3control"} la libélula va a `enviar`{:class="block3events"} un mensaje de 'fin' y va a `decir`{:class="block3looks"} `¡He conseguido mi tamaño completo!`
+Agregue bloques de modo que `si`{:class="block3control"} la condición es cierta `entonces`{:class="block3control"} la libélula va a `enviar`{:class="block3events"} un mensaje de 'fin' y va a `decir`{:class="block3looks"} `¡He conseguido mi tamaño completo!`
 
 Finalmente, agrega un bloque `detener todos`{:class="block3control"} para detener los otros scripts de la libélula:
 

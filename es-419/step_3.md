@@ -16,20 +16,20 @@ Hay una mosca en el objeto **Frog 2** que puedes usar.
 
 --- task ---
 
-Agrega el objeto **Frog 2** a tu proyecto. Cambia el nombre del objeto a `Insecto`:
+Agrega **Frog 2** a tu proyecto. Cambia el nombre del objeto a `Insecto`:
 
-![La Lista de objetos con el objeto Frog 2 añadido. La propiedad nombre del Objeto muestra 'Insecto'.](images/fly-sprite.png)
+![La Lista de objetos con Frog 2 añadido. La propiedad nombre del Objeto muestra 'Insecto'.](images/fly-sprite.png)
 
 
 --- /task ---
 
-Solo necesitas la mosca, no la rana.
+Solo necesitas a la mosca, no a la rana.
 
 --- task ---
 
-Pulsa en la pestaña **Disfraces**. Pulsa sobre la mosca para seleccionarla y pulsa en el icono **Copiar**.
+Pulsa en la pestaña **Disfraces**. Pulsa sobre la mosca para seleccionarla y en el ícono **Copiar**.
 
-![El editor de pintura con la parte de la mosca de Frog 2- un disfraz seleccionado y el ícono Copiar resaltado.](images/copy-fly.png)
+![El editor con la parte de la mosca de Frog 2- un disfraz seleccionado y el ícono Copiar resaltado.](images/copy-fly.png)
 
 --- /task ---
 
@@ -45,9 +45,9 @@ Agrega un nuevo disfraz al objeto usando la opción **Pintar**:
 
 Pulsa en el icono **Pegar** para pegar el objeto en el nuevo disfraz. Arrastra la mosca al **centro** para que se alinee con la cruz.
 
-Puedes cambiar el nombre de tu disfraz `Insecto` y eliminar los otros disfraces, ya que no los necesitarás:
+Puedes cambiar el nombre de tu disfraz `Insecto` y eliminar los demás, ya que no los necesitarás:
 
-![El editor de pintura que muestra un nuevo disfraz de Insecto pegado con el ícono Pegar resaltado. La lista de disfraces muestra que se han eliminado los otros disfraces.](images/fly-costume.png)
+![El editor de pintura que muestra un nuevo disfraz de Insecto pegado con el ícono Pegar resaltado. La lista de disfraces muestra que se han eliminado los otros.](images/fly-costume.png)
 
 --- /task ---
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-El bloque `si toca un borde, rebotar`{:class="block3motion"} comprueba si el objeto ha llegado al borde del Escenario y apunta el objeto hacia una dirección diferente si la tiene.
+El bloque `si toca un borde, rebota`{:class="block3motion"} comprueba si el objeto ha llegado al borde del Escenario y lo apunta hacia una dirección diferente si la tiene.
 
 --- /task ---
 
-Quieres que el objeto **Insecto** se `esconda`{:class="block3looks"} `si`{:class="block3control"} es comido por el objeto **Dragonfly**.
+Quieres que el **Insecto** se `esconda`{:class="block3looks"} `si`{:class="block3control"} es comido por el objeto **Dragonfly**.
 
 --- task ---
 
-Agrega un bloque `si`{:class="block3control"} al script de movimiento del objeto **Insecto**:
+Agrega un bloque `si`{:class="block3control"} al script de movimiento del **Insecto**:
 
 ![](images/fly-icon.png)
 
@@ -97,13 +97,13 @@ end
 
 El `si`{:class="block3control"} tiene una entrada en forma de hexágono. Esto significa que puedes poner una **condición** aquí.
 
-Cuando se ejecuta el bloque `si`{:class="block3control"}, Scratch verificará la condición. Si la condición es 'verdadera' `entonces`{:class="block3control"} se ejecutará el código dentro del bloque `if`{:class="block3control"}.
+Cuando se ejecuta el bloque `si`{:class="block3control"}, Scratch verificará la condición. Si la condición es 'cierta' `entonces`{:class="block3control"} se ejecutará el código dentro del bloque `si`{:class="block3control"}.
 
 Quieres que el insecto se `esconda`{:class="block3looks"} `si`{:class="block3control"} está `tocando`{:class="block3sensing"} el objeto **Dragonfly**.
 
 --- task ---
 
-Arrastra un `tocando [Dragonfly v]`{:class="block3sensing"} al bloque `si`{:class="block3control"}. Agrega un bloque `esconder`{:class="block3looks"} dentro del bloque `if`{:class="block3control"}.
+Arrastra un `tocando [Dragonfly v]`{:class="block3sensing"} al bloque `si`{:class="block3control"}. Agrega un bloque `esconder`{:class="block3looks"} dentro del bloque `si`{:class="block3control"}.
 
 ![](images/fly-icon.png)
 
@@ -121,7 +121,7 @@ end
 
 --- task ---
 
-**Prueba:** Ensaya tu código y controla la libélula para que se coma la mosca. La mosca debería desaparecer.
+**Prueba:** Prueba tu código y controla la libélula para que se coma la mosca. La mosca debería desaparecer.
 
 --- /task ---
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Prueba:** Ensaya que tu libélula ahora pueda comer muchas moscas.
+**Prueba:** Prueba que tu libélula ahora puede comer muchas moscas.
 
-Asegúrate de haber agregado el bloque `mostrar`{:class="block3looks"} para mostrar al principio.
+Asegúrate de haber agregado el bloque `mostrar`{:class="block3looks"} para que se muestre al principio.
 
 --- /task ---
 
-**Sugerencia:** Puedes pulsar en el botón rojo **Detener** sobre el escenario si deseas que la libélula permanezca parada mientras agregas más código.
+**Consejo:** Puedes pulsar en el botón rojo **Detener** sobre el escenario si deseas que la libélula permanezca parada mientras agregas más código.
 
 --- save ---

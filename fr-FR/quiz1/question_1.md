@@ -1,17 +1,17 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 ---
 legend : Question 1 sur 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Un projet utilise le sprite **Crab** (Crabe) et le sprite **Jellyfish** (Méduse). Le sprite **Crabe** contient ce code :
 
 ![desc](images/crab-icon.png)
 
@@ -22,7 +22,7 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+Que devrait-il se passer pour que le sprite **Crabe** se cache ?
 
 --- choices ---
 
@@ -38,7 +38,7 @@ What would need to happen for the **Crab** sprite to hide?
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Oui, l'opérateur `non`{:class="block3operators"} signifie que la condition est vraie `si`{:class="block3control"} le sprite **Crabe** ne `touche`{:class="block3sensing"} pas la couleur bleue.
 
  --- /feedback ---
 

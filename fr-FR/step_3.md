@@ -129,7 +129,7 @@ La libellule ne deviendra pas très grande si elle ne peut manger qu'une seule m
 
 --- task ---
 
-Ajoute des blocs pour `aller à position aléatoire`{:class="block3motion"} sur la scène, et fais ton sprite `attendre`{:class="block3control"} pendant une seconde puis `montrer`{:class="block3looks "} :
+Ajoute des blocs pour `aller à position aléatoire`{:class="block3motion"} sur la scène, et faire `attendre`{:class="block3control"} ton sprite pendant une seconde puis se `montrer`{:class="block3looks "} :
 
 ![](images/fly-icon.png)
 

@@ -24,7 +24,7 @@ Es útil si este insecto se ve diferente a la mosca.
 Pulsa en la pestaña **Disfraces**.
 
 **Elige:** Crear un insecto volador diferente.
-+ Usa la herramienta **Relleno** para cambiar el color de este insecto
++ Usa la herramienta **Relleno** para cambiar el color de este
 + **Pinta** tu propio disfraz de insecto
 + **Agrega** otro disfraz de bicho de Scratch
 
@@ -32,7 +32,7 @@ Pulsa en la pestaña **Disfraces**.
 
 El insecto será comido incluso si toca el ala o la cola de la libélula.
 
-Para que tu app sea más realista, arregla esto para que el insecto sea comido por la boca de la libélula. Puedes usar el bloque `tocando el color`{:class="block3sensing"} para que el insecto solo sea comido si toca un color en particular en el **Dragonfly**.
+Para que tu app sea más realista, arregla esto para que al insecto lo coman por la boca de la libélula. Puedes usar el bloque `tocando el color`{:class="block3sensing"} para que solo lo coman si toca un color en particular en el **Dragonfly**.
 
 --- task ---
 
@@ -94,7 +94,7 @@ end
 end
 ```
 
-Si no tienes seleccionado el color de la boca de la libélula, pulsa en el círculo de color y luego pulsa en la herramienta **Cuentagotas** para seleccionar un color.
+Si no tienes seleccionado el color de la boca de la libélula, pulsa en el círculo de color y luego en la herramienta **Cuentagotas**.
 
 ![El menú del círculo de colores con la herramienta cuentagotas.](images/colour-eyedropper.png)
 
@@ -102,13 +102,13 @@ Pulsa en la boca de la libélula en el Escenario para establecer el color para q
 
 ![La herramienta cuentagotas con resaltador de selección de color flotando sobre la boca púrpura de la libélula.](images/colour-select.png)
 
-**Sugerencia:** Si esto es difícil de hacer, cambia el tamaño del objeto **Dragonfly** para que sea realmente grande.
+**Consejo:** Si esto es difícil de hacer, cambia el tamaño del objeto **Dragonfly** para que sea realmente grande.
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Ahora prueba que la libélula solo puede comer el segundo insecto con su boca.
+**Prueba:** Ahora prueba que la libélula solo pueda comer el segundo insecto con su boca.
 
 Si quieres, puedes cambiar el primer **Insecto** para que solo pueda ser comido con la boca de la libélula.
 

@@ -12,7 +12,7 @@ Tu feras grandir la libellule lorsqu'elle mange une mouche, et tu t'arrêteras s
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Les plus grandes libellules vivantes se trouvent en Amérique centrale et ont une envergure de 19 cm (un peu plus grande que ta main). Le plus grand insecte jamais connu était le <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, une libellule d'une envergure d'environ 75 cm (la taille d'une grande empreinte de pied).</p>
 
-La mouche sait qu'elle a été mangée, et maintenant la libellule a besoin de savoir pour qu'elle grandisse.
+La mouche sait qu'elle a été mangée, et maintenant la libellule a besoin de le savoir pour qu'elle grandisse.
 
 Lorsque tu dois faire savoir à un autre sprite que quelque chose s'est passé, tu peux utiliser un bloc `envoyer à tous`{:class="block3events"} comme tu l'as fait dans [Lancer des sorts](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 

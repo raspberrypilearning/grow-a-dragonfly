@@ -5,13 +5,13 @@
 Prepararás la escena. Elige tu fondo y agrega una libélula que siga el puntero del ratón alrededor del escenario.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Abre el [Proyecto de Iniciación Haz crecer una libélula](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto inicial Haz crecer una libélula](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
@@ -22,9 +22,9 @@ Abre el [Proyecto de Iniciación Haz crecer una libélula](https://scratch.mit.e
 
 --- task ---
 
-**Elige:** Pulsa sobre **Elige un Fondo** y agrega un fondo de tu elección. Nosotros hemos usado el fondo **Jurassic**.
+**Elige:** Pulsa **Elige un Fondo** y agrega un fondo de tu elección. Hemos usado el fondo **Jurassic**.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![El Escenario que se muestra es el fondo Jurassic.](images/Jurassic-backdrop.png)
 
@@ -34,7 +34,7 @@ Abre el [Proyecto de Iniciación Haz crecer una libélula](https://scratch.mit.e
 
 Pulsa sobre **Elegir un Objeto** y busca `dragonfly`, luego agrega el objeto **Dragonfly**.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![El cuadro de búsqueda con 'dragonfly' escrito y el objeto Dragonfly en la galería.](images/dragonfly-search.png)
 
@@ -42,9 +42,9 @@ Pulsa sobre **Elegir un Objeto** y busca `dragonfly`, luego agrega el objeto **D
 
 --- task ---
 
-Agrega un script para hacer que el objeto **Dragonfly** siga el puntero del ratón (o tu dedo):
+Agrega un script para hacer que el **Dragonfly** siga el puntero del ratón (o tu dedo):
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -66,9 +66,9 @@ El disfraz de Libélula no mira hacia la derecha, por lo que la cabeza del objet
 
 --- task ---
 
-Pulsa en la pestaña **Disfraces** y usa la herramienta **Seleccionar** (flecha) para seleccionar el disfraz. Utiliza la herramienta **Rotar** en la parte inferior del disfraz seleccionado para girar el disfraz **Dragonfly** y que mire hacia la derecha.
+Pulsa en la pestaña **Disfraces** y usa la herramienta **Seleccionar** (flecha) para seleccionarlo. Utiliza la herramienta **Rotar** en la parte inferior del disfraz seleccionado para girar a **Dragonfly** y que mire hacia la derecha.
 
-![Una imagen animada que muestra cómo rotar el disfraz de libélula arrastrando las flechas de rotación para que la libélula mire hacia la derecha.](images/rotated-costume.gif)
+![Una imagen animada que muestra cómo rotar el disfraz de libélula arrastrando las flechas de rotación para que mire hacia la derecha.](images/rotated-costume.gif)
 
 ![El disfraz de libélula seleccionado y girado para que mire hacia la derecha.](images/rotated-costume.png)
 
@@ -80,7 +80,7 @@ Pulsa en la pestaña **Disfraces** y usa la herramienta **Seleccionar** (flecha)
 
 --- /task ---
 
-Las alas de la libélula hacen un sonido de aleteo mientras vibran. Puedes editar un sonido en Scratch para crear tu propio sonido.
+Las alas de la libélula hacen un sonido de aleteo mientras vibran. Puedes editar un sonido en Scratch para crear el tuyo propio.
 
 --- task ---
 
@@ -130,7 +130,7 @@ Si quieres, puedes seleccionar el final del sonido **Wings**, y luego pulsar **E
 
 Ahora agrega un bloque para reproducir el sonido **Wings** cuando la libélula se mueva:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Prueba:** Ensaya el movimiento y efecto de sonido de tu libélula.
+**Prueba:** Prueba el movimiento y efecto de sonido de tu libélula.
 
 --- /task ---
 

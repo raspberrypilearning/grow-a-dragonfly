@@ -1,42 +1,42 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Pytanie 3 z 3
 ---
 
-In your project, you used `pick random`{:class="block3operators"} blocks to move the **Insect** sprite in a natural, unpredictable flying pattern.
+W swoim projekcie użyłeś `losuj liczbę`{:class="block3operators"} bloków, aby przesunąć duszka **Owad** w naturalny, nieprzewidywalny wzór latania.
 
-Which `pick random`{:class="block3operators"} block could give the number `10`?
+Który blok `losuj liczbę`{:class="block3operators"} może dać liczbę `10`?
 
 --- choices ---
 
 - ( )
 
-`pick random [0] to [9]`{:class="block3operators"}
+`losuj liczbę od [0] do [9]`{:class="block3operators"}
 
   --- feedback ---
 
-  No, this block can give you any of the numbers from 0 up to 9.
+  Nie, ten blok może dać tobie dowolną z liczb od 0 do 9.
 
   --- /feedback ---
 
 - ( )
 
-`pick random [20] to [100]`{:class="block3operators"}
+`losuj liczbę od [20] do [100]`{:class="block3operators"}
 
   --- feedback ---
 
-No the smallest number this block can give you is 20.
+Nie, najmniejsza liczba jaką może zwrócić ten blok to 20.
 
   --- /feedback ---
 
 - (x)
 
-`pick random [1] to [50]`{:class="block3operators"}
+`losuj liczbę od [1] do [50]`{:class="block3operators"}
 
   --- feedback ---
 
-Yes, this block can give you numbers from 1 up to 50, which includes 10.
+Tak, ten blok może dać tobie liczby od 1 do 50, w tym 10.
 
   --- /feedback ---
 

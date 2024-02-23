@@ -1,41 +1,41 @@
-## Upgrade your project
+## Ulepsz swój projekt
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+Na tym etapie spróbuj dodać więcej owadów, zmieniając wygląd i zachowanie projektu.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![Scena przedstawiająca trzy różne typy owadów i ważkę.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### Dodaj więcej owadów
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+Dodaj więcej owadów. Być może będziesz musiał/musiała przyspieszyć ich poruszanie się, aby ważce było trudniej je złapać.
 
-You can paint your own insects or trying adding an emoji mosquito!
+Możesz namalować własne owady lub spróbować dodać emotkę komara!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+Użyj klawiatury emoji, aby dodać duszka **emotka komara**.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Zduplikuj istniejącego duszka **owad**, a następnie kliknij zakładkę **Kostiumy**. **Pomaluj** nowy kostium i wybierz narzędzie **Tekst**. Zamiast wpisywać tekst, użyj skrótu klawiaturowego klawiatury emotek dla swojego systemu operacyjnego:
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows - przycisk Windows + '.' MacOS - ctrl + cmd + spacja Linux - ctrl + '.'
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![Wyskakująca klawiatura emotek z wybraną kategorią „zwierzęta i natura”.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Wybierz emoji **Komar**, aby wstawić go do edytora Malowania. Użyj narzędzia **Wybierz** (strzałka), aby wyśrodkować, zmienić rozmiar i obracać komara, aż będziesz z niego zadowolony.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![Emotka komara w edytorze malowania.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Wskazówka:** Emotki mogą wyglądać inaczej na różnych komputerach, więc mogą nie wyglądać tak samo na tablecie i komputerze stacjonarnym. Niektóre emotki nie są dostępne na pewnych komputerach, ale większość nowoczesnych komputerów je obsługuje.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+Użyj Plecaka, aby wymieniać się ze znajomymi owadami z ich projektów „Wyhoduj ważkę”.
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**Wskazówka:** Sprawdź, czy wszystkie twoje duszki i kostiumy mają odpowiednie imiona. Ułatwi to zrozumienie projektu, jeśli wrócisz do niego później.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**Wskazówka:** Upewnij się, że Twój kod jest czytelnie rozmieszczony w obszarze Kod. Kliknij prawym przyciskiem myszy obszar Kod i wybierz **Posprzątaj bloki**, aby Scratch uporządkował kod.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Ukończony projekt
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+Tutaj możesz zobaczyć [ukończony projekt](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
 
 --- /collapse ---
 

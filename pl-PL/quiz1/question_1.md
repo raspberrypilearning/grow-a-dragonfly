@@ -1,19 +1,19 @@
-## Quick quiz
+## Szybki quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Odpowiedz na trzy pytania. Podpowiedzi naprowadzą Cię na właściwą odpowiedź.
 
-When you have answered each question, click on **Check my answer**.
+Po udzieleniu odpowiedzi na każde pytanie kliknij przycisk **Sprawdź moją odpowiedź**.
 
-Have fun!
+Miłej zabawy!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pytanie 1 z 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Projekt używa duszka **Krab** (ang. Crab) i duszka **Meduza** (ang. Jellyfish). Duszek **Krab** ma następujący kod:
 
-![desc](images/crab-icon.png)
+![opis](images/crab-icon.png)
 
 ```blocks3
 when flag clicked
@@ -22,39 +22,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+Kiedy duszek **Krab** się ukryje?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () Duszek **Krab** dotknie **Meduzy**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ Nie, blok `Jeżeli`{:class="block3control"} ma warunek `dotyka`{:class="block3sensing"}, ale nie używa bloku `dotykania Meduza`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) Duszek **Krab** nie dotnie koloru niebieskiego
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Tak, `nie` {:class="block3operators"} oznacza, że warunek jest prawdziwy `jeśli` {:class="block3control"} **Krab nie **dotyka`` {:class="block3sensing"} koloru niebieskiego.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- (x) Duszek **Krab** dotknie koloru niebieskiego
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ Niezupełnie, spójrz uważnie na `operator`{:class="block3operators"} w warunku.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) Duszek **Krab** zawsze się`ukryje`{:class="block3looks"} `kiedy kliknięto flagę`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ Nie, blok `jeżeli`{:class="block3control"} jest w kodzie duszka **Krab**, więc ukryje się tylko, jeśli warunek zostanie spełniony.
 
  --- /feedback ---
 

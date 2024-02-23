@@ -1,24 +1,24 @@
-## Grow to full-size
+## Rośnij aż do maksymalnego rozmiaru
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+Sprawisz, że ważka urośnie, gdy zje muchę, i przestanie rosnąć, gdy osiągnie maksymalny rozmiar.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![Maksymalnie wyrośnięta ważka na scenie mówiąca 'W pełni urosłam'.](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+Największe żyjące ważki można znaleźć w Ameryce Środkowej i mają rozpiętość skrzydeł 19 cm (nieco większą niż twoja ręka). Największym znanym owadem był <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, ważka o rozpiętości skrzydeł około 75 cm (wielkość dużego kroku).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+Mucha wie, że została zjedzona, a teraz ważka też musi to wiedzieć, aby urosła.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+Kiedy musisz powiadomić innego duszka, że coś się wydarzyło, możesz użyć bloku`nadaj komunikat`{:class="block3events"}, tak jak w przypadku [nadawania czarów](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+Dodaj blok `nadaj komunikat`{:class="block3events"} do duszka **Owad** z nową wiadomością `pokarm`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+Duszek **Ważka** musi urosnąć, gdy otrzyma wiadomość `pokarm`{:class="block3events"}.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+Wybierz duszka **ważka** i dodaj ten fragment kodu:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+Dodaj dźwięk **Chomp** do ważki i `zagraj `{:class="block3sound"} go, gdy owad zostanie zjedzony:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**Test:** Uruchom swój projekt, aby przetestować, jak ważka rośnie i wydaje dźwięk chrupania, gdy zjada muchę.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+Kiedy ważka osiągnie pełny rozmiar, gra pogratuluje ci i zatrzyma się.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+Dodaj blok `jeżeli`{:class="block3control"}.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+Ważka jest w maksymalnie wyrośnięta, gdy `rozmiar `{:class="block3looks"} `=`{:class="block3operators"} `100%`. Najpierw dodaj operator `=`{:class="block3operators"} umieszczony w szcześciokącie jako dane wejściowe:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+Zakończ tworzenie warunków dodając wbudowaną zmienną `rozmiar`{:class="block3looks"} i wpisz wartość `100`:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+Dodaj bloki tak, że kiedy warunek `jeżeli`{:class="block3control"} jest prawdziwy `to`{:class="block3control"} ważka `nada`{:class="block3events"} komunikat 'koniec' i `powiedz`{:class="block3looks"} `Osiągnęłam maksymalny rozmiar!`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+Na koniec dodaj blok `zatrzymaj wszystko`{:class="block3control"}, aby zatrzymać inne skrypty ważki:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+W tej chwili mucha nadal się porusza po zakończeniu projektu. Dodaj ten skrypt do duszka **Owad**.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**Test:** Kliknij zieloną flagę i dalej jedz muchy, aż twoja ważka osiągnie maksymalny rozmiar.
 
 --- /task ---
 

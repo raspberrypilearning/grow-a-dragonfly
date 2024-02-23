@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Pytanie 2 z 3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+Napisałaś kod, aby ważka poruszała się tylko wtedy, gdy `nie`{:class="block3operators"} `dotyka`{:class="block3sensing"} wskaźnika myszy.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+Gdzie umieścić blok `zagraj dźwięk`{:class="block3sound"}, aby ważka odtwarzała dźwięk za każdym razem, gdy się porusza?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Nie, z tym kodem blok `zagraj dźwięk`{:class="block3sound"} jest poza blokiem `jeżeli`{:class="block3control"}, więc będzie uruchamiany za każdym razem, gdy działa pętla `zawsze`{:class=" block3control"}, nawet jeśli ważka się nie porusza.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+Tak, to jest poprawna odpowiedź. Umieszczenie bloku `zagraj dźwięk`{:class="block3sound"} wewnątrz bloku `jeżeli`{:class="block3control"} oznacza, że będzie on odtwarzany, gdy ważka się poruszy.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Nie, blok `zagraj dźwięk`{:class="block3sound"} jest poza blokiem `jeżeli`{:class="block3control"}, więc będzie uruchamiany za każdym razem, gdy działa pętla `zawsze`{:class=" block3control"}, nawet jeśli ważka się nie porusza.
 
   --- /feedback ---
 

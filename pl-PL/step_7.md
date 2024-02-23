@@ -1,19 +1,19 @@
-## Random insect movement
+## Losowy ruch owada
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+Owady w Twojej aplikacji poruszają się w bardzo przewidywalny sposób, ale w prawdziwym życiu trudno je złapać. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+Użyjesz bloku `losuj liczbę`{:class="block3operators"}, aby owad poruszał się w bardziej naturalny sposób.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![Scena pokazująca owady skierowane w różne strony.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+Dodaj skrypt do **Owad 2**, aby kierował się w losową stronę co 1–3 sekundy.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**Test:** Uruchom swój projekt i obserwuj, jak porusza się mucha. Spróbuj zmienić liczby, aby uzyskać pożądany efekt.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+Możesz również przeciągnąć ten skrypt do duszka **Owad**, aby również poruszał się losowo.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+Zmieniaj owady, aż będą zachowywać się tak, jak chcesz.
 
-Make changes until you are happy with your project.
+Możesz zmienić liczbę kroków, o które się `przesuwają`{:class="block3motion"}, aby były szybsze lub wolniejsze.
+
+Możesz także zmienić prędkość ważki.
+
+--- /task ---
+
+--- task ---
+
+Możesz także zmienić rozmiar, o który ważka musi urosnąć, aby osiągnąć pełny rozmiar.
+
+Dokonuj zmian, aż będziesz zadowolony ze swojego projektu.
 
 --- /task ---
 

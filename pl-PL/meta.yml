@@ -1,34 +1,34 @@
 ---
-title: Grow a dragonfly
+title: Wyhoduj ważkę
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
-meta_title: Scratch coding projects for kids and teens | Grow a dragonfly
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
+description: Stwórz ważkę, która rośnie, gdy zjada irytujące komary i inne owady.
+meta_title: Projekty programistyczne Scratch dla dzieci i młodzieży | Wyhoduj ważkę
+meta_description: Naucz się języka Scratch dzięki projektom programistycznym dla dzieci i młodzieży Fundacji Raspberry Pi. Stwórz aplikację w Scratchu, w której ważka rośnie w miarę zjadania owadów.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: Co będziesz robić
   - 
-    title: Set the scene
+    title: Ustawić scenę
   - 
-    title: A fly to eat
+    title: Mucha do jedzenia
     completion:
       - engaged
   - 
-    title: Grow to full-size
+    title: Rośnij aż do maksymalnego rozmiaru
   - 
-    title: Improved movement
+    title: Poprawiony ruch
   - 
-    title: More food
+    title: Więcej pokarmu
   - 
-    title: Random insect movement
+    title: Losowy ruch owada
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Szybki quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Ulepsz swój projekt
   - 
-    title: What next?
+    title: Co dalej?

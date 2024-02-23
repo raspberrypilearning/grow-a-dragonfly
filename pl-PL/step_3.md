@@ -1,67 +1,67 @@
-## A fly to eat
+## Mucha do jedzenia
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+Dodasz owada, do zjedzenia przez ważkę. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![Scena z ważka i owadem.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+Postacie, które poruszają się samodzielnie w grach, są czasami nazywane <span style="color: #0faeb0">**mobami**</span>, skrótem od mobilne. Czy możesz pomyśleć o grze, która ma moby?</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+W duszku **Frog 2** jest mucha, której możesz użyć.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+Dodaj duszka **Frog 2** do swojego projektu. Zmień nazwę duszka na `Owad`:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![Lista duszków z dodanym duszkiem Frog 2. Właściwość duszka pokazujące nazwę „Owad”.](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+Potrzebujesz tylko muchy, nie żaby.
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+Naciśnij na zakładkę **Kostiumy**. Kliknij muchę, aby ją wybrać i kliknij ikonę **Kopiuj**.
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
-
---- /task ---
-
---- task ---
-
-Add a new costume to the sprite using the **Paint** option:
-
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
+![Edytor malowania z zaznaczoną muchą, będącą częścią kostiumu Żaby 2-a i podświetloną ikoną Kopiuj.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+Dodaj nowy kostium do duszka za pomocą opcji **Maluj**:
 
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![Opcja malowania wybrana w menu wyboru kostiumu.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+Kliknij ikonę **Wklej**, aby wkleić duszka do nowego kostiumu. Przeciągnij muchę **do środka**, aby zrównała się z celownikiem.
 
-![Size property set to 150.](images/fly-size.png)
+Możesz zmienić nazwę swojego kostiumu `Owada` i usunąć inne kostiumy, ponieważ nie będą Tobie potrzebne:
+
+![Edytor malowania pokazujący wklejony nowy kostium owada z podświetloną ikoną Wklej. Lista kostiumów pokazuje, że inne kostiumy zostały usunięte.](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+Zwiększ rozmiar muchy, aby łatwiej było ją zobaczyć i złapać:
+
+![Właściwość rozmiaru ustawiona na 150.](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+Kliknij zakładkę **Skrypt** i dodaj skrypt, który sprawi, że duszek **Owad** będzie się odbijał:
 
 ![](images/fly-icon.png)
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+Blok `jeśli na brzegu, odbij się`{:class="block3motion"} sprawdza, czy duszek osiągnął krawędź sceny i wskazuje inny kierunek, jeśli tak się stało.
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+Chcesz, aby duszek **Owad** się `ukrył`{:class="block3looks"} `jeśli`{:class="block3control"} zostanie zjedzony przez duszka **Ważka**.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
+Dodaj blok `jeżeli`{:class="block3control"} do skryptu odpowiadającego za ruchu duszka **Owad**:
 
 ![](images/fly-icon.png)
 
@@ -95,15 +95,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+`Jeżeli`{:class="block3control"} ma wejście w kształcie sześciokąta. Oznacza to, że możesz umieścić w nim **warunek**.
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+Gdy zostanie uruchomiony blok `jeżeli`{:class="block3control"}, Scratch sprawdzi warunek. Jeśli warunek jest spełniowy(wartość "prawda") `wtedy`{:class="block3control"} zostanie uruchomiony kod wewnątrz bloku `jeżeli`{:class="block3control"}.
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+Chcesz, żeby owad się `ukrył`{:class="block3looks"} `jeśli`{:class="block3control"} `dotyka`{:class="block3sensing"} duszka **Ważka**.
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
+Przeciągnij `dotyka [Ważka v]`{:class="block3sensing"} do bloku `jeżeli`{:class="block3control"}. Dodaj blok `ukryj`{:class="block3looks"} wewnątrz bloku `jeżeli`{:class="block3control"}.
 
 ![](images/fly-icon.png)
 
@@ -121,15 +121,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**Test:** Przetestuj swój kod i kontroluj ważkę, aby zjeść muchę. Mucha powinna zniknąć.
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+Ważka nie stanie się zbyt duża, jeśli zje tylko jedną muchę!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Dodaj bloki do `idź do losowej pozycji`{:class="block3motion"} na scenie i spraw, aby twój duszek `czekał`{:class="block3control"} przez jedną sekundę, a następnie się `pokazał`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**Test:** Sprawdź, czy twoja ważka może teraz jeść dużo much.
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+Upewnij się, że dodałeś blok `pokaż`{:class="block3looks"}, aby był wyświetlany na początku.
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**Wskazówka:** Możesz kliknąć czerwony przycisk **Zatrzymaj** nad sceną, jeśli chcesz, aby ważka była cicha podczas dodawania kodu.
 
 --- save ---

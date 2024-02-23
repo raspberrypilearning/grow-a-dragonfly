@@ -1,21 +1,21 @@
-## Improved movement
+## Poprawiony ruch
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+Ważka ma 'usterkę' i zmienia kierunek bardzo szybko, jeśli wskaźnik myszy dotyka ważki. Sprawdzisz inny warunek, aby to naprawić.
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![Scena przedstawiająca owada i ważkę.](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+Wybierz **ważkę** i znajdź skrypt, który zaczyna się od `po kliknięciu flagi`{:class="block3events"}.
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+Przeciągnij, `jeżeli`{:class="block3control"} do wnętrza bloku `zawsze`{:class="block3control"}, a bloki wewnątrz `zawsze`{:class="block3control"} przesuną się wewnątrz bloku, `jeżeli`{:class="block3control"}.
 
-Check carefully that your code looks like this:
+Sprawdź dokładnie, czy Twój kod wygląda tak:
 
 ![](images/dragonfly-icon.png)
 
@@ -34,9 +34,9 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+Następnie przeciągnij blok `nie`{:class="block3operators"} do `jeżeli`{:class="block3control"} i `dotyka (wskaźnik myszy)`{:class="block3sensing"} wewnątrz tego.
 
-Check that your code looks like this:
+Sprawdź, czy Twój kod wygląda tak:
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+Blok `nie`{:class="block3operators"} zmienia warunek w jego przeciwieństwo, tak jak w zdaniu.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**Test:** Sprawdź, czy usterka została naprawiona i ważka porusza się tylko wtedy, gdy `nie`{:class="block3operators"} `dotyka (wskaźnik myszy)`{:class="block3sensing"}.
 
-A different condition to try is:
+Innym warunkiem do wypróbowania jest:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+To sprawia, że ważka porusza się, gdy jest wystarczająco daleko od wskaźnika myszy.
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**Wskazówka:** Możesz przeciągać bloki w dowolne miejsce w obszarze kodu i zostawiać je tam, próbując różnych rzeczy.
 
 --- /task ---
 

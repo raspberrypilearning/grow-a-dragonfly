@@ -1,21 +1,21 @@
-to start small
+zacznij od małego rozmiaru
 
-Wings
+Skrzydła
 
-change from 'mouse-pointer'
+zmienione z 'wskaźnik myszy'
 
-eaten
+zjedzony
 
-show at the start
+pokaż na starcie
 
-to look like a new fly
+by wyglądało jak nowa mucha
 
-food
+jedzenie
 
-end
+koniec
 
-I got to full size!
+Osiągnąłam maksymalny rozmiar
 
-change from 'all'
+zmiana ze „wszystko”
 
-Keep changing direction
+Ciągle zmienia kierunek

@@ -1,50 +1,50 @@
-## Set the scene
+## Ustawić scenę
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
+Ustawisz scenę. Wybierz tło i dodaj ważkę, która podąża za wskaźnikiem myszy na scenie.
 </div>
 <div>
-![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
+![Ważka na pustynnym tle](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
+Otwórz [projekt startowy Wyhoduj ważkę ](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch otworzy się w nowej karcie przeglądarki.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
+<span style="color: #0faeb0">**Ważki**</span> można znaleźć na całym świecie i istnieją od ponad 300 milionów lat!</p>
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
+**Wybierz:** Kliknij **Wybierz tło** i dodaj wybrane tło. Użyliśmy tła **Jurassic**.
 
-![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
+![Ikona tła w interfejsie aplikacji Scratch](images/choose-backdrop-icon.png)
 
-![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
+![Scena ukazująca jurajskie tło.](images/Jurassic-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
+Kliknij **Wybierz duszka** i wyszukaj `dragonfly`, a następnie dodaj duszka **ważka**.
 
-![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
+![Ikona duszka w interfejsie aplikacji Scratch](images/choose-sprite-icon.png)
 
-![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
+![W polu wyszukiwania wpisano „dragonfly”, a w galerii duszek Dragonfly/ważka.](images/dragonfly-search.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+Dodaj skrypt, aby duszek **ważka** podążał za wskaźnikiem myszy (lub palcem):
 
-![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
+![Ikona duszka Ważka w interfejsie aplikacji Scratch](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -58,79 +58,79 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
+**Test:** Kliknij zieloną flagę i spraw, aby duszek **ważka** poruszał się po scenie. Czy ważka porusza się tak, jak można by się spodziewać?
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+Kostium ważki nie jest skierowany w prawo, więc głowa duszka **ważka** nie jest skierowana w stronę wskaźnika myszy.
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
+Kliknij zakładkę **Kostiumy** i użyj narzędzia **Wybierz** (strzałka), aby wybrać kostium. Użyj narzędzia **Obróć** na dole wybranego kostiumu, aby obrócić kostium **ważka** w prawo.
 
-![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
+![Animowany obraz pokazujący, jak obrócić kostium ważki, przeciągając strzałki obracania tak, aby ważka była skierowana w prawo.](images/rotated-costume.gif)
 
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
+![Kostium ważki zaznaczony i obrócony w prawo.](images/rotated-costume.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and look at how the dragonfly moves now.
+**Test:** Kliknij zieloną flagę i zobacz, jak teraz porusza się ważka.
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
+Skrzydła ważki wydają dźwięk trzepotania ponieważ wibrują. Możesz edytować dźwięk w Scratch, aby stworzyć własny dźwięk.
 
 --- task ---
 
-Add the **Crank** sound to the **Dragonfly** sprite.
+Dodaj dźwięk **Crank** do duszka **ważki**.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
+Kliknij przycisk **Zagraj**, aby usłyszeć dźwięk.
 
 --- /task ---
 
-The **Crank** sound is too long and too slow for dragonfly wings.
+Dźwięk **Crank** jest zbyt długi i zbyt wolny dla skrzydeł ważki.
 
 --- task ---
 
-Select the end of the sound using your cursor or finger.
+Wybierz koniec dźwięku za pomocą kursora lub palca.
 
-Click **Copy to New** to make a new sound with just the selected part:
+Kliknij **Skopiuj do nowych**, aby stworzyć nowy dźwięk tylko z wybraną częścią:
 
-![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
+![Koniec dźwięku korby wybrany na niebiesko z podświetloną ikoną „Kopiuj do nowego”.](images/crank-copy-end.png)
 
-Rename your new sound from **Crank2** to `Wings`.
+Zmień nazwę swojego nowego dźwięku z **Crank2** na `Skrzydła`.
 
-![The rename sound property.](images/crank-wings-sound.png)
-
---- /task ---
-
---- task ---
-
-Play the new sound. Click the **Faster** button a few times until you like the result:
-
-![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
+![Właściwość zmiany nazwy dźwięku.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+Odtwórz nowy dźwięk. Kliknij przycisk **Szybciej** kilka razy, aż spodoba Ci się wynik:
 
-![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+![Szybsza fala dźwiękowa z podświetloną ikoną „Szybciej”.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Now add a block to play the **Wings** sound when the dragonfly moves:
+Jeśli chcesz, możesz wybrać sam koniec dźwięku **Skrzydła**, a następnie kliknąć **Usuń**, aby go usunąć:
 
-![Dragonfly sprite icon](images/dragonfly-icon.png)
+![Koniec fali dźwiękowej wybrany z podświetlonym narzędziem „Usuń”.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Teraz dodaj blok, aby odtworzyć dźwięk **Skrzydła**, gdy ważka się porusza:
+
+![Ikona duszka ważki](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your dragonfly movement and sound effect.
+**Test:** Wypróbuj ruch i efekt dźwiękowy ważki.
 
 --- /task ---
 

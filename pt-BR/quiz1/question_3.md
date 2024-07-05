@@ -16,7 +16,7 @@ Which `pick random`{:class="block3operators"} block could give the number `10`?
 
   --- feedback ---
 
-  No, this block can give you any of the numbers from 0 up to 9.
+  Não, este bloco pode fornecer qualquer um dos números de 0 a 9.
 
   --- /feedback ---
 
@@ -26,7 +26,7 @@ Which `pick random`{:class="block3operators"} block could give the number `10`?
 
   --- feedback ---
 
-No the smallest number this block can give you is 20.
+Não, o menor número que este bloco pode lhe dar é 20.
 
   --- /feedback ---
 

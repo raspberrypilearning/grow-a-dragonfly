@@ -1,34 +1,34 @@
 ---
-title: Grow a dragonfly
+title: Cresça uma libélula
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
-meta_title: Scratch coding projects for kids and teens | Grow a dragonfly
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
+description: Faça uma libélula que cresce à medida que come mosquitos irritantes e outros insetos.
+meta_title: Projetos de programação Scratch para crianças e adolescentes | Cresça uma libélula
+meta_description: Aprenda Scratch com os projetos de programação da Raspberry Pi Foundation para crianças e adolescentes. Faça um aplicativo Scratch onde uma libélula cresce à medida que come insetos.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: Você vai fazer
   - 
-    title: Set the scene
+    title: Preparando o cenário
   - 
-    title: A fly to eat
+    title: Uma mosca para comer
     completion:
       - engaged
   - 
-    title: Grow to full-size
+    title: Crescer ao máximo
   - 
-    title: Improved movement
+    title: Movimento aprimorado
   - 
-    title: More food
+    title: Mais comida
   - 
-    title: Random insect movement
+    title: Movimento aleatório de insetos
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Teste rápido
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Melhore o seu projeto
   - 
-    title: What next?
+    title: E agora?

@@ -1,9 +1,9 @@
 ## You will make
 
-Make a nature app with a dragonfly that grows bigger as it eats insects.
+Faça um aplicativo da natureza com uma libélula que cresce à medida que come insetos.
 
-You will:
-+ Use `if`{:class="block3control"} blocks to make decisions based on **conditions** made with `operators`{:class="block3operators"} and `sensing`{:class="block3sensing"} blocks
+Você deve:
++ Use `if`{:class="block3control"} blocos para tomar decisões com base em **condições** feitas com `operadores`{:class="block3operators"} e `sensores`{:class="block3sensing"}bloco
 + Use `random`{:class="block3operators"} numbers to control the movement of a sprite
 + Use the `Sounds`{:class="block3sound"} editor to edit a sound
 

@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legenda: Pergunta 2 de 3
 ---
 
 You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.

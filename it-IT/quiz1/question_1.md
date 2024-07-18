@@ -1,19 +1,19 @@
-## Quick quiz
+## Quiz veloce
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Rispondi alle tre domande. Alcuni suggerimenti ti aiuteranno a trovare la risposta corretta.
 
-When you have answered each question, click on **Check my answer**.
+Dopo aver risposto a ciascuna domanda, fai clic su **Controlla la mia risposta**.
 
-Have fun!
+Divertiti!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Domanda 1 di 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Un progetto utilizza lo sprite **Granchio** e lo sprite **Medusa**. Lo sprite **Granchio** ha questo codice:
 
-![desc](images/crab-icon.png)
+![](images/crab-icon.png)
 
 ```blocks3
 when flag clicked
@@ -22,39 +22,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+Cosa dovrebbe succedere perché lo sprite **Granchio** si nasconda?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () Lo sprite **Granchio** dovrebbe toccare le **Meduse**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ No, il blocco `se`{:class="block3control"} ha una condizione `Sensori`{:class="block3sensing"}, ma non usa il blocco `sta toccando Medusa`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) Lo sprite **Granchio** non dovrebbe toccare il colore blu
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Si, l'operatore `non`{:class="block3operators"} significa che la condizione è vera `se`{:class="block3control"} lo sprite **Granchio** non `sta toccando`{:class="block3sensing"} il colore blu.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () Lo sprite **Granchio** dovrebbe toccare il colore blu
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ Non proprio, guarda attentamente gli `operatori`{:class="block3operators"} nella condizione.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) Lo sprite **Granchio** lo `nascondi`{:class="block3looks"} sempre `quando la bandiera viene cliccata`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ No, c'è un blocco `se`{:class="block3control"} nel codice dello sprite **Granchio** quindi verrà nascosto solo se la condizione è soddisfatta.
 
  --- /feedback ---
 

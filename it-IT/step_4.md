@@ -1,24 +1,24 @@
-## Grow to full-size
+## Cresci a grandezza naturale
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+Farai crescere la libellula quando mangia una mosca e la fermerai se raggiunge la grandezza naturale.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![La libella a grandezza naturale sullo Stage che dice "Sono alla massima grandezza!".](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+Le libellule viventi più grandi si trovano in America Centrale e hanno un'apertura alare di 19 cm (un po' più grande di una mano). L'insetto più grande mai conosciuto era <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, una libellula con un'apertura alare di circa 75 cm (le dimensioni di un grande passo).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+La mosca sa di essere stata mangiata e ora ha bisogno di saperlo anche la libellula per poter crescere.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+Quando hai bisogno che uno sprite sappia che qualcosa è successo, puoi usare un blocco `invia a tutti`{:class="block3events"} come fatto in [Messaggi incantati](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+Aggiungi un blocco `invia a tutti`{:class="block3events"} allo sprite **insetto** con il nuovo messaggio `cibo`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+Lo sprite della **libellula** deve crescere quando riceve il messaggio di `cibo`{:class="block3events"}.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+Seleziona lo sprite **libellula** e aggiungi questo script:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+Aggiungi il suono **Mastica** alla libellula e `avvialo`{:class="block3sound"} quando un insetto viene mangiato:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**Test:** Esegui il tuo progetto per testare la crescita della libellula e il suono del morso quando mangia una mosca.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+Quando la libellula raggiunge le sue dimensioni massime, il gioco si congratulerà con te e si fermerà.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+Aggiungi un blocco `se`{:class="block3control"}.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+La libellula è alla massima grandezza quando `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. Innanzitutto, aggiungi un operatore `=`{:class="block3operators"} nell'input a forma esagonale:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+Completa la creazione della condizione aggiungendo una variabile `size`{:class="block3looks"} incorporata e digita il valore `100`:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+Aggiungi blocchi così che la condizione `se`{:class="block3control"} sia vera `allora`{:class="block3control"} la libellula `invia`{:class="block3events"} un messaggio 'fine' e `afferma`{:class="block3looks"} `sono alla massima grandezza`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+Infine, aggiungi un blocco `ferma tutto`{:class="block3control"} per fermare gli altri script della libellula:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+Al momento, la mosca si muove ancora dopo la conclusione del progetto. Aggiungi questo script allo sprite **insetto**.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**Test:** Clicca sulla bandiera verde e continua a mangiare mosche finché la libellula non raggiunge le dimensioni reali.
 
 --- /task ---
 

@@ -129,7 +129,7 @@ La libellula non diventerà molto grande se può mangiare solo una mosca!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Aggiungi blocchi a `vai in una posizione casuale`{:class="block3motion"} sullo sfondo e fai aspettare il tuo sprite ``{:class=" block3control"} per un secondo, quindi `mostra`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -158,6 +158,6 @@ Assicurati di aver aggiunto il blocco `show`{:class="block3looks"} da mostrare a
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**Suggerimento:** Puoi fare clic sul pulsante rosso **Stop** sopra lo sfondo se vuoi che la libellula stia in silenzio mentre aggiungi altro codice.
 
 --- save ---

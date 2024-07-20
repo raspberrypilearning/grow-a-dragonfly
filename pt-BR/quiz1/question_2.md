@@ -4,9 +4,9 @@
 legenda: Pergunta 2 de 3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+Você escreveu o código para fazer a libélula se mover apenas se for `not/0>{:class="block3operators"} <code>tocando`{:class="block3sensing"} o ponteiro do mouse.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+Onde você colocaria um bloco `start sound`{:class="block3sound"} para fazer a libélula iniciar um som cada vez que se move?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Não, com este código o bloco `start sound`{:class="block3sound"} está fora do bloco `if`{:class="block3control"}, então ele será executado toda vez que o bloco `forever`{:class=" block3control"} é executado, mesmo que a libélula não se mova.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+Sim esta correto. Colocar o bloco `start sound`{:class="block3sound"} dentro do bloco `if`{:class="block3control"} significa que ele tocará quando a libélula se mover.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Não, o bloco `start sound`{:class="block3sound"} está fora do bloco `if`{:class="block3control"}, então ele será executado toda vez que o bloco `forever`{:class="block3control"} loop é executado, mesmo que a libélula não se mova.
 
   --- /feedback ---
 

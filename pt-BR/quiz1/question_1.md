@@ -2,18 +2,18 @@
 
 Responda três perguntas. Há dicas para guiá-lo para a resposta correta.
 
-When you have answered each question, click on **Check my answer**.
+Depois de responder a cada pergunta, clique em **Verificar resposta**.
 
-Have fun!
+Divirta-se!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legenda: Pergunta 1 de 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+Um projeto usa o sprite **Crab** e o sprite **Jellyfish**. O sprite **Crab** tem este código:
 
-![desc](images/crab-icon.png)
+![descrição](images/crab-icon.png)
 
 ```blocks3
 when flag clicked
@@ -22,39 +22,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+O que precisaria acontecer para o sprite **Crab** se esconder?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () O sprite **Crab** precisaria tocar o **Jellyfish**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ Não, o bloco `if`{:class="block3control"} tem uma condição `Sensing`{:class="block3sensing"}, mas não usa o bloco `touching Jellyfish`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) O sprite **Crab** precisaria não tocar na cor azul
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Sim, o operador `not`{:class="block3operators"} significa que a condição é verdadeira `if`{:class="block3control"} o sprite **Crab** não é `tocando`{:class="block3sensing"} a cor azul.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () O sprite **Crab** precisaria estar tocando a cor azul
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ Não exatamente, observe atentamente o `operator`{:class="block3operators"} na condição.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) O sprite **Crab** sempre `esconderá`{:class="block3looks"} `quando o sinalizador for clicado`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ Não, há um bloco `if`{:class="block3control"} no código do sprite **Crab** , então ele só será ocultado se a condição for atendida.
 
  --- /feedback ---
 

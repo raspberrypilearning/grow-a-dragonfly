@@ -52,7 +52,7 @@ Seleziona lo sprite **insect2** e fai clic sulla scheda **Codice**.
 
 Trascina un blocco `e`{:class="block3operators"} nel blocco `se`{:class="block3control"}.
 
-Il blocco `<touching [libellula v] ?>`{:class="block3sensing"} si sgancerà, trascinalo sulla sinistra del blocco `e`{:class="block3operators"}:
+Il blocco `<sta toccando [Dragonfly v] ?>`{:class="block3sensing"} si sgancerà, trascinalo sulla sinistra del blocco `e`{:class="block3operators"}:
 
 ![](images/insect2-icon.png)
 

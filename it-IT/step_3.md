@@ -5,7 +5,7 @@
 Aggiungerai un insetto da mangiare per la libellula. 
 </div>
 <div>
-
+![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 

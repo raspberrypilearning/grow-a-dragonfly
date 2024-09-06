@@ -21,7 +21,7 @@ Muovi il mouse (o il dito) sullo sfondo per mangiare gli insetti. Come si muovon
 Quale parte della libellula deve toccare gli insetti per mangiarli? Cosa succede alla libellula quando mangia un insetto?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1064233148/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

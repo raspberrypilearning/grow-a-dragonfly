@@ -56,7 +56,7 @@ Usa la tua valigetta per scambiare insetti con i tuoi amici dai loro progetti "A
 title: Il progetto completato
 ---
 
-Qui puoi visualizzare i [progetti completati](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+Qui puoi visualizzare i [progetti completati](https://scratch.mit.edu/projects/1064233148/){:target="_blank"}.
 
 --- /collapse ---
 

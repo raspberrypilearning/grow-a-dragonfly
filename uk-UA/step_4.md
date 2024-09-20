@@ -1,24 +1,24 @@
-## Grow to full-size
+## Повний розмір
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will make the dragonfly grow when it eats a fly, and stop if it reaches full-size.
+Ти зробиш так, щоб бабка росла, коли зʼїдає муху, і переставала рости, коли досягне повного розміру.
 </div>
 <div>
-![The full-size dragonfly on the Stage saying 'I got to full size!'.](images/grow-to-fullsize.png){:width="300px"}
+![Повнорозмірна бабка на Сцені каже: «Я досягла повного розміру!».](images/grow-to-fullsize.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The biggest living dragonflies can be found in Central America and have a wingspan of 19cm (a bit bigger than your hand). The largest insect ever known was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, a dragonfly with a wingspan of about 75cm (the size of a big footstep).</p>
+Найбільші бабки у природі живуть у Центральній Америці. Розмах їхніх крилець становить 19 см (трохи більше за твою долоню). Найбільшою комахою, що колись існувала, була <span style="color: #0faeb0">**Meganeuropsis permiana**</span> (меганевро́псис перміáна), бабка з розмахом крилець у 75 см (як довжина великого кроку).</p>
 
-The fly knows that it has been eaten, and now the Dragonfly needs to know so that it grows.
+Муха знає, що її з'їли, а тепер бабці потрібно знати, щоб вона виросла.
 
-When you need to let another sprite know that something has happened, you can use a `broadcast`{:class="block3events"} block as you did in [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
+Коли ти хочеш повідомити іншому спрайту, що щось сталося, ти можеш використати блок `оповістити`{:class="block3events"}, як у проєкті [Чарівні оповіщення](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block to the **Insect** sprite with new message `food`{:class="block3events"}:
+Додай блок `оповістити`{:class="block3events"} до спрайта **Комаха** з новим повідомленням `їжа`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 
@@ -39,11 +39,11 @@ end
 ```
 --- /task ---
 
-The **Dragonfly** sprite needs to grow when it receives the `food`{:class="block3events"} message.
+Спрайт **Dragonfly** має вирости, коли отримає повідомлення `їжа`{:class="block3events"}.
 
 --- task ---
 
-Select the **Dragonfly** sprite and add this script:
+Вибери спрайт **Dragonfly** і додай такий скрипт:
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ change size by [5]
 
 --- task ---
 
-Add the **Chomp** sound to the dragonfly and `start`{:class="block3sound"} it when an insect gets eaten:
+Додай звук **Chomp** до бабки і `відтвори`{:class="block3sound"} його, коли бабка зʼїдає комаху:
 
 ![](images/dragonfly-icon.png)
 
@@ -69,17 +69,17 @@ change size by [5]
 
 --- task ---
 
-**Test:** Run your project to test the dragonfly grows and makes a chomp sound when it eats a fly.
+**Протестуй:** запусти свій проєкт, щоб перевірити, як бабка виростає і відтворює звук поглинання їжі, коли зʼїдає муху.
 
 --- /task ---
 
-When the dragonfly reaches its full size, the game will congratulate you and stop.
+Коли бабка досягне повного розміру, гра привітає тебе і зупиниться.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block.
+Додай блок `якщо`{:class="block3control"}.
 
-The dragonfly is full-size when the `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`. First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+Бабка досягне повного розміру, коли `розмір`{:class="block3looks"} `=`{:class="block3operators"} `100%`. Насамперед додай оператор `=`{:class="block3operators"} у шестикутне поле введення:
 
 ![](images/dragonfly-icon.png)
 
@@ -94,7 +94,7 @@ end
 
 --- task ---
 
-Finish building the condition by adding a built-in `size`{:class="block3looks"} variable and type the value `100`:
+Заверши побудову умови за допомогою вбудованої змінної `розмір`{:class="block3looks"}, ввівши значення `100`:
 
 ![](images/dragonfly-icon.png)
 
@@ -109,9 +109,9 @@ end
 
 --- task ---
 
-Add blocks so that `if`{:class="block3control"} the condition is true `then`{:class="block3control"} the dragonfly will `broadcast`{:class="block3events"} an 'end' message and `say`{:class="block3looks"} `I got to full size!`
+Додай блоки, щоб відбувалося наступне: `якщо`{:class="block3control"} умова справджується, `то`{:class="block3control"} бабка `оповістить`{:class="block3events"} за допомогою повідомлення «кінець» і `скаже`{:class="block3looks"} `Я досягла повного розміру!`
 
-Finally, add a `stop all`{:class="block3control"} block to stop the other dragonfly scripts:
+Наприкінці додай блок `зупинити все`{:class="block3control"}, щоб зупинити решту скриптів бабки:
 
 ![](images/dragonfly-icon.png)
 
@@ -129,7 +129,7 @@ end
 
 --- task ---
 
-At the moment, the fly still moves after the project has ended. Add this script to the **Insect** sprite.
+Зараз муха продовжує рухатися після закінчення проєкту. Додай цей скрипт до спрайта **Комаха**.
 
 ![](images/fly-icon.png)
 
@@ -142,7 +142,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Click the green flag and keep eating flies until your dragonfly reaches full-size.
+**Протестуй:** клікни на зелений прапорець і продовжуй їсти мух, доки твоя бабка не досягне повного розміру.
 
 --- /task ---
 

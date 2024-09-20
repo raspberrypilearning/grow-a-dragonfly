@@ -1,19 +1,19 @@
-## Quick quiz
+## Швидкий тест
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Дай відповідь на три запитання. Підказки допоможуть знайти правильну відповідь.
 
-When you have answered each question, click on **Check my answer**.
+Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Have fun!
+Успіхів!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+У проєкті використовуються спрайти **Краб** і **Медуза**. Спрайт **Краб** має такий код:
 
-![desc](images/crab-icon.png)
+![опис](images/crab-icon.png)
 
 ```blocks3
 when flag clicked
@@ -22,39 +22,39 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+Що має статися, щоб спрайт **Краб** сховався?
 
 --- choices ---
 
-- () The **Crab** sprite would need to touch the **Jellyfish**
+- () Спрайт **Краб** має торкнутися спрайта **Медуза**
 
  --- feedback ---
 
- No, the `if`{:class="block3control"} block has a `Sensing`{:class="block3sensing"} condition, but it does not use the `touching Jellyfish`{:class="block3sensing"} block.
+ Ні, блок `якщо`{:class="block3control"} має умову з категорії `Датчики`{:class="block3sensing"}, але він не використовує блок `торкається Медуза`{:class="block3sensing"}.
 
  --- /feedback ---
 
-- (x) The **Crab** sprite would need to not be touching the colour blue
+- (x) Спрайт **Краб** повинен не торкатися синього кольору
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+Так, оператор `не`{:class="block3operators"} означає, що умова справджується, `якщо`{:class="block3control"} спрайт **Краб** не `торкається`{:class="block3sensing"} синього кольору.
 
  --- /feedback ---
 
-- () The **Crab** sprite would need to be touching the colour blue
+- () Спрайт **Краб** повинен торкатися синього кольору
 
  --- feedback ---
 
- Not quite, look closely at the `operator`{:class="block3operators"} in the condition.
+ Не зовсім, придивися до `оператора`{:class="block3operators"} в умові.
 
  --- /feedback ---
 
-- ( ) The **Crab** sprite will always `hide`{:class="block3looks"} `when the flag is clicked`{:class="block3events"}
+- ( ) Спрайт **Краб** завжди `ховатиметься`{:class="block3looks"}, `коли натискається зелений прапорець`{:class="block3events"}
 
  --- feedback ---
 
- No, there is an `if`{:class="block3control"} block in the **Crab** sprite's code so it will only hide if the condition is met.
+ Ні, у коді спрайта **Краб** є блок `якщо`{:class="block3control"}, тому він ховатиметься, тільки якщо виконана певна умова.
 
  --- /feedback ---
 

@@ -1,34 +1,34 @@
 ---
-title: Grow a dragonfly
+title: Вирости бабку
 hero_image: images/banner.png
-description: Make a dragonfly that grows bigger as it eats annoying mosquitos and other insects.
-meta_title: Scratch coding projects for kids and teens | Grow a dragonfly
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
+description: Створи бабку, яка їсть набридливих комах і росте.
+meta_title: Проєкти з кодування у Скретчі для дітей і підлітків | Вирости бабку
+meta_description: Вивчай Скретч за допомогою проєктів Raspberry Pi Foundation для дітей і підлітків. Створи застосунок у Скретчі, у якому бабка їсть комах і росте.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: Що ти зробиш
   - 
-    title: Set the scene
+    title: Налаштуй сцену
   - 
-    title: A fly to eat
+    title: Смачна муха
     completion:
       - engaged
   - 
-    title: Grow to full-size
+    title: Повний розмір
   - 
-    title: Improved movement
+    title: Покращений рух
   - 
-    title: More food
+    title: Більше їжі
   - 
-    title: Random insect movement
+    title: Випадковий рух комах
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Вдоскональ свій проєкт
   - 
-    title: What next?
+    title: Що далі?

@@ -1,25 +1,25 @@
-to start small
+почни з малого розміру
 
-change from 'mouse-pointer'
+зміни зі «вказівника»
 
-eaten
+зʼїла
 
-show at the start
+показувати на початку
 
-to look like a new fly
+виглядає як інша муха
 
-change from 'all'
+зміни з «все»
 
-keep changing direction
+постійно змінює напрямок
 
-or try this condition
+або спробуй цю умову
 
-eaten an insect
+зʼїла комаху
 
-start with this
+почни з цього
 
-touching Dragonfly mouth
+торкається рота бабки
 
-make flies appear from edge
+щоб мухи зʼявлялися з краю
 
-Use fly from Frog sprite or draw your own. Or use the Mosquito emoji. Press the 'Windows' key plus '.' to enter.
+Використовуй муху зі спрайту Frog або намалюй власну. Або використовуй емоджі комара. Для цього натисни кнопку Windows та «.»

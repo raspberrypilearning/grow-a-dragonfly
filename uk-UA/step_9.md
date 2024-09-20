@@ -1,41 +1,41 @@
-## Upgrade your project
+## Вдоскональ свій проєкт
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+На цьому етапі спробуй додати більше комах, змінити зовнішній вигляд проєкту або його перебіг.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![Сцена, на якій є три різні типи комах і бабка.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+### Додай більше комах
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+Додай більше комах. Можливо, тобі потрібно буде зробити їх швидшими, щоб бабці було важче їх зловити.
 
-You can paint your own insects or trying adding an emoji mosquito!
+Ти можеш намалювати власних комах або додати емоджі комара!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+За допомогою клавіатури емоджі додай спрайт **Емоджі комара**.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Здублюй наявний спрайт **комахи**, а потім натисни на вкладку **Образи**. Вибери **Малювати** новий образ і натисни на інструмент **Текст**. Не вводь текст, а натисни комбінацію клавіш для клавіатури емоджі своєї операційної системи:
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+Windows: клавіша Windows + «.» MacOS: ctrl + cmd + пробіл Linux: ctrl + «.»
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![Спливна клавіатура емоджі з вибраною категорією «тварини і природа».](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Вибери емоджі **Комар** і встав його в редактор малювання. Застосуй інструмент **Обрати** (стрілка), щоб вирівняти, розвернути і змінити розмір свого комара, поки він тобі не сподобається.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![Емоджі комара в редакторі малювання.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Порада:** емоджі можуть виглядати по-різному на різних компʼютерах, тому їхній вигляд може відрізнятися на планшеті та на персональному компʼютері. Деякі емоджі можуть бути недоступні на певних компʼютерах, але більшість сучасних компʼютерів підтримують емоджі.
 
 --- /task ---
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+За допомогою Сховку ти можеш обмінюватися комахами зі своїми друзями, які теж створити проєкт «Вирости бабку».
 
 [[[scratch-backpack]]]
 
@@ -43,18 +43,18 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
+**Порада:** переконайся, що всі твої спрайти й костюми мають зрозумілі логічні назви. Так тобі буде легше розібратися у проєкті, якщо ти повернешся до нього пізніше.
 
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+**Порада:** переконайся, що твій код акуратно розміщений в області коду. Клацни правою кнопкою миші по області коду й вибери **Впорядкувати блоки**, щоб Скретч зробив твій код охайнішим.
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Завершений проєкт
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+Ти можеш переглянути [завершений проєкт тут](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
 
 --- /collapse ---
 

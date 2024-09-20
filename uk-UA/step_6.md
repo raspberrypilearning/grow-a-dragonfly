@@ -1,58 +1,58 @@
-## More food
+## Більше їжі
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly needs a choice of insects.
+Бабці потрібно більше різних комах.
 </div>
 <div>
-![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
+![Сцена з двома комахами й бабкою.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it.
+Клацни правою кнопкою миші на спрайт **Комаха** у списку спрайтів під Сценою і вибери **дублювати**.
 
-![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
-
---- /task ---
-
-It's helpful if this insect looks different to the fly.
-
---- task ---
-
-Click on the **Costumes** tab.
-
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
+![Список спрайтів з вибраним спрайтом комахи і підсвіченим варіантом меню «дублювати».](images/duplicate-insect.png)
 
 --- /task ---
 
-The insect gets eaten even if it touches the dragonfly's wing or tail.
-
-To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+Тобі буде зручніше, якщо ця комаха має інший вигляд, ніж муха.
 
 --- task ---
 
-Select the **Dragonfly** sprite and click on the **Costumes** tab.
+Перейди до вкладки **Образи**.
 
-Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
-
-![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
+**Вибір:** створи іншу комаху, що літає.
++ Використовуй інструмент **Заливка**, щоб змінити колір комахи.
++ **Намалюй** власний образ комахи.
++ **Додай** інший комашиний образ зі Скретчу
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+Комаху зʼїдають, навіть якщо вона торкається крила або хвоста бабки.
+
+Щоб твоя програма була більш реалістичною, зроби так, щоб бабка могла зʼїсти комаху лише ротом. Ти можеш використати блок `торкається кольору`{:class="block3sensing"}, щоб комаха зникала лише тоді, коли торкається певного кольору на спрайті **Dragonfly**.
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+Обери спрайт **Dragonfly** і перейди до вкладки **Образи**.
 
-Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block.
+Використай інструмент заливки, що заповнити рот **бабки** кольором. Ми обрали фіолетовий:
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+![Редактор малювання з вибраним інструментом «Заливка» й образом бабки з фіолетовим ротом.](images/dragonfly-mouth-colour.png)
+
+--- /task ---
+
+Тобі потрібно перевірити, чи торкається спрайт **Комаха2** спрайта ** Dragonfly** `і`{:class="block3operators"} одночасно торкається кольору рота бабки.
+
+--- task ---
+
+Вибери спрайт **Комаха2** і клацни по вкладці **Код**.
+
+Перетягни блок `і`{:class="block3operators"} у середину блока `якщо`{:class="block3control"}.
+
+Зʼявиться блок `<торкається [Dragonfly v] ?>`{:class="block3sensing"}. Перетягни його у ліве поле блока `і`{:class="block3operators"}:
 
 ![](images/insect2-icon.png)
 
@@ -75,7 +75,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
+Перетягни блок `торкається кольору`{:class="block3sensing"} в праве поле блока `і`{:class="block3operators"}:
 
 ![](images/insect2-icon.png)
 
@@ -94,23 +94,23 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+Якщо у цьому блоці не вибрано колір рота бабки, натисни на кольорове коло, а потім на інструмент **Піпетка**, щоб вибрати колір.
 
-![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
+![Меню кольорового кола з інструментом «Піпетка».](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+Клацни по роту бабки на Сцені, щоб вибрати відповідний колір:
 
-![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
+![Інструмент «Піпетка» з кільцем вибору кольору, розміщеним над фіолетовим ротом бабки.](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**Порада:** якщо це складно зробити, збільш розмір спрайта **Dragonfly**.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth.
+**Протестуй:** упевнись, що бабка може зʼїсти другу комаху лише ротом.
 
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+Якщо хочеш, можеш змінити першу **Комаху** так, щоб бабка могла так само зʼїсти її лише ротом.
 
 --- /task ---
 

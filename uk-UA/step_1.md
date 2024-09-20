@@ -1,23 +1,23 @@
-## You will make
+## Що ти зробиш
 
-Make a nature app with a dragonfly that grows bigger as it eats insects.
+Зроби застосунок про природу, у якому бабка буде рости, харчуючися комахами.
 
-You will:
-+ Use `if`{:class="block3control"} blocks to make decisions based on **conditions** made with `operators`{:class="block3operators"} and `sensing`{:class="block3sensing"} blocks
-+ Use `random`{:class="block3operators"} numbers to control the movement of a sprite
-+ Use the `Sounds`{:class="block3sound"} editor to edit a sound
+Ти будеш:
++ Використовувати блоки `якщо`{:class="block3control"}, щоб приймати рішення на основі **умов**, створених за допомогою блоків `оператори`{:class="block3operators"} і `датчики`{:class="block3sensing"}.
++ Використовувати `випадкові`{:class="block3operators"} числа, щоб керувати рухами спрайта.
++ Використовувати редактор `Звуки`{:class="block3sound"}, щоб редагувати звуки.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-We use <span style="color: #0faeb0">**conditions**</span> all the time to make decisions. We could say “if the pencil is blunt, then sharpen it”. `If`{:class="block3control"} blocks and conditions let us write code that does something different depending on whether a condition is true or false.</p>
+Ми часто використовуємо <span style="color: #0faeb0">**умови**</span>, щоб приймати рішення. Ми можемо сказати: «Якщо олівець затупився, загостри його». Блоки типу `якщо`{:class="block3control"} разом з умовами дозволяють нам писати код, який робить відмінні речі залежно від того, виконується умова чи ні.</p>
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### Грати ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?
+Рухай мишею (або пальцем) по Сцені, щоб їсти комах. Як рухаються комахи?
 
-Which part of the dragonfly needs to touch the insects to eat them? What happens to the dragonfly when the dragonfly eats an insect?
+Яка частина бабки має торкнутися комахи, щоб зʼїсти її? Що стається з бабкою, коли вона зʼїдає комаху?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
@@ -28,6 +28,6 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Завершений проєкт](images/showcase_static.png)
 
 --- /print-only ---

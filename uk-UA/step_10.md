@@ -1,10 +1,10 @@
-## What next?
+## Що далі?
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), ти можеш перейти до проєкту [Барабанна зірка](https://projects.raspberrypi.org/en/projects/drum-star). У цьому проєкті ти створиш гру-клікер, де зароблятимеш удари, щоб грати на нових барабанах і на більших майданчиках.
 
 --- print-only ---
 
-![The Stage view of completed drum star project.](images/drum-star.png)
+![Сцена з завершеним проєктом «Барабанна зірка».](images/drum-star.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Якщо ти хочеш далі досліджувати Скретч, спробуй один із цих [захопливих проєктів](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

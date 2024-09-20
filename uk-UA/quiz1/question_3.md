@@ -1,42 +1,42 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-In your project, you used `pick random`{:class="block3operators"} blocks to move the **Insect** sprite in a natural, unpredictable flying pattern.
+У твоєму проєкті використовуються блоки `випадкове`{:class="block3operators"}, за допомогою яких спрайт **Комаха** рухався непередбачуваним чином.
 
-Which `pick random`{:class="block3operators"} block could give the number `10`?
+Який блок `випадкове`{:class="block3operators"} може дати число `10`?
 
 --- choices ---
 
 - ( )
 
-`pick random [0] to [9]`{:class="block3operators"}
+`випадкове від [0] до [9]`{:class="block3operators"}
 
   --- feedback ---
 
-  No, this block can give you any of the numbers from 0 up to 9.
+  Ні, цей блок може дати лише числа від 0 до 9.
 
   --- /feedback ---
 
 - ( )
 
-`pick random [20] to [100]`{:class="block3operators"}
+`випадкове від [20] до [100]`{:class="block3operators"}
 
   --- feedback ---
 
-No the smallest number this block can give you is 20.
+Ні, найменше число, яке може дати цей блок, — 20.
 
   --- /feedback ---
 
 - (x)
 
-`pick random [1] to [50]`{:class="block3operators"}
+`випадкове від [1] до [50]`{:class="block3operators"}
 
   --- feedback ---
 
-Yes, this block can give you numbers from 1 up to 50, which includes 10.
+Так, цей блок може дати числа від 1 до 50, у тому числі 10.
 
   --- /feedback ---
 

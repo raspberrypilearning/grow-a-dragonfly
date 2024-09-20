@@ -1,19 +1,19 @@
-## Random insect movement
+## Випадковий рух комах
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+Комахи у твоїй грі рухаються дуже передбачувано, але в реальному житті їх дуже важко зловити. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+Ти використаєш блок `випадкове`{:class="block3operators"}, щоб комаха рухалася більш природно.
 </div>
 <div>
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![Сцена, на якій комахи прямують у різні боки.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds.
+Додай скрипт до спрайта **Комаха2**, щоб він розвертався у випадковому напрямку кожні 1–3 секунди.
 
 ```blocks3
 when flag clicked
@@ -27,27 +27,27 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want.
+**Протестуй:** запусти свій проєкт і подивись, як рухається муха. Спробуй змінити числа, щоб отримати бажаний ефект.
 
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
-
---- /task ---
-
---- task ---
-
-Change the insects until they behave the way you want them to.
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly.
+Ти також можеш перетягнути цей скрипт у спрайт **Комаха**, щоб він також рухався випадковим чином.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
+Змінюй скрипти комах, доки вони не будуть рухатися так, як тобі хочеться.
 
-Make changes until you are happy with your project.
+Ти можеш змінити кількість кроків, на яку вони `переміщуються`{:class="block3motion"}, щоб вони рухалися швидше чи повільніше.
+
+Ти також можеш змінити швидкість бабки.
+
+--- /task ---
+
+--- task ---
+
+Ти також можеш змінити повний розмір бабки, до якого вона має дорости.
+
+Змінюй проєкт, доки не будеш ним задоволений/-а.
 
 --- /task ---
 

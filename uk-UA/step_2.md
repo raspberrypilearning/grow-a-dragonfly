@@ -1,50 +1,50 @@
-## Set the scene
+## Налаштуй сцену
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
+Спробуй налаштувати сцену. Вибери тло і додай бабку, яка слідує за курсором миші по Сцені.
 </div>
 <div>
-![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
+![Бабка на пустельному тлі](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
+Відкрий [стартовий проєкт «Вирости бабку»](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Скретч відкриється у новій вкладці браузера.
 
 [[[working-offline]]]
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
+<span style="color: #0faeb0">**Бабок**</span> можна знайти по всьому світові. Вони існують ось уже 300 мільйонів років!</p>
 
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
+**Вибери:** натисни на **Обрати тло** і додай тло, яке тобі подобається. Ми обрали тло **Jurassic** («Юрський період»).
 
-![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
+![Іконка тла в інтерфейсі програми Скретч](images/choose-backdrop-icon.png)
 
-![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
+![Сцена з тлом Jurassic («Юрський період»).](images/Jurassic-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
+Натисни на **Обрати спрайт** і введи у поле пошуку `dragonfly` («бабка»), після чого додай спрайт **Dragonfly**.
 
-![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
+![Іконка спрайта в інтерфейсі програми Скретч](images/choose-sprite-icon.png)
 
-![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
+![Поле пошуку з введеним словом dragonfly («бабка») та спрайт Dragonfly у галереї.](images/dragonfly-search.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+Додай скрипт до спрайта **Dragonfly**, за допомогою якого той слідуватиме за вказівником (або твоїм пальцем):
 
-![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
+![Іконка спрайта Dragonfly в інтерфейсі програми Скретч](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -58,79 +58,79 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
+**Протестуй:** натисни на зелений прапорець і змусь спрайт **Dragonfly** рухатися Сценою. Чи рухається твоя бабка так, як ти очікував/-ла?
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+Образ бабки не дивиться праворуч, тому голова спрайта **Dragonfly** не повернута у напрямку вказівника.
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
+Перейди на вкладку **Образи** і клікни на інструмент **Обрати** (стрілочка), щоб вибрати образ. Використовуючи інструмент **Розвернути** у нижній частині вибраного образу, розверни образ **Dragonfly**, щоб він дивився праворуч.
 
-![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
+![Анімоване зображення, яке показує, як обертати образ бабки, перетягуючи стрілки обертання так, щоб бабка дивилася праворуч.](images/rotated-costume.gif)
 
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
+![Вибраний образ бабки, повернутий головою праворуч.](images/rotated-costume.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and look at how the dragonfly moves now.
+**Протестуй:** клікни на зелений прапорець і поглянь, як бабка рухається зараз.
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
+Крильця бабки тріпотять з особливим звуком під час польоту. Ти можеш відредагувати звук у Скретчі, щоб створити власний звук.
 
 --- task ---
 
-Add the **Crank** sound to the **Dragonfly** sprite.
+Додай звук **Crank** до спрайта **Dragonfly**.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
+Натисни на кнопку **Відтворити**, щоб прослухати звук.
 
 --- /task ---
 
-The **Crank** sound is too long and too slow for dragonfly wings.
+Звук **Crank** задовгий і надто повільний для крилець бабки.
 
 --- task ---
 
-Select the end of the sound using your cursor or finger.
+Вибери кінець звуку, використовуючи вказівник миші або палець.
 
-Click **Copy to New** to make a new sound with just the selected part:
+Натисни **Копіювати до нового**, щоб створити новий звук, де буде лише вибрана частина:
 
-![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
+![Кінець звуку Crank виділено бузковим кольором, іконку «Копіювати до нового» підсвічено. ](images/crank-copy-end.png)
 
-Rename your new sound from **Crank2** to `Wings`.
+Зміни назву свого нового звука з **Crank2** на `Крильця`.
 
-![The rename sound property.](images/crank-wings-sound.png)
-
---- /task ---
-
---- task ---
-
-Play the new sound. Click the **Faster** button a few times until you like the result:
-
-![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
+![Функція перейменування звуку.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+Відтвори новий звук. Натисни декілька разів на кнопку **Швидше**, доки тобі не сподобається результат:
 
-![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+![Швидша звукова хвиля з підсвіченою іконкою «Швидше».](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Now add a block to play the **Wings** sound when the dragonfly moves:
+Якщо хочеш, можеш вибрати самий кінець звука **Крильця**, а потім натиснути **Вилучити**, щоб прибрати його:
 
-![Dragonfly sprite icon](images/dragonfly-icon.png)
+![Виділено кінець звукової хвилі, підсвічено інструмент «Вилучити».](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Тепер додай блок коду, за допомогою якого звук **Крильця** буде грати, коли бабка рухатиметься:
+
+![Іконка спрайта Dragonfly](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -145,7 +145,7 @@ end
 
 --- task ---
 
-**Test:** Try out your dragonfly movement and sound effect.
+**Протестуй:** перевір, як рухається твоя бабка і як працює звуковий ефект.
 
 --- /task ---
 

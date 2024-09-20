@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Питання 2 з 3
 ---
 
-You wrote code to make the dragonfly move only if it is `not`{:class="block3operators"} `touching`{:class="block3sensing"} the mouse-pointer.
+Твій код робить так, що бабка рухається тільки, якщо вона `не`{:class="block3operators"} `торкається`{:class="block3sensing"} вказівника миші.
 
-Where would you put a `start sound`{:class="block3sound"} block to make the dragonfly start a sound each time it moves?
+Куди ти поставиш блок `відтворити звук`{:class="block3sound"}, щоб бабка відтворювала звук щоразу, як рухається?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-No, with this code the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Ні, з цим кодом блок `відтворити звук`{:class="block3sound"} знаходиться поза блоком `якщо`{:class="block3control"}, тому він запускатиметься щоразу, як починається цикл `завжди`{:class="block3control"}, навіть якщо бабка не рухається.
 
 --- /feedback ---
 
@@ -44,7 +44,7 @@ end
 
   --- feedback ---
 
-Yes, that's correct. Placing the `start sound`{:class="block3sound"} block inside the `if`{:class="block3control"} block means it will play when the dragonfly moves.
+Так, правильно. Якщо розмістити блок `відтворити звук`{:class="block3sound"} всередині блоку `якщо`{:class="block3control"}, звук буде відтворюватися, коли бабка рухатиметься.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ end
 
   --- feedback ---
 
-No, the `start sound`{:class="block3sound"} block is outside the `if`{:class="block3control"} block, so it will run every time the `forever`{:class="block3control"} loop runs, even if the dragonfly doesn't move.
+Ні, блок `відтворити звук`{:class="block3sound"} знаходиться поза блоком `якщо`{:class="block3control"}, тобто він запускатиметься щоразу, як починається цикл `завжди`{:class="block3control"}, навіть якщо бабка не рухається.
 
   --- /feedback ---
 

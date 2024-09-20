@@ -1,21 +1,21 @@
-to start small
+почни з малого розміру
 
-Wings
+Крильця
 
-change from 'mouse-pointer'
+зміни зі «вказівника»
 
-eaten
+зʼїла
 
-show at the start
+показувати на початку
 
-to look like a new fly
+виглядає як інша муха
 
-food
+їжа
 
-end
+кінець
 
-I got to full size!
+Я виросла до повного розміру!
 
-change from 'all'
+зміни з «все»
 
-Keep changing direction
+постійно змінює напрямок

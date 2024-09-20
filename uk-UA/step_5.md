@@ -1,21 +1,21 @@
-## Improved movement
+## Покращений рух
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly 'glitches' and changes direction really fast if the mouse-pointer is touching the dragonfly. You will check another condition to fix this.
+Бабка «глючить» і дуже швидко змінює напрямок, якщо вказівник миші торкається бабки. Ти додаси ще одну умову, щоб це виправити.
 </div>
 <div>
-![The Stage showing an insect and dragonfly.](images/improved-movement.png){:width="300px"}
+![Сцена, що показує комаху й бабку.](images/improved-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Select the **Dragonfly** and find the script that starts with `when flag clicked`{:class="block3events"}.
+Вибери спрайт **Dragonfly** і знайди скрипт, який починається блоком `коли прапорець натиснуто`{:class="block3events"}.
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+Перетягни блок `якщо`{:class="block3control"} всередину блока `завжди`{:class="block3control", і блоки всередині `завжди`{:class="block3control"} перейдуть усередину `якщо`{:class="block3control"}.
 
-Check carefully that your code looks like this:
+Твій код має виглядати так:
 
 ![](images/dragonfly-icon.png)
 
@@ -34,9 +34,9 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+Потім перетягни блок `не`{:class="block3operators"} у блок `якщо`{:class="block3control"}, а всередину `не`{:class="block3operators"} перемісти блок `торкається (вказівник)`{:class="block3sensing"}.
 
-Check that your code looks like this:
+Твій код має виглядати так:
 
 ![](images/dragonfly-icon.png)
 
@@ -52,23 +52,23 @@ end
 end
 ```
 
-The `not`{:class="block3operators"} block turns a condition into its opposite, just like it would in a sentence.
+Блок `не`{:class="block3operators"} перетворює умову на зворотну, як і у реченні.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Check that the glitch is fixed, and the Dragonfly only moves when it is `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
+**Протестуй:** перевір, чи виправилась дивна поведінка бабки і чи вона рухається, лише якщо `не`{:class="block3operators"} `торкається (вказівника)`{:class="block3sensing"}.
 
-A different condition to try is:
+Ти також можеш спробувати таку умову:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
 
-This makes the dragonfly move when it's far enough from the mouse-pointer.
+Вона змушує бабку рухатися, коли вона знаходиться на достатній відстані від вказівника миші.
 
-**Tip:** You can drag blocks anywhere in the Code area and leave them there while you try different things.
+**Порада:** ти можеш перетягувати блоки в будь-яке місце в області коду й залишати їх там, поки пробуєш різні варіанти.
 
 --- /task ---
 

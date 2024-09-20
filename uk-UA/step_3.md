@@ -1,67 +1,67 @@
-## A fly to eat
+## Смачна муха
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+Ти додаси комаху, яку бабка зможе зʼїсти. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![Сцена з бабкою і комахою.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
+Персонажі, які рухаються у грі самі по собі, інколи називаються <span style="color: #0faeb0">**мобами**</span>, скорочено від «мобільні». Можеш згадати приклад гри, у якій є моби?</p>
 
-There's a fly in the **Frog 2** sprite that you can use.
+У спрайті **Frog 2** є муха, яку ти можеш використати.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+Додай спрайт **Frog 2** («жаба 2») до свого проєкту. Зміни назву спрайта на `Комаха`:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![Список спрайтів із доданим спрайтом Frog 2 («Жаба 2»). У полі з назвою спрайта вказано «Комаха».](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+Тобі потрібна тільки комаха без жаби.
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+Перейди до вкладки **Образи**. Натисни на муху, щоб вибрати її, та клікни по іконці **Копія**.
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
-
---- /task ---
-
---- task ---
-
-Add a new costume to the sprite using the **Paint** option:
-
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
+![Редактор Малювання з мухою — частиною образу Frog 2-a — та підсвіченою іконкою «Копія».](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
+Додай новий образ до спрайта, використовуючи функцію **Малювати**:
 
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![Виділена функція малювання у меню вибору образу.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+Натисни на іконку **Вставити**, щоб вставити спрайт у новий образ. Перетягни муху до **центру**, щоб вона зрівнялася з прицілом.
 
-![Size property set to 150.](images/fly-size.png)
+Можеш перейменувати свій образ на `Комаху` і видалити решту образів, бо вони тобі більше не потрібні:
+
+![Редактор Малювання зі вставленим новим образом комахи та підсвіченою іконкою «Вставити». Список образів показує, що решту образів було видалено.](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+Збільш розмір мухи, щоб її було легше побачити і зловити:
+
+![Розмір встановлено на 150.](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+Перейди до вкладки **Код** і додай скрипт, за допомогою якого спрайт **Комаха** стрибатиме Сценою:
 
 ![](images/fly-icon.png)
 
@@ -73,15 +73,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+Блок `якщо на межі, відбити`{:class="block3motion"} перевіряє, чи спрайт дійшов до межі Сцени, і, якщо так, розвертає спрайт в інший напрямок.
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+Тобі потрібно, щоб спрайт **Комаха** `сховався`{:class="block3looks"}, `якщо`{:class="block3control"} його зʼїдає спрайт **Dragonfly** («бабка»).
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
+Додай блок `якщо`{:class="block3control"} до скрипту руху спрайта **Комаха**:
 
 ![](images/fly-icon.png)
 
@@ -95,15 +95,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+Блок `якщо`{:class="block3control"} має шестикутне поле вводу. Це означає, що ти можеш вставити туди **умову**.
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+Коли запускатиметься блок `якщо`{:class="block3control"}, Скретч перевірятиме цю умову. Якщо умова справджується, `то`{:class="block3control"} запуститься код всередині блока `якщо`{:class="block3control"}.
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+Тобі потрібно, щоб комаха `сховалась`{:class="block3looks"}, `якщо`{:class="block3control"} вона `торкається`{:class="block3sensing"} спрайта **Dragonfly**.
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
+Перетягни блок `торкається [Dragonfly v]`{:class="block3sensing"} всередину блока `якщо`{:class="block3control"}. Додай блок `сховати`{:class="block3looks"} всередину блока `якщо`{:class="block3control"}.
 
 ![](images/fly-icon.png)
 
@@ -121,15 +121,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**Протестуй:** перевір свій код і спрямуй бабку так, щоб вона зʼїла муху. Муха має зникнути.
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+Бабка не виросте дуже великою, якщо зʼїсть лише одну муху!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
+Додай блоки до `перейти до випадкової позиції`{:class="block3motion"} на Сцені й дай своєму спрайту `зачекати`{:class="block3control"} одну секунду, а потім `показатися`{:class="block3looks"}:
 
 ![](images/fly-icon.png)
 
@@ -152,12 +152,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**Протестуй:** переконайся, що тепер твоя бабка може зʼїсти багато мух.
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+Не забудь додати блок `показати`{:class="block3looks"} на початку.
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**Порада:** ти можеш натиснути на червону кнопку **Зупинити** над Сценою, якщо ти хочеш, щоб бабка не стрекотала, поки ти додаєш код.
 
 --- save ---

@@ -1,29 +1,45 @@
-## Upgrade your project
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, try adding more insects, changing the way your project looks and behaves.
+Change the way your insects behave and add more insects.
 </div>
 <div>
 ![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
-### Add more insects
+--- task ---
 
-Add more insects. You might need to make them move faster, so they are harder for the dragonfly to catch.
+Change the speed of the dragonfly. 
+
+--- /task ---
+
+--- task ---
+
+Change the size that the dragonfly needs to grow to reach full size.
+
+--- /task ---
+
+--- task ---
+
+Change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+
+--- /task ---
+
+### Add more insects
 
 You can paint your own insects or trying adding an emoji mosquito!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite. 
+Use the emoji keyboard to add a **Mosquito emoji** sprite.
 
 Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
 
-Windows - Windows key + '.'
-MacOS - ctrl + cmd + space
-Linux - ctrl + '.'
+- Windows - <kbd>⊞ Win</kbd> + <kbd>.</kbd>
+- MacOS - <kbd>control</kbd> + <kbd>command</kbd> + <kbd>space</kbd>
+- Linux - <kbd>ctrl</kbd> + <kbd>.</kbd>
 
 ![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
 
@@ -45,19 +61,14 @@ Use your Backpack to trade insects with your friends from their 'Grow a Dragonfl
 
 --- task ---
 
-**Tip:** Check that all your sprites and costumes have sensible names. It makes your project easier to understand if you come back to it later.
-
-**Tip:** Make sure your code is laid out neatly in the Code area. Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy up your code.
+Check each sprite and costume has a name that describes the image. This makes your project easier to understand if you come back to it later.
 
 --- /task ---
 
---- collapse ---
----
-title: Completed project
----
+--- task ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy your code.
 
---- /collapse ---
+--- /task ---
 
 --- save ---

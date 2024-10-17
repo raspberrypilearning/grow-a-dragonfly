@@ -2,9 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The insects in your app move in a very predictable pattern, but in real life they are hard to catch. 
+The insects move in a very predictable pattern. 
 
-You will use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+Use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+
 </div>
 <div>
 ![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
@@ -14,6 +15,8 @@ You will use the `pick random`{:class="block3operators"} block to make the insec
 --- task ---
 
 Add a script to **Insect 2** to make it point in a random direction every 1–3 seconds. 
+
+![](images/insect2-icon.png)
 
 ```blocks3
 when flag clicked
@@ -27,27 +30,19 @@ end
 
 --- task ---
 
-**Test:** Run your project and watch how the fly moves. Try changing the numbers to get the effect you want. 
-
-You can also drag this script to the **Insect** sprite so that it also moves randomly.
+**Test:** Run your project and watch how the sprite moves. 
 
 --- /task ---
 
 --- task ---
 
-Change the insects until they behave the way you want them to. 
-
-You could change the number of steps they `move`{:class="block3motion"} to make them faster or slower.
-
-You could also change the speed of the dragonfly. 
+Drag this script to the other **Insect** sprite to make it move randomly.
 
 --- /task ---
 
 --- task ---
 
-You could also change the size that the dragonfly needs to grow to reach full size.
-
-Make changes until you are happy with your project.
+Change the number of steps the sprites `move`{:class="block3motion"} to make them faster or slower.
 
 --- /task ---
 

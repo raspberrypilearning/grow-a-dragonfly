@@ -4,7 +4,7 @@ If you are following the [More scratch](https://projects.raspberrypi.org/en/rasp
 
 --- print-only ---
 
-![The Stage view of completed drum star project.](images/drum-star.png)
+![The Stage view of the completed Drum star project.](images/drum-star.png)
 
 --- /print-only ---
 

@@ -8,7 +8,7 @@ listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
-  - title: You will make
+  - title: What you will make
   - title: Set the scene
   - title: A fly to eat
     completion:
@@ -27,5 +27,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Upgrade your project
+  - title: Challenge
+    challenge: true
   - title: What next?

@@ -11,18 +11,13 @@ You will set the scene. Choose your backdrop and add a dragonfly that follows th
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
-
-[[[working-offline]]]
+Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open a blank project in a new browser tab.
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
-
 --- task ---
 
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
+Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
 
 ![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
@@ -66,11 +61,11 @@ The Dragonfly costume is not facing to the right, so the head of the **Dragonfly
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
+Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. 
+
+Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
 
 ![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
-
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,9 +85,13 @@ Add the **Crank** sound to the **Dragonfly** sprite.
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
-
 --- /task ---
+
+--- task ---
+
+**Test:** Click the **Play** button so you can hear the sound.
+
+--- /task --- 
 
 The **Crank** sound is too long and too slow for dragonfly wings.
 
@@ -104,15 +103,18 @@ Click **Copy to New** to make a new sound with just the selected part:
 
 ![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
 
-Rename your new sound from **Crank2** to `Wings`.
+--- /task ---
 
+--- task ---
+
+Rename your new sound from **Crank2** to `Wings`.
 ![The rename sound property.](images/crank-wings-sound.png) 
 
 --- /task ---
 
 --- task ---
 
-Play the new sound. Click the **Faster** button a few times until you like the result:
+**Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
 
 ![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 

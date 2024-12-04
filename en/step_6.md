@@ -17,16 +17,15 @@ Right-click on the **Insect** sprite in the Sprite list under the Stage and **du
 
 --- /task ---
 
-It's helpful if this insect looks different to the fly.
+Make this insect look different to the fly.
 
 --- task ---
 
-Click on the **Costumes** tab. 
+Click on the **Costumes** tab and create a different flying insect.
 
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
++ Use the **Fill** tool to change the colour of this insect.
++ **Paint** your own insect costume.
++ **Add** another bug costume from Scratch.
 
 --- /task ---
 
@@ -44,15 +43,15 @@ Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+You need to check that the new sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+Select your new sprite and click on the **Code** tab.
 
 Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block. 
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into a space in the `and`{:class="block3operators"} block:
 
 ![](images/insect2-icon.png)
 
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
-
-![](images/insect2-icon.png)
+Drag a `touching color`{:class="block3sensing"} block into the other space of the `and`{:class="block3operators"} block:
 
 ```blocks3
 when flag clicked
@@ -94,23 +91,21 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool at the bottom to select a colour.
 
 ![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+Click on the dragonfly's mouth on the Stage to set the colour:
 
 ![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**Tip:** If the small mouth is hard to select, make the **Dragonfly** sprite bigger.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth. 
-
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+**Test:** Check the dragonfly can only eat the second insect with its mouth.
 
 --- /task ---
 

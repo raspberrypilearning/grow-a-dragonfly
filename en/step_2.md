@@ -11,7 +11,7 @@ You will set the scene. Choose your backdrop and add a dragonfly that follows th
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open a blank project in a new browser tab.
 
 --- /task ---
 
@@ -66,8 +66,6 @@ Click on the **Costumes** tab and use the **Select** (arrow) tool to select the 
 Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
 
 ![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
-
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
 
 --- /task ---
 

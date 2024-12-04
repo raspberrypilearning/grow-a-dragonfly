@@ -3,11 +3,10 @@
 Make a nature app with a dragonfly that grows bigger as it eats insects.
 
 --- no-print ---
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Move the mouse (or your finger) around the Stage to eat insects. How do the insects move?
+Move the mouse around the Stage to eat insects. How do the insects move?
 
 Which part of the dragonfly needs to touch the insects to eat them? What happens to the dragonfly when the dragonfly eats an insect?
 </div>
@@ -16,7 +15,6 @@ Which part of the dragonfly needs to touch the insects to eat them? What happens
 </div>
 </div>
 
---- /task ---
 --- /no-print ---
 
 --- print-only ---

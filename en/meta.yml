@@ -16,7 +16,6 @@ steps:
   - title: Grow to full-size
   - title: Improved movement
   - title: More food
-  - title: Random insect movement
     completion:
       - internal
   - title: Quick quiz

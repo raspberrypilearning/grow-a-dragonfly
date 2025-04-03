@@ -136,7 +136,7 @@ Ora aggiungi un blocco per riprodurre il suono delle **Ali** quando la libellula
 when flag clicked
 set size to [25] %
 forever
-+start sound [Wings v]
++start sound [Ali v]
 point towards (puntatore del mouse v)
 move [5] steps
 end

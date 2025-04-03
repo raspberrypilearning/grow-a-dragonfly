@@ -24,7 +24,7 @@ when flag clicked
 set size to [25] %
 forever
 +if < > then
-start sound [Wings v]
+start sound [Ali v]
 point towards (puntatore del mouse v)
 move [5] steps
 end
@@ -45,7 +45,7 @@ when flag clicked
 set size to [25] %
 forever
 +if <not <touching [puntatore del mouse v] ?> > then
-start sound [Wings v]
+start sound [Ali v]
 point towards (puntatore del mouse v)
 move [5] steps
 end

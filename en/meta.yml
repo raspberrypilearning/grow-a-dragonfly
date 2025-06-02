@@ -18,6 +18,8 @@ steps:
   - title: More food
     completion:
       - internal
+  - title: Challenge
+    challenge: true
   - title: Quick quiz
     knowledge_quiz:
       path: quiz1
@@ -26,6 +28,4 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Challenge
-    challenge: true
   - title: What can you do now?

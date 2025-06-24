@@ -1,58 +1,57 @@
-## More food
+## Mais comida
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The dragonfly needs a choice of insects.
+A libélula precisa de uma variedade de insetos.
 </div>
 <div>
-![Stage with two insects and the dragonfly.](images/more-food.png){:width="300px"}
+![Stage com dois insetos e a libélula.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right-click on the **Insect** sprite in the Sprite list under the Stage and **duplicate** it.
+Clique com o botão direito no sprite **Insect** na lista Sprite sob o Stage e **duplique** dele.
 
-![The Sprite list with the insect sprite selected and 'duplicate' highlighted in the menu.](images/duplicate-insect.png)
-
---- /task ---
-
-It's helpful if this insect looks different to the fly.
-
---- task ---
-
-Click on the **Costumes** tab.
-
-**Choose:** Create a different flying insect.
-+ Use the **Fill** tool to change the colour of this insect
-+ **Paint** your own insect costume
-+ **Add** another bug costume from Scratch
+![A lista Sprite com o sprite insect selecionado e 'duplicate' destacado no menu.](images/duplicate-insect.png)
 
 --- /task ---
 
-The insect gets eaten even if it touches the dragonfly's wing or tail.
-
-To make your app more realistic, fix this so that the insect gets eaten by the dragonfly's mouth. You can use the `touching color`{:class="block3sensing"} block so the insect only gets eaten if it is touches a particular colour on the **Dragonfly**.
+Make this insect look different to the fly.
 
 --- task ---
 
-Select the **Dragonfly** sprite and click on the **Costumes** tab.
+Click on the **Costumes** tab and create a different flying insect.
 
-Use the fill tool to fill in the **Dragonfly**'s mouth. We used purple:
-
-![The Paint editor with the Fill tool selected and the dragonfly costume with a purple mouth.](images/dragonfly-mouth-colour.png)
++ Use the **Fill** tool to change the colour of this insect.
++ **Paint** your own insect costume.
++ **Add** another bug costume from Scratch.
 
 --- /task ---
 
-You need to check that the **Insect2** sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+O inseto é comido mesmo que toque a asa ou a cauda da libélula.
+
+Para tornar seu aplicativo mais realista, corrija isso para que o inseto seja comido pela boca da libélula. Você pode usar o bloco `touch color`{:class="block3sensing"} para que o inseto só seja comido se tocar uma cor específica na **Dragonfly**.
 
 --- task ---
 
-Select the **Insect2** sprite and click on the **Code** tab.
+Selecione o sprite **Dragonfly** e clique na aba **Costumes**.
 
-Drag an `and`{:class="block3operators"} block into the `if`{:class="block3control"} block.
+Use a ferramenta de preenchimento para preencher a boca do **Dragonfly**. Usamos roxo:
 
-The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into the left of the `and`{:class="block3operators"} block:
+![O editor de pintura com a ferramenta Preenchimento selecionada e a fantasia de libélula com uma boca roxa.](images/dragonfly-mouth-colour.png)
+
+--- /task ---
+
+You need to check that the new sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
+
+--- task ---
+
+Select your new sprite and click on the **Code** tab.
+
+Arraste um bloco `and`{:class="block3operators"} para o bloco `if`{:class="block3control"}.
+
+The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into a space in the `and`{:class="block3operators"} block:
 
 ![](images/insect2-icon.png)
 
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-Drag a `touching color`{:class="block3sensing"} block into the right of the `and`{:class="block3operators"} block:
-
-![](images/insect2-icon.png)
+Drag a `touching color`{:class="block3sensing"} block into the other space of the `and`{:class="block3operators"} block:
 
 ```blocks3
 when flag clicked
@@ -94,23 +91,21 @@ end
 end
 ```
 
-If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool to select a colour.
+If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool at the bottom to select a colour.
 
-![The colour circle menu with eyedropper tool.](images/colour-eyedropper.png)
+![O menu colour circle com a ferramenta eyedropper.](images/colour-eyedropper.png)
 
-Click on the dragonfly's mouth on the Stage to set the colour to match:
+Click on the dragonfly's mouth on the Stage to set the colour:
 
-![The eyedropper tool with colour select highlighter hovering over the purple mouth of the dragonfly.](images/colour-select.png)
+![A ferramenta conta-gotas com marca-texto de seleção de cores pairando sobre a boca roxa da libélula.](images/colour-select.png)
 
-**Tip:** If this is tricky to do, change the size of the **Dragonfly** sprite so it's really big.
+**Tip:** If the small mouth is hard to select, make the **Dragonfly** sprite bigger.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Now test that the dragonfly can only eat the second insect with its mouth.
-
-If you like, you can change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+**Test:** Check the dragonfly can only eat the second insect with its mouth.
 
 --- /task ---
 

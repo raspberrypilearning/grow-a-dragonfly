@@ -9,9 +9,6 @@ Dodasz owada, do zjedzenia przez ważkę.
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Postacie, które poruszają się samodzielnie w grach, są czasami nazywane <span style="color: #0faeb0">**mobami**</span>, skrótem od mobilne. Czy możesz pomyśleć o grze, która ma moby?</p>
-
 W duszku **Frog 2** jest mucha, której możesz użyć.
 
 --- task ---
@@ -45,7 +42,7 @@ Dodaj nowy kostium do duszka za pomocą opcji **Maluj**:
 
 Kliknij ikonę **Wklej**, aby wkleić duszka do nowego kostiumu. Przeciągnij muchę **do środka**, aby zrównała się z celownikiem.
 
-Możesz zmienić nazwę swojego kostiumu `Owada` i usunąć inne kostiumy, ponieważ nie będą Tobie potrzebne:
+Rename your costume `Insect` and delete the other costumes, as you won't need those:
 
 ![Edytor malowania pokazujący wklejony nowy kostium owada z podświetloną ikoną Wklej. Lista kostiumów pokazuje, że inne kostiumy zostały usunięte.](images/fly-costume.png)
 
@@ -83,8 +80,6 @@ Chcesz, aby duszek **Owad** się `ukrył`{:class="block3looks"} `jeśli`{:class=
 
 Dodaj blok `jeżeli`{:class="block3control"} do skryptu odpowiadającego za ruchu duszka **Owad**:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ Chcesz, żeby owad się `ukrył`{:class="block3looks"} `jeśli`{:class="block3co
 --- task ---
 
 Przeciągnij `dotyka [Ważka v]`{:class="block3sensing"} do bloku `jeżeli`{:class="block3control"}. Dodaj blok `ukryj`{:class="block3looks"} wewnątrz bloku `jeżeli`{:class="block3control"}.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -129,9 +122,7 @@ Ważka nie stanie się zbyt duża, jeśli zje tylko jedną muchę!
 
 --- task ---
 
-Dodaj bloki do `idź do losowej pozycji`{:class="block3motion"} na scenie i spraw, aby twój duszek `czekał`{:class="block3control"} przez jedną sekundę, a następnie się `pokazał`{:class="block3looks"}:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -154,7 +145,7 @@ end
 
 **Test:** Sprawdź, czy twoja ważka może teraz jeść dużo much.
 
-Upewnij się, że dodałeś blok `pokaż`{:class="block3looks"}, aby był wyświetlany na początku.
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 

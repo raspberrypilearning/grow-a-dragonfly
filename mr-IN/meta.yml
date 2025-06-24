@@ -10,7 +10,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: परिचय
   - 
     title: दृश्य सेट करा
   - 
@@ -23,12 +23,13 @@ steps:
     title: सुधारित हालचाल
   - 
     title: अधिक अन्न
-  - 
-    title: कीटकाची कुठेही हालचाल
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: कीटकाची कुठेही हालचाल
+    challenge: true
+  - 
+    title: परावर्तन
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: तुमचा प्रोजेक्ट अपग्रेड करा
-  - 
-    title: पुढे काय?

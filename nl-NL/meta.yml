@@ -10,7 +10,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: Inleiding
   - 
     title: Maak het speelveld
   - 
@@ -23,12 +23,13 @@ steps:
     title: Verbeterde beweging
   - 
     title: Meer eten
-  - 
-    title: Willekeurige beweging van insecten
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Willekeurige beweging van insecten
+    challenge: true
+  - 
+    title: Reflectie
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Verbeter je project
-  - 
-    title: Wat kun je verder nog doen?

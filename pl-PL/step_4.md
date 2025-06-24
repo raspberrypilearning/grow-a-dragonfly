@@ -9,10 +9,7 @@ Sprawisz, że ważka urośnie, gdy zje muchę, i przestanie rosnąć, gdy osiąg
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Największe żyjące ważki można znaleźć w Ameryce Środkowej i mają rozpiętość skrzydeł 19 cm (nieco większą niż twoja ręka). Największym znanym owadem był <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, ważka o rozpiętości skrzydeł około 75 cm (wielkość dużego kroku).</p>
-
-Mucha wie, że została zjedzona, a teraz ważka też musi to wiedzieć, aby urosła.
+The Dragonfly needs to grow when it eats a fly.
 
 Kiedy musisz powiadomić innego duszka, że coś się wydarzyło, możesz użyć bloku`nadaj komunikat`{:class="block3events"}, tak jak w przypadku [nadawania czarów](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
@@ -58,8 +55,6 @@ change size by [5]
 
 Dodaj dźwięk **Chomp** do ważki i `zagraj `{:class="block3sound"} go, gdy owad zostanie zjedzony:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
 when I receive [food v]
 +start sound [Chomp v]
@@ -79,9 +74,21 @@ Kiedy ważka osiągnie pełny rozmiar, gra pogratuluje ci i zatrzyma się.
 
 Dodaj blok `jeżeli`{:class="block3control"}.
 
-Ważka jest w maksymalnie wyrośnięta, gdy `rozmiar `{:class="block3looks"} `=`{:class="block3operators"} `100%`. Najpierw dodaj operator `=`{:class="block3operators"} umieszczony w szcześciokącie jako dane wejściowe:
+```blocks3
+when I receive [food v]
+start sound [Chomp v]
+change size by [5]
++if < > then
+end
+```
 
-![](images/dragonfly-icon.png)
+--- /task ---
+
+Ważka jest w maksymalnie wyrośnięta, gdy `rozmiar `{:class="block3looks"} `=`{:class="block3operators"} `100%`.
+
+--- task ---
+
+First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ```blocks3
 when I receive [food v]
@@ -95,8 +102,6 @@ end
 --- task ---
 
 Zakończ tworzenie warunków dodając wbudowaną zmienną `rozmiar`{:class="block3looks"} i wpisz wartość `100`:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]
@@ -112,8 +117,6 @@ end
 Dodaj bloki tak, że kiedy warunek `jeżeli`{:class="block3control"} jest prawdziwy `to`{:class="block3control"} ważka `nada`{:class="block3events"} komunikat 'koniec' i `powiedz`{:class="block3looks"} `Osiągnęłam maksymalny rozmiar!`
 
 Na koniec dodaj blok `zatrzymaj wszystko`{:class="block3control"}, aby zatrzymać inne skrypty ważki:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]

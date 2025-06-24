@@ -10,7 +10,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: परिचय
   - 
     title: दृश्य को स्थापित करें
   - 
@@ -23,12 +23,13 @@ steps:
     title: बेहतर गतिविधि
   - 
     title: अधिक भोजन
-  - 
-    title: यादृच्छिक कीट गतिविधि
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: यादृच्छिक कीट गतिविधि
+    challenge: true
+  - 
+    title: सोचिए
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: अपना प्रोजेक्ट अपग्रेड करें
-  - 
-    title: आगे क्या?

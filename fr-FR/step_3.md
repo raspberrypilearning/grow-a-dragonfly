@@ -9,9 +9,6 @@ Tu ajouteras un insecte que la libellule mangera.
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Les personnages qui se déplacent seuls dans les jeux sont parfois appelés <span style="color: #0faeb0">**mobs**</span>, abréviation de mobiles. Peux-tu penser à un jeu qui a des mobs ?</p>
-
 Il y a une mouche dans le sprite **Frog 2** que tu peux utiliser.
 
 --- task ---
@@ -83,8 +80,6 @@ Tu veux que le sprite **Insecte** se `cache`{:class="block3looks"} `si`{:class="
 
 Ajoute un bloc `si`{:class="block3control"} au script de mouvement du sprite **Insecte** :
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ Tu veux que l'insecte se `cache`{:class="block3looks"} `si`{:class="block3contro
 --- task ---
 
 Fais glisser un `touche le [Libellule v]`{:class="block3sensing"} dans le bloc `si`{:class="block3control"}. Ajoute un bloc `cacher`{:class="block3looks"} à l'intérieur du bloc `si`{:class="block3control"}.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -129,9 +122,7 @@ La libellule ne deviendra pas très grande si elle ne peut manger qu'une seule m
 
 --- task ---
 
-Ajoute des blocs pour `aller à position aléatoire`{:class="block3motion"} sur la scène, et faire `attendre`{:class="block3control"} ton sprite pendant une seconde puis se `montrer`{:class="block3looks "} :
-
-![](images/fly-icon.png)
+Ajoute des blocs pour `aller à position aléatoire`{:class="block3motion"} sur la scène, et fais ton sprite `attendre`{:class="block3control"} pendant une seconde puis `montrer`{:class="block3looks"} :
 
 ```blocks3
 when flag clicked

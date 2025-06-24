@@ -10,7 +10,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: はじめに
   - 
     title: シーンを設定する
   - 
@@ -23,12 +23,13 @@ steps:
     title: 動きの改善
   - 
     title: より多くのエサ
-  - 
-    title: ランダムな昆虫の動き
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: ランダムな昆虫の動き
+    challenge: true
+  - 
+    title: ふりかえり
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: プロジェクトをアップグレードする
-  - 
-    title: 次は何をしますか？

@@ -5,7 +5,7 @@
 Tu vas créer la scène. Choisis ton arrière-plan et ajoute une libellule qui suit le pointeur de la souris autour de la scène.
 </div>
 <div>
-![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
+![](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -13,16 +13,11 @@ Tu vas créer la scène. Choisis ton arrière-plan et ajoute une libellule qui s
 
 Ouvre le projet de démarrage [Faire grandir une libellule](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
-[[[working-offline]]]
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Les libellules**</span> peuvent être trouvées partout dans le monde et existent depuis plus de 300 millions d'années !</p>
 
 --- task ---
 
-**Choisir :** Clique sur **Choisir un arrière-plan** et ajoute un arrière-plan de ton choix. Nous avons utilisé l'arrière-plan **Jurassic**.
+Nous avons utilisé l'arrière-plan **Jurassic**. Nous avons utilisé l'arrière-plan **Jurassic**.
 
 ![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
@@ -66,11 +61,11 @@ Le costume Libellule n'est pas tourné vers la droite, donc la tête du sprite *
 
 --- task ---
 
-Clique sur l'onglet **Costumes** et utilise l'outil **Sélectionner** (flèche) pour sélectionner le costume. Utilise l'outil **Rotation** en bas du costume sélectionné pour tourner le costume **Libellule** vers la droite.
+Clique sur l'onglet **Costumes** et utilise l'outil **Sélectionner** (flèche) pour sélectionner le costume.
+
+Utilise l'outil **Rotation** en bas du costume sélectionné pour tourner le costume **Libellule** vers la droite.
 
 ![Une image animée montrant comment faire pivoter le costume Libellule en faisant glisser les flèches de rotation pour que la libellule soit tournée vers la droite.](images/rotated-costume.gif)
-
-![Le costume Libellule sélectionné et tourné pour faire face à la droite.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,6 +85,10 @@ Ajoute le son **Crank** au sprite **Libellule**.
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 Clique sur le bouton **Jouer** pour entendre le son.
 
 --- /task ---
@@ -104,9 +103,11 @@ Clique sur **Copier dans un nouveau** pour créer un nouveau son avec uniquement
 
 ![La fin du son crank sélectionné en bleu avec l'icône "Copier dans un nouveau" en surbrillance.](images/crank-copy-end.png)
 
-Renomme ton nouveau son de **Crank2** à `Ailes`.
+--- /task ---
 
-![La propriété du son renommé.](images/crank-wings-sound.png)
+--- task ---
+
+Renomme ton nouveau son de **Crank2** à `Ailes`. ![La propriété du son renommé.](images/crank-wings-sound.png)
 
 --- /task ---
 

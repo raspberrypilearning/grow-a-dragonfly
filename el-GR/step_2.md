@@ -5,24 +5,19 @@
 Θα στήσεις τη σκηνή. Επίλεξε το σκηνικό σου και πρόσθεσε μια λιβελούλα που ακολουθεί τον δείκτη του ποντικιού γύρω από τη Σκηνή.
 </div>
 <div>
-![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
+![](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Άνοιξε το [αρχικό έργο Μεγαλώνοντας μια λιβελούλα](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
-
-[[[working-offline]]]
+Άνοιξε το [αρχικό έργο Μεγαλώνοντας μια λιβελούλα](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open a blank project in a new browser tab.
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Οι <span style="color: #0faeb0">**λιβελούλες**</span> μπορούν να βρεθούν σε όλο τον κόσμο και υπάρχουν για πάνω από 300 εκατομμύρια χρόνια!</p>
-
 --- task ---
 
-**Επιλογή:** Κάνε κλικ στο **Επιλέξτε Υπόβαθρο** και πρόσθεσε ένα υπόβαθρο της επιλογής σου. Χρησιμοποιήσαμε το υπόβαθρο **Jurassic**.
+Click **Choose a Backdrop** and add a backdrop of your choice. Χρησιμοποιήσαμε το υπόβαθρο **Jurassic**.
 
 ![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
@@ -47,12 +42,12 @@
 ![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
-when flag clicked
-set size to [25] % // to start small
-forever
-point towards (mouse-pointer v)
-move [5] steps
-end
+όταν γίνει κλικ στη σημαία
+όρισε μέγεθος σε [25] % // για να ξεκινήσει με μικρό μέγεθος
+για πάντα
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
 ```
 --- /task ---
 
@@ -66,11 +61,11 @@ end
 
 --- task ---
 
-Κάνε κλικ στην καρτέλα **Κοστούμια** και χρησιμοίησε το εργαλείο **Επιλογή** (βέλος) για να επιλέξεις το κοστούμι. Χρησιμοποίησε το εργαλείο **Περιστροφή** στο κάτω μέρος της επιλεγμένης ενδυμασίας για να γυρίσεις την ενδυμασία **Λιβελούλα** προς τα δεξιά.
+Κάνε κλικ στην καρτέλα **Κοστούμια** και χρησιμοίησε το εργαλείο **Επιλογή** (βέλος) για να επιλέξεις το κοστούμι.
+
+Χρησιμοποίησε το εργαλείο **Περιστροφή** στο κάτω μέρος της επιλεγμένης ενδυμασίας για να γυρίσεις την ενδυμασία **Λιβελούλα** προς τα δεξιά.
 
 ![Μια κινούμενη εικόνα που δείχνει πώς να περιστρέψεις την ενδυμασία της λιβελούλας σύροντας τα βέλη περιστροφής έτσι ώστε η λιβελούλα να βλέπει προς τα δεξιά.](images/rotated-costume.gif)
-
-![Η επιλεγμένη ενδυμασία λιβελούλα όπως έχει περιστραφεί για να κοιτάει προς τα δεξιά.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,6 +85,10 @@ end
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 Κάνε κλικ στο κουμπί **Αναπαραγωγή** για να μπορείς να ακούσεις τον ήχο.
 
 --- /task ---
@@ -104,48 +103,50 @@ end
 
 ![Το επιλεγμένο τέλος του ήχου της μανιβέλας με μπλε χρώμα με επισημασμένο το εικονίδιο "Αντιγραφή σε Νέο".](images/crank-copy-end.png)
 
-Μετονόμασε το νέο σου ήχο από **Crank2** σε `Φτερά`.
+--- /task ---
 
-![Η ιδιότητα μετονομασία ήχου.](images/crank-wings-sound.png)
+--- task ---
+
+Μετονόμασε το νέο σου ήχο από **Crank2** σε `Φτερά`. ![Η ιδιότητα μετονομασία ήχου.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Αναπαραγωγή του νέου ήχου. Κάνε κλικ στο κουμπί **Γρηγορότερα** μερικές φορές μέχρι να σου αρέσει το αποτέλεσμα:
+**Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
 
-![Ένα ταχύτερο ηχητικό κύμα με επισημασμένο το εικονίδιο "Γρηγορότερα".](images/wings-faster.png)
-
---- /task ---
-
---- task ---
-
-Εάν θέλεις, μπορείς να επιλέξεις το τέλος του ήχου **Φτερά**, και στη συνέχεια κάνε κλικ στο **Διαγραφή** για να τον αφαιρέσεις:
-
-![Επιλέχθηκε το τέλος του ηχητικού κύματος με επισημασμένο το εργαλείο «Διαγραφή».](images/wings-shorter.png)
+![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Τώρα πρόσθεσε ένα μπλοκ για να αναπαράγεις τον ήχο **Φτερά** όταν η λιβελούλα κινείται:
+If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+
+![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Now add a block to play the **Wings** sound when the dragonfly moves:
 
 ![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
-when flag clicked
-set size to [25] %
-forever
-+start sound [Wings v]
-point towards (mouse-pointer v)
-move [5] steps
-end
+όταν γίνει κλικ στη σημαία
+όρισε μέγεθος σε [25] %
+για πάντα
++παίξε τον ήχο [Φτερά v]
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
 ```
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Δοκίμασε την κίνηση της λιβελούλας και το ηχητικό εφέ.
+**Test:** Try out your dragonfly movement and sound effect.
 
 --- /task ---
 

@@ -9,9 +9,6 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-يطلق على الشخصيات التي تتحرك من تلقاء نفسها في الألعاب أحيانًا اسم <span style="color: #0faeb0">** موب **</span>، وهي اختصار لكلمة موبايل (الهاتف المحمول). هل يمكنك التفكير في لعبة بها كائنات متحركة (موب)؟</p>
-
 هناك ذبابة في كائن **Frog 2** يمكنك استخدامها.
 
 --- task ---
@@ -83,8 +80,6 @@ end
 
 أضف كتلة `إذا`{:class="block3control"} إلى النص البرمجي لحركة كائن الحشرة **Insect**:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ end
 --- task ---
 
 اسحب كتلة `ملامس لـ [Dragonfly v]`{:class="block3sensing"} في داخل كتلة `إذا`{:class="block3control"}. أضف كتلة `اختفِ`{:class="block3looks"} داخل كتلة `إذا`{:class="block3control"}.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,8 +123,6 @@ end
 --- task ---
 
 أضف الكتلة `اذهب إلى موضع عشوائي`{:class="block3control"} على المنصة، واجعل الكائن الخاص بك `ينتظر`{:class="block3control"} لمدة ثانية واحدة ثم `يظهر`{:class="block3looks"}:
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked

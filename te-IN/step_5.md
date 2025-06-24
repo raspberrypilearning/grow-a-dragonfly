@@ -13,9 +13,7 @@
 
 **Dragonfly**ని ఎంచుకోండి మరియు `when flag clicked`{:class="block3events"} తో మొదలయ్యే స్క్రిప్ట్‌ను కనుగొనండి.
 
-`if`{: class = "block3control"} బ్లాక్ ని `forever`{: class = "block3control"} బ్లాక్ లోపలికి డ్రాగ్ చేయండి మరియు `forever`{: class = "block3control"} లోపలనున్న బ్లాక్స్ `if`{:class="block3control"} లోపలికి చేరుకొంటాయి.
-
-మీ కోడ్ ఇలా ఉందో లేదో జాగ్రత్తగా తనిఖీ చేయండి:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -34,11 +32,7 @@ end
 
 --- task ---
 
-ఆపై `not`{:class="block3operators"} బ్లాక్‌ని `if`{:class="block3control"}లోకి మరియు `touching (mouse-pointer)`{:class="block3sensing"}ని డ్రాగ్ చేయండి.
-
-మీ కోడ్ ఇలా ఉందో లేదో తనిఖీ చేయండి:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
 when flag clicked
@@ -52,23 +46,21 @@ end
 end
 ```
 
-`not`{:class="block3operators"} బ్లాక్ ఒక కండిషన్ ను దాని వ్యతిరేక స్థితిగా మారుస్తుంది, అది వాక్య ప్రయోగంలో వాడకం వలే.
-
 --- /task ---
 
 --- task ---
 
 **పరీక్ష:** గ్లిచ్ పరిష్కరించబడిందో లేదో తనిఖీ చేయండి మరియు Dragonfly `touching (mouse-pointer`{:class="block3sensing"} లేనప్పుడు ` not`{:class="block3operators"} మాత్రమే కదులుతుంది.
 
-ప్రయత్నించడానికి వేరొక కండిషన్:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-ఇది మౌస్-పాయింటర్ నుండి తగినంత దూరంలో ఉన్నప్పుడు తూనీగ కదిలేలా చేస్తుంది.
-
-**చిట్కా:** మీరు కోడ్ ప్రాంతంలో ఎక్కడైనా బ్లాక్‌లను లాగవచ్చు మరియు మీరు వివిధ విషయాలను ప్రయత్నించినప్పుడు వాటిని అక్కడ వదిలివేయవచ్చు.
 
 --- /task ---
 

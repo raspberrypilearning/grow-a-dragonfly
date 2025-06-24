@@ -23,7 +23,6 @@ Il est utile que cet insecte soit différent de la mouche.
 
 Clique sur l'onglet **Costumes**.
 
-**Choisir :** Crée un autre insecte volant.
 + Utilise l'outil **Remplissage** pour changer la couleur de cet insecte
 + **Peins** ton propre costume d'insecte
 + **Ajoute** un autre costume d'insecte de Scratch
@@ -52,7 +51,7 @@ Sélectionne le sprite **Insecte2** et clique sur l'onglet **Code**.
 
 Fais glisser un bloc `et`{:class="block3operators"} dans le bloc `si`{:class="block3control"}.
 
-Le bloc `<touching [Dragonfly v] ?>`{:class="block3sensing"} apparaîtra, fais-le glisser à gauche du bloc `et`{:class="block3operators"} :
+Fais glisser un bloc `et`{:class="block3operators"} dans le bloc `si`{:class="block3control"}.
 
 ![](images/insect2-icon.png)
 
@@ -76,8 +75,6 @@ end
 --- task ---
 
 Fais glisser un bloc `couleur touchée`{:class="block3sensing"} à droite des blocs `et`{:class="block3operators"} :
-
-![](images/insect2-icon.png)
 
 ```blocks3
 when flag clicked
@@ -109,8 +106,6 @@ Clique sur la bouche de la libellule sur la scène pour définir la couleur corr
 --- task ---
 
 **Test :** Teste maintenant que la libellule ne peut manger le deuxième insecte qu'avec sa bouche.
-
-Si tu le souhaites, tu peux modifier le premier **Insecte** afin qu'il ne puisse être mangé qu'avec la bouche de la libellule.
 
 --- /task ---
 

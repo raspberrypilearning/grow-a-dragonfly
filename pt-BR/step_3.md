@@ -1,67 +1,64 @@
-## A fly to eat
+## Uma mosca para comer
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add an insect for the dragonfly to eat. 
+Você adicionará um inseto para a libélula comer. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![O Stage com uma libélula e um inseto.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Characters that move around on their own in games are sometimes called <span style="color: #0faeb0">**mobs**</span>, short for mobiles. Can you think of a game that has mobs?</p>
-
-There's a fly in the **Frog 2** sprite that you can use.
+Há uma mosca no sprite **Frog 2** que você pode usar.
 
 --- task ---
 
-Add the **Frog 2** sprite to your project. Rename the sprite to `Insect`:
+Adicione o ator**Frog 2** ao seu projeto. Renomeie o sprite para `Insect`:
 
-![The Sprite list with Frog 2 sprite added. The Sprite name property shows 'Insect'.](images/fly-sprite.png)
+![A lista Sprite com o sprite Frog 2 adicionado. A propriedade Sprite name mostra o 'Inseto'.](images/fly-sprite.png)
 
 
 --- /task ---
 
-You only need the fly, not the frog.
+Você só precisa da mosca, não do sapo.
 
 --- task ---
 
-Click on the **Costumes** tab. Click on the fly to select it and click on the **Copy** icon.
+Clique no ícone **Fantasias**. Clique na mosca para selecioná-la e clique no ícone **Copy**.
 
-![The paint editor with the fly part of the Frog 2-a costume selected and the Copy icon highlighted.](images/copy-fly.png)
+![O editor de pintura com a parte da mosca do traje Frog 2-a selecionado e o ícone Copiar realçado.](images/copy-fly.png)
 
 --- /task ---
 
 --- task ---
 
-Add a new costume to the sprite using the **Paint** option:
+Adicione uma nova fantasia ao sprite usando a opção **Paint**:
 
-![The paint option selected in the choose a costume menu.](images/paint-sprite.png)
-
---- /task ---
-
---- task ---
-
-Click on the **Paste** icon to paste the sprite into the new costume. Drag the fly to the **centre** so it lines up with the crosshair.
-
-You can rename your costume `Insect` and delete the other costumes, as you won't need those:
-
-![The paint editor showing a pasted new Insect costume with the Paste icon highlighted. The costume list shows the other costumes have been deleted.](images/fly-costume.png)
+![A opção de pintura selecionada no menu escolher uma fantasia.](images/paint-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Increase the size of the fly so that it's easier to see and catch:
+Clique no ícone **Paste** para colar o sprite no novo traje. Arraste a mosca para o **centro** para que ela se alinhe com a mira.
 
-![Size property set to 150.](images/fly-size.png)
+Rename your costume `Insect` and delete the other costumes, as you won't need those:
+
+![O editor de pintura mostrando uma nova fantasia de Inseto colada com o ícone Colar realçado. A lista de fantasias mostra que as outras fantasias foram deletadas.](images/fly-costume.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a script to make the **Insect** sprite bounce around:
+Aumente o tamanho da mosca para que seja mais fácil ver e pegar:
+
+![Propriedade de tamanho definida como 150.](images/fly-size.png)
+
+--- /task ---
+
+--- task ---
+
+Clique na guia **Code** e adicione um script para fazer o sprite **Insect** saltar:
 
 ![](images/fly-icon.png)
 
@@ -73,17 +70,15 @@ if on edge, bounce
 end
 ```
 
-The `if on edge, bounce`{:class="block3motion"} block checks to see if the sprite has reached the edge of the Stage and points the sprite in a different direction if it has.
+O bloco `if on edge, bounce`{:class="block3motion"} verifica se o sprite atingiu a borda do cenario e aponta o sprite em uma direção diferente, caso tenha alcançado.
 
 --- /task ---
 
-You want the **Insect** sprite to `hide`{:class="block3looks"} `if`{:class="block3control"} it gets eaten by the **Dragonfly** sprite.
+Você quer que o sprite **Insect** `esconda`{:class="block3looks"} `if`{:class="block3control"} ele for comido pelo sprite **Dragonfly**.
 
 --- task ---
 
-Add an `if`{:class="block3control"} block to the **Insect** sprite's movement script:
-
-![](images/fly-icon.png)
+Adicione um bloco `if`{:class="block3control"} ao script de movimento do sprite **Insect**:
 
 ```blocks3
 when flag clicked
@@ -95,17 +90,15 @@ end
 ```
 --- /task ---
 
-The `if`{:class="block3control"} has a hexagon-shaped input. This means you can put a **condition** here.
+O `if`{:class="block3control"} tem uma entrada em forma de hexágono. Isso significa que você pode colocar uma **condição ** aqui.
 
-When the `if`{:class="block3control"} block runs, Scratch will check the condition. If the condition is 'true' `then`{:class="block3control"} the code inside the `if`{:class="block3control"} block will run.
+Quando o bloco `if`{:class="block3control"} for executado, o Scratch verificará a condição. Se a condição for 'true' `então`{:class="block3control"} o código dentro do bloco `if`{:class="block3control"} será executado.
 
-You want the insect to `hide`{:class="block3looks"} `if`{:class="block3control"} it is `touching`{:class="block3sensing"} the **Dragonfly** sprite.
+Você quer que o inseto `esconda`{:class="block3looks"} `if`{:class="block3control"} é `tocando`{:class="block3sensing"} o sprite **Dragonfly**.
 
 --- task ---
 
-Drag a `touching [Dragonfly v]`{:class="block3sensing"} into the `if`{:class="block3control"} block. Add a `hide`{:class="block3looks"} block inside the `if`{:class="block3control"} block.
-
-![](images/fly-icon.png)
+Arraste um `tocando [Dragonfly v]`{:class="block3sensing"} para o bloco `if`{:class="block3control"}. Adicione um bloco `hide`{:class="block3looks"} dentro do bloco `if`{:class="block3control"}.
 
 ```blocks3
 when flag clicked
@@ -121,17 +114,15 @@ end
 
 --- task ---
 
-**Test:** Test your code and control the dragonfly to eat the fly. The fly should disappear.
+**Teste:** Teste seu código e controle a libélula para comer a mosca. A mosca deve desaparecer.
 
 --- /task ---
 
-The dragonfly won't get very big if it can only eat one fly!
+A libélula não ficará muito grande se puder comer apenas uma mosca!
 
 --- task ---
 
-Add blocks to `go to a random position`{:class="block3motion"} on the Stage, and make your sprite `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -152,12 +143,12 @@ end
 
 --- task ---
 
-**Test:** Test that your dragonfly can now eat lots of flies.
+**Teste:** Teste se sua libélula agora pode comer muitas moscas.
 
-Make sure you have added the `show`{:class="block3looks"} block to show at the start.
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 
-**Tip:** You can click the red **Stop** button above the Stage if you want the dragonfly to be quiet while you add more code.
+**Dica:** Você pode clicar no botão vermelho **Stop** acima do Palco se quiser que a libélula fique parada enquanto você adiciona mais código.
 
 --- save ---

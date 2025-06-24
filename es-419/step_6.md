@@ -17,16 +17,15 @@ Pulsa con el botón derecho en el objeto **Insecto** en la lista de Objetos deba
 
 --- /task ---
 
-Es útil si este insecto se ve diferente a la mosca.
+Make this insect look different to the fly.
 
 --- task ---
 
-Pulsa en la pestaña **Disfraces**.
+Click on the **Costumes** tab and create a different flying insect.
 
-**Elige:** Crear un insecto volador diferente.
-+ Usa la herramienta **Relleno** para cambiar el color de este
-+ **Pinta** tu propio disfraz de insecto
-+ **Agrega** otro disfraz de bicho de Scratch
++ Use the **Fill** tool to change the colour of this insect.
++ **Paint** your own insect costume.
++ **Add** another bug costume from Scratch.
 
 --- /task ---
 
@@ -44,15 +43,15 @@ Utiliza la herramienta de relleno para rellenar la boca del **Dragonfly**. Nosot
 
 --- /task ---
 
-Debes comprobar que el objeto **Insect2** esté tocando el objeto **Dragonfly** `y`{:class="block3operators"} tocando el color de la boca de la libélula.
+You need to check that the new sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
 
 --- task ---
 
-Selecciona el objeto **Insect2** y pulsa en la pestaña **Código**.
+Select your new sprite and click on the **Code** tab.
 
 Arrastra un bloque `y`{:class="block3operators"} dentro del bloque `si`{:class="block3control"}.
 
-Aparecerá el bloque `<touching [Dragonfly v] ?>`{:class="block3sensing"}, arrástrelo a la izquierda del bloque `y`{:class="block3operators"}:
+The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into a space in the `and`{:class="block3operators"} block:
 
 ![](images/insect2-icon.png)
 
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-Arrastra un bloque `tocando el color`{:class="block3sensing"} a la derecha del bloque `y`{:class="block3operators"}:
-
-![](images/insect2-icon.png)
+Drag a `touching color`{:class="block3sensing"} block into the other space of the `and`{:class="block3operators"} block:
 
 ```blocks3
 when flag clicked
@@ -94,23 +91,21 @@ end
 end
 ```
 
-Si no tienes seleccionado el color de la boca de la libélula, pulsa en el círculo de color y luego en la herramienta **Cuentagotas**.
+If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool at the bottom to select a colour.
 
 ![El menú del círculo de colores con la herramienta cuentagotas.](images/colour-eyedropper.png)
 
-Pulsa en la boca de la libélula en el Escenario para establecer el color para que coincida:
+Click on the dragonfly's mouth on the Stage to set the colour:
 
 ![La herramienta cuentagotas con resaltador de selección de color flotando sobre la boca púrpura de la libélula.](images/colour-select.png)
 
-**Consejo:** Si esto es difícil de hacer, cambia el tamaño del objeto **Dragonfly** para que sea realmente grande.
+**Tip:** If the small mouth is hard to select, make the **Dragonfly** sprite bigger.
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Ahora prueba que la libélula solo pueda comer el segundo insecto con su boca.
-
-Si quieres, puedes cambiar el primer **Insecto** para que solo pueda ser comido con la boca de la libélula.
+**Test:** Check the dragonfly can only eat the second insect with its mouth.
 
 --- /task ---
 

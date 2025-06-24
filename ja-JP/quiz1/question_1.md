@@ -1,17 +1,17 @@
 ## Quick quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Answer the three questions. 正しい答えが表示されます。
 
 When you have answered each question, click on **Check my answer**.
 
-Have fun!
+楽しんで!
 
 --- question ---
 ---
 legend: 質問1/3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+あるプロジェクトで**Crab**スプライトと**Jellyfish**スプライトが使用されています。 **Crab**スプライトは、このようなコードを持っています。
 
 ![desc](images/crab-icon.png)
 
@@ -22,7 +22,7 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+**Crab**のスプライトが隠れるには何が必要ですか？
 
 --- choices ---
 
@@ -38,7 +38,7 @@ What would need to happen for the **Crab** sprite to hide?
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+正解！ 、`ではない`{:class="block3operators"}演算子は、`もし`{:class="block3control"}**Crab**スプライトが青色に`触れている`{:class="block3sensing"}ではない、という条件が真であることを意味します。
 
  --- /feedback ---
 

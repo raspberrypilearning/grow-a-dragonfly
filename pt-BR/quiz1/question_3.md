@@ -1,18 +1,18 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legenda: Pergunta 3 de 3
 ---
 
-In your project, you used `pick random`{:class="block3operators"} blocks to move the **Insect** sprite in a natural, unpredictable flying pattern.
+Em seu projeto, você usou `pick random`{:class="block3operators"} blocos para mover o sprite **Insect** em um padrão de vôo natural e imprevisível.
 
-Which `pick random`{:class="block3operators"} block could give the number `10`?
+Qual bloco `pick aleatório`{:class="block3operators"} poderia dar o número `10`?
 
 --- choices ---
 
 - ( )
 
-`pick random [0] to [9]`{:class="block3operators"}
+`escolha aleatória de [0] a [9]`{:class="block3operators"}
 
   --- feedback ---
 
@@ -22,7 +22,7 @@ Which `pick random`{:class="block3operators"} block could give the number `10`?
 
 - ( )
 
-`pick random [20] to [100]`{:class="block3operators"}
+`escolha aleatória de [20] a [100]`{:class="block3operators"}
 
   --- feedback ---
 
@@ -32,11 +32,11 @@ Não, o menor número que este bloco pode lhe dar é 20.
 
 - (x)
 
-`pick random [1] to [50]`{:class="block3operators"}
+`escolha aleatória de [1] a [50]`{:class="block3operators"}
 
   --- feedback ---
 
-Yes, this block can give you numbers from 1 up to 50, which includes 10.
+Sim, este bloco pode fornecer números de 1 a 50, que inclui 10.
 
   --- /feedback ---
 

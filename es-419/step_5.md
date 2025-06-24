@@ -13,9 +13,7 @@ La libélula 'falla' y cambia de dirección muy rápido si el puntero del ratón
 
 Selecciona **Dragonfly** y busca el script que comienza con `al presionar la bandera`{:class="block3events"}.
 
-Arrastra un `si`{:class="block3control"} dentro del bloque `por siempre`{:class="block3control"} y los bloques dentro del `por siempre`{:class="block3control"} se moverán dentro del `si`{:clase="bloque3control"}.
-
-Comprueba cuidadosamente que tu código se vea así:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -34,11 +32,7 @@ end
 
 --- task ---
 
-Luego arrastra un bloque `no`{:class="block3operators"} dentro del `si`{:class="block3control"} y un `tocando (el puntero del ratón)`{:class="block3sensing"} dentro suyo.
-
-Comprueba que tu código sea así:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
 when flag clicked
@@ -52,23 +46,21 @@ end
 end
 ```
 
-El bloque `no`{:class="block3operators"} convierte una condición en su opuesta, tal como lo haría en una frase.
-
 --- /task ---
 
 --- task ---
 
 **Prueba:** Comprueba que el fallo está arreglado y que la libélula solo se mueve cuando `no`{:class="block3operators"} `está tocando (puntero del ratón)`{:class="block3sensing"}.
 
-Una condición diferente para probar es:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-Esto hace que la libélula se mueva cuando está lo suficientemente lejos del puntero.
-
-**Consejo:** Puedes arrastrar bloques a cualquier parte del área de Código y dejarlos allí mientras intentas diferentes cosas.
 
 --- /task ---
 

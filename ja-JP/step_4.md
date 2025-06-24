@@ -9,10 +9,7 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-現存する最大のトンボは中米に生息し、羽を広げると19cm(手のひらより少し大きい) にもなります。 これまで知られている最大の昆虫は、<span style="color: #0faeb0">**メガニューロプシス パーミアナ**</span> というトンボで、羽を広げると約75cm(大またの一歩くらい) ありました。</p>
-
-ハエは自分が食べられたことを知り、今度はトンボが成長するために知る必要があるのです。
+The Dragonfly needs to grow when it eats a fly.
 
 何かが起こったことを他のスプライトに知らせる必要があるときは、[呪文の送信](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}で行ったように、`()を送る`{:class="block3events"}ブロックを使用することができます。
 
@@ -58,8 +55,6 @@ change size by [5]
 
 トンボに**Chomp**という音を追加し、虫が食べられた時に`再生`{:class="block3sound"}します。
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
 when I receive [food v]
 +start sound [Chomp v]
@@ -79,9 +74,21 @@ change size by [5]
 
 `もし`{:class="block3control"}ブロックを追加する。
 
-`大きさ`{:class="block3looks"}`=`{:class="block3operators"}`100％`の場合、トンボはフルサイズです。 まず、六角形の入力に`=`{:class="block3operators"}という演算子を追加します。
+```blocks3
+when I receive [エサ v]
+start sound [Chomp v]
+change size by [5]
++if <[ ] = [ ]> then
+end
+```
 
-![](images/dragonfly-icon.png)
+--- /task ---
+
+`大きさ`{:class="block3looks"}`=`{:class="block3operators"}`100％`の場合、トンボはフルサイズです。
+
+--- task ---
+
+まず、六角形の入力に`=`{:class="block3operators"}という演算子を追加します。
 
 ```blocks3
 when I receive [food v]
@@ -95,8 +102,6 @@ end
 --- task ---
 
 組み込みの`大きさ`{:class="block3looks"}変数を追加して、値`100`を入力して条件構築を終了します。
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]
@@ -112,8 +117,6 @@ end
 `もし`{:class="block3control"} 真 `ならば`{:class="block3control"} '終わり' `を送信する`{:class="block3events"}と`大きくなったよ！`と `言う`{:class="block3looks"} ブロックを追加する。
 
 最後に、`すべてを止める`{:class="block3control"} ブロックを追加して、他のトンボスクリプトを停止させます。
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]

@@ -13,14 +13,14 @@ legend: Ερώτηση 2 από 3
 - ( )
 
 ```blocks3
-when flag clicked
-forever
-+start sound [Wings v]
-if <not <touching [mouse-pointer v] ?> > then
-point towards (mouse-pointer v)
-move [5] steps
-end
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+παίξε τον ήχο [Φτερά v]
++εάν <not <touching [mouse-pointer v] ?> > τότε
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
+τέλος
 ```
 
 --- feedback ---
@@ -32,14 +32,14 @@ end
 - (x)
 
 ```blocks3
-when flag clicked
-forever
-if <not <touching [mouse-pointer v] ?> > then
-+start sound [Wings v]
-point towards (mouse-pointer v)
-move [5] steps
-end
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+εάν <not <touching [mouse-pointer v] ?> > τότε
++παίξε τον ήχο [Φτερά v]
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
+τέλος
 ```
 
   --- feedback ---
@@ -52,14 +52,14 @@ end
 
 
 ```blocks3
-when flag clicked
-forever
-if <not <touching [mouse-pointer v] ?> > then
-point towards (mouse-pointer v)
-move [5] steps
-end
-+start sound [Wings v]
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+εάν <not <touching [mouse-pointer v] ?> > τότε
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
++παίξε τον ήχο [Φτερά v]
+τέλος
 ```
 
   --- feedback ---

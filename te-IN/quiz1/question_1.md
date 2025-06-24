@@ -1,10 +1,10 @@
-## Quick quiz
+## విశ్లేషణ
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+మీరు `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, మరియు `Sound`{:class="block3sound"} బ్లాక్‌లని ఉపయోగించారు!
 
-Have fun!
+ఇప్పుడు, విశ్లేషించే సమయం వచ్చింది — విశ్లేషించడం అనేది నేర్చుకోవడంలో ముఖ్యమైన భాగం, ఎందుకంటే ఇది మీ మెదడులో కొత్త కనెక్షన్‌లను ఏర్పరచడంలో సహాయపడుతుంది.
 
 --- question ---
 ---

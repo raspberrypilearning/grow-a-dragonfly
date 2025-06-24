@@ -9,9 +9,6 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-गेम में अपने आप घूमने वाले चरित्रों को कभी-कभी <span style="color: #0faeb0">**mobs**</span> कहा जाता है, जो मोबाइल का संक्षिप्त रूप होता है। क्या आप ऐसे खेल के बारे में सोच सकते हैं जिसमें mobs हो?</p>
-
 **Frog 2** स्प्राइट में एक मक्खी है जिसका आप उपयोग कर सकते हैं।
 
 --- task ---
@@ -45,7 +42,7 @@
 
 स्प्राइट को नई पोशाक में पेस्ट के लिए **Paste** आइकन पर क्लिक करें। मक्खी को **centre** तक खींचें ताकि वह क्रॉसहेयर के साथ संरेखित हो जाए।
 
-आप अपनी पोशाक का नाम बदलकर `Insect` कर सकते हैं और अन्य पोशाक हटा सकते हैं, क्योंकि आपको उनकी आवश्यकता नहीं होगी:
+स्प्राइट को नई पोशाक में पेस्ट के लिए **Paste** आइकन पर क्लिक करें। मक्खी को **centre** तक खींचें ताकि वह क्रॉसहेयर के साथ संरेखित हो जाए।
 
 ![हाइलाइट किए गए Paste आइकन के साथ एक चिपकाया हुआ नया कीट पोशाक दिखाते हुए पेंट संपादक। पोशाक सूची से पता चलता है कि अन्य पोशाकें हटा दी गई हैं।](images/fly-costume.png)
 
@@ -83,8 +80,6 @@ end
 
 **Insect** स्प्राइट को हिलाने वाली स्क्रिप्ट में `if`{:class="block3control"} ब्लॉक जोड़ें:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ end
 --- task ---
 
 `touching [Dragonfly v]`{:class="block3sensing"} को `if`{:class="block3control"} ब्लॉक में खींचें। `if`{:class="block3control"} ब्लॉक के अंदर `hide`{:class="block3looks"} ब्लॉक जोड़ें।
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -129,9 +122,7 @@ end
 
 --- task ---
 
-Stage पर `go to a random position`{:class="block3motion"} में ब्लॉक जोड़ें और अपने स्प्राइट को एक सेकंड के लिए `wait`{:class="block3control"} कराएँ फिर `show`{:class="block3looks"}:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -154,7 +145,7 @@ end
 
 **परीक्षण:** परीक्षण करें कि आपका ड्रैगनफ्लाईअब बहुत सारी मक्खियाँ खा सकता है।
 
-सुनिश्चित करें कि आपने शुरुआत में दिखाने के लिए `show`{:class="block3looks"} ब्लॉक जोड़ा है।
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 

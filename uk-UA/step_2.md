@@ -11,18 +11,13 @@
 
 --- task ---
 
-Відкрий [стартовий проєкт «Вирости бабку»](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Скретч відкриється у новій вкладці браузера.
-
-[[[working-offline]]]
+Відкрий [стартовий проєкт «Вирости бабку»](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open a blank project in a new browser tab.
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Бабок**</span> можна знайти по всьому світові. Вони існують ось уже 300 мільйонів років!</p>
-
 --- task ---
 
-**Вибери:** натисни на **Обрати тло** і додай тло, яке тобі подобається. Ми обрали тло **Jurassic** («Юрський період»).
+Click **Choose a Backdrop** and add a backdrop of your choice. Ми обрали тло **Jurassic** («Юрський період»).
 
 ![Іконка тла в інтерфейсі програми Скретч](images/choose-backdrop-icon.png)
 
@@ -66,11 +61,11 @@ end
 
 --- task ---
 
-Перейди на вкладку **Образи** і клікни на інструмент **Обрати** (стрілочка), щоб вибрати образ. Використовуючи інструмент **Розвернути** у нижній частині вибраного образу, розверни образ **Dragonfly**, щоб він дивився праворуч.
+Перейди на вкладку **Образи** і клікни на інструмент **Обрати** (стрілочка), щоб вибрати образ.
+
+Використовуючи інструмент **Розвернути** у нижній частині вибраного образу, розверни образ **Dragonfly**, щоб він дивився праворуч.
 
 ![Анімоване зображення, яке показує, як обертати образ бабки, перетягуючи стрілки обертання так, щоб бабка дивилася праворуч.](images/rotated-costume.gif)
-
-![Вибраний образ бабки, повернутий головою праворуч.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,6 +85,10 @@ end
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 Натисни на кнопку **Відтворити**, щоб прослухати звук.
 
 --- /task ---
@@ -104,33 +103,35 @@ end
 
 ![Кінець звуку Crank виділено бузковим кольором, іконку «Копіювати до нового» підсвічено. ](images/crank-copy-end.png)
 
-Зміни назву свого нового звука з **Crank2** на `Крильця`.
+--- /task ---
 
-![Функція перейменування звуку.](images/crank-wings-sound.png)
+--- task ---
+
+Зміни назву свого нового звука з **Crank2** на `Крильця`. ![Функція перейменування звуку.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Відтвори новий звук. Натисни декілька разів на кнопку **Швидше**, доки тобі не сподобається результат:
+**Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
 
-![Швидша звукова хвиля з підсвіченою іконкою «Швидше».](images/wings-faster.png)
-
---- /task ---
-
---- task ---
-
-Якщо хочеш, можеш вибрати самий кінець звука **Крильця**, а потім натиснути **Вилучити**, щоб прибрати його:
-
-![Виділено кінець звукової хвилі, підсвічено інструмент «Вилучити».](images/wings-shorter.png)
+![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Тепер додай блок коду, за допомогою якого звук **Крильця** буде грати, коли бабка рухатиметься:
+If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
 
-![Іконка спрайта Dragonfly](images/dragonfly-icon.png)
+![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Now add a block to play the **Wings** sound when the dragonfly moves:
+
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -145,7 +146,7 @@ end
 
 --- task ---
 
-**Протестуй:** перевір, як рухається твоя бабка і як працює звуковий ефект.
+**Test:** Try out your dragonfly movement and sound effect.
 
 --- /task ---
 

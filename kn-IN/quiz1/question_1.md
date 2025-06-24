@@ -1,10 +1,10 @@
-## Quick quiz
+## ಪುನರ್ಮನನ
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+ನೀವು `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, ಮತ್ತು `Sound`{:class="block3sound"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿದ್ದೀರಿ!
 
-Have fun!
+ಈಗ ಪುನರ್ಮನನ ಮಾಡುವ ಸಮಯ — ಪುನರ್ಮನನ ಕಲಿಕೆಯ ಒಂದು ಮಹತ್ವದ ಭಾಗ, ಏಕೆಂದರೆ ಅದು ನಿಮ್ಮ ಮೆದುಳಿನಲ್ಲಿ ಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
 
 --- question ---
 ---

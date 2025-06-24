@@ -9,9 +9,6 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-ಆಟಗಳಲ್ಲಿ ತಾವೇ ಸ್ವತಃ ಸುತ್ತಲೂ ಚಲಿಸುವ ಪಾತ್ರಗಳನ್ನು ಕೆಲವೊಮ್ಮೆmobiles ಗೆ ಬದಲಾಗಿ ಚಿಕ್ಕದಾಗಿ<span style="color: #0faeb0">**ಮೊಬ್ಸ್**</span>ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. Mobs ಹೊಂದಿರುವ ಯಾವುದಾದರೂ ಆಟವನ್ನು ನೀವು ಯೋಚಿಸಬಹುದೇ?</p>
-
 ನೀವು ಉಪಯೋಗಿಸಬಹುದಾದ **Frog 2**ಸ್ಪ್ರೈಟ್‌ನಲ್ಲಿ ನೋಣವಿದೆ.
 
 --- ಕಾರ್ಯ ---
@@ -45,7 +42,7 @@
 
 ಸ್ಪ್ರೈಟ್‌ನ್ನು ಹೊಸ ಉಡುಪಿನಲ್ಲಿ ಅಂಟಿಸಲು **Paste** ಐಕಾನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಅದು ಕ್ರಾಸ್‌ಹೇರ್‌ ಜೊತೆಗೆ ಸಾಲಾಗಿ ನಿಲ್ಲುವಂತೆ, ನೊಣವನ್ನು **ಮಧ್ಯಕ್ಕೆ** ಎಳೆಯಿರಿ.
 
-ನೀವು ನಿಮ್ಮ ಉಡುಪನ್ನು `Insect` ಎಂದು ಮರುನಾಮಕರಣ ಮಾಡಬಹುದು ಮತ್ತು ಉಳಿದ ಉಡುಪುಗಳು ನಿಮಗೆ ಬೇಡವಾದುದರಿಂದ ಅವುಗಳನ್ನು ಅಳಿಸಬಹುದು:
+ಸ್ಪ್ರೈಟ್‌ನ್ನು ಹೊಸ ಉಡುಪಿನಲ್ಲಿ ಅಂಟಿಸಲು **Paste** ಐಕಾನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಅದು ಕ್ರಾಸ್‌ಹೇರ್‌ ಜೊತೆಗೆ ಸಾಲಾಗಿ ನಿಲ್ಲುವಂತೆ, ನೊಣವನ್ನು **ಮಧ್ಯಕ್ಕೆ** ಎಳೆಯಿರಿ.
 
 ![Paste ಐಕಾನ್‌ ಹೈಲೈಟ್‌ ಆಗಿರುವುದರೊಂದಿಗೆ ಪೇಸ್ಟ್‌ ಮಾಡಿರುವ Insect ನ ಹೊಸ ಉಡುಪು ತೋರಿಸುತ್ತಿರುವ ಪೇಂಟ್‌ ಎಡಿಟರ್. ಕಾಸ್ಟ್ಯೂಮ್‌ ಲಿಸ್ಟ್‌ ಉಳಿದ ಉಡುಡಪುಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ ಎಂದು ತೋರಿಸುತ್ತದೆ.](images/fly-costume.png)
 
@@ -83,8 +80,6 @@ end
 
 **Insect** ಸ್ಪ್ರೈಟ್‌ನ ಚಲನೆಯ ಬರಹಕ್ಕೆ `if`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ end
 --- task ---
 
 `touching [Dragonfly v]`{:class="block3sensing"} ನ್ನು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಎಳೆಯಿರಿ. `hide`{:class="block3looks"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಸೇರಿಸಿ.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -129,9 +122,7 @@ end
 
 --- task ---
 
-`go to a random position`{:class="block3motion"} ವೇದಿಕೆಯ ಮೇಲೆ ಬ್ಲಾಕ್ ಗಳನ್ನು ಸೇರಿಸಿ, ಮತ್ತು ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ ಒಂದು ಸೆಕೆಂಡುಗಳ ಕಾಲ `wait`{:class="block3control"} ಮಾಡುವಂತೆ ಮಾಡಿ ನಂತರ `show`{:class="block3looks"}:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -154,7 +145,7 @@ end
 
 **ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಈಗ ತುಂಬಾ ನೊಣಗಳನ್ನು ತಿನ್ನಬಹುದೆಂದು ಪರೀಕ್ಷಿಸಿ.
 
-ಪ್ರಾರಂಭದಲ್ಲಿ ತೋರಿಸಲು ನೀವು `show`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 

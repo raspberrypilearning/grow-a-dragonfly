@@ -9,10 +9,7 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-అతిపెద్ద సజీవ తూనీగలు మధ్య అమెరికాలో కనిపిస్తాయి మరియు రెక్కలు 19 సెం. మీ (మీ చేతి కంటే కొంచెం పెద్దవి) కలిగి ఉంటాయి. ఇప్పటివరకు తెలిసిన అతిపెద్ద కీటకం <span style="color: #0faeb0">**మెగాన్యూరోప్సిస్ పెర్మియానా**</span>, సుమారు 75సెం. మీ రెక్కల విస్తీర్ణం కలిగిన తూనీగ (పెద్ద అడుగుజాడ పరిమాణం).</p>
-
-ఈగకు అది తినబడిందని తెలుసు, మరియు ఇప్పుడు తూనీగ అది పెరగాలి కాబట్టి తెలుసుకోవాలి.
+The Dragonfly needs to grow when it eats a fly.
 
 ఏదైనా విషయం గురించి మీరు మరొక sprite కు తెలియజేయవలసి వచ్చినప్పుడు, మీరు [Broadcastimg spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"} లో చేసిన విధంగా `broadcast`{:class="block3events"} బ్లాక్‌ని ఉపయోగించవచ్చు.
 
@@ -58,8 +55,6 @@ change size by [5]
 
 తూనీగకి **Chomp** ధ్వనిని కీటకాన్ని తిన్నప్పుడు `start`{:class="block3sound"} అయ్యేలా జోడించండి:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
 when I receive [food v]
 +start sound [Chomp v]
@@ -79,9 +74,21 @@ change size by [5]
 
 `if`{:class = "block3control"} బ్లాక్ ని జోడించండి.
 
-`size`{:class="block3looks"} `=`{:class="block3operators"} `100%`అయినప్పుడు తూనీగ పూర్తి పరిమాణంలో ఉంటుంది. ముందుగా, `=`{:class="block3operators"} ఆపరేటర్‌ని షడ్భుజి ఇన్ పుట్ లోనికి జోడించండి:
+```blocks3
+when I receive [food v]
+start sound [Chomp v]
+change size by [5]
++if < > then
+end
+```
 
-![](images/dragonfly-icon.png)
+--- /task ---
+
+`size`{:class="block3looks"} `=`{:class="block3operators"} `100%`అయినప్పుడు తూనీగ పూర్తి పరిమాణంలో ఉంటుంది.
+
+--- task ---
+
+First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ```blocks3
 when I receive [food v]
@@ -95,8 +102,6 @@ end
 --- task ---
 
 `size`{:class="block3looks"} వేరియబుల్‌ని జోడించి `100` విలువను టైప్ చేయడం ద్వారా, షరతుని బిల్డ్ చేయండి:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]
@@ -112,8 +117,6 @@ end
 బ్లాక్‌లను జోడించండి తద్వారా `if`{:class="block3control"} కండిషన్ నిజం అయితే `then`{:class="block3control"} తూనీగ ఒక 'end' సందేశం `broadcast`{:class="block3events"} చేస్తుంది మరియు `say`{:class="block3looks"} `I got to full size!`
 
 చివరగా, తూనీగ యొక్క ఇతర స్క్రిప్ట్లు ఆగిపోయేలాగా `stop all`{:class="block3control"} బ్లాక్‌ని జోడించండి:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]

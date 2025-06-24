@@ -1,17 +1,17 @@
 ## Quick quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Answer the three questions. سيتم توجيهك نحو الإجابة الصحيحة.
 
 When you have answered each question, click on **Check my answer**.
 
-Have fun!
+استمتع!
 
 --- question ---
 ---
 legend: السؤال 1 من 3
 ---
 
-A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
+يستخدم المشروع كائن**Crab** وكائن **Jellyfish**. يحتوي الكائن **Crab** على هذا الرمز البرمجي:
 
 ![desc](images/crab-icon.png)
 
@@ -22,7 +22,7 @@ hide
 end
 ```
 
-What would need to happen for the **Crab** sprite to hide?
+ما الذي يجب أن يحدث لكائن **Crab** لإخفائه؟
 
 --- choices ---
 
@@ -38,7 +38,7 @@ What would need to happen for the **Crab** sprite to hide?
 
  --- feedback ---
 
-Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
+نعم، العملية `ليس`{:class="block3operators"} يعني أن الشرط صحيح `إذا`{:class="block3control"} كان الكائن **Crab** لا `يلامس`{:class="block3sensing"} اللون الازرق.
 
  --- /feedback ---
 

@@ -9,10 +9,7 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Οι μεγαλύτερες ζωντανές λιβελούλες βρίσκονται στην Κεντρική Αμερική και έχουν άνοιγμα φτερών 19 cm (λίγο μεγαλύτερο από το χέρι σου). Το μεγαλύτερο γνωστό έντομο ήταν το <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, μια λιβελούλα με άνοιγμα φτερών περίπου 75 cm (το μέγεθος ενός μεγάλου βήματος).</p>
-
-Η μύγα ξέρει ότι έχει φαγωθεί, και τώρα η Λιβελούλα πρέπει να μάθει ότι την έφαγε για να μεγαλώσει.
+The Dragonfly needs to grow when it eats a fly.
 
 Όταν χρειάζεται να ενημερώσεις ένα άλλο αντικείμενο ότι κάτι έχει συμβεί, μπορείς να χρησιμοποιήσεις ένα μπλοκ `μετάδωσε`{:class="block3events"} όπως έκανες στα [Ξόρκια μετάδοσης](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
@@ -23,19 +20,19 @@
 ![](images/fly-icon.png)
 
 ```blocks3
-when flag clicked
-show // show at the start
-forever
-move [3] steps
-if on edge, bounce
-if <touching [Dragonfly v] ?> then
-+broadcast [food v]
-hide
-go to (random position v)
-wait [1] seconds
-show
-end
-end
+όταν γίνει κλικ στη σημαία
+εμφανίσου // εμφάνιση στην εκκίνηση
+για πάντα
+κινήσου [3] βήματα
+εάν σε όριο, αναπήδησε
+εάν <touching [Dragonfly v] ?> τότε
++μετάδωσε [τροφή v]
+εξαφανίσου
+πήγαινε σε (τυχαία θέση v)
+περίμενε [1] δευτερόλεπτα
+εμφανίσου
+τέλος
+τέλος
 ```
 --- /task ---
 
@@ -48,8 +45,8 @@ end
 ![](images/dragonfly-icon.png)
 
 ```blocks3 
-when I receive [food v]
-change size by [5]
+όταν λάβω [φαγητό v]
+αλλαγή μεγέθους κατά [5]
 ```
 
 --- /task ---
@@ -58,12 +55,10 @@ change size by [5]
 
 Πρόσθεσε τον ήχο **Chomp** στην λιβελούλα και `ξεκίνησέ`{:class="block3sound"} τον όταν φαγωθεί ένα έντομο:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
-when I receive [food v]
-+start sound [Chomp v]
-change size by [5]
+όταν λάβω [τροφή v]
++παίξε ήχο [Τσομπ v]
+άλλαξε μέγεθος κατά [5]
 ```
 --- /task ---
 
@@ -79,16 +74,28 @@ change size by [5]
 
 Πρόσθεσε ένα μπλοκ `εάν`{:class="block3control"}.
 
-Η λιβελούλα είναι σε πλήρες μέγεθος όταν το `μέγεθος`{:class="block3looks"} `=`{:class="block3operators"} `100%`. Αρχικά, πρόσθεσε έναν τελεστή `=`{:class="block3operators"} στην είσοδο σε σχήμα εξάγωνου:
-
-![](images/dragonfly-icon.png)
-
 ```blocks3
 when I receive [food v]
 start sound [Chomp v]
 change size by [5]
-+if <[ ] = [ ]> then
++if < > then
 end
+```
+
+--- /task ---
+
+Η λιβελούλα είναι σε πλήρες μέγεθος όταν το `μέγεθος`{:class="block3looks"} `=`{:class="block3operators"} `100%`.
+
+--- task ---
+
+First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+
+```blocks3
+όταν λάβω [φαγητό v]
+παίξε τον ήχο [Τσομπ v]
+άλλαξε μέγεθος κατά [5]
++εάν <[ ] = [ ]> τότε
+τέλος
 ```
 --- /task ---
 
@@ -96,14 +103,12 @@ end
 
 Ολοκλήρωσε τη δημιουργία της συνθήκης προσθέτοντας μια ενσωματωμένη μεταβλητή `μέγεθος`{class="block3looks"} και πληκτρολόγησε την τιμή `100`:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
-when I receive [food v]
-start sound [Chomp v]
-change size by [5]
-+if <(size) = [100]> then
-end
+όταν λάβω [τροφήv]
+παίξε τον ήχο [Τσομπ v]
+άλλαξε μέγεθος κατά [5]
++εάν <(μέγεθος) = [100]> τότε
+τέλος
 ```
 --- /task ---
 
@@ -113,17 +118,15 @@ end
 
 Τέλος, πρόσθεσε ένα μπλοκ `σταμάτησε όλα`{:class="block3control"} για να σταματήσεις τα άλλα script της λιβελούλας:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
-when I receive [food v]
-start sound [Chomp v]
-change size by [5]
-if <(size) = [100]> then
-+broadcast [end v]
-+say [I got to full size!]
-+stop [other scripts in sprite v] // change from 'all'
-end
+όταν λαμβάνω [φαγητό v]
+παίξε τον ήχος [Τσομπ v]
+άλλαξε το μέγεθος κατά [5]
+εάν <(μέγεθος) = [100]> τότε
++μετέδωσε [τέλος v]
++πες [Έφτασα σε πλήρες μέγεθος!]
++σταμάτησε [άλλα script στο αντικείμενο v] // αλλαγή από 'όλα'
+τέλος
 ```
 --- /task ---
 
@@ -134,8 +137,8 @@ end
 ![](images/fly-icon.png)
 
 ```blocks3
-when I receive [end v]
-stop [other scripts in sprite v]
+όταν λάβω [τέλος v]
+σταμάτησε [άλλα script στο αντικείμενο v]
 ```
 
 --- /task ---

@@ -5,12 +5,9 @@
 Aggiungerai un insetto da mangiare per la libellula. 
 </div>
 <div>
-![The Stage with a dragonfly and an insect.](images/fly-to-eat.png){:width="300px"}
+![Il palco con una libellula e un insetto.](images/fly-to-eat.png){:width="300px"}
 </div>
 </div>
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-I personaggi che si muovono da soli nei giochi sono talvolta chiamati <span style="color: #0faeb0">**mobs**</span>, abbreviazione di oggetti mobili. Riesci a pensare a un gioco che abbia oggetti mobili?</p>
 
 C'è una mosca nello sprite **Rana 2** che puoi usare.
 
@@ -83,8 +80,6 @@ Vuoi che lo sprite **Insetto** si `nasconda`{:class="block3looks"} `se`{:class= 
 
 Aggiungi un blocco `se`{:class="block3control"} allo script di movimento dello sprite **insetto**:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ Vuoi che l'insetto si `nasconda`{:class="block3looks"} `se`{:class="block3contro
 --- task ---
 
 Trascina `sta toccando [libellula v]`{:class="block3sensing"} nel blocco `se`{:class="block3control"}. Aggiungi un blocco `nascondi`{:class="block3looks"} all'interno del blocco `se`{:class="block3control"}.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -129,9 +122,7 @@ La libellula non diventerà molto grande se può mangiare solo una mosca!
 
 --- task ---
 
-Aggiungi blocchi a `vai in una posizione casuale`{:class="block3motion"} sullo sfondo e fai aspettare il tuo sprite ``{:class=" block3control"} per un secondo, quindi `mostra`{:class="block3looks"}:
-
-![](images/fly-icon.png)
+Aggiungi blocchi a `vai in una posizione casuale`{:class="block3motion"} sullo sfondo e fai aspettare il tuo sprite ``{:class="block3control"} per un secondo, quindi`mostra`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -154,7 +145,7 @@ end
 
 **Test:** Verifica che la tua libellula ora possa mangiare molte mosche.
 
-Assicurati di aver aggiunto il blocco `show`{:class="block3looks"} da mostrare all'inizio.
+Assicurati di aver aggiunto il blocco `mostra`{:class="block3looks"} da mostrare all'inizio.
 
 --- /task ---
 

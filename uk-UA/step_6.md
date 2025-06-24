@@ -23,7 +23,6 @@
 
 Перейди до вкладки **Образи**.
 
-**Вибір:** створи іншу комаху, що літає.
 + Використовуй інструмент **Заливка**, щоб змінити колір комахи.
 + **Намалюй** власний образ комахи.
 + **Додай** інший комашиний образ зі Скретчу
@@ -44,15 +43,15 @@
 
 --- /task ---
 
-Тобі потрібно перевірити, чи торкається спрайт **Комаха2** спрайта ** Dragonfly** `і`{:class="block3operators"} одночасно торкається кольору рота бабки.
+You need to check that the new sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
 
 --- task ---
 
-Вибери спрайт **Комаха2** і клацни по вкладці **Код**.
+Select your new sprite and click on the **Code** tab.
 
 Перетягни блок `і`{:class="block3operators"} у середину блока `якщо`{:class="block3control"}.
 
-Зʼявиться блок `<торкається [Dragonfly v] ?>`{:class="block3sensing"}. Перетягни його у ліве поле блока `і`{:class="block3operators"}:
+Перетягни блок `і`{:class="block3operators"} у середину блока `якщо`{:class="block3control"}.
 
 ![](images/insect2-icon.png)
 
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-Перетягни блок `торкається кольору`{:class="block3sensing"} в праве поле блока `і`{:class="block3operators"}:
-
-![](images/insect2-icon.png)
+Drag a `touching color`{:class="block3sensing"} block into the other space of the `and`{:class="block3operators"} block:
 
 ```blocks3
 when flag clicked
@@ -94,23 +91,21 @@ end
 end
 ```
 
-Якщо у цьому блоці не вибрано колір рота бабки, натисни на кольорове коло, а потім на інструмент **Піпетка**, щоб вибрати колір.
+Перетягни блок `торкається кольору`{:class="block3sensing"} в праве поле блока `і`{:class="block3operators"}:
 
 ![Меню кольорового кола з інструментом «Піпетка».](images/colour-eyedropper.png)
 
-Клацни по роту бабки на Сцені, щоб вибрати відповідний колір:
+Якщо у цьому блоці не вибрано колір рота бабки, натисни на кольорове коло, а потім на інструмент **Піпетка**, щоб вибрати колір.
 
 ![Інструмент «Піпетка» з кільцем вибору кольору, розміщеним над фіолетовим ротом бабки.](images/colour-select.png)
 
-**Порада:** якщо це складно зробити, збільш розмір спрайта **Dragonfly**.
+Клацни по роту бабки на Сцені, щоб вибрати відповідний колір:
 
 --- /task ---
 
 --- task ---
 
-**Протестуй:** упевнись, що бабка може зʼїсти другу комаху лише ротом.
-
-Якщо хочеш, можеш змінити першу **Комаху** так, щоб бабка могла так само зʼїсти її лише ротом.
+**Test:** Check the dragonfly can only eat the second insect with its mouth.
 
 --- /task ---
 

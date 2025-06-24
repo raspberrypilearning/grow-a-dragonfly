@@ -17,16 +17,15 @@ Kliknij prawym przyciskiem myszy duszka **Owad** na liście duszków pod sceną 
 
 --- /task ---
 
-Dobrze, jeśli ten owad wygląda inaczej niż mucha.
+Make this insect look different to the fly.
 
 --- task ---
 
-Naciśnij na zakładkę **Kostiumy**.
+Click on the **Costumes** tab and create a different flying insect.
 
-**Wybierz:** Utwórz innego latającego owada.
-+ Użyj narzędzia **Wypełnij**, aby zmienić kolor owada
-+ **Pomaluj** stworzony przez siebie kostium owada
-+ **Dodaj** kolejny kostium robaka ze Scratcha
++ Use the **Fill** tool to change the colour of this insect.
++ **Paint** your own insect costume.
++ **Add** another bug costume from Scratch.
 
 --- /task ---
 
@@ -44,15 +43,15 @@ Użyj narzędzia do wypełniania, aby wypełnić buzię **Ważki**. My użyliśm
 
 --- /task ---
 
-Musisz sprawdzić, czy duszek **Owad2** dotyka duszka **Ważka** `i`{:class="block3operators"} dotyka koloru buzi ważki.
+You need to check that the new sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
 
 --- task ---
 
-Wybierz duszka **Owad2** i kliknij zakładkę **Skrypt**.
+Select your new sprite and click on the **Code** tab.
 
 Przeciągnij blok `i`{:class="block3operators"} do wnętrza bloku `jeżeli`{:class="block3control"}.
 
-Kiedy wyskoczy blok `<touching [Dragonfly v] ?>`{:class="block3sensing"}, przeciągnij go na lewo od bloku `i`{:class="block3operators"}:
+The `<touching [Dragonfly v] ?>`{:class="block3sensing"} block will pop out, drag it into a space in the `and`{:class="block3operators"} block:
 
 ![](images/insect2-icon.png)
 
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-Przeciągnij blok `dotyka koloru`{:class="block3sensing"} na prawo od bloku `i`{:class="block3operators"}:
-
-![](images/insect2-icon.png)
+Drag a `touching color`{:class="block3sensing"} block into the other space of the `and`{:class="block3operators"} block:
 
 ```blocks3
 when flag clicked
@@ -94,23 +91,21 @@ end
 end
 ```
 
-Jeśli nie ma wybranego koloru buzi ważki, kliknij na koło wyboru kolorów, a następnie kliknij narzędzie **Kroplomierz**, aby wybrać kolor.
+If it doesn't have the colour of the dragonfly's mouth selected, click on the colour circle and then click on the **Eyedropper** tool at the bottom to select a colour.
 
 ![Menu koła kolorów z narzędziem kroplomierza.](images/colour-eyedropper.png)
 
-Kliknij znajdującą się na Scenie buzię ważki, aby ustawić odpowiedni kolor:
+Click on the dragonfly's mouth on the Stage to set the colour:
 
 ![Kroplomierz z zakreślaczem do wyboru koloru znajdującym się nad fioletową buzią ważki.](images/colour-select.png)
 
-**Wskazówka:** Jeśli jest to trudne do zrobienia, zmień rozmiar duszka **Ważka** tak, aby był naprawdę duży.
+**Tip:** If the small mouth is hard to select, make the **Dragonfly** sprite bigger.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Teraz sprawdź, czy ważka może zjeść drugiego owada tylko buzią.
-
-Jeśli chcesz, możesz zmienić pierwszego duszka **Owad** tak, aby można było go zjeść tylko buzią ważki.
+**Test:** Check the dragonfly can only eat the second insect with its mouth.
 
 --- /task ---
 

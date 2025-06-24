@@ -1,61 +1,19 @@
 ## Αναβάθμισε το έργο σου
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Σε αυτό το βήμα, δοκίμασε να προσθέσεις περισσότερα έντομα, αλλάζοντας τον τρόπο εμφάνισης και συμπεριφοράς του έργου σου.
-</div>
-<div>
-![Η σκηνή δείχνει τρεις διαφορετικούς τύπους εντόμων και τη λιβελούλα.](images/upgrade-project.png){:width="300px"}
-</div>
-</div>
-
-### Πρόσθεσε περισσότερα έντομα
-
-Πρόσθεσε περισσότερα έντομα. Ίσως χρειαστεί να τα κάνεις να κινούνται πιο γρήγορα, ώστε να είναι πιο δύσκολο να τα πιάσει η λιβελούλα.
+If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
 
 Μπορείς να βάψεις τα δικά σου έντομα ή να προσπαθήσεις να προσθέσεις ένα emoji κουνούπι!
 
---- task ---
+![The Stage view of the completed Drum star project.](images/drum-star.png)
 
 Χρησιμοποίησε το πληκτρολόγιο των emoji για να προσθέσεις ένα αντικείμενο **emoji Κουνούπι**.
 
-Αντίγραψε ένα υπάρχον αντικείμενο **έντομο** και μετά κάνε κλικ στην καρτέλα **Ενδυμασίες**. **Ζωγράφισε** μια νέα ενδυμασία και επίλεξε το εργαλείο **Κείμενο**. Αντί να πληκτρολογήσεις κείμενο, χρησιμοποίησε τη συντόμευση πληκτρολογίου emoji για το λειτουργικό σου σύστημα:
+--- no-print ---
 
-Windows - Windows key + '.' MacOS - ctrl + cmd + space Linux - ctrl + '.'
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
+</div>
 
-![Το αναδυόμενο πληκτρολόγιο emoji με επιλεγμένη την κατηγορία «ζώα και φύση».](images/emoji-keyboard.png)
+--- /no-print ---
 
-Επίλεξε το emoji **Κουνούπι** για να το εισαγάγεις στο πρόγραμμα επεξεργασίας Ζωγραφικής. Χρησιμοποίησε το εργαλείο **Επιλογή** (βέλος) για να κεντράρεις, να αλλάξεις το μέγεθος και να περιστρέψεις το κουνούπι σου μέχρι να είσαι ευχαριστημένος με αυτό.
-
-![Το emoji κουνούπι στο πρόγραμμα επεξεργασίας ζωγραφικής.](images/emoji-mosquito.png)
-
-**Συμβουλή:** Τα emojis μπορεί να φαίνονται διαφορετικά σε διαφορετικούς υπολογιστές, επομένως ενδέχεται να μην φαίνονται ίδια σε tablet και επιτραπέζιο υπολογιστή. Ορισμένα emoji δεν είναι διαθέσιμα σε ορισμένους υπολογιστές, αλλά οι περισσότεροι σύγχρονοι υπολογιστές τα υποστηρίζουν.
-
---- /task ---
-
---- task ---
-
-Χρησιμοποίησε το σακίδιό σου για να ανταλλάξεις έντομα με τους φίλους σου από τα έργα τους «Μεγαλώνοντας μια Λιβελούλα».
-
-[[[scratch-backpack]]]
-
---- /task ---
-
---- task ---
-
-**Συμβουλή:** Έλεγξε ότι όλα τα αντικείμενα και οι ενδυμασίες σου έχουν λογικά ονόματα. Κάνει το έργο σου πιο κατανοητό εάν επιστρέψεις σε αυτό αργότερα.
-
-**Συμβουλή:** Βεβαιώσου ότι ο κώδικάς σου είναι τοποθετημένος σωστά στην περιοχή Κώδικας. Κάνε δεξί κλικ στην περιοχή Κώδικας και επέλεξε **Εκκαθάριση των Μπλόκ** ώστε το Scratch να τακτοποιήσει τον κώδικά σου.
-
---- /task ---
-
---- collapse ---
----
-title: Ολοκληρωμένο έργο
----
-
-Μπορείς να δεις [ολοκληρωμένο έργο εδώ](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
-
---- /collapse ---
-
---- save ---
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

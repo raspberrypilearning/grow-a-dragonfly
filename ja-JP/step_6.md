@@ -23,7 +23,6 @@
 
 **コスチューム** タブをクリックします。
 
-**選択：**別の飛ぶ昆虫を作成する方法。
 + **塗りつぶし** ツールでこの昆虫の色を変更する
 + 昆虫のコスチュームを自分で**描く**
 + 別の昆虫コスチュームをScratchから**追加**する
@@ -52,7 +51,7 @@
 
 `かつ`{:class="block3operators"} ブロックを `もし`{:class="block3control"} ブロックの中にドラッグします。
 
-`<[Dragonfly v]に触れた>`{:class="block3sensing"}ブロックが飛び出しますので、これを`かつ`{:class="block3operators"}ブロックの左側にドラッグしてください。
+`かつ`{:class="block3operators"} ブロックを `もし`{:class="block3control"} ブロックの中にドラッグします。
 
 ![](images/insect2-icon.png)
 
@@ -76,8 +75,6 @@ end
 --- task ---
 
 `()色に触れた`{:class="block3sensing"}ブロックを`かつ`{:class="block3operators"}ブロックの右にドラッグしてください。
-
-![](images/insect2-icon.png)
 
 ```blocks3
 when flag clicked
@@ -109,8 +106,6 @@ end
 --- task ---
 
 **テスト：**ここで、トンボが2番目の昆虫を口だけでしか食べられないことをテストします。
-
-お好みで、最初の**昆虫**をトンボの口でないと食べられないように変更することもできます。
 
 --- /task ---
 

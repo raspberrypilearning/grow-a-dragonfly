@@ -5,7 +5,7 @@
 シーンを設定します。 背景を選び、マウスポインターを追ってステージを回るトンボを追加します。
 </div>
 <div>
-![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
+![](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -13,16 +13,11 @@
 
 [成長するトンボスタータープロジェクト](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}を開きます。 スクラッチはブラウザの別のタブで開きます。
 
-[[[working-offline]]]
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**トンボ***</span>は世界中に生息しており、3億年以上前から生息しているそうです</p>
 
 --- task ---
 
-**選択：****背景を選ぶ**をクリックし、お好みの背景を追加します。 **Jurassic** の背景を使用しました。
+**Jurassic** の背景を使用しました。 **Jurassic** の背景を使用しました。
 
 ![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
@@ -66,11 +61,11 @@ end
 
 --- task ---
 
-**コスチューム**タブをクリックし、**選択**(矢印) ツールでコスチュームを選択します。 選択したコスチュームの下にある**回転**ツールを使って、**Dragonfly**コスチュームを右向きにします。
+**コスチューム**タブをクリックし、**選択**(矢印) ツールでコスチュームを選択します。
+
+選択したコスチュームの下にある**回転**ツールを使って、**Dragonfly**コスチュームを右向きにします。
 
 ![トンボのコスチュームが右を向くように回転矢印をドラッグして回転させる様子を示すアニメーション画像。](images/rotated-costume.gif)
-
-![選択され、右を向いたトンボのコスチューム。](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,6 +85,10 @@ end
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 **再生**ボタンをクリックすると、音が出ます。
 
 --- /task ---
@@ -104,9 +103,11 @@ end
 
 ![クランク音の末尾が青く選択され、「音をコピー」アイコンが強調表示されます。](images/crank-copy-end.png)
 
-新しいサウンドの名前を**Crank2**から`羽音`に変更します。
+--- /task ---
 
-![サウンドの名前の変更プロパティ。](images/crank-wings-sound.png)
+--- task ---
+
+新しいサウンドの名前を**Crank2**から`羽音`に変更します。 ![サウンドの名前の変更プロパティ。](images/crank-wings-sound.png)
 
 --- /task ---
 

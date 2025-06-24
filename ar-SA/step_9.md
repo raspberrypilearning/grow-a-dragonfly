@@ -1,61 +1,19 @@
-## قم بترقية أو تطوير مشروعك
+## What can you do now?
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-في هذه الخطوة، حاول إضافة المزيد من الحشرات، وتغيير الطريقة التي يبدو ويتصرف بها مشروعك.
-</div>
-<div>
-![يظهر على المسرح ثلاثة أنواع مختلفة من الحشرات مع اليعسوب.](images/upgrade-project.png){:width="300px"}
-</div>
-</div>
-
-### أضف المزيد من الحشرات
-
-أضف المزيد من الحشرات. قد تحتاج إلى جعلها تتحرك بشكل أسرع، حتى يصعب على اليعسوب الإمساك بها.
-
-يمكنك طلاء الحشرات الخاصة بك أو محاولة إضافة إيموجي لبعوضة!
+If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
 
 --- task ---
 
-استخدم رموز الإيموجي للوحة المفاتيح لإضافة كائن **إيموجي بعوضة**.
-
-ضاعف كائن </strong> حشرة **موجود ثم انقر فوق علامة التبويب** المظاهر **. **ارسم** زيًّا جديدًا وحدد أداة **نص**. بدلاً من كتابة نص، استخدم اختصار لوحة مفاتيح للإيموجي الخاصة بنظام التشغيل الخاص بك:</p>
-
-نظام التشغيل ويندوز - مفتاح Windows + '.' نظام تشغيل MacOS - ctrl + cmd + space Linux - ctrl نظام تشغيل + '.'
-
-![لوحة مفاتيح الإيموجي المنبثقة مع تحديد فئة "الحيوانات والطبيعة".](images/emoji-keyboard.png)
-
-حدد رمز الإيموجي **بعوضة** لإدراجه في محرر الرسام. استخدم أداة **تحديد** (السهم) لتوسيط البعوضة وتغيير حجمها وتدويرها حتى تصبح راضيًا عنها.
-
-![إيموجي البعوضة في محرر الرسام.](images/emoji-mosquito.png)
-
-**نصيحة:** يمكن أن تبدو الإيموجي مختلفة على أجهزة كمبيوتر مختلفة، لذلك قد لا تبدو متشابهة على الكمبيوتر اللوحي وجهاز الكمبيوتر المنضدي. لا تتوفر بعض رموز الإيموجي على بعض أجهزة الكمبيوتر، ولكن معظم أجهزة الكمبيوتر الحديثة تدعمها.
-
---- /task ---
-
---- task ---
-
-استخدم حقيبة الظهر الخاصة بك لتتبادل الحشرات مع أصدقائك من مشاريعهم الّتي تخصّ "نموّ اليعسوب".
-
-[[[scratch-backpack]]]
-
---- /task ---
-
---- task ---
-
-**نصيحة:** تأكد من أن جميع الكائنات والأزياء لها أسماء معقولة. هذا يسهل فهم مشروعك إذا عدت إليه لاحقًا.
-
-**نصيحة:** تأكد من وضع التعليمات البرمجية بدقة في منطقة التعليمات البرمجية. انقر بزر الماوس الأيمن فوق منطقة الرمز البرمجي واختر **ترتيب اللبنات** لجعل برنامج Scratch يرتب التعليمات البرمجية الخاصة بك.
+![The Stage view of the completed Drum star project.](images/drum-star.png)
 
 --- /task ---
 
 --- collapse ---
----
-title: مشروع مكتمل
----
 
-يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/521688740/){:target="_blank"}.
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
+</div>
 
 --- /collapse ---
 
---- save ---
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

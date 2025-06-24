@@ -10,7 +10,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: Lo que harás
+    title: What you will make
   - 
     title: Prepara la escena
   - 
@@ -23,10 +23,11 @@ steps:
     title: Movimiento mejorado
   - 
     title: Más comida
-  - 
-    title: Movimiento aleatorio de insectos
     completion:
       - internal
+  - 
+    title: Challenge
+    challenge: true
   - 
     title: Examen Rápido
     knowledge_quiz:
@@ -37,6 +38,4 @@ steps:
     completion:
       - external
   - 
-    title: Mejora tu proyecto
-  - 
-    title: '¿Qué sigue?'
+    title: What can you do now?

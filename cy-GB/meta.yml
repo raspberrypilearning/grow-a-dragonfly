@@ -23,10 +23,11 @@ steps:
     title: Symud yn well
   - 
     title: Mwy o fwyd
-  - 
-    title: Symudiad pryfyn ar hap
     completion:
       - internal
+  - 
+    title: Symudiad pryfyn ar hap
+    challenge: true
   - 
     title: Cwis cyflym
     knowledge_quiz:
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Uwchraddio dy brosiect
-  - 
-    title: Beth nesaf?

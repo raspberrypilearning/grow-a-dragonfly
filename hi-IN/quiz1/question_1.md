@@ -1,10 +1,10 @@
-## Quick quiz
+## सोचिए
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+आपने `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} ब्लॉक का इस्तेमाल किया है!
 
-Have fun!
+अब चिंतन करने का समय है - चिंतन करना सीखने का एक महत्वपूर्ण हिस्सा है, क्योंकि यह आपके मस्तिष्क में नए संबंध बनाने में मदद करता है।
 
 --- question ---
 ---

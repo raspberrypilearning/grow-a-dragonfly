@@ -10,7 +10,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: Ce que tu vas faire
+    title: Introduction
   - 
     title: Créer la scène
   - 
@@ -23,10 +23,11 @@ steps:
     title: Mouvement amélioré
   - 
     title: Plus de nourriture
-  - 
-    title: Mouvement aléatoire des insectes
     completion:
       - internal
+  - 
+    title: Mouvement aléatoire des insectes
+    challenge: true
   - 
     title: Questionnaire rapide
     knowledge_quiz:
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Améliorer ton projet
-  - 
-    title: Et ensuite ?

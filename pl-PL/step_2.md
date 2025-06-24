@@ -11,18 +11,13 @@ Ustawisz scenę. Wybierz tło i dodaj ważkę, która podąża za wskaźnikiem m
 
 --- task ---
 
-Otwórz [projekt startowy Wyhoduj ważkę ](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch otworzy się w nowej karcie przeglądarki.
-
-[[[working-offline]]]
+Otwórz [projekt startowy Wyhoduj ważkę ](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open a blank project in a new browser tab.
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Ważki**</span> można znaleźć na całym świecie i istnieją od ponad 300 milionów lat!</p>
-
 --- task ---
 
-**Wybierz:** Kliknij **Wybierz tło** i dodaj wybrane tło. Użyliśmy tła **Jurassic**.
+Click **Choose a Backdrop** and add a backdrop of your choice. Użyliśmy tła **Jurassic**.
 
 ![Ikona tła w interfejsie aplikacji Scratch](images/choose-backdrop-icon.png)
 
@@ -66,11 +61,11 @@ Kostium ważki nie jest skierowany w prawo, więc głowa duszka **ważka** nie j
 
 --- task ---
 
-Kliknij zakładkę **Kostiumy** i użyj narzędzia **Wybierz** (strzałka), aby wybrać kostium. Użyj narzędzia **Obróć** na dole wybranego kostiumu, aby obrócić kostium **ważka** w prawo.
+Kliknij zakładkę **Kostiumy** i użyj narzędzia **Wybierz** (strzałka), aby wybrać kostium.
+
+Użyj narzędzia **Obróć** na dole wybranego kostiumu, aby obrócić kostium **ważka** w prawo.
 
 ![Animowany obraz pokazujący, jak obrócić kostium ważki, przeciągając strzałki obracania tak, aby ważka była skierowana w prawo.](images/rotated-costume.gif)
-
-![Kostium ważki zaznaczony i obrócony w prawo.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,7 +85,11 @@ Dodaj dźwięk **Crank** do duszka **ważki**.
 
 ![](images/crank-sound-editor.png)
 
-Kliknij przycisk **Zagraj**, aby usłyszeć dźwięk.
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Play** button so you can hear the sound.
 
 --- /task ---
 
@@ -104,33 +103,35 @@ Kliknij **Skopiuj do nowych**, aby stworzyć nowy dźwięk tylko z wybraną czę
 
 ![Koniec dźwięku korby wybrany na niebiesko z podświetloną ikoną „Kopiuj do nowego”.](images/crank-copy-end.png)
 
-Zmień nazwę swojego nowego dźwięku z **Crank2** na `Skrzydła`.
+--- /task ---
 
-![Właściwość zmiany nazwy dźwięku.](images/crank-wings-sound.png)
+--- task ---
+
+Zmień nazwę swojego nowego dźwięku z **Crank2** na `Skrzydła`. ![Właściwość zmiany nazwy dźwięku.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Odtwórz nowy dźwięk. Kliknij przycisk **Szybciej** kilka razy, aż spodoba Ci się wynik:
+**Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
 
-![Szybsza fala dźwiękowa z podświetloną ikoną „Szybciej”.](images/wings-faster.png)
-
---- /task ---
-
---- task ---
-
-Jeśli chcesz, możesz wybrać sam koniec dźwięku **Skrzydła**, a następnie kliknąć **Usuń**, aby go usunąć:
-
-![Koniec fali dźwiękowej wybrany z podświetlonym narzędziem „Usuń”.](images/wings-shorter.png)
+![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Teraz dodaj blok, aby odtworzyć dźwięk **Skrzydła**, gdy ważka się porusza:
+If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
 
-![Ikona duszka ważki](images/dragonfly-icon.png)
+![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Now add a block to play the **Wings** sound when the dragonfly moves:
+
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -145,7 +146,7 @@ end
 
 --- task ---
 
-**Test:** Wypróbuj ruch i efekt dźwiękowy ważki.
+**Test:** Try out your dragonfly movement and sound effect.
 
 --- /task ---
 

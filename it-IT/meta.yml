@@ -23,10 +23,11 @@ steps:
     title: Migliora il movimento
   - 
     title: Più cibo
-  - 
-    title: Movimento casuale degli insetti
     completion:
       - internal
+  - 
+    title: Movimento casuale degli insetti
+    challenge: true
   - 
     title: Quiz veloce
     knowledge_quiz:
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Migliora il tuo progetto
-  - 
-    title: E adesso?

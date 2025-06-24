@@ -11,18 +11,13 @@ Prepararás la escena. Elige tu fondo y agrega una libélula que siga el puntero
 
 --- task ---
 
-Abre el [proyecto inicial Haz crecer una libélula](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
-
-[[[working-offline]]]
+Abre el [proyecto inicial Haz crecer una libélula](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open a blank project in a new browser tab.
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-¡Las <span style="color: #0faeb0">**Libélulas**</span> se pueden encontrar en todo el mundo y han existido por más de 300 millones de años!</p>
-
 --- task ---
 
-**Elige:** Pulsa **Elige un Fondo** y agrega un fondo de tu elección. Hemos usado el fondo **Jurassic**.
+Click **Choose a Backdrop** and add a backdrop of your choice. Hemos usado el fondo **Jurassic**.
 
 ![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
@@ -66,11 +61,11 @@ El disfraz de Libélula no mira hacia la derecha, por lo que la cabeza del objet
 
 --- task ---
 
-Pulsa en la pestaña **Disfraces** y usa la herramienta **Seleccionar** (flecha) para seleccionarlo. Utiliza la herramienta **Rotar** en la parte inferior del disfraz seleccionado para girar a **Dragonfly** y que mire hacia la derecha.
+Pulsa en la pestaña **Disfraces** y usa la herramienta **Seleccionar** (flecha) para seleccionarlo.
+
+Utiliza la herramienta **Rotar** en la parte inferior del disfraz seleccionado para girar a **Dragonfly** y que mire hacia la derecha.
 
 ![Una imagen animada que muestra cómo rotar el disfraz de libélula arrastrando las flechas de rotación para que mire hacia la derecha.](images/rotated-costume.gif)
-
-![El disfraz de libélula seleccionado y girado para que mire hacia la derecha.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,7 +85,11 @@ Agrega el sonido **Crank** al objeto **Dragonfly**.
 
 ![](images/crank-sound-editor.png)
 
-Pulsa en el botón **Reproducir** para que puedas escuchar el sonido.
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Play** button so you can hear the sound.
 
 --- /task ---
 
@@ -104,31 +103,33 @@ Pulsa en **Copiar a uno nuevo** para crear un sonido nuevo sólo con la parte se
 
 ![El final del sonido crank seleccionado en azul con el ícono 'Copiar a uno nuevo' resaltado.](images/crank-copy-end.png)
 
-Cambia el nombre de tu nuevo sonido de **Crank2** a `Wings`.
+--- /task ---
 
-![La propiedad de renombrar sonido.](images/crank-wings-sound.png)
+--- task ---
+
+Cambia el nombre de tu nuevo sonido de **Crank2** a `Wings`. ![La propiedad de renombrar sonido.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Reproduce el nuevo sonido. Pulsa en el botón **Más rápido** varias veces hasta que te guste el resultado:
+**Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
 
-![Una onda de sonido más rápida con el ícono 'Más rápido' resaltado.](images/wings-faster.png)
-
---- /task ---
-
---- task ---
-
-Si quieres, puedes seleccionar el final del sonido **Wings**, y luego pulsar **Eliminar** para quitarlo:
-
-![El final de la onda de sonido seleccionada con la herramienta 'Eliminar' resaltada.](images/wings-shorter.png)
+![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Ahora agrega un bloque para reproducir el sonido **Wings** cuando la libélula se mueva:
+If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+
+![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Now add a block to play the **Wings** sound when the dragonfly moves:
 
 ![Dragonfly sprite icon](images/dragonfly-icon.png)
 
@@ -145,7 +146,7 @@ end
 
 --- task ---
 
-**Prueba:** Prueba el movimiento y efecto de sonido de tu libélula.
+**Test:** Try out your dragonfly movement and sound effect.
 
 --- /task ---
 

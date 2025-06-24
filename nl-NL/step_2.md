@@ -5,7 +5,7 @@
 Jij gaat het speelveld bepalen. Kies je achtergrond en voeg een libel toe die de muisaanwijzer binnen het speelveld volgt.
 </div>
 <div>
-![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
+![](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -13,16 +13,11 @@ Jij gaat het speelveld bepalen. Kies je achtergrond en voeg een libel toe die de
 
 Open het [Laat een libel groeien start-project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
-[[[working-offline]]]
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Libellen**</span> komen over de hele wereld voor en bestaan al meer dan 300 miljoen jaar!</p>
 
 --- task ---
 
-**Kies:** Klik op **Kies een achtergrond** en voeg een achtergrond naar keuze toe. We gebruikten de **Jurassic** achtergrond.
+We gebruikten de **Jurassic** achtergrond. We gebruikten de **Jurassic** achtergrond.
 
 ![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
@@ -66,11 +61,11 @@ Het Dragonfly-uiterlijk is niet naar rechts gericht, dus het hoofd van de **Drag
 
 --- task ---
 
-Klik op het tabblad **Uiterlijken** en gebruik het gereedschap **Selecteren** (pijl) om het uiterlijk te selecteren. Gebruik het gereedschap **Roteren** onderaan het geselecteerde kostuum om het **Dragonfly**-uiterlijk naar rechts te draaien.
+Klik op het tabblad **Uiterlijken** en gebruik het gereedschap **Selecteren** (pijl) om het uiterlijk te selecteren.
+
+Gebruik het gereedschap **Roteren** onderaan het geselecteerde kostuum om het **Dragonfly**-uiterlijk naar rechts te draaien.
 
 ![Een geanimeerde afbeelding die laat zien hoe je het libel-uiterlijk kunt draaien door de rotatiepijlen te slepen zodat de libel naar rechts wijst.](images/rotated-costume.gif)
-
-![Het libel-uiterlijk geselecteerd en naar rechts gedraaid.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,6 +85,10 @@ Voeg het **Crank**-geluid toe aan de **Dragonfly**-sprite.
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 Klik op de **afspeel** knop zodat je het geluid kan horen.
 
 --- /task ---
@@ -104,9 +103,11 @@ Klik op **Kopieer naar nieuw** om een nieuw geluid te maken met alleen het gesel
 
 ![Het einde van het crank-geluid is blauw geselecteerd met het pictogram 'Kopiëren naar nieuw' gemarkeerd.](images/crank-copy-end.png)
 
-Hernoem je nieuwe geluid van **Crank2** naar `Vleugels`.
+--- /task ---
 
-![De naam van het geluid wijzigen.](images/crank-wings-sound.png)
+--- task ---
+
+Hernoem je nieuwe geluid van **Crank2** naar `Vleugels`. ![De naam van het geluid wijzigen.](images/crank-wings-sound.png)
 
 --- /task ---
 

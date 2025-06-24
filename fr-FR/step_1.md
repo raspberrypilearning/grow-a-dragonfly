@@ -1,18 +1,9 @@
-## Ce que tu vas faire
+## What you will make
 
 Crée une application sur la nature avec une libellule qui grandit en mangeant des insectes.
 
-Tu vas devoir :
-+ Utiliser les blocs `si`{:class="block3control"} pour prendre des décisions basées sur les **conditions** faites avec les blocs `opérateurs`{:class="block3operators"} et `capteurs`{:class="block3sensing"}
-+ Utiliser les nombres `aléatoires`{:class="block3operators"} pour contrôler le mouvement d'un sprite
-+ Utiliser l'éditeur `Sons`{:class="block3sound"} pour éditer un son
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Nous utilisons les <span style="color: #0faeb0">**conditions**</span> tout le temps pour prendre des décisions. On pourrait dire « si le crayon est émoussé, alors taille-le ». Les blocs et conditions "si"{:class="block3control"} nous permettent d'écrire du code qui fait quelque chose de différent selon qu'une condition est vraie ou fausse.</p>
-
 --- no-print --- --- task ---
 
-### Joue ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Déplace la souris (ou ton doigt) autour de la scène pour manger des insectes. Comment se déplacent les insectes ?

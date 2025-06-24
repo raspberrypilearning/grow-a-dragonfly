@@ -13,9 +13,7 @@ Ważka ma 'usterkę' i zmienia kierunek bardzo szybko, jeśli wskaźnik myszy do
 
 Wybierz **ważkę** i znajdź skrypt, który zaczyna się od `po kliknięciu flagi`{:class="block3events"}.
 
-Przeciągnij, `jeżeli`{:class="block3control"} do wnętrza bloku `zawsze`{:class="block3control"}, a bloki wewnątrz `zawsze`{:class="block3control"} przesuną się wewnątrz bloku, `jeżeli`{:class="block3control"}.
-
-Sprawdź dokładnie, czy Twój kod wygląda tak:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -34,11 +32,7 @@ end
 
 --- task ---
 
-Następnie przeciągnij blok `nie`{:class="block3operators"} do `jeżeli`{:class="block3control"} i `dotyka (wskaźnik myszy)`{:class="block3sensing"} wewnątrz tego.
-
-Sprawdź, czy Twój kod wygląda tak:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
 when flag clicked
@@ -52,23 +46,21 @@ end
 end
 ```
 
-Blok `nie`{:class="block3operators"} zmienia warunek w jego przeciwieństwo, tak jak w zdaniu.
-
 --- /task ---
 
 --- task ---
 
 **Test:** Sprawdź, czy usterka została naprawiona i ważka porusza się tylko wtedy, gdy `nie`{:class="block3operators"} `dotyka (wskaźnik myszy)`{:class="block3sensing"}.
 
-Innym warunkiem do wypróbowania jest:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-To sprawia, że ważka porusza się, gdy jest wystarczająco daleko od wskaźnika myszy.
-
-**Wskazówka:** Możesz przeciągać bloki w dowolne miejsce w obszarze kodu i zostawiać je tam, próbując różnych rzeczy.
 
 --- /task ---
 

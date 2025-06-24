@@ -23,7 +23,6 @@
 
 انقر فوق علامة التبويب **الأزياء**.
 
-**اختر:** اصنع حشرةً طائرةً مختلفة.
 + يمكنك استخدام **ملء** لتغيير لون هذه الحشرة
 + **ارسم** الحشرات الخاص بك
 + **أضف** مظهر حشرة آخر من Scratch
@@ -48,11 +47,11 @@
 
 --- task ---
 
-حدد كائن ** Insect2 ** وانقر فوق علامة التبويب **المقاطع البرمجية**.
+حدد كائن **Insect2** وانقر فوق علامة التبويب **المقاطع البرمجية**.
 
 اسحب كتلة `و`{:class="block3operators"} إلى الكتلة `إذا`{:class="block3control"}.
 
-ستظهر الكتلة `<touching [Dragonfly v] ?>`{:class="block3sensing"}، اسحبها إلى يسار كتلة `و`{:class="block3operators"}:
+اسحب كتلة `و`{:class="block3operators"} إلى الكتلة `إذا`{:class="block3control"}.
 
 ![](images/insect2-icon.png)
 
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-اسحب كتلة `ملامس للون`{:class="block3sensing"} إلى يمين الكتلة `و`:class="block3operators"}:
-
-![](images/insect2-icon.png)
+ستظهر الكتلة `<touching [Dragonfly v] ?>`{:class="block3sensing"}، اسحبها إلى يسار كتلة `و`{:class="block3operators"}:
 
 ```blocks3
 when flag clicked
@@ -109,8 +106,6 @@ end
 --- task ---
 
 **اختبار:** الآن اختبر أن اليعسوب لا يمكنه أكل الحشرة الثانية إلا بفمه.
-
-إذا أردت، يمكنك تغيير أول حشرة ** Insect** بحيث لا يمكن أكلها إلا بفم اليعسوب.
 
 --- /task ---
 

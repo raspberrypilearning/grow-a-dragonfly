@@ -1,50 +1,45 @@
-## Set the scene
+## Preparando o cenário
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will set the scene. Choose your backdrop and add a dragonfly that follows the mouse-pointer around the Stage.
+Você vai definir a cena. Escolha sua imagem de fundo e adicione uma libélula que segue o ponteiro do mouse ao redor do cenario.
 </div>
 <div>
-![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
+![Libélula em fundo desértico](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Grow a dragonfly starter project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open in another browser tab.
-
-[[[working-offline]]]
-
---- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Dragonflies**</span> can be found all over the world and have been around for over 300 million years!</p>
-
---- task ---
-
-**Choose:** Click **Choose a Backdrop** and add a backdrop of your choice. We used the **Jurassic** backdrop.
-
-![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
-
-![The Stage showing the Jurassic backdrop.](images/Jurassic-backdrop.png)
+Abra o [projeto inicial Cresça uma libélula](https://scratch.mit.edu/projects/535695413/editor){:target="_ blank"}. Scratch will open a blank project in a new browser tab.
 
 --- /task ---
 
 --- task ---
 
-Click **Choose a Sprite** and search for `dragonfly`, then add the **Dragonfly** sprite.
+Click **Choose a Backdrop** and add a backdrop of your choice. Usamos o cenário **Jurassic**.
 
-![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
+![Ícone de Backdrop na interface do aplicativo Scratch](images/choose-backdrop-icon.png)
 
-![The search box with 'dragonfly' typed in and the Dragonfly sprite in the gallery.](images/dragonfly-search.png)
+![O Palco mostrando o cenário jurassic.](images/Jurassic-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to make the **Dragonfly** sprite follow the mouse-pointer (or your finger):
+Clique em **Escolha um Sprite** e procure por `dragonfly`, então adicione o sprite **Dragonfly**.
 
-![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
+![Ícone Sprite na interface do app Scratch](images/choose-sprite-icon.png)
+
+![A caixa de pesquisa com 'libélula' digitada e o sprite da libélula na galeria.](images/dragonfly-search.png)
+
+--- /task ---
+
+--- task ---
+
+Adicione um script para fazer o sprite **Dragonfly** seguir o ponteiro do mouse (ou seu dedo):
+
+![Ícone do sprite Dragonfly na interface do app Scratch](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -58,61 +53,67 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make the **Dragonfly** sprite move around the Stage. Is the dragonfly moving as you would expect?
+**Teste:** Clique na bandeira verde e faça o sprite **Dragonfly** se mover pelo cenario. A libélula está se movendo como você esperava?
 
 --- /task ---
 
-The Dragonfly costume is not facing to the right, so the head of the **Dragonfly** sprite is not pointing towards the mouse-pointer.
+O traje Dragonfly não está voltado para a direita, então a cabeça do sprite **Dragonfly** não está apontando para o ponteiro do mouse.
 
 --- task ---
 
-Click on the **Costumes** tab and use the **Select** (arrow) tool to select the costume. Use the **Rotate** tool at bottom of the selected costume to turn the **Dragonfly** costume to face the right.
+Clique na aba **Costumes** e use a ferramenta **Select** (seta) para selecionar a fantasia.
 
-![An animated image showing how to rotate the dragonfly costume by dragging the rotation arrows so that the dragonfly faces right.](images/rotated-costume.gif)
+Use a ferramenta **Rotate** na parte inferior do traje selecionado para virar o traje **Dragonfly** para a direita.
 
-![The dragonfly costume selected and turned to face the right.](images/rotated-costume.png)
+![Uma imagem animada mostrando como girar a fantasia de libélula arrastando as setas de rotação para que a libélula fique voltada para a direita.](images/rotated-costume.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and look at how the dragonfly moves now.
+**Teste:** Clique na bandeira verde e veja como a libélula se move agora.
 
 --- /task ---
 
-Dragonfly wings make a fluttering sound as they vibrate. You can edit a sound in Scratch to create your own sound.
+As asas da libélula fazem um som esvoaçante enquanto vibram. Você pode editar um som no Scratch para criar seu próprio som.
 
 --- task ---
 
-Add the **Crank** sound to the **Dragonfly** sprite.
+Adicione o som **Crank** ao sprite **Dragonfly**.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![](images/crank-sound-editor.png)
 
-Click the **Play** button so you can hear the sound.
-
---- /task ---
-
-The **Crank** sound is too long and too slow for dragonfly wings.
-
---- task ---
-
-Select the end of the sound using your cursor or finger.
-
-Click **Copy to New** to make a new sound with just the selected part:
-
-![The end of the crank sound selected in blue with the 'Copy to New' icon highlighted.](images/crank-copy-end.png)
-
-Rename your new sound from **Crank2** to `Wings`.
-
-![The rename sound property.](images/crank-wings-sound.png)
-
 --- /task ---
 
 --- task ---
 
-Play the new sound. Click the **Faster** button a few times until you like the result:
+**Test:** Click the **Play** button so you can hear the sound.
+
+--- /task ---
+
+O som **Crank** é muito longo e muito lento para asas de libélula.
+
+--- task ---
+
+Selecione o final do som usando o cursor ou o dedo.
+
+Clique em **Copy to New** para criar um novo som apenas com a parte selecionada:
+
+![O final do som de crank selecionado em azul com o ícone 'Copiar para novo' realçado.](images/crank-copy-end.png)
+
+--- /task ---
+
+--- task ---
+
+Renomeie seu novo som de **Crank2** para `Wings`. ![A propriedade renomear sons.](images/crank-wings-sound.png)
+
+--- /task ---
+
+--- task ---
+
+**Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
 
 ![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 

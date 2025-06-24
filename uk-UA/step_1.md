@@ -2,7 +2,7 @@
 
 Зроби застосунок про природу, у якому бабка буде рости, харчуючися комахами.
 
-Ти будеш:
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  

@@ -9,10 +9,7 @@ Harás que la libélula crezca cuando se coma una mosca, y se detendrá si alcan
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Las libélulas vivas más grandes se pueden encontrar en América Central y tienen una envergadura de 19 cm (un poco más grande que tu mano). El insecto más grande jamás conocido fue <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, una libélula con una envergadura de unos 75 cm (el tamaño de una pisada grande).</p>
-
-La mosca sabe que ha sido comida, y ahora la libélula necesita saberlo para crecer.
+The Dragonfly needs to grow when it eats a fly.
 
 Cuando necesites que otro objeto sepa que algo sucedió, puedes usar un bloque `enviar`{:class="block3events"} como lo hiciste en [Enviando hechizos](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
@@ -58,8 +55,6 @@ change size by [5]
 
 Agrega el sonido **Chomp** a la libélula e `iniciálo`{:class="block3sound"} cuando un insecto sea comido:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
 when I receive [food v]
 +start sound [Chomp v]
@@ -79,9 +74,21 @@ Cuando esta alcance su tamaño completo, el juego te felicitará y se detendrá.
 
 Agrega un bloque `si`{:class="block3control"}.
 
-La libélula es de tamaño completo cuando el `tamaño`{:class="block3looks"} `=`{:class="block3operators"} `100%`. Primero, agrega un operador `=`{:class="block3operators"} en la entrada en forma de hexágono:
+```blocks3
+when I receive [food v]
+start sound [Chomp v]
+change size by [5]
++if < > then
+end
+```
 
-![](images/dragonfly-icon.png)
+--- /task ---
+
+La libélula es de tamaño completo cuando el `tamaño`{:class="block3looks"} `=`{:class="block3operators"} `100%`.
+
+--- task ---
+
+First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ```blocks3
 when I receive [food v]
@@ -95,8 +102,6 @@ end
 --- task ---
 
 Termina de crear la condición agregando una variable personalizada para el `tamaño`{:class="block3looks"} y escribe el valor `100`:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]
@@ -112,8 +117,6 @@ end
 Agregue bloques de modo que `si`{:class="block3control"} la condición es cierta `entonces`{:class="block3control"} la libélula va a `enviar`{:class="block3events"} un mensaje de 'fin' y va a `decir`{:class="block3looks"} `¡He conseguido mi tamaño completo!`
 
 Finalmente, agrega un bloque `detener todos`{:class="block3control"} para detener los otros scripts de la libélula:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]

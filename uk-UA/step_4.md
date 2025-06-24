@@ -9,10 +9,7 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Найбільші бабки у природі живуть у Центральній Америці. Розмах їхніх крилець становить 19 см (трохи більше за твою долоню). Найбільшою комахою, що колись існувала, була <span style="color: #0faeb0">**Meganeuropsis permiana**</span> (меганевро́псис перміáна), бабка з розмахом крилець у 75 см (як довжина великого кроку).</p>
-
-Муха знає, що її з'їли, а тепер бабці потрібно знати, щоб вона виросла.
+The Dragonfly needs to grow when it eats a fly.
 
 Коли ти хочеш повідомити іншому спрайту, що щось сталося, ти можеш використати блок `оповістити`{:class="block3events"}, як у проєкті [Чарівні оповіщення](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
@@ -58,8 +55,6 @@ change size by [5]
 
 Додай звук **Chomp** до бабки і `відтвори`{:class="block3sound"} його, коли бабка зʼїдає комаху:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
 when I receive [food v]
 +start sound [Chomp v]
@@ -79,9 +74,21 @@ change size by [5]
 
 Додай блок `якщо`{:class="block3control"}.
 
-Бабка досягне повного розміру, коли `розмір`{:class="block3looks"} `=`{:class="block3operators"} `100%`. Насамперед додай оператор `=`{:class="block3operators"} у шестикутне поле введення:
+```blocks3
+when I receive [їжа v]
+start sound [Chomp v]
+change size by [5]
++if <[ ] = [ ]> then
+end
+```
 
-![](images/dragonfly-icon.png)
+--- /task ---
+
+Бабка досягне повного розміру, коли `розмір`{:class="block3looks"} `=`{:class="block3operators"} `100%`.
+
+--- task ---
+
+First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ```blocks3
 when I receive [food v]
@@ -95,8 +102,6 @@ end
 --- task ---
 
 Заверши побудову умови за допомогою вбудованої змінної `розмір`{:class="block3looks"}, ввівши значення `100`:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]
@@ -112,8 +117,6 @@ end
 Додай блоки, щоб відбувалося наступне: `якщо`{:class="block3control"} умова справджується, `то`{:class="block3control"} бабка `оповістить`{:class="block3events"} за допомогою повідомлення «кінець» і `скаже`{:class="block3looks"} `Я досягла повного розміру!`
 
 Наприкінці додай блок `зупинити все`{:class="block3control"}, щоб зупинити решту скриптів бабки:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]

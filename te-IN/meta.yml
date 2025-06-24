@@ -10,7 +10,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: You will make
+    title: పరిచయం
   - 
     title: సన్నివేశాన్ని సెట్ చేయండి
   - 
@@ -23,12 +23,13 @@ steps:
     title: మెరుగైన కదలిక
   - 
     title: మరింత ఆహారం
-  - 
-    title: యాదృచ్ఛికంగా కీటకాల కదలిక
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: యాదృచ్ఛికంగా కీటకాల కదలిక
+    challenge: true
+  - 
+    title: విశ్లేషణ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
-  - 
-    title: తర్వాత ఏంటి?

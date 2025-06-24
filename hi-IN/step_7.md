@@ -15,6 +15,56 @@
 
 हर 1-3 सेकंड में एक यादृच्छिक दिशा की तरफ मूँह करने के लिए **Insect 2** में एक स्क्रिप्ट जोड़ें।
 
+--- /task ---
+
+--- task ---
+
+**परीक्षण:** अपना प्रोजेक्ट चलाएँ और देखें कि मक्खी कैसे चलती है। आप जो प्रभाव चाहते हैं उसे प्राप्त करने के लिए संख्याओं को बदलने का प्रयास करें।
+
+--- /task ---
+
+--- task ---
+
+Change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+
+--- /task ---
+
+### Add more insects
+
+उन्हें तेज या धीमा करने के लिए आप उन कदमों की संख्या को बदल सकते हैं जीतने वह `move`{:class="block3motion"} हैं ।
+
+--- task ---
+
+Use the emoji keyboard to add a **Mosquito emoji** sprite.
+
+Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+
+- Windows - <kbd>⊞ Win</kbd> + <kbd>.</kbd>
+- MacOS - <kbd>control</kbd> + <kbd>command</kbd> + <kbd>space</kbd>
+- Linux - <kbd>ctrl</kbd> + <kbd>.</kbd>
+
+![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+
+Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+
+![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+
+**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+
+--- /task ---
+
+### Create random movement
+
+Use the `pick random`{:class="block3operators"} block to make the insect move in a more natural way.
+
+![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+
+--- task ---
+
+हर 1-3 सेकंड में एक यादृच्छिक दिशा की तरफ मूँह करने के लिए **Insect 2** में एक स्क्रिप्ट जोड़ें।
+
+![](images/insect2-icon.png)
+
 ```blocks3
 when flag clicked
 forever // Keep changing direction
@@ -27,27 +77,37 @@ end
 
 --- task ---
 
-**परीक्षण:** अपना प्रोजेक्ट चलाएँ और देखें कि मक्खी कैसे चलती है। आप जो प्रभाव चाहते हैं उसे प्राप्त करने के लिए संख्याओं को बदलने का प्रयास करें।
-
-आप इस स्क्रिप्ट को **Insect** स्प्राइट तक भी खींच सकते हैं ताकि यह भी बेतरतीब ढंग से चलती रहे।
+**Test:** Run your project and watch how the sprite moves.
 
 --- /task ---
 
 --- task ---
 
-कीड़ों को तब तक बदलें जब तक वे वैसा व्यवहार न करें जैसा आप चाहते हैं।
+Drag this script to the other **Insect** sprite to make it move randomly.
 
-उन्हें तेज या धीमा करने के लिए आप उन कदमों की संख्या को बदल सकते हैं जीतने वह `move`{:class="block3motion"} हैं ।
+--- /task ---
 
-आप ड्रैगनफ्लाई की गति को भी बदल सकते हैं।
+### Share you insects
+
+--- task ---
+
+Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+
+Send the link of your project to your friend who can go inside the project, click on Backpack (the one under the code space) and drag and drop the sprite.
+
+[[[scratch-backpack]]]
 
 --- /task ---
 
 --- task ---
 
-आप उस आकार को भी बदल सकते हैं जिसे पूर्ण आकार तक पहुंचने के लिए ड्रैगनफ्लाई को बढ़ने की जरूरत है।
+Check each sprite and costume has a name that describes the image. This makes your project easier to understand if you come back to it later.
 
-जब तक आप अपने प्रोजेक्ट से खुश न हों तब तक बदलाव करें।
+--- /task ---
+
+--- task ---
+
+Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy your code.
 
 --- /task ---
 

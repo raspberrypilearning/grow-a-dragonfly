@@ -23,10 +23,11 @@ steps:
     title: Покращений рух
   - 
     title: Більше їжі
-  - 
-    title: Випадковий рух комах
     completion:
       - internal
+  - 
+    title: Випадковий рух комах
+    challenge: true
   - 
     title: Швидкий тест
     knowledge_quiz:
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Вдоскональ свій проєкт
-  - 
-    title: Що далі?

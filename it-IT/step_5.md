@@ -13,9 +13,7 @@ La libellula "si blocca" e cambia direzione molto velocemente se il puntatore de
 
 Seleziona la **libellula** e trova lo script che inizia con `quando si fa clic su bandierina verde`{:class="block3events"}.
 
-Trascina un blocco `se`{:class="block3control"} dentro il blocco `per sempre`{:class="block3control"} e i blocchi dentro `per sempre`{:class="block3control"} si sposteranno dentro il blocco `se`{:class="block3control"}.
-
-Controlla attentamente che il tuo codice assomigli a questo:
+Trascina un blocco `se`{:class="block3control"} dentro il blocco `per sempre`{:class="block3control"} e i blocchi dentro `per sempre`{:class="block3control"} si sposteranno dentro il blocco `se`{:class="block3control"}. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -36,10 +34,6 @@ end
 
 Poi trascina un blocco `non`{:class="block3operators"} dentro `se`{:class="block3control"} e un `sta toccando (puntatore del mouse)`{:class="block3sensing"}.
 
-Controlla che il tuo codice sia simile a questo:
-
-![](images/dragonfly-icon.png)
-
 ```blocks3
 when flag clicked
 set size to [25] %
@@ -52,23 +46,21 @@ end
 end
 ```
 
-Il blocco `non`{:class="block3operators"} trasforma una condizione nel suo opposto, proprio come farebbe in una frase.
-
 --- /task ---
 
 --- task ---
 
 **Test:** Controlla che il blocco non si verifichi, e la libellula si muova solo quando `non`{:class="block3operators"} `sta toccando (puntatore del mouse)`{:class="block3sensing"}.
 
-Una condizione diversa da provare è:
+--- /task ---
+
+--- task ---
+
+Questo fa muovere la libellula quando è abbastanza lontana dal puntatore del mouse.
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-Questo fa muovere la libellula quando è abbastanza lontana dal puntatore del mouse.
-
-**Suggerimento:** Puoi trascinare i blocchi ovunque nell'area Codice e lasciarli lì mentre provi soluzioni diverse.
 
 --- /task ---
 

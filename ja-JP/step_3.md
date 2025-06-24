@@ -9,9 +9,6 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-ゲーム内で勝手に動き回るキャラクターを、モビールを略して<span style="color: #0faeb0">**モブ**</span>と呼ぶことがある。 モブがいるゲームを思いつきますか？</p>
-
 **Frog 2**のスプライトにハエがいるので、それを利用します。
 
 --- task ---
@@ -83,8 +80,6 @@ end
 
 `もし`{:class="block3control"}ブロックを**Insect**スプライトの移動スクリプトに追加します。
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ end
 --- task ---
 
 `[Dragonfly v] に触れた`{:class="block3sensing"} を `もし`{:class="block3control"} ブロックにドラッグしてください。 `隠す`{:class="block3looks"} ブロックを`もし`{:class="block3control"}ブロックの中に入れます。
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -130,8 +123,6 @@ end
 --- task ---
 
 ステージ上の`どこかの場所へ行く`{:class="block3motion"}ブロックを追加し、スプライトを`待つ`{:class="block3control"}で1秒間待機させてから`表示する`{:class="block3looks"}で表示します。
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked

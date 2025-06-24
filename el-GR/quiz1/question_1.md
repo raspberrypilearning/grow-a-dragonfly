@@ -1,10 +1,10 @@
-## Quick quiz
+## Αναστοχασμός
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Αισθητήρες`{:class="block3sensing"}, `Τελεστές`{:class="block3operators"}, `Κίνηση`{:class="block3motion"}, `Όψεις`{:class="block3looks"} και `Ήχος`{:class="block3sound"}!
 
-Have fun!
+Τώρα ήρθε η ώρα να εξετάσεις τις νέες γνώσεις — ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
 --- question ---
 ---
@@ -16,10 +16,10 @@ A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sp
 ![desc](images/crab-icon.png)
 
 ```blocks3
-when flag clicked
-if <not <touching color (#0000FF)?>> then
-hide
-end
+όταν γίνει κλικ στη σημαία
+εάν <not <touching color (#0000FF)?>> τότε
+εξαφανίσου
+τέλος
 ```
 
 What would need to happen for the **Crab** sprite to hide?

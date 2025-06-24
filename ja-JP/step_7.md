@@ -1,19 +1,67 @@
-## ランダムな昆虫の動き
+## Challenge
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-アプリの中の昆虫は非常に予測しやすい動きをしていますが、現実にはなかなか捕まえられないものです。 
-
-昆虫の動きをより自然にするために、`乱数`{:class="block3operators"} ブロックを使用することになります。
+昆虫が思い通りの動きをするようになるまで、変えてみてください。
 </div>
 <div>
-![昆虫が様々な方向を向いているステージ。](images/random-movement.png){:width="300px"}
+![昆虫が様々な方向を向いているステージ。 ](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
+トンボの速度を変更することもできます。
+
+--- /task ---
+
+--- task ---
+
+トンボがフルサイズに達するまで成長するのに必要なサイズを変更することもできます。
+
+--- /task ---
+
+--- task ---
+
+Change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+
+--- /task ---
+
+### Add more insects
+
+You can paint your own insects or trying adding an emoji mosquito!
+
+--- task ---
+
+Use the emoji keyboard to add a **Mosquito emoji** sprite.
+
+Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+
+- Windows - <kbd>⊞ Win</kbd> + <kbd>.</kbd>
+- MacOS - <kbd>control</kbd> + <kbd>command</kbd> + <kbd>space</kbd>
+- Linux - <kbd>ctrl</kbd> + <kbd>.</kbd>
+
+![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+
+Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+
+![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+
+**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+
+--- /task ---
+
+### Create random movement
+
+昆虫の動きをより自然にするために、`乱数`{:class="block3operators"} ブロックを使用することになります。
+
+![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+
+--- task ---
+
 **昆虫2**にスクリプトを追加し、1〜3秒ごとにランダムな方向を向くようにします。
+
+![](images/insect2-icon.png)
 
 ```blocks3
 when flag clicked
@@ -27,27 +75,37 @@ end
 
 --- task ---
 
-**テスト：** プロジェクトを実行し、ハエの動きを見てみましょう。 必要な効果を得るために数値を変更してみてください。
+**テスト：** プロジェクトを実行し、ハエの動きを見てみましょう。
+
+--- /task ---
+
+--- task ---
 
 また、このスクリプトを**昆虫**スプライトにドラッグすると、そちらもランダムに動くようになります。
 
 --- /task ---
 
+### Share you insects
+
 --- task ---
 
-昆虫が思い通りの動きをするようになるまで、変えてみてください。
+Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
 
-`動かす`{:class="block3motion"}のステップ数を変えて、速くしたり遅くしたりできます。
+Send the link of your project to your friend who can go inside the project, click on Backpack (the one under the code space) and drag and drop the sprite.
 
-トンボの速度を変更することもできます。
+[[[scratch-backpack]]]
 
 --- /task ---
 
 --- task ---
 
-トンボがフルサイズに達するまで成長するのに必要なサイズを変更することもできます。
+Check each sprite and costume has a name that describes the image. This makes your project easier to understand if you come back to it later.
 
-プロジェクトに満足するまで変更を加えます。
+--- /task ---
+
+--- task ---
+
+Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy your code.
 
 --- /task ---
 

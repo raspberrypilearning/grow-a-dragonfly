@@ -13,9 +13,7 @@ De libel 'hapert' en verandert heel snel van richting als de muisaanwijzer de li
 
 Selecteer de **libel** en zoek het script dat begint met `wanneer op de vlag wordt geklikt`{:class="block3events"}.
 
-Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block and the blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
-
-Controleer zorgvuldig of je code er als volgt uitziet:
+Sleep een `als`{:class="block3control"} blok binnen in het `herhaal`{:class="block3control"} blok en de blokken binnen het `herhaal`{:class="block3control"} blok zullen naar binnenin het `als`{:class="block3control"} blok verplaatsen. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -36,10 +34,6 @@ end
 
 Sleep vervolgens een `niet`{:class="block3operators"} blok naar het `als`{:class="block3control"} blok en een `raak ik (muiswijzer)`{:class="block3sensing"} blok daarin.
 
-Kijk eerst of de code er zo uitziet:
-
-![](images/dragonfly-icon.png)
-
 ```blocks3
 when flag clicked
 set size to [25] %
@@ -52,23 +46,21 @@ end
 end
 ```
 
-Het `niet`{:class="block3operators"} blok verandert een voorwaarde in zijn tegenovergestelde, net zoals in een zin.
-
 --- /task ---
 
 --- task ---
 
 **Test:** Controleer of de hapering is verholpen en dat de libel alleen beweegt als hij `niet`{:class="block3operators"} `de (muisaanwijzer) aanraakt`{:class="block3sensing"}.
 
-Een andere voorwaarde om te proberen is:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-Dit zorgt ervoor dat de libel beweegt wanneer deze ver genoeg van de muisaanwijzer verwijderd is.
-
-**Tip:** Je kunt blokken overal in het codegebied slepen en daar laten terwijl je verschillende dingen probeert.
 
 --- /task ---
 

@@ -9,9 +9,6 @@ Agregarás un insecto para que la libélula lo coma.
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Los personajes que se mueven solos en los juegos a veces se denominan <span style="color: #0faeb0">**mobs**</span>, abreviatura de móviles. ¿Puedes pensar en un juego que tenga mobs?</p>
-
 Hay una mosca en el objeto **Frog 2** que puedes usar.
 
 --- task ---
@@ -45,7 +42,7 @@ Agrega un nuevo disfraz al objeto usando la opción **Pintar**:
 
 Pulsa en el icono **Pegar** para pegar el objeto en el nuevo disfraz. Arrastra la mosca al **centro** para que se alinee con la cruz.
 
-Puedes cambiar el nombre de tu disfraz `Insecto` y eliminar los demás, ya que no los necesitarás:
+Rename your costume `Insect` and delete the other costumes, as you won't need those:
 
 ![El editor de pintura que muestra un nuevo disfraz de Insecto pegado con el ícono Pegar resaltado. La lista de disfraces muestra que se han eliminado los otros.](images/fly-costume.png)
 
@@ -83,8 +80,6 @@ Quieres que el **Insecto** se `esconda`{:class="block3looks"} `si`{:class="block
 
 Agrega un bloque `si`{:class="block3control"} al script de movimiento del **Insecto**:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ Quieres que el insecto se `esconda`{:class="block3looks"} `si`{:class="block3con
 --- task ---
 
 Arrastra un `tocando [Dragonfly v]`{:class="block3sensing"} al bloque `si`{:class="block3control"}. Agrega un bloque `esconder`{:class="block3looks"} dentro del bloque `si`{:class="block3control"}.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -129,9 +122,7 @@ end
 
 --- task ---
 
-Agrega los bloques `ir a posición aleatoria`{:class="block3motion"} en el Escenario, y haz que tu objeto `espere`{:class="block3control"} durante un segundo y luego se `muestre`{:class="block3looks "}:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -154,7 +145,7 @@ end
 
 **Prueba:** Prueba que tu libélula ahora puede comer muchas moscas.
 
-Asegúrate de haber agregado el bloque `mostrar`{:class="block3looks"} para que se muestre al principio.
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 

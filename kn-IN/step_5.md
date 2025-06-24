@@ -13,9 +13,7 @@
 
 **Dragonfly**ನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು `when flag clicked`{:class="block3events"}ದಿಂದ ಶುರುವಾಗುವ ಬರಹವನ್ನು ಹುಡುಕಿ.
 
-`if`{:class="block3control"}ನ್ನು `forever`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಎಳೆಯಿರಿ ಮತ್ತು `forever`{:class="block3control"} ಒಳಗಿರುವ ಬ್ಲಾಕ್‌ಗಳು `if`{:class="block3control"} ಒಳಗೆ ಚಲಿಸುತ್ತವೆ.
-
-ನಿಮ್ಮ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ ಎಂಬುವುದನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಪರಿಶೀಲಿಸಿ:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -30,15 +28,11 @@ move [5] steps
 end
 end
 ```
---- /ಕಾರ್ಯ ---
+--- /task ---
 
---- ಕಾರ್ಯ ---
+--- task ---
 
-ನಂತರ `not`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಒಳಗೆ ಎಳೆಯಿರಿ ಮತ್ತು `touching (mouse-pointer)`{:class="block3sensing"} ನ್ನು ಅದರೊಳಗೆ ಎಳೆಯಿರಿ.
-
-ನಿಮ್ಮ ಕೋಡ್ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ ಎಂಬುವುದನ್ನು ಪರಿಶೀಲಿಸಿ:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
 when flag clicked
@@ -52,23 +46,21 @@ end
 end
 ```
 
-ವಾಕ್ಯದಲ್ಲಿ ಹೇಗೆ ಮಾಡುತ್ತದೆಯೋ ಹಾಗೆ `not`{:class="block3operators"} ಬ್ಲಾಕ್‌ ಷರತ್ತನ್ನು ಅದರ ವಿರುದ್ಧಕ್ಕೆ ಪರಿವರ್ತಿಸುತ್ತದೆ.
-
 --- /task ---
 
 --- task ---
 
 **ಪರೀಕ್ಷೆ:** ಹಠಾತ್ ನಿಲ್ಲುವಿಕೆ ಸರಿಯಾಗಿದೆಯೇ ಮತ್ತು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಅದು `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"} ಆದಾಗ ಮಾತ್ರ ಚಲಿಸುತ್ತದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ.
 
-ಪ್ರಯತ್ನಿಸಲು ಬೇರೆ ಷರತ್ತು:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-ಇದು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಮೌಸ್-ಪಾಯಿಂಟರ್‌ನಿಂದ ಸಾಕಷ್ಟು ದೂರದಲ್ಲಿರುವಾಗಲೇ ಅದು ಚಲಿಸುವಂತೆ ಮಾಡುತ್ತದೆ.
-
-**ಸಲಹೆ:** ನೀವು ಬೇರೆ ಸಂಗತಿಗಳನ್ನು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಾಗ ಬ್ಲಾಕ್‌ಗಳನ್ನು Code ಪ್ರದೇಶದಲ್ಲಿ ಎಲ್ಲಿಯಾದರೂ ಎಳೆದು ಅವುಗಳನ್ನು ಅಲ್ಲಿಯೇ ಬಿಡಬಹುದು.
 
 --- /task ---
 

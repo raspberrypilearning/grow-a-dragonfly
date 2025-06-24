@@ -9,9 +9,6 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-గేమ్‌లలో తమంతట తాముగా తిరిగే పాత్రలను కొన్నిసార్లు <span style="color: #0faeb0">**mobs**</span>అని పిలుస్తారు, ఇది మొబైల్‌లకు కుదించిన రూపం. మోబ్ లను కలిగి ఉన్న గేమ్ గురించి మీరు ఆలోచించగలరా?</p>
-
 **Frog 2** sprite లో మీరు ఉపయోగించగల కీటకం ఉంది.
 
 --- task ---
@@ -45,7 +42,7 @@
 
 కొత్త costume లలో sprite ను అతికించడానికి **Paste** చిహ్నంపై క్లిక్ చేయండి. ఈగను **centre ** లోకి డ్రాగ్ చేయండి, తద్వారా అది క్రాస్‌హైర్‌తో వరుసలో ఉంటుంది.
 
-మీరు మీ costume కు `Insect` అని పేరు మార్చవచ్చు మరియు ఇతర costume లను తొలగించవచ్చు, ఎందుకంటే మీకు అవి అవసరం లేదు:
+Rename your costume `Insect` and delete the other costumes, as you won't need those:
 
 ![పెయింట్ ఎడిటర్ కొత్తగా పేస్ట్ చేయబడిన కీటకపు costume లను, హైలైట్ చేసిన Paste చిహ్నంతో చూపుతోంది. Costume లిస్ట్ ఇతర costume లు తొలగించబడినట్లు చూపిస్తుంది.](images/fly-costume.png)
 
@@ -83,8 +80,6 @@ end
 
 `if`{:class = "block3control"} బ్లాక్ ని **Insect** sprite యొక్క కదలిక స్క్రిప్ట్ కు జోడించండి:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ end
 --- task ---
 
 `touching [Dragonfly v]`{:class="block3sensing"}ని `if`{:class="block3control"} బ్లాక్‌లోకి లాగండి. `if`{:class="block3control"} బ్లాక్‌లో `hide`{:class="block3looks"} బ్లాక్‌ని జోడించండి.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -129,9 +122,7 @@ end
 
 --- task ---
 
-Stage పై యాదృచ్ఛిక స్థానానికి వెళ్లడానికి, `go to a random position`{:class="block3motion"} బ్లాక్‌లను జోడించండి, మీ sprite ఒక సెకను పాటు `wait`{:class="block3control"} చేసి మరలా `show`{:class="block3looks "}: అయ్యేలా చూడండి:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -154,7 +145,7 @@ end
 
 **పరీక్ష:** మీ తూనీగ ఇప్పుడు చాలా ఈగలను తినగలదని పరీక్షించండి.
 
-మీరు ప్రారంభంలో చూపించడానికి `show`{:class="block3looks"} బ్లాక్‌ని జోడించారని నిర్ధారించుకోండి.
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 

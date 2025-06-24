@@ -13,9 +13,7 @@ Bydd y gwas-y-neidr yn 'nogio' ac yn newid ei gyfeiriad yn gyflym iawn os ydy pw
 
 Dewisa'r **Gwas-y-neidr** a chwilia am y sgript sy'n dechrau gyda `pan fydd y faner wedi'i chlicio`{:class="block3events"}.
 
-Llusga floc `os`{:class="block3control"} y tu mewn i'r bloc `am byth`{:class="block3control"} a bydd y blociau y tu mewn i'r bloc `am byth`{:class="block3control"} yn symud y tu mewn i'r bloc `os`{:class="block3control"}.
-
-Gwiria yn ofalus fod dy god yn edrych fel hyn:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -34,11 +32,7 @@ end
 
 --- task ---
 
-Yna llusga floc `nid`{:class="block3operators"} i mewn i'r bloc `os`{:class="block3control"} a bloc `cyffwrdd (pwyntydd y llygoden)`{:class="block3sensing"} y tu mewn i hwnnw.
-
-Gwna'n siŵr fod dy god yn edrych fel hyn:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
 when flag clicked
@@ -52,23 +46,21 @@ end
 end
 ```
 
-Mae'r bloc `nid`{:class="block3operators"} yn troi amod i'r gwrthwyneb, yn union fel y byddai mewn brawddeg.
-
 --- /task ---
 
 --- task ---
 
 **Profi:** Gwna'n siŵr fod y broblem wedi'i thrwsio, ac mai dim ond pan `nid`{:class="block3operators"} yn `cyffwrdd (pwyntydd y llygoden)`{:class="block3sensing"} y bydd y Gwas-y-neidr yn symud.
 
-Amod gwahanol i roi cynnig arno yw:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-Mae hyn yn gwneud i'r gwas-y-neidr symud pan fydd yn ddigon pell o bwyntydd y llygoden.
-
-**Awgrym:** Galli di lusgo blociau unrhyw le yn ardal y Cod a'u gadael yno wrth roi cynnig ar wahanol bethau.
 
 --- /task ---
 

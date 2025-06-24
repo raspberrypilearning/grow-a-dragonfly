@@ -5,7 +5,7 @@
 سوف تقوم بإعداد المشهد. اختر الخلفية الخاصة بك وأضف اليعسوب الذي يتبع مؤشر الماوس حول المنصة.
 </div>
 <div>
-![Dragonfly in a desert background](images/set-the-scene.png){:width="300px"}
+![](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -13,16 +13,11 @@
 
 افتح [مشروع البداية كبّر اليعسوب](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
-[[[working-offline]]]
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">** اليعاسيب **</span> يمكن العثور عليها في جميع أنحاء العالم وهي موجودة منذ أكثر من 300 مليون سنة!</p>
 
 --- task ---
 
-**اختر:** انقر فوق **اختيار خلفية** وأضف خلفية من اختيارك. استخدمنا خلفية **Jurassic**.
+استخدمنا خلفية **Jurassic**. استخدمنا خلفية **Jurassic**.
 
 ![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
@@ -66,11 +61,11 @@ end
 
 --- task ---
 
-انقر فوق علامة التبويب **المظاهر** واستخدم أداة **حدد** (السهم) لتحديد الزي. استخدم أداة **دوّر** في الجزء السفلي من الزي المحدد لقلب شكل الكائن **Dragonfly** لمواجهة اليمين.
+انقر فوق علامة التبويب **المظاهر** واستخدم أداة **حدد** (السهم) لتحديد الزي.
+
+استخدم أداة **دوّر** في الجزء السفلي من الزي المحدد لقلب شكل الكائن **Dragonfly** لمواجهة اليمين.
 
 ![صورة متحركة توضح كيفية تدوير زي اليعسوب عن طريق سحب أسهم الدوران بحيث تواجه اليعسوب جهة اليمين.](images/rotated-costume.gif)
-
-![تم اختيار زي اليعسوب واستدار لمواجهة اليمين.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,6 +85,10 @@ end
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 انقر فوق الزر **تشغيل** حتى تتمكن من سماع الصوت.
 
 --- /task ---
@@ -104,9 +103,11 @@ end
 
 ![تحديد نهاية صوت crank باللون الأزرق مع تمييز رمز "نسخ إلى صوت جديد".](images/crank-copy-end.png)
 
-أعد تسمية صوتك الجديد من **Crank2** إلى `أجنحة`.
+--- /task ---
 
-![خاصية إعادة تسمية الصوت.](images/crank-wings-sound.png)
+--- task ---
+
+أعد تسمية صوتك الجديد من **Crank2** إلى `أجنحة`. ![خاصية إعادة تسمية الصوت.](images/crank-wings-sound.png)
 
 --- /task ---
 

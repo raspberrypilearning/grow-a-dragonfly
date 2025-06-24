@@ -9,9 +9,6 @@ Byddi di'n ychwanegu pryfyn i'r gwas-y-neidr gael ei fwyta.
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Weithiau mae cymeriadau sy'n symud o gwmpas ar eu pen eu hunain mewn gemau yn cael eu galw'n <span style="color: #0faeb0">**mobs**</span>, sy'n ffordd gyflym o ddweud "mobiles". Alli di feddwl am gêm sydd â mobs?</p>
-
 Mae pry yn y corlun **Frog 2** y galli di ei ddefnyddio.
 
 --- task ---
@@ -45,7 +42,7 @@ Ychwanega wisg newydd i'r corlun drwy ddefnyddio'r opsiwn **Paentio**:
 
 Clicia ar yr eicon **Gludo** i ludo'r corlun i mewn i'r wisg newydd. Llusga'r pry i'r **canol** fel ei fod wedi'i alinio a'r groes.
 
-Galli di ailenwi dy wisg yn `Insect` a dileu'r gwisgoedd eraill, gan na fydd angen y rhain arnat ti:
+Clicia ar yr eicon **Gludo** i ludo'r corlun i mewn i'r wisg newydd. Llusga'r pry i'r **canol** fel ei fod wedi'i alinio a'r groes.
 
 ![Y golygydd paent yn dangos gwisg Insect newydd wedi'i gludo gyda'r eicon Gludo wedi'i hamlygu. Y rhestr gwisgoedd yn dangos bod y gwisgoedd eraill wedi'u dileu.](images/fly-costume.png)
 
@@ -83,8 +80,6 @@ Rwyt ti eisiau i'r corlun **Insect** `guddio`{:class="block3looks"} `os`{:class=
 
 Ychwanega floc `os`{:class="block3control"} i sgript symud y corlun **Insect**:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -104,8 +99,6 @@ Rwyt ti eisiau i'r pryfyn `guddio`{:class="block3looks"} `os`{:class="block3cont
 --- task ---
 
 Llusga `cyffwrdd [Dragonfly v]`{:class="block3sensing"} i mewn i'r bloc `os`{:class="block3control"}. Ychwanega floc `cuddio`{:class="block3looks"} y tu mewn i'r bloc `os`{:class="block3control"}.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -129,9 +122,7 @@ Fydd y gwas-y-neidr ddim yn tyfu'n fawr iawn os mai dim ond un pry mae'n gallu e
 
 --- task ---
 
-Ychwanega flociau i `fynd i safle ar hap`{:class="block3motion"} ar y Llwyfan, a gwneud i dy gorlun `aros`{:class="block3control"} am eiliad yna `dangos`{:class="block3looks"}:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -154,7 +145,7 @@ end
 
 **Profi:** Profa fod dy was-y-neidr yn gallu bwyta llawer o bryfed bellach.
 
-Gwna'n siŵr dy fod wedi ychwanegu'r bloc `dangos`{:class="block3looks"} er mwyn ei ddangos ar y dechrau.
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 

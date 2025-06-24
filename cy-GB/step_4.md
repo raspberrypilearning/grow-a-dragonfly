@@ -9,10 +9,7 @@ Byddi di'n gwneud i'r gwas-y-neidr dyfu pan fydd yn bwyta pry, a stopio os bydd 
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Mae'r gweision y neidr byw mwyaf i'w cael yng Nghanolbarth America ac mae ganddyn nhw led adenydd o 19cm (ychydig yn fwy na dy law di). Y pryfyn mwyaf y gwyddom amdano erioed oedd <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, gwas-y-neidr gyda lled adenydd tua 75cm (maint cam mawr).</p>
-
-Mae'r pry yn gwybod ei fod wedi'i fwyta, a nawr mae angen i'r Gwas-y-neidr wybod er mwyn iddo dyfu.
+Mae'r gweision y neidr byw mwyaf i'w cael yng Nghanolbarth America ac mae ganddyn nhw led adenydd o 19cm (ychydig yn fwy na dy law di). Y pryfyn mwyaf y gwyddom amdano erioed oedd <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, gwas-y-neidr gyda lled adenydd tua 75cm (maint cam mawr).
 
 Pan fyddi di angen rhoi gwybod i gorlun arall bod rhywbeth wedi digwydd, galli di ddefnyddio bloc `darlledu`{:class="block3events"} fel wnes di yn [Darlledu swynion](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
@@ -58,8 +55,6 @@ change size by [5]
 
 Ychwanega'r sain **Chomp** at y gwas-y-neidr a `dechrau`{:class="block3sound"} pan fydd pryfyn yn cael ei fwyta:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
 when I receive [food v]
 +start sound [Chomp v]
@@ -79,9 +74,21 @@ Pan fydd y gwas-y-neidr yn cyrraedd ei faint llawn, bydd y gêm yn dy longyfarch
 
 Ychwanega floc `os`{:class="block3control"}.
 
-Bydd y gwas-y-neidr yn cyrraedd ei faint llawn pan fydd y `maint`{:class="block3looks"} `=`{:class="block3operators"} `100%`. Yn gyntaf, ychwanega weithredwr `=`{:class="block3operators"} i'r mewnbwn siâp hecsagon:
+```blocks3
+when I receive [bwyd v]
+start sound [Chomp v]
+change size by [5]
++if <[ ] = [ ]> then
+end
+```
 
-![](images/dragonfly-icon.png)
+--- /task ---
+
+Bydd y gwas-y-neidr yn cyrraedd ei faint llawn pan fydd y `maint`{:class="block3looks"} `=`{:class="block3operators"} `100%`.
+
+--- task ---
+
+First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ```blocks3
 when I receive [food v]
@@ -95,8 +102,6 @@ end
 --- task ---
 
 Galli di orffen llunio'r amod drwy ychwanegu newidyn `maint`{:class="block3looks"} parod a theipio'r gwerth `100`:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]
@@ -112,8 +117,6 @@ end
 Ychwanega flociau sy'n pennu `os`{:class="block3control"} yw'r cyflwr yn wir `yna`{:class="block3control"} bydd y gwas-y-neidr yn `darlledu`{:class="block3events"} neges 'diwedd' ac yn `dweud`{:class="block3looks"} `Dw i 'di cyrraedd fy maint llawn!`
 
 Yn olaf, ychwanega floc `aros y cyfan`{:class="block3control"} i stopio'r sgriptiau gwas-y-neidr eraill:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]

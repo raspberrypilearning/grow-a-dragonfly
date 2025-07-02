@@ -28,4 +28,3 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: What can you do now?

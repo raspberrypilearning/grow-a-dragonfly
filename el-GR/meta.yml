@@ -2,6 +2,7 @@
 title: Μεγαλώνοντας μια λιβελούλα
 hero_image: images/banner.png
 description: Φτιάξε μια λιβελούλα που μεγαλώνει καθώς τρώει ενοχλητικά κουνούπια και άλλα έντομα.
+pdf: resources/rpi-grow-a-dragonfly.pdf
 meta_title: Έργα προγραμματισμού Scratch για παιδιά και εφήβους | Μεγαλώνοντας μια λιβελούλα
 meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
 version: 4
@@ -37,5 +38,3 @@ steps:
       passing_score: 3
     completion:
       - external
-  - 
-    title: Αναβάθμισε το έργο σου

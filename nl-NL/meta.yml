@@ -2,6 +2,7 @@
 title: Laat een libel groeien
 hero_image: images/banner.png
 description: Maak een libel die groter wordt als hij vervelende muggen en andere insecten eet.
+pdf: resources/rpi-grow-a-dragonfly.pdf
 meta_title: Scratch coding projects for kids and teens | Grow a dragonfly
 meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
 version: 4
@@ -37,5 +38,3 @@ steps:
       passing_score: 3
     completion:
       - external
-  - 
-    title: Verbeter je project

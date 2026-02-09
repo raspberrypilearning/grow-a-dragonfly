@@ -2,6 +2,7 @@
 title: ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬೆಳೆಸಿ
 hero_image: images / banner.png
 description: ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡುವ ಸೊಳ್ಳೆಗಳನ್ನು ಮತ್ತು ಇತರ ಕೀಟಗಳನ್ನು ತಿನ್ನುತ್ತ ದೊಡ್ಡದಾಗಿ ಬೆಳೆಯುವ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಮಾಡಿ.
+pdf: resources/rpi-grow-a-dragonfly.pdf
 meta_title: Scratch coding projects for kids and teens | Grow a dragonfly
 meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
 version: 4
@@ -37,5 +38,3 @@ steps:
       passing_score: 3
     completion:
       - external
-  - 
-    title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ

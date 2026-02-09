@@ -2,6 +2,7 @@
 title: Wyhoduj ważkę
 hero_image: images/banner.png
 description: Stwórz ważkę, która rośnie, gdy zjada irytujące komary i inne owady.
+pdf: resources/rpi-grow-a-dragonfly.pdf
 meta_title: Projekty programistyczne Scratch dla dzieci i młodzieży | Wyhoduj ważkę
 meta_description: Naucz się języka Scratch dzięki projektom programistycznym dla dzieci i młodzieży Fundacji Raspberry Pi. Stwórz aplikację w Scratchu, w której ważka rośnie w miarę zjadania owadów.
 version: 4
@@ -37,5 +38,3 @@ steps:
       passing_score: 3
     completion:
       - external
-  - 
-    title: What can you do now?

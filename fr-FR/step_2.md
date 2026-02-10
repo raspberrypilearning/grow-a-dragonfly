@@ -5,7 +5,7 @@
 Tu vas créer la scène. Choisis ton arrière-plan et ajoute une libellule qui suit le pointeur de la souris autour de la scène.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Libellule avec un désert comme arrière-plan](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -17,9 +17,9 @@ Ouvre le projet de démarrage [Faire grandir une libellule](https://scratch.mit.
 
 --- task ---
 
-Nous avons utilisé l'arrière-plan **Jurassic**. Nous avons utilisé l'arrière-plan **Jurassic**.
+Clique sur **Choisir un arrière-plan** et ajoute un arrière-plan de ton choix. Nous avons utilisé l'arrière-plan **Jurassic**.
 
-![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
+![Icône d'arrière-plan sur l'interface de l'application Scratch](images/choose-backdrop-icon.png)
 
 ![La scène montrant l'arrière-plan Jurassic .](images/Jurassic-backdrop.png)
 
@@ -29,7 +29,7 @@ Nous avons utilisé l'arrière-plan **Jurassic**. Nous avons utilisé l'arrière
 
 Clique sur **Choisir un sprite** et recherche `dragonfly`, puis ajoute le sprite **Dragonfly** (Libellule).
 
-![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
+![Icône Sprite sur l'interface de l'application Scratch](images/choose-sprite-icon.png)
 
 ![Le champ de recherche avec "dragonfly" tapé et le sprite Dragonfly dans la galerie.](images/dragonfly-search.png)
 
@@ -39,7 +39,7 @@ Clique sur **Choisir un sprite** et recherche `dragonfly`, puis ajoute le sprite
 
 Ajoute un script pour que le sprite **Libellule** suive le pointeur de la souris (ou ton doigt) :
 
-![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
+![Icône du sprite libellule sur l'interface de l'application Scratch](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -89,7 +89,7 @@ Ajoute le son **Crank** au sprite **Libellule**.
 
 --- task ---
 
-Clique sur le bouton **Jouer** pour entendre le son.
+**Test :** clique sur le bouton **Jouer** pour que tu puisses entendre le son.
 
 --- /task ---
 
@@ -113,7 +113,7 @@ Renomme ton nouveau son de **Crank2** à `Ailes`. ![La propriété du son renomm
 
 --- task ---
 
-Joue le nouveau son. Clique plusieurs fois sur le bouton **Plus vite** jusqu'à ce que le résultat te plaise :
+**Test :** joue le nouveau son. Clique plusieurs fois sur le bouton **Plus vite** jusqu'à ce que le résultat te plaise :
 
 ![Une onde sonore plus rapide avec l'icône "Plus vite" en surbrillance.](images/wings-faster.png)
 
@@ -121,7 +121,7 @@ Joue le nouveau son. Clique plusieurs fois sur le bouton **Plus vite** jusqu'à 
 
 --- task ---
 
-Si tu le souhaite, tu peux sélectionner la toute fin du son **Ailes** , puis clique sur **Supprimer** pour le supprimer :
+Si tu le souhaites, tu peux sélectionner la toute fin du son **Ailes**, puis clique sur **Supprimer** pour le supprimer :
 
 ![La fin de l'onde sonore sélectionnée avec l'outil "Supprimer" en surbrillance.](images/wings-shorter.png)
 
@@ -131,7 +131,7 @@ Si tu le souhaite, tu peux sélectionner la toute fin du son **Ailes** , puis cl
 
 Ajoute maintenant un bloc pour jouer le son **Ailes** lorsque la libellule se déplace :
 
-![Dragonfly sprite icon](images/dragonfly-icon.png)
+![Icône du sprite libellule](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -146,7 +146,7 @@ end
 
 --- task ---
 
-**Test :** Essaie le mouvement et l'effet sonore de ta libellule.
+**Test :** essaie le mouvement et l'effet sonore de ta libellule.
 
 --- /task ---
 

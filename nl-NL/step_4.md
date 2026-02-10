@@ -75,10 +75,10 @@ Wanneer de libel zijn volledige grootte bereikt, zal het spel je feliciteren en 
 Voeg een `als`{:class="block3control"} blok toe.
 
 ```blocks3
-when I receive [eten v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
-+if <[ ] = [ ]> then
++if < > then
 end
 ```
 

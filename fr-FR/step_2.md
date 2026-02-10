@@ -5,13 +5,13 @@
 Tu vas créer la scène. Choisis ton arrière-plan et ajoute une libellule qui suit le pointeur de la souris autour de la scène.
 </div>
 <div>
-![Libellule avec un désert comme arrière-plan](images/set-the-scene.png){:width="300px"}
+![Libellule avec un arrière-plan désertique](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Ouvre le projet de démarrage [Faire grandir une libellule](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
+Ouvre le projet de démarrage [Faire grandir une libellule](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch ouvrira un nouveau projet dans un nouvel onglet du navigateur.
 
 --- /task ---
 
@@ -21,7 +21,7 @@ Clique sur **Choisir un arrière-plan** et ajoute un arrière-plan de ton choix.
 
 ![Icône d'arrière-plan sur l'interface de l'application Scratch](images/choose-backdrop-icon.png)
 
-![La scène montrant l'arrière-plan Jurassic .](images/Jurassic-backdrop.png)
+![La scène montrant l'arrière-plan Jurassic.](images/Jurassic-backdrop.png)
 
 --- /task ---
 
@@ -37,7 +37,7 @@ Clique sur **Choisir un sprite** et recherche `dragonfly`, puis ajoute le sprite
 
 --- task ---
 
-Ajoute un script pour que le sprite **Libellule** suive le pointeur de la souris (ou ton doigt) :
+Ajoute un script pour que le sprite **Dragonfly** suive le pointeur de la souris (ou ton doigt) :
 
 ![Icône du sprite libellule sur l'interface de l'application Scratch](images/dragonfly-icon.png)
 
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert et fais bouger le sprite **Libellule** autour de la scène. La libellule se déplace-t-elle comme prévu ?
+**Test :** clique sur le drapeau vert et fais bouger le sprite **Dragonfly** autour de la scène. La libellule se déplace-t-elle comme prévu ?
 
 --- /task ---
 
-Le costume Libellule n'est pas tourné vers la droite, donc la tête du sprite **Libellule** n'est pas pointée vers le pointeur de la souris.
+Le costume Dragonfly n'est pas tourné vers la droite, donc la tête du sprite **Dragonfly** n'est pas pointée vers le pointeur de la souris.
 
 --- task ---
 
 Clique sur l'onglet **Costumes** et utilise l'outil **Sélectionner** (flèche) pour sélectionner le costume.
 
-Utilise l'outil **Rotation** en bas du costume sélectionné pour tourner le costume **Libellule** vers la droite.
+Utilise l'outil **Rotation** en bas du costume sélectionné pour tourner le costume **Dragonfly** vers la droite.
 
 ![Une image animée montrant comment faire pivoter le costume Libellule en faisant glisser les flèches de rotation pour que la libellule soit tournée vers la droite.](images/rotated-costume.gif)
 
@@ -71,7 +71,7 @@ Utilise l'outil **Rotation** en bas du costume sélectionné pour tourner le cos
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert et regarde comment la libellule se déplace maintenant.
+**Test :** clique sur le drapeau vert et regarde comment la libellule se déplace maintenant.
 
 --- /task ---
 
@@ -79,7 +79,7 @@ Les ailes de libellule émettent un son de battement lorsqu'elles vibrent. Tu pe
 
 --- task ---
 
-Ajoute le son **Crank** au sprite **Libellule**.
+Ajoute le son **Crank** au sprite **Dragonfly**.
 
 [[[generic-scratch3-sound-from-library]]]
 

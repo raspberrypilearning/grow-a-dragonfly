@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend : Question 2 sur 3
+legend: Question 2 sur 3
 ---
 
 Tu as écrit du code pour faire bouger la libellule uniquement si `non`{:class="block3operators"} `touche`{:class="block3sensing"} le pointeur de la souris.

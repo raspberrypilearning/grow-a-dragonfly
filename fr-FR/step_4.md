@@ -9,7 +9,7 @@ Tu feras grandir la libellule lorsqu'elle mange une mouche, et tu t'arrêteras s
 </div>
 </div>
 
-La mouche sait qu'elle a été mangée, et maintenant la libellule a besoin de savoir pour qu'elle grandisse.
+La libellule doit grandir lorsqu'elle mange une mouche.
 
 Lorsque tu dois faire savoir à un autre sprite que quelque chose s'est passé, tu peux utiliser un bloc `envoyer à tous`{:class="block3events"} comme tu l'as fait dans [Lancer des sorts](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 

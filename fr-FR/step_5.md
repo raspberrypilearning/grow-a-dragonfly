@@ -50,7 +50,7 @@ end
 
 --- task ---
 
-**Test :** Vérifie que le problème est résolu et que la libellule ne bouge que lorsque `non`{:class="block3operators"} `touche le (pointeur de la souris)`{:class="block3sensing"}.
+**Test :** vérifie que le problème est résolu et que la libellule ne bouge que lorsque `non`{:class="block3operators"} `touche le (pointeur de la souris)`{:class="block3sensing"}.
 
 --- /task ---
 

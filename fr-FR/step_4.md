@@ -64,7 +64,7 @@ change size by [5]
 
 --- task ---
 
-**Test :** Exécute ton projet pour tester que la libellule grandit et fait un bruit de mastication lorsqu'elle mange une mouche.
+**Test :** exécute ton projet pour tester que la libellule grandit et fait un bruit de mastication lorsqu'elle mange une mouche.
 
 --- /task ---
 
@@ -145,7 +145,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert et continue à manger des mouches jusqu'à ce que ta libellule atteigne sa taille maximale.
+**Test :** clique sur le drapeau vert et continue à manger des mouches jusqu'à ce que ta libellule atteigne sa taille maximale.
 
 --- /task ---
 

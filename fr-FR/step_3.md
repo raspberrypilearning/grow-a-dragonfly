@@ -114,7 +114,7 @@ end
 
 --- task ---
 
-**Test :** Teste ton code et contrôle la libellule pour manger la mouche. La mouche devrait disparaître.
+**Test :** teste ton code et contrôle la libellule pour manger la mouche. La mouche devrait disparaître.
 
 --- /task ---
 
@@ -143,12 +143,12 @@ end
 
 --- task ---
 
-**Test :** Teste que ta libellule peut maintenant manger beaucoup de mouches.
+**Test :** teste que ta libellule peut maintenant manger beaucoup de mouches.
 
 Assure-toi d'avoir ajouté le bloc `montrer`{:class="block3looks"} pour montrer au début.
 
 --- /task ---
 
-**Astuce :** Tu peux cliquer sur le bouton rouge **Stop** au-dessus de la scène si tu veux que la libellule s'arrête pendant que tu ajoutes plus de code.
+**Astuce :** tu peux cliquer sur le bouton rouge **Stop** au-dessus de la scène si tu veux que la libellule s'arrête pendant que tu ajoutes plus de code.
 
 --- save ---

@@ -13,7 +13,7 @@ La libellule « glisse » et change de direction très rapidement si le pointeur
 
 Sélectionne la **Libellule** et trouve le script qui commence par `Quand le drapeau vert est cliqué`{:class="block3events"}.
 
-Fais glisser un `si`{:class="block3control"} à l'intérieur du bloc `répéter indéfiniment`{:class="block3control"} et les blocs à l'intérieur du `répéter indéfiniment`{:class="block3control"} se déplaceront à l'intérieur du `si`{:class="block3control"}. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+Fais glisser un `si`{:class="block3control"} à l'intérieur du bloc `répéter indéfiniment`{:class="block3control"}. Les blocs à l'intérieur du `répéter indéfiniment`{:class="block3control"} se déplaceront à l'intérieur du `si`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -56,7 +56,7 @@ end
 
 --- task ---
 
-Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
+Essaie une autre condition qui fasse bouger la libellule lorsqu'elle est suffisamment éloignée du pointeur de la souris :
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>

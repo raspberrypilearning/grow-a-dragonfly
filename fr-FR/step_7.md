@@ -1,53 +1,53 @@
-## Challenge
+## Défi
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Modifie les insectes jusqu'à ce qu'ils se comportent comme tu le souhaites.
+Modifie le comportement de tes insectes et ajoutes-en davantage.
 </div>
 <div>
-![Scène montrant des insectes pointant dans différentes directions.](images/random-movement.png){:width="300px"}
+![Scène montrant trois types d'insectes différents et la libellule.](images/random-movement.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Change the speed of the dragonfly.
+Modifie la vitesse de la libellule.
 
 --- /task ---
 
 --- task ---
 
-Change the size that the dragonfly needs to grow to reach full size.
+Modifie la taille que la libellule doit atteindre pour atteindre sa taille adulte.
 
 --- /task ---
 
 --- task ---
 
-Change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+Modifie le premier **Insecte** afin qu'il ne puisse être mangé qu'avec la bouche de la libellule.
 
 --- /task ---
 
-### Add more insects
+### Ajouter plus d'insectes
 
-You can paint your own insects or trying adding an emoji mosquito!
+Tu peux peindre tes propres insectes ou essayer d'ajouter un emoji moustique !
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+Utilise le clavier emoji pour ajouter un sprite **Emoji moustique**.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Duplique un sprite **insecte** existant puis clique sur l'onglet **Costumes**. **Peins** un nouveau costume et sélectionne l'outil **Texte**. Au lieu de saisir du texte, utilise le raccourci clavier emoji pour ton système d'exploitation :
 
 - Windows - <kbd>⊞ Win</kbd> + <kbd>.</kbd>
-- MacOS - <kbd>control</kbd> + <kbd>command</kbd> + <kbd>space</kbd>
+- MacOS - <kbd>contrôle</kbd> + <kbd>commande</kbd> + <kbd>espace</kbd>
 - Linux - <kbd>ctrl</kbd> + <kbd>.</kbd>
 
 ![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Sélectionne l'emoji **Moustique** pour l'insérer dans l'éditeur de peinture. Utilise l'outil **Sélectionner** (flèche) pour centrer, redimensionner et faire pivoter ton moustique jusqu'à ce que tu en sois satisfait.
 
 ![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Astuce :** les emojis peuvent avoir un aspect différent sur différents ordinateurs, ils peuvent donc ne pas être identiques sur une tablette et sur un ordinateur de bureau. Certains emojis ne sont pas disponibles sur certains ordinateurs, mais la plupart des ordinateurs modernes les prendront en charge.
 
 --- /task ---
 

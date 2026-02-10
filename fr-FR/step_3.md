@@ -42,7 +42,7 @@ Ajoute un nouveau costume au sprite en utilisant l'option **Peindre** :
 
 Clique sur l'icône **Coller** pour coller le sprite dans le nouveau costume. Fais glisser la mouche vers le **centre** afin qu'elle s'aligne avec le réticule.
 
-Tu peux renommer ton costume `Insecte` et supprimer les autres costumes, car tu n'en auras pas besoin :
+Renomme ton costume `Insecte` et supprime les autres costumes, car tu n'en auras pas besoin :
 
 ![L'éditeur de peinture montrant un nouveau costume d'insecte collé avec l'icône Coller en surbrillance. La liste des costumes montre que les autres costumes ont été supprimés.](images/fly-costume.png)
 

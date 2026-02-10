@@ -1,12 +1,12 @@
-## What you will make
+## Ce que tu vas faire
 
 Crée une application sur la nature avec une libellule qui grandit en mangeant des insectes.
 
---- no-print --- --- task ---
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Déplace la souris (ou ton doigt) autour de la scène pour manger des insectes. Comment se déplacent les insectes ?
+Déplace la souris autour de la scène pour manger des insectes. Comment se déplacent les insectes ?
 
 Quelle partie de la libellule doit toucher les insectes pour les manger ? Qu'arrive-t-il à la libellule quand la libellule mange un insecte ?
 </div>
@@ -15,7 +15,7 @@ Quelle partie de la libellule doit toucher les insectes pour les manger ? Qu'ar
 </div>
 </div>
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 

@@ -75,10 +75,10 @@ Lorsque la libellule atteint sa taille maximale, le jeu te félicite et s'arrêt
 Ajoute un bloc `si`{:class="block3control"}.
 
 ```blocks3
-when I receive [nourriture v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
-+if <[ ] = [ ]> then
++if < > then
 end
 ```
 

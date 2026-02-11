@@ -1,8 +1,8 @@
-## What you will make
+## Wat ga je maken
 
 Maak een natuur-app met een libel die groter wordt als hij insecten eet.
 
---- no-print --- --- task ---
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -15,7 +15,7 @@ Welk deel van de libel moet de insecten aanraken om ze op te eten? Wat gebeurt e
 </div>
 </div>
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 

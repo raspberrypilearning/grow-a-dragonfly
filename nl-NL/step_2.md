@@ -5,7 +5,7 @@
 Jij gaat het speelveld bepalen. Kies je achtergrond en voeg een libel toe die de muisaanwijzer binnen het speelveld volgt.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Libel in een woestijnachtergrond](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -17,9 +17,9 @@ Open het [Laat een libel groeien start-project](https://scratch.mit.edu/projects
 
 --- task ---
 
-We gebruikten de **Jurassic** achtergrond. We gebruikten de **Jurassic** achtergrond.
+Klik op **Kies een achtergrond** en voeg een achtergrond naar keuze toe. We gebruikten de **Jurassic** achtergrond.
 
-![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
+![Achtergrondpictogram op de Scratch-app-interface](images/choose-backdrop-icon.png)
 
 ![Het speelveld met de Jurassic-achtergrond.](images/Jurassic-backdrop.png)
 
@@ -29,7 +29,7 @@ We gebruikten de **Jurassic** achtergrond. We gebruikten de **Jurassic** achterg
 
 Klik op **Kies een sprite** en zoek naar `dragonfly` (libel) en voeg vervolgens de **dragonfly** sprite toe.
 
-![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
+![Sprite-pictogram op de Scratch-app-interface](images/choose-sprite-icon.png)
 
 ![Het zoekvak met 'dragonfly' ingetypt en de sprite Dragonfly in de galerij.](images/dragonfly-search.png)
 
@@ -39,7 +39,7 @@ Klik op **Kies een sprite** en zoek naar `dragonfly` (libel) en voeg vervolgens 
 
 Voeg een script toe om de sprite **Dragonfly** de muisaanwijzer (of je vinger) te laten volgen:
 
-![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
+![Libelle-icoon op de Scratch-app-interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -89,7 +89,7 @@ Voeg het **Crank**-geluid toe aan de **Dragonfly**-sprite.
 
 --- task ---
 
-Klik op de **afspeel** knop zodat je het geluid kan horen.
+**Test:** Klik op de **Afspeel** knop zodat je het geluid kunt horen.
 
 --- /task ---
 
@@ -113,7 +113,7 @@ Hernoem je nieuwe geluid van **Crank2** naar `Vleugels`. ![De naam van het gelui
 
 --- task ---
 
-Speel het nieuwe geluid af. Klik een paar keer op de knop **Sneller** totdat het resultaat je bevalt:
+**Test:** Speel het nieuwe geluid af. Klik een paar keer op de knop **Sneller** totdat het resultaat je bevalt:
 
 ![Een snellere geluidsgolf met het pictogram 'Sneller' gemarkeerd.](images/wings-faster.png)
 
@@ -131,7 +131,7 @@ Als je wilt, kun je het einde van het **Vleugels**-geluid selecteren en vervolge
 
 Voeg nu een blok toe om het **Vleugels**-geluid te spelen wanneer de libel beweegt:
 
-![Dragonfly sprite icon](images/dragonfly-icon.png)
+![Libelle sprite-icoon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

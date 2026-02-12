@@ -8,7 +8,7 @@ Mwynha!
 
 --- question ---
 ---
-legend: Cwestiwn 1 o 3
+legend: Question 1 of 3
 ---
 
 Mae prosiect yn defnyddio'r corlun **Crab** a'r corlun **Jellyfish**. Dyma god y corlun **Crab**:

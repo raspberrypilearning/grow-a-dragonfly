@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legenda: Pergunta 2 de 3
+legend: Question 2 of 3
 ---
 
 Você escreveu o código para fazer a libélula se mover apenas se for `not/0>{:class="block3operators"} <code>tocando`{:class="block3sensing"} o ponteiro do mouse.

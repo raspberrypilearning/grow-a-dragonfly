@@ -8,7 +8,7 @@ Divirta-se!
 
 --- question ---
 ---
-legenda: Pergunta 1 de 3
+legend: Question 1 of 3
 ---
 
 Um projeto usa o sprite **Crab** e o sprite **Jellyfish**. O sprite **Crab** tem este código:

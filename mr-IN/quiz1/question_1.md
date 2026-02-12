@@ -8,7 +8,7 @@ Answer the three questions. There are hints to guide you to the correct answer.
 
 --- question ---
 ---
-legend: प्रश्न 3 पैकी 1
+legend: Question 1 of 3
 ---
 
 A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:

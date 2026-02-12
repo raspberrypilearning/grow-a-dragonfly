@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Domanda 2 di 3
+legend: Question 2 of 3
 ---
 
 Hai scritto il codice per far muovere la libellula solo se `non`{:class="block3operators"} `sta toccando`{:class="block3sensing"} il puntatore del mouse.

@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Pregunta 3 de 3
+legend: Question 3 of 3
 ---
 
 En tu proyecto, usaste bloques `elegir número al azar`{:class="block3operators"} para mover el objeto **Insecto** en un patrón de vuelo natural e impredecible.

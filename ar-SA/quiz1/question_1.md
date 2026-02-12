@@ -8,7 +8,7 @@ When you have answered each question, click on **Check my answer**.
 
 --- question ---
 ---
-legend: السؤال 1 من 3
+legend: Question 1 of 3
 ---
 
 يستخدم المشروع كائن**Crab** وكائن **Jellyfish**. يحتوي الكائن **Crab** على هذا الرمز البرمجي:

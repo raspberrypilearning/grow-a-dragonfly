@@ -43,7 +43,7 @@ Utilise l'outil remplissage pour remplir la bouche de la **Libellule**. Nous avo
 
 --- /task ---
 
-Tu dois vérifier que le nouveau sprite touche le sprite **Libellule** `et`{:class="block3operators"} touche la couleur de la bouche de la libellule.
+Tu dois vérifier que le nouveau sprite touche le sprite **Libellule ** `et`{:class="block3operators"} touche la couleur de la bouche de la libellule.
 
 --- task ---
 

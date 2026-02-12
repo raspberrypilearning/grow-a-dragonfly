@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Pregunta 2 de 3
+legend: Question 2 of 3
 ---
 
 Escribiste código para hacer que la libélula se mueva solo si `no`{:class="block3operators"} está `tocando`{:class="block3sensing"} el puntero del ratón.

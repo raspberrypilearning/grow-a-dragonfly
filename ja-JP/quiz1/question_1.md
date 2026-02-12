@@ -8,7 +8,7 @@ When you have answered each question, click on **Check my answer**.
 
 --- question ---
 ---
-legend: 質問1/3
+legend: Question 1 of 3
 ---
 
 あるプロジェクトで**Crab**スプライトと**Jellyfish**スプライトが使用されています。 **Crab**スプライトは、このようなコードを持っています。

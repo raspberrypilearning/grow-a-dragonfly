@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Pytanie 3 z 3
+legend: Question 3 of 3
 ---
 
 W swoim projekcie użyłeś `losuj liczbę`{:class="block3operators"} bloków, aby przesunąć duszka **Owad** w naturalny, nieprzewidywalny wzór latania.

@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legenda: Pergunta 3 de 3
+legend: Question 3 of 3
 ---
 
 Em seu projeto, você usou `pick random`{:class="block3operators"} blocos para mover o sprite **Insect** em um padrão de vôo natural e imprevisível.

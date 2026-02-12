@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Cwestiwn 2 o 3
+legend: Question 2 of 3
 ---
 
 Fe wnes ti ysgrifennu cod i wneud i'r gwas-y-neidr symud dim ond pan `na fydd` {:class="block3operators"} pwyntydd y llygoden yn `cyffwrdd`{:class="block3sensing"} ag ef.

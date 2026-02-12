@@ -47,7 +47,7 @@ Tu dois vérifier que le nouveau sprite touche le sprite **Libellule** `et`{:cla
 
 --- task ---
 
-Sélectionne ton nouveau sprite et clique sur l'onglet **Code** .
+Sélectionne ton nouveau sprite et clique sur l'onglet **Code**.
 
 Fais glisser un bloc `et`{:class="block3operators"} dans le bloc `si`{:class="block3control"}.
 
@@ -62,9 +62,9 @@ forever
 move [3] steps 
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <>> then
-broadcast [food v]
+broadcast [nourriture v]
 hide
-go to (random position v)
+go to (position aléatoire v)
 show
 end
 end
@@ -83,9 +83,9 @@ forever
 move [3] steps
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
-broadcast [food v]
+broadcast [nourriture v]
 hide
-go to (random position v)
+go to (position aléatoire v)
 show
 end
 end

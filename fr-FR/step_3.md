@@ -100,13 +100,14 @@ Tu veux que l'insecte se `cache`{:class="block3looks"} `si`{:class="block3contro
 
 Fais glisser un `touche le [Libellule v]`{:class="block3sensing"} dans le bloc `si`{:class="block3control"}. Ajoute un bloc `cacher`{:class="block3looks"} à l'intérieur du bloc `si`{:class="block3control"}.
 
+
 ```blocks3
 when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-+if <touching [Dragonfly v] ?> then // change from 'mouse-pointer'
-+hide // eaten
++if <touching [Dragonfly v] ?> then // change à partir du "pointeur de la souris"
++hide // mangé
 end
 ```
 
@@ -126,15 +127,15 @@ Ajoute des blocs pour `aller à position aléatoire`{:class="block3motion"} sur 
 
 ```blocks3
 when flag clicked
-+show // show at the start
++show // montrer au début
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
 hide
-+go to (random position v)
++go to (position aléatoire v)
 +wait [1] seconds
-+show // to look like a new fly
++show // pour ressembler à une nouvelle mouche
 end
 end
 ```

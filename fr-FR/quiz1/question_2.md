@@ -15,9 +15,9 @@ Où placerais-tu un bloc `jouer le son`{:class="block3sound"} pour que la libell
 ```blocks3
 when flag clicked
 forever
-+start sound [Wings v]
-if <not <touching [mouse-pointer v] ?> > then
-point towards (mouse-pointer v)
++start sound [Ailes v]
+if <not <touching [pointeur de souris v] ?> > then
+point towards (pointeur de souris v)
 move [5] steps
 end
 end
@@ -34,9 +34,9 @@ Non, avec ce code, le bloc `jouer le son`{:class="block3sound"} est en dehors du
 ```blocks3
 when flag clicked
 forever
-if <not <touching [mouse-pointer v] ?> > then
-+start sound [Wings v]
-point towards (mouse-pointer v)
+if <not <touching [pointeur de souris v] ?> > then
++start sound [Ailes v]
+point towards (pointeur de souris v)
 move [5] steps
 end
 end
@@ -54,11 +54,11 @@ Oui c'est correct. Placer le bloc `jouer le son`{:class="block3sound"} à l'int�
 ```blocks3
 when flag clicked
 forever
-if <not <touching [mouse-pointer v] ?> > then
-point towards (mouse-pointer v)
+if <not <touching [pointeur de souris v] ?> > then
+point towards (pointeur de souris v)
 move [5] steps
 end
-+start sound [Wings v]
++start sound [Ailes v]
 end
 ```
 

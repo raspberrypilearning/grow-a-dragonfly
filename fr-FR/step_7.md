@@ -9,6 +9,7 @@ Modifie le comportement de tes insectes et ajoutes-en davantage.
 </div>
 </div>
 
+
 --- task ---
 
 Modifie la vitesse de la libellule.
@@ -65,7 +66,7 @@ Ajoute un script à **Insecte2** pour le faire pointer dans une direction aléat
 
 ```blocks3
 when flag clicked
-forever // Keep changing direction
+forever // Continue à changer de direction
 point in direction (pick random [0] to [259])
 wait (pick random [1] to [3]) seconds
 end

@@ -21,14 +21,14 @@ Ajoute un bloc `envoyer à tous`{:class="block3events"} au sprite **Insecte** av
 
 ```blocks3
 when flag clicked
-show // show at the start
+show // montrer au début
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
-+broadcast [food v]
++broadcast [nourriture v]
 hide
-go to (random position v)
+go to (position aléatoire v)
 wait [1] seconds
 show
 end
@@ -45,7 +45,7 @@ Sélectionne le sprite **Libellule** et ajoute ce script :
 ![](images/dragonfly-icon.png)
 
 ```blocks3 
-when I receive [food v]
+when I receive [nourriture v]
 change size by [5]
 ```
 
@@ -56,7 +56,7 @@ change size by [5]
 Ajoute le son **Chomp** à la libellule et `joue-le`{:class="block3sound"} lorsqu'un insecte se fait manger :
 
 ```blocks3 
-when I receive [food v]
+when I receive [nourriture v]
 +start sound [Chomp v]
 change size by [5]
 ```
@@ -75,7 +75,7 @@ Lorsque la libellule atteint sa taille maximale, le jeu te félicite et s'arrêt
 Ajoute un bloc `si`{:class="block3control"}.
 
 ```blocks3
-when I receive [food v]
+when I receive [nourriture v]
 start sound [Chomp v]
 change size by [5]
 +if < > then
@@ -91,7 +91,7 @@ La libellule a atteint sa taille maximale lorsque la `taille`{:class="block3look
 Ajoute d'abord un opérateur `=`{:class="block3operators"} dans l'entrée en forme hexagonale :
 
 ```blocks3
-when I receive [food v]
+when I receive [nourriture v]
 start sound [Chomp v]
 change size by [5]
 +if <[ ] = [ ]> then
@@ -104,7 +104,7 @@ end
 Termine la construction de la condition en ajoutant une variable intégrée `taille`{:class="block3looks"} et saisis la valeur `100` :
 
 ```blocks3
-when I receive [food v]
+when I receive [nourriture v]
 start sound [Chomp v]
 change size by [5]
 +if <(size) = [100]> then
@@ -119,13 +119,13 @@ Ajoute des blocs de sorte que `si`{:class="block3control"} la condition est vrai
 Enfin, ajoute un bloc `arrêter tout`{:class="block3control"} pour arrêter les autres scripts libellule :
 
 ```blocks3
-when I receive [food v]
+when I receive [nourriture v]
 start sound [Chomp v]
 change size by [5]
 if <(size) = [100]> then
-+broadcast [end v]
-+say [I got to full size!]
-+stop [other scripts in sprite v] // change from 'all'
++broadcast [fin v]
++say [J'ai atteint ma taille maximale !]
++stop [autres scripts dans sprite v] // changer à partir de "tout"
 end
 ```
 --- /task ---
@@ -137,8 +137,8 @@ Pour le moment, la mouche bouge toujours après la fin du projet. Ajoute ce scri
 ![](images/fly-icon.png)
 
 ```blocks3
-when I receive [end v]
-stop [other scripts in sprite v]
+when I receive [fin v]
+stop [autres scripts dans sprite v]
 ```
 
 --- /task ---

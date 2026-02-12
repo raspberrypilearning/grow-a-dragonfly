@@ -11,7 +11,7 @@ Déplace la souris autour de la scène pour manger des insectes. Comment se dép
 Quelle partie de la libellule doit toucher les insectes pour les manger ? Qu'arrive-t-il à la libellule quand la libellule mange un insecte ?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/657504105/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

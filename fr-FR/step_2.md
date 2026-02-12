@@ -43,9 +43,9 @@ Ajoute un script pour que le sprite **Libellule** suive le pointeur de la souris
 
 ```blocks3
 when flag clicked
-set size to [25] % // to start small
+set size to [25] % // pour démarrer petit
 forever
-point towards (mouse-pointer v)
+point towards (pointeur de souris v)
 move [5] steps
 end
 ```
@@ -107,7 +107,8 @@ Clique sur **Copier dans un nouveau** pour créer un nouveau son avec uniquement
 
 --- task ---
 
-Renomme ton nouveau son de **Crank2** à `Ailes`. ![La propriété du son renommé.](images/crank-wings-sound.png)
+Renomme ton nouveau son de **Crank2** à `Ailes`.
+![La propriété du son renommé.](images/crank-wings-sound.png)
 
 --- /task ---
 
@@ -137,8 +138,8 @@ Ajoute maintenant un bloc pour jouer le son **Ailes** lorsque la libellule se d�
 when flag clicked
 set size to [25] %
 forever
-+start sound [Wings v]
-point towards (mouse-pointer v)
++start sound [Ailes v]
+point towards (pointeur de souris v)
 move [5] steps
 end
 ```

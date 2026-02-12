@@ -9,13 +9,13 @@ Tu ajouteras un insecte que la libellule mangera.
 </div>
 </div>
 
-Il y a une mouche dans le sprite **Frog 2** que tu peux utiliser.
+Il y a une mouche dans le sprite **Insecte 2** que tu peux utiliser.
 
 --- task ---
 
 Ajoute le sprite **Frog 2** à ton projet. Renomme le sprite par `Insecte` :
 
-![La liste Sprite avec le sprite Frog 2 ajouté. La propriété du nom du sprite indique "Insecte".](images/fly-sprite.png)
+![La liste Sprite avec le sprite Insecte 2 ajouté. La propriété du nom du sprite indique "Insecte".](images/fly-sprite.png)
 
 
 --- /task ---
@@ -26,7 +26,7 @@ Tu n'as besoin que de la mouche, pas de la grenouille.
 
 Clique sur l'onglet **Costumes**. Clique à la volée pour le sélectionner et clique sur l'icône **Copier**.
 
-![L'éditeur de peinture avec la partie mouche du costume Frog 2 sélectionnée et l'icône Copier en surbrillance.](images/copy-fly.png)
+![L'éditeur de peinture avec la partie mouche du costume Insecte 2 sélectionnée et l'icône Copier en surbrillance.](images/copy-fly.png)
 
 --- /task ---
 

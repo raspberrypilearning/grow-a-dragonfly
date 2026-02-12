@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: 質問2/3
+legend: Question 2 of 3
 ---
 
 トンボがマウスポインターに`触れた`の{:class="block3sensing"}`ではない`{:class="block3operators"}ときだけ動くようにコードを書きましたね。

@@ -8,7 +8,7 @@ Veel plezier!
 
 --- question ---
 ---
-legend: Vraag 1 van 3
+legend: Question 1 of 3
 ---
 
 Een project maakt gebruik van de **Crab** (krab) sprite en de **Jellyfish** (kwal) sprite. De sprite **Crab** heeft deze code:

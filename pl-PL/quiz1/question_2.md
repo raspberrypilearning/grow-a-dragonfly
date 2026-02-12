@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Pytanie 2 z 3
+legend: Question 2 of 3
 ---
 
 Napisałaś kod, aby ważka poruszała się tylko wtedy, gdy `nie`{:class="block3operators"} `dotyka`{:class="block3sensing"} wskaźnika myszy.

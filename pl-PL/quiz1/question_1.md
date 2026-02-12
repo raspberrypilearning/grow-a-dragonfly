@@ -8,7 +8,7 @@ Miłej zabawy!
 
 --- question ---
 ---
-legend: Pytanie 1 z 3
+legend: Question 1 of 3
 ---
 
 Projekt używa duszka **Krab** (ang. Crab) i duszka **Meduza** (ang. Jellyfish). Duszek **Krab** ma następujący kod:

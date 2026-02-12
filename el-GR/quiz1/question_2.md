@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Ερώτηση 2 από 3
+legend: Question 2 of 3
 ---
 
 Έγραψες κώδικα για να κάνεις τη λιβελούλα να κινείται μόνο αν `δεν`{:class="block3operators"} `αγγίζει`{:class="block3sensing"} τον δείκτη του ποντικιού.

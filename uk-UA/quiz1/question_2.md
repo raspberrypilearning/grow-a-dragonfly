@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Питання 2 з 3
+legend: Question 2 of 3
 ---
 
 Твій код робить так, що бабка рухається тільки, якщо вона `не`{:class="block3operators"} `торкається`{:class="block3sensing"} вказівника миші.

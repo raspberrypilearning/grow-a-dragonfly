@@ -8,7 +8,7 @@ Cuando hayas respondido cada pregunta, haz clic en **Revisar mi respuesta**.
 
 --- question ---
 ---
-legend: Pregunta 1 de 3
+legend: Question 1 of 3
 ---
 
 Un proyecto utiliza el objeto **Crab** y **Jellyfish**. El objeto **Crab** tiene este código:

@@ -1,14 +1,8 @@
-## ふりかえり
+## Quick quiz
 
-よくできました。ユーザーが制御するトンボと、アルゴリズムに従う昆虫を使って、ネイチャーアプリを作成しました。
+Answer the three questions. 正しい答えが表示されます。
 
-`イベント`{:class="block3events"}、 `制御`{:class="block3control"}、 `調べる`{:class="block3sensing"}、`演算`{:class="block3operators"}、`動き`{:class="block3motion"}、 `見た目`{:class="block3looks"}および `音`{:class="block3sound"}ブロックを使用しました！
-
-次はふりかえりの時間です。ふりかえりを行うことで、脳に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
-
-以下の3つの質問に答えて、学んだことをふりかえってみましょう。
-
-各質問の後で、送信を押します。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
+When you have answered each question, click on **Check my answer**.
 
 楽しんで!
 
@@ -44,7 +38,7 @@ end
 
  --- feedback ---
 
-正解！、`ではない`{:class="block3operators"}演算子は、`もし`{:class="block3control"}**Crab**スプライトが青色に`触れている`{:class="block3sensing"}ではない、という条件が真であることを意味します。
+正解！ 、`ではない`{:class="block3operators"}演算子は、`もし`{:class="block3control"}**Crab**スプライトが青色に`触れている`{:class="block3sensing"}ではない、という条件が真であることを意味します。
 
  --- /feedback ---
 

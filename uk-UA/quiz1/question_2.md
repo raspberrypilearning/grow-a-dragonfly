@@ -15,9 +15,9 @@ legend: Питання 2 з 3
 ```blocks3
 when flag clicked
 forever
-+start sound [Крильця v]
-if <not <touching [вказівник v] ?> > then
-point towards (вказівник v)
++start sound [Wings v]
+if <not <touching [mouse-pointer v] ?> > then
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -34,9 +34,9 @@ end
 ```blocks3
 when flag clicked
 forever
-if <not <touching [вказівник v] ?> > then
-+start sound [Крильця v]
-point towards (вказівник v)
+if <not <touching [mouse-pointer v] ?> > then
++start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -54,11 +54,11 @@ end
 ```blocks3
 when flag clicked
 forever
-if <not <touching [вказівник v] ?> > then
-point towards (вказівник v)
+if <not <touching [mouse-pointer v] ?> > then
+point towards (mouse-pointer v)
 move [5] steps
 end
-+start sound [Крильця v]
++start sound [Wings v]
 end
 ```
 

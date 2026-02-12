@@ -1,23 +1,17 @@
 ## విశ్లేషణ
 
-బాగా చేసారు, మీరు యూజర్ చే నియంత్రించబడే తూనీగతో మరియు అల్గారిథమ్‌ను అనుసరించే కీటకాలతో ప్రకృతి యాప్‌ని సృష్టించారు!
+Answer the three questions. There are hints to guide you to the correct answer.
 
 మీరు `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, మరియు `Sound`{:class="block3sound"} బ్లాక్‌లని ఉపయోగించారు!
 
 ఇప్పుడు, విశ్లేషించే సమయం వచ్చింది — విశ్లేషించడం అనేది నేర్చుకోవడంలో ముఖ్యమైన భాగం, ఎందుకంటే ఇది మీ మెదడులో కొత్త కనెక్షన్‌లను ఏర్పరచడంలో సహాయపడుతుంది.
-
-మీరు నేర్చుకున్న వాటిని పరిశీలించడానికి దిగువ మూడు ప్రశ్నలకు సమాధానం ఇవ్వండి.
-
-ప్రతి ప్రశ్న తర్వాత, సబ్మిట్ నొక్కండి. మీరు సరైన సమాధానం వైపు మార్గనిర్దేశం చేయబడతారు. మీరు ఈ చర్యను మీకు కావలసినన్ని సార్లు చేయవచ్చు.
-
-ఆస్వాదించండి!
 
 --- question ---
 ---
 legend: 3లో 1వ ప్రశ్న
 ---
 
-ఒక ప్రాజెక్ట్ **Crab** sprite మరియు **Jellyfish** sprite లను ఉపయోగిస్తుంది. **Crab** sprite ఈ కోడ్‌ని కలిగి ఉంది:
+A project uses the **Crab** sprite and the **Jellyfish** sprite. The **Crab** sprite has this code:
 
 ![desc](images/crab-icon.png)
 
@@ -28,7 +22,7 @@ hide
 end
 ```
 
-**Crab** sprite దాగడానికి ఏమి జరగాలి?
+What would need to happen for the **Crab** sprite to hide?
 
 --- choices ---
 
@@ -44,7 +38,7 @@ end
 
  --- feedback ---
 
-అవును, `not`{:class="block3operators"} ఆపరేటర్ అంటే కండిషన్ ట్రూ అని అర్థం. `if`{:class="block3control"} **Crab** sprite `not touching`{:class="block3sensing"} ఉంటే నీలం రంగు.
+Yes, the `not`{:class="block3operators"} operator means that the condition is true `if`{:class="block3control"} the **Crab** sprite is not `touching`{:class="block3sensing"} the colour blue.
 
  --- /feedback ---
 

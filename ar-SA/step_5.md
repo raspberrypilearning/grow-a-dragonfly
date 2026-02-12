@@ -13,9 +13,7 @@
 
 اختر كائن **Dragonfly** وابحث عن النص الذي يبدأ بالكتلة `عند نقر العلم`{:class="block3events"}.
 
-اسحب كتلة `إذا`{:class="block3control"} داخل الكتلة `كرر باستمرار`{:class="block3control"} وستتحرك الكتل الموجودة داخل حلقة `كرر باستمرار`{:class="block3control"} في داخل كتلة `إذا`{:class="block3control"}.
-
-تحقق بعناية من أن الكود الخاص بك يبدو كما يلي:
+اسحب كتلة `إذا`{:class="block3control"} داخل الكتلة `كرر باستمرار`{:class="block3control"} وستتحرك الكتل الموجودة داخل حلقة `كرر باستمرار`{:class="block3control"} في داخل كتلة `إذا`{:class="block3control"}. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -24,7 +22,7 @@ when flag clicked
 set size to [25] %
 forever
 +if < > then
-start sound [أجنحة v]
+start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end
@@ -36,39 +34,33 @@ end
 
 ثم اسحب كتلة `ليس`{:class="block3operators"} إلى كتلة `إذا`{:class="block3control"} وضع كتلة `ملامس لـ(مؤشر الفأرة)`{:class="block3sensing"} داخلها.
 
-تحقق من أن الكود الخاص بك يبدو كالتالي:
-
-![](images/dragonfly-icon.png)
-
 ```blocks3
 when flag clicked
 set size to [25] %
 forever
 +if <not <touching [mouse-pointer v] ?> > then
-start sound [أجنحة v]
+start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end
 end
 ```
 
-تحول الكتلة `ليس`{:class="block3operators"} الشرط إلى عكسه، تمامًا كما هو الحال في الجملة.
+--- /task ---
+
+--- task ---
+
+**اختبار:** تحقق من أن الخلل قد تم إصلاحه، وأن كائن اليعسوب Dragonfly يتحرك فقط عندما `لا`{: class="block3operators"} يكون في حالة `ملامس لـ(مؤشر الفأرة)`{:class="block3sensing"}.
 
 --- /task ---
 
 --- task ---
 
-**اختبار:** تحقق من أن الخلل قد تم إصلاحه، وأن كائن اليعسوب Dragonfly يتحرك فقط عندما `لا`{:class="block3operators"} يكون في حالة `ملامس لـ(مؤشر الفأرة)`{:class="block3sensing"}.
-
-من الممكن تجربة شرط مختلف وهو:
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
-<(distance to [mouse-pointer v]) > [50]>
+<(المسافة الى [مؤشر الفأرة v]) > [50]>
 ```
-
-هذا يجعل اليعسوب يتحرك عندما يكون بعيدًا بما فيه الكفاية عن مؤشر الماوس.
-
-**نصيحة:** يمكنك سحب الكتل في أي مكان في منطقة الكود البرمجي وتركها هناك أثناء تجربة أشياء مختلفة.
 
 --- /task ---
 

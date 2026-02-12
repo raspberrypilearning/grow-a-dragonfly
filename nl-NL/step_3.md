@@ -9,9 +9,6 @@ Je voegt een insect toe voor de libel om te eten.
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Personages die in games alleen rondlopen, worden soms <span style="color: #0faeb0">**mobs**</span> genoemd, een afkorting voor mobieltjes. Kun je een spel bedenken met mobs?</p>
-
 Er zit een vlieg in de **Frog 2** sprite die je kunt gebruiken.
 
 --- task ---
@@ -43,7 +40,7 @@ Voeg een nieuw uiterlijk toe aan de sprite met behulp van de **Teken**-optie:
 
 --- task ---
 
-Klik op het pictogram **Plakken** om de sprite in het nieuwe uiterlijk te plakken. Sleep de vlieg naar de **midden** zodat deze uitgelijnd is met het dradenkruis.
+Klik op het pictogram **Plakken** om de sprite in het nieuwe uiterlijk te plakken. Sleep de vlieg naar de **midden** zodat deze uitgelijnd is met het raster.
 
 Je kunt je uiterlijk `Insect` hernoemen en de andere uiterlijken verwijderen, want die heb je niet nodig:
 
@@ -83,8 +80,6 @@ Je wilt dat het **Insect** sprite `verdwijnt`{:class="block3looks"} `als`{:class
 
 Voeg een `als`{:class="block3control"} blok toe aan het bewegingsscript van de **Insect** sprite:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -99,21 +94,19 @@ De `als`{:class="block3control"} heeft een zeshoekige invoer. Dit betekent dat j
 
 Wanneer het `als`{:class="block3control"}-blok wordt uitgevoerd, zal Scratch de voorwaarde controleren. Als de voorwaarde 'waar' is `dan`{:class="block3control"} wordt de code in het `als`{:class="block3control"}-blok uitgevoerd.
 
-Je wilt dat het insect `verdwijnt`{:class="block3looks"} `als`{:class="block3control"} het de **Dragonfly** sprite `aanraakt`{:class="block3sensing"}.
+Je wilt dat het insect `verdwijnt`{:class="block3looks"} ` als`{:class="block3control"} het de **Dragonfly** sprite `aanraakt`{:class="block3sensing"}.
 
 --- task ---
 
 Sleep een `raak ik [Dragonfly v]`{:class="block3sensing"} in het `als`{:class="block3control"}-blok. Voeg een `verdwijn`{:class="block3looks"} blok toe binnen het `als`{:class="block3control"} blok.
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-+if <touching [Dragonfly v] ?> then // wijzigen van 'muisaanwijzer'
-+hide // opgegeten
++if <touching [Dragonfly v] ?> then // change from 'mouse-pointer'
++hide // eaten
 end
 ```
 
@@ -131,11 +124,9 @@ De libel wordt niet erg groot als hij maar één vlieg kan eten!
 
 Voeg een blok `ga naar een willekeurige positie`{:class="block3motion"} toe aan werkgebied, en laat je sprite `een seconde wachten`{:class="block3control"} en dan `verschijnen`{:class="block3looks"}:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
-+show // toon aan het begin
++show // show at the start
 forever
 move [3] steps
 if on edge, bounce
@@ -143,7 +134,7 @@ if <touching [Dragonfly v] ?> then
 hide
 +go to (random position v)
 +wait [1] seconds
-+show // eruit zien als een nieuwe vlieg
++show // to look like a new fly
 end
 end
 ```

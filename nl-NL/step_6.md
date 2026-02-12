@@ -5,7 +5,7 @@
 Geef de libel een keuze aan insecten.
 </div>
 <div>
-![Het toneel toont twee insecten en een libel.](images/more-food.png){:width="300px"}
+![Het speelveld toont twee insecten en een libel.](images/more-food.png){:width="300px"}
 </div>
 </div>
 
@@ -23,7 +23,6 @@ Het is handig als dit insect er anders uitziet dan de vlieg.
 
 Klik op het tabblad **Uiterlijken**.
 
-**Kies:** Maak een ander vliegend insect.
 + Je kunt het **Vulling** gereedschap gebruiken om de kleur van het insect te veranderen
 + **Schilder** je eigen insectenuiterlijk
 + **Voeg** een ander insectsprite van Scratch toe
@@ -52,7 +51,7 @@ Selecteer de **Insect2** sprite en klik op het tabblad **Code**.
 
 Sleep een `en`{:class="block3operators"} blok in het `if`{:class="block3control"} blok.
 
-Het `<touching [Dragonfly v] ?>`{:class="block3sensing"} blok komt tevoorschijn, sleep het naar de linkerkant van het `en`{:class="block3operators"} blok:
+Sleep een `en`{:class="block3operators"} blok in het `if`{:class="block3control"} blok.
 
 ![](images/insect2-icon.png)
 
@@ -63,7 +62,7 @@ forever
 move [3] steps 
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <>> then
-broadcast [eten v]
+broadcast [food v]
 hide
 go to (random position v)
 show
@@ -77,8 +76,6 @@ end
 
 Sleep een `raak ik kleur`{:class="block3sensing"} blok naar de rechterkant van het `en`{:class="block3operators"} blok:
 
-![](images/insect2-icon.png)
-
 ```blocks3
 when flag clicked
 show
@@ -86,7 +83,7 @@ forever
 move [3] steps
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
-broadcast [eten v]
+broadcast [food v]
 hide
 go to (random position v)
 show
@@ -109,8 +106,6 @@ Klik op de mond van de libel in het toneel om de bijpassende kleur in te stellen
 --- task ---
 
 **Test:** Test nu of de libel het tweede insect alleen met zijn mond kan eten.
-
-Als je wilt, kun je de eerste **Insect** veranderen, zodat deze alleen met de mond van de libel kan worden gegeten.
 
 --- /task ---
 

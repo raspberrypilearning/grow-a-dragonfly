@@ -16,8 +16,8 @@ Dove inseriresti un blocco `avvia riproduzione suono`{:class="block3sound"} per 
 when flag clicked
 forever
 +start sound [Wings v]
-if <not <touching [puntatore del mouse v] ?> > then
-point towards (puntatore del mouse v)
+if <not <touching [mouse-pointer v] ?> > then
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -34,9 +34,9 @@ No, con questo codice il blocco `avvia riproduzione suono`{:class="block3sound"}
 ```blocks3
 when flag clicked
 forever
-if <not <touching [puntatore del mouse v] ?> > then
+if <not <touching [mouse-pointer v] ?> > then
 +start sound [Wings v]
-point towards (puntatore del mouse v)
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -54,8 +54,8 @@ Sì, è corretto. Posizionando il blocco `avvia riproduzione suono`{:class="bloc
 ```blocks3
 when flag clicked
 forever
-if <not <touching [puntatore del mouse v] ?> > then
-point towards (puntatore del mouse v)
+if <not <touching [mouse-pointer v] ?> > then
+point towards (mouse-pointer v)
 move [5] steps
 end
 +start sound [Wings v]

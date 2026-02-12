@@ -4,7 +4,7 @@
 legend: السؤال 2 من 3
 ---
 
-لقد كتبت شفرة برمجية لجعل اليعسوب يتحرك فقط إذا `لم يكن`{:class="block3operators"} بوضعٍ `ملامس`{:class="block3sensing"} لمؤشر الماوس.
+لقد كتبت شفرة برمجية لجعل اليعسوب يتحرك فقط إذا `لم يكن`{:class="block3operators"} بوضعٍ `ملامس` لمؤشر الماوس.
 
 أين ستضع كتلة `ابدأ الصوت`{:class="block3sound"} لتجعل اليعسوب يصدر صوتًا في كل مرة يتحرك فيها؟
 
@@ -15,7 +15,7 @@ legend: السؤال 2 من 3
 ```blocks3
 when flag clicked
 forever
-+start sound [أجنحة v]
++start sound [Wings v]
 if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
@@ -35,7 +35,7 @@ end
 when flag clicked
 forever
 if <not <touching [mouse-pointer v] ?> > then
-+start sound [أجنحة v]
++start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end
@@ -58,7 +58,7 @@ if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
 end
-+start sound [أجنحة v]
++start sound [Wings v]
 end
 ```
 

@@ -23,7 +23,6 @@ Mae'n ddefnyddiol os ydy'r pryfyn yma yn edrych yn wahanol i'r pry.
 
 Clicia'r tab **Gwisgoedd**.
 
-**Dewis:** Galli di greu pryfyn ehedog gwahanol.
 + Defnyddia'r offeryn **Llanw** i newid lliw'r pryfyn yma
 + **Paentia** dy wisg pryfyn dy hun
 + **Ychwanega** wisg chwilen gwahanol o Scratch
@@ -44,15 +43,15 @@ Defnyddia'r offeryn llenwi i lenwi ceg y **Gwas-y-neidr**. Fe wnaethon ni ddefny
 
 --- /task ---
 
-Mae angen i ti wneud yn siŵr bod y corlun **Insect2** yn cyffwrdd â'r corlun **Dragonfly** `ac`{:class="block3operators"} ei fod yn cyffwrdd â lliw ceg y gwas-y-neidr.
+You need to check that the new sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
 
 --- task ---
 
-Dewisa'r corlun **Insect2** a chlicio'r tab **Cod**.
+Select your new sprite and click on the **Code** tab.
 
 Llusga floc `a`{:class="block3operators"} i mewn i'r bloc `os`{:class="block3control"}.
 
-Bydd y bloc `<touching [Dragonfly v] ?>`{:class="block3sensing"} yn neidio allan, nawr galli di ei lusgo i'r chwith o'r bloc `a`{:class="block3operators"}:
+Llusga floc `a`{:class="block3operators"} i mewn i'r bloc `os`{:class="block3control"}.
 
 ![](images/insect2-icon.png)
 
@@ -63,7 +62,7 @@ forever
 move [3] steps 
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <>> then
-broadcast [bwyd v]
+broadcast [food v]
 hide
 go to (random position v)
 show
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-Llusga floc `lliw cyffwrdd`{:class="block3sensing"} i'r dde o'r bloc `a`{:class="block3operators"}:
-
-![](images/insect2-icon.png)
+Drag a `touching color`{:class="block3sensing"} block into the other space of the `and`{:class="block3operators"} block:
 
 ```blocks3
 when flag clicked
@@ -86,7 +83,7 @@ forever
 move [3] steps
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
-broadcast [bwyd v]
+broadcast [food v]
 hide
 go to (random position v)
 show
@@ -94,23 +91,21 @@ end
 end
 ```
 
-Os nad ydy lliw ceg y gwas-y-neidr wedi'i ddewis, clicia ar y cylch lliwiau ac yna clicia'r offeryn **Diferydd** i ddewis lliw.
+Llusga floc `lliw cyffwrdd`{:class="block3sensing"} i'r dde o'r bloc `a`{:class="block3operators"}:
 
 ![Y ddewislen cylch lliwiau gyda'r offeryn diferydd.](images/colour-eyedropper.png)
 
-Clicia ar geg y gwas-y-neidr ar y Llwyfan i osod y lliw i gyd-fynd:
+Os nad ydy lliw ceg y gwas-y-neidr wedi'i ddewis, clicia ar y cylch lliwiau ac yna clicia'r offeryn **Diferydd** i ddewis lliw.
 
 ![Yr offeryn diferydd gydag amlygwr dewis lliwiau yn hofran dros geg borffor y gwas-y-neidr.](images/colour-select.png)
 
-**Awgrym:** Os ydy hyn yn anodd i'w wneud, newidia faint y corlun **Dragonfly** fel ei fod yn fawr iawn.
+Clicia ar geg y gwas-y-neidr ar y Llwyfan i osod y lliw i gyd-fynd:
 
 --- /task ---
 
 --- task ---
 
-**Profi:** Nawr galli di brofi mai dim ond yr ail bryfyn all y gwas-y-neidr ei fwyta gyda'i geg.
-
-Os dymuni di, galli di newid yr **Insect** cyntaf fel mai dim ond ceg y gwas-y-neidr sy'n gallu ei fwyta.
+**Test:** Check the dragonfly can only eat the second insect with its mouth.
 
 --- /task ---
 

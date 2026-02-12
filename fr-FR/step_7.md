@@ -1,19 +1,68 @@
-## Mouvement aléatoire des insectes
+## Défi
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Les insectes de ton application se déplacent selon un schéma très prévisible, mais dans la vraie vie, ils sont difficiles à attraper. 
-
-Tu utiliseras le bloc « nombre aléatoire »{:class="block3operators"} pour faire bouger l'insecte de manière plus naturelle.
+Modifie le comportement de tes insectes et ajoutes-en davantage.
 </div>
 <div>
+![Scène montrant trois types d'insectes différents et la libellule.](images/random-movement.png){:width="300px"}
+</div>
+</div>
+
+
+--- task ---
+
+Modifie la vitesse de la libellule.
+
+--- /task ---
+
+--- task ---
+
+Modifie la taille que la libellule doit atteindre pour atteindre sa taille adulte.
+
+--- /task ---
+
+--- task ---
+
+Modifie le premier **Insecte** afin qu'il ne puisse être mangé qu'avec la bouche de la libellule.
+
+--- /task ---
+
+### Ajouter plus d'insectes
+
+Tu peux peindre tes propres insectes ou essayer d'ajouter un emoji moustique !
+
+--- task ---
+
+Utilise le clavier emoji pour ajouter un sprite **Emoji moustique**.
+
+Duplique un sprite **insecte** existant puis clique sur l'onglet **Costumes**. **Peins** un nouveau costume et sélectionne l'outil **Texte**. Au lieu de saisir du texte, utilise le raccourci clavier emoji pour ton système d'exploitation :
+
+- Windows - <kbd>⊞ Win</kbd> + <kbd>.</kbd>
+- MacOS - <kbd>contrôle</kbd> + <kbd>commande</kbd> + <kbd>espace</kbd>
+- Linux - <kbd>ctrl</kbd> + <kbd>.</kbd>
+
+![Le clavier emoji contextuel avec la catégorie "animaux et nature" sélectionnée.](images/emoji-keyboard.png)
+
+Sélectionne l'emoji **Moustique** pour l'insérer dans l'éditeur de peinture. Utilise l'outil **Sélectionner** (flèche) pour centrer, redimensionner et faire pivoter ton moustique jusqu'à ce que tu en sois satisfait.
+
+![L'emoji moustique dans l'éditeur de peinture.](images/emoji-mosquito.png)
+
+**Astuce :** les emojis peuvent avoir un aspect différent sur différents ordinateurs, ils peuvent donc ne pas être identiques sur une tablette et sur un ordinateur de bureau. Certains emojis ne sont pas disponibles sur certains ordinateurs, mais la plupart des ordinateurs modernes les prendront en charge.
+
+--- /task ---
+
+### Créer un mouvement aléatoire
+
+Utilise le bloc `nombre aléatoire`{:class="block3operators"} pour que l'insecte se déplace de manière plus naturelle.
+
 ![Scène montrant des insectes pointant dans différentes directions.](images/random-movement.png){:width="300px"}
-</div>
-</div>
 
 --- task ---
 
 Ajoute un script à **Insecte2** pour le faire pointer dans une direction aléatoire toutes les 1 à 3 secondes.
+
+![](images/insect2-icon.png)
 
 ```blocks3
 when flag clicked
@@ -27,27 +76,37 @@ end
 
 --- task ---
 
-**Test :** Exécute ton projet et observe le mouvement de la mouche. Essaie de changer les nombres pour obtenir l'effet souhaité.
-
-Tu peux également faire glisser ce script vers le sprite **Insecte** afin qu'il se déplace également de manière aléatoire.
+**Test :** exécute ton projet et observe le mouvement du sprite.
 
 --- /task ---
 
 --- task ---
 
-Modifie les insectes jusqu'à ce qu'ils se comportent comme tu le souhaites.
+Fais glisser ce script vers l'autre sprite **Insecte** afin qu'il se déplace de manière aléatoire.
 
-Tu peux modifier le nombre de pas qu'ils `font`{:class="block3motion"} pour les rendre plus rapides ou plus lents.
+--- /task ---
 
-Tu peux également modifier la vitesse de la libellule.
+### Partager tes insectes
+
+--- task ---
+
+Utilise ton sac à dos pour échanger des insectes avec tes amis grâce à leurs projets « Faire grandir une libellule ».
+
+Envoie le lien de ton projet à ton ami·e qui pourra y accéder, clique sur Sac à dos (celui situé sous l'espace de code) et glisse-dépose le sprite.
+
+[[[scratch-backpack]]]
 
 --- /task ---
 
 --- task ---
 
-Tu peux également modifier la taille dont la libellule a besoin pour atteindre sa taille maximale.
+Vérifie que chaque sprite et costume possède un nom qui décrit l'image. Cela rend ton projet plus facile à comprendre si tu y reviens plus tard.
 
-Apporte des modifications jusqu'à ce que tu sois satisfait de ton projet.
+--- /task ---
+
+--- task ---
+
+Fais un clic droit sur la zone Code et choisis **Nettoyer les blocs** pour que Scratch nettoie ton code.
 
 --- /task ---
 

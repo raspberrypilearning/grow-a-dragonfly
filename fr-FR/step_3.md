@@ -9,16 +9,13 @@ Tu ajouteras un insecte que la libellule mangera.
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Les personnages qui se déplacent seuls dans les jeux sont parfois appelés <span style="color: #0faeb0">**mobs**</span>, abréviation de mobiles. Peux-tu penser à un jeu qui a des mobs ?</p>
-
-Il y a une mouche dans le sprite **Frog 2** que tu peux utiliser.
+Il y a une mouche dans le sprite **Insecte 2** que tu peux utiliser.
 
 --- task ---
 
 Ajoute le sprite **Frog 2** à ton projet. Renomme le sprite par `Insecte` :
 
-![La liste Sprite avec le sprite Frog 2 ajouté. La propriété du nom du sprite indique "Insecte".](images/fly-sprite.png)
+![La liste Sprite avec le sprite Insecte 2 ajouté. La propriété du nom du sprite indique "Insecte".](images/fly-sprite.png)
 
 
 --- /task ---
@@ -29,7 +26,7 @@ Tu n'as besoin que de la mouche, pas de la grenouille.
 
 Clique sur l'onglet **Costumes**. Clique à la volée pour le sélectionner et clique sur l'icône **Copier**.
 
-![L'éditeur de peinture avec la partie mouche du costume Frog 2 sélectionnée et l'icône Copier en surbrillance.](images/copy-fly.png)
+![L'éditeur de peinture avec la partie mouche du costume Insecte 2 sélectionnée et l'icône Copier en surbrillance.](images/copy-fly.png)
 
 --- /task ---
 
@@ -45,7 +42,7 @@ Ajoute un nouveau costume au sprite en utilisant l'option **Peindre** :
 
 Clique sur l'icône **Coller** pour coller le sprite dans le nouveau costume. Fais glisser la mouche vers le **centre** afin qu'elle s'aligne avec le réticule.
 
-Tu peux renommer ton costume `Insecte` et supprimer les autres costumes, car tu n'en auras pas besoin :
+Renomme ton costume `Insecte` et supprime les autres costumes, car tu n'en auras pas besoin :
 
 ![L'éditeur de peinture montrant un nouveau costume d'insecte collé avec l'icône Coller en surbrillance. La liste des costumes montre que les autres costumes ont été supprimés.](images/fly-costume.png)
 
@@ -83,8 +80,6 @@ Tu veux que le sprite **Insecte** se `cache`{:class="block3looks"} `si`{:class="
 
 Ajoute un bloc `si`{:class="block3control"} au script de mouvement du sprite **Insecte** :
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -105,7 +100,6 @@ Tu veux que l'insecte se `cache`{:class="block3looks"} `si`{:class="block3contro
 
 Fais glisser un `touche le [Libellule v]`{:class="block3sensing"} dans le bloc `si`{:class="block3control"}. Ajoute un bloc `cacher`{:class="block3looks"} à l'intérieur du bloc `si`{:class="block3control"}.
 
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -121,7 +115,7 @@ end
 
 --- task ---
 
-**Test :** Teste ton code et contrôle la libellule pour manger la mouche. La mouche devrait disparaître.
+**Test :** teste ton code et contrôle la libellule pour manger la mouche. La mouche devrait disparaître.
 
 --- /task ---
 
@@ -131,8 +125,6 @@ La libellule ne deviendra pas très grande si elle ne peut manger qu'une seule m
 
 Ajoute des blocs pour `aller à position aléatoire`{:class="block3motion"} sur la scène, et fais ton sprite `attendre`{:class="block3control"} pendant une seconde puis `montrer`{:class="block3looks"} :
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 +show // montrer au début
@@ -141,7 +133,7 @@ move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
 hide
-+go to (random position v)
++go to (position aléatoire v)
 +wait [1] seconds
 +show // pour ressembler à une nouvelle mouche
 end
@@ -152,12 +144,12 @@ end
 
 --- task ---
 
-**Test :** Teste que ta libellule peut maintenant manger beaucoup de mouches.
+**Test :** teste que ta libellule peut maintenant manger beaucoup de mouches.
 
 Assure-toi d'avoir ajouté le bloc `montrer`{:class="block3looks"} pour montrer au début.
 
 --- /task ---
 
-**Astuce :** Tu peux cliquer sur le bouton rouge **Stop** au-dessus de la scène si tu veux que la libellule s'arrête pendant que tu ajoutes plus de code.
+**Astuce :** tu peux cliquer sur le bouton rouge **Stop** au-dessus de la scène si tu veux que la libellule s'arrête pendant que tu ajoutes plus de code.
 
 --- save ---

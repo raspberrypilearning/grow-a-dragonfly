@@ -25,7 +25,7 @@ show // montrer au début
 forever
 move [3] steps
 if on edge, bounce
-if <touching [Dragonfly v] ?> then
+if <touching [Libellule v] ?> then
 +broadcast [nourriture v]
 hide
 go to (position aléatoire v)

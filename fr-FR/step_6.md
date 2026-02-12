@@ -51,7 +51,7 @@ Sélectionne ton nouveau sprite et clique sur l'onglet **Code**.
 
 Fais glisser un bloc `et`{:class="block3operators"} dans le bloc `si`{:class="block3control"}.
 
-Le bloc `<touching [Dragonfly v] ?>`{:class="block3sensing"} apparaîtra, fais-le glisser dans un espace du bloc `et`{:class="block3operators"} :
+Le bloc `<touche le [Libellule v] ?>`{:class="block3sensing"} apparaîtra, fais-le glisser à gauche du bloc `et`{:class="block3operators"} :
 
 ![](images/insect2-icon.png)
 
@@ -61,7 +61,7 @@ show
 forever
 move [3] steps 
 if on edge, bounce
-+if <<touching [Dragonfly v] ?> and <>> then
++if <<touching [Libellule v] ?> and <>> then
 broadcast [nourriture v]
 hide
 go to (position aléatoire v)
@@ -82,7 +82,7 @@ show
 forever
 move [3] steps
 if on edge, bounce
-+if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
++if <<touching [Libellule v] ?> and <touching color (#9966ff) ?>> then
 broadcast [nourriture v]
 hide
 go to (position aléatoire v)

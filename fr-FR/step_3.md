@@ -106,7 +106,7 @@ when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-+if <touching [Dragonfly v] ?> then // change à partir du "pointeur de la souris"
++if <touching [Libellule v] ?> then // change à partir du "pointeur de la souris"
 +hide // mangé
 end
 ```
@@ -131,7 +131,7 @@ when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-if <touching [Dragonfly v] ?> then
+if <touching [Libellule v] ?> then
 hide
 +go to (position aléatoire v)
 +wait [1] seconds

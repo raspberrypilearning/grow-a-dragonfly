@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-Non, avec ce code, le bloc `jouer le son`{:class="block3sound"} est en dehors du bloc `si`{:class="block3control"}, il s'exécutera donc à chaque fois que la boucle `répéter indéfiniment`{:class=" block3control"} s'exécute, même si la libellule ne bouge pas.
+Non, avec ce code, le bloc `jouer le son`{:class="block3sound"} est en dehors du bloc `si`{:class="block3control"}, il s'exécutera donc à chaque fois que la boucle `répéter indéfiniment`{:class="block3control"} s'exécute, même si la libellule ne bouge pas.
 
 --- /feedback ---
 

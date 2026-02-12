@@ -91,7 +91,7 @@ Ajoute le son **Crank** au sprite **Libellule**.
 
 **Test :** clique sur le bouton **Jouer** pour que tu puisses entendre le son.
 
---- /task ---
+--- /task --- 
 
 Le son **Crank** est trop long et trop lent pour les ailes de libellule.
 

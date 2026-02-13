@@ -2,11 +2,11 @@
 
 If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
 
-మీరు మీ స్వంత కీటకాలను పెయింట్ చేయవచ్చు లేదా ఎమోజి దోమను జోడించడానికి ప్రయత్నించవచ్చు!
+--- print-only ---
 
 ![The Stage view of the completed Drum star project.](images/drum-star.png)
 
-**Mosquito emoji** sprite ని జోడించడానికి ఎమోజి కీబోర్డ్‌ని ఉపయోగించండి.
+--- /print-only ---
 
 --- no-print ---
 

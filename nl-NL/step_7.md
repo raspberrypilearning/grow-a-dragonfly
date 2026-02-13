@@ -53,7 +53,7 @@ Selecteer de **Mug** emoji om deze in de Paint-editor in te voegen. Gebruik het 
 
 ### Creëer willekeurige beweging
 
-Je gebruikt het `willekeurig getal tussen`{:class="block3operators"} blok om het insect op een meer natuurlijke manier te laten bewegen.
+Gebruik het `willekeurig getal tussen x en x`{:class="block3operators"} blok om het insect op een meer natuurlijke manier te laten bewegen.
 
 ![Een speelveld waarop insecten in verschillende richtingen wijzen.](images/random-movement.png){:width="300px"}
 
@@ -75,13 +75,13 @@ end
 
 --- task ---
 
-**Test:** Test je project en bekijk hoe de insecten vliegen.
+**Test:** Voer je project uit en kijk hoe de sprite beweegt.
 
 --- /task ---
 
 --- task ---
 
-Je kunt dit script ook naar de sprite **Insect** slepen, zodat het ook willekeurig beweegt.
+Sleep dit script naar de andere **Insect** sprite om deze willekeurig te laten bewegen.
 
 --- /task ---
 

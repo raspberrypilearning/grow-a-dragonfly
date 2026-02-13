@@ -9,7 +9,7 @@ Je laat de libel groeien als hij een vlieg eet en stopt als hij zijn volledige g
 </div>
 </div>
 
-The Dragonfly needs to grow when it eats a fly.
+De libel moet groeien als ze een vlieg eet.
 
 Als je een andere sprite moet laten weten dat er iets is gebeurd, kun je een `zend signaal`{:class="block3events"}-blok gebruiken zoals je deed in [Verzend spreuken](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 

@@ -2,7 +2,7 @@
 
 కీటకాలను తిని, పెద్దదిగా పెరిగే తూనీగతో ప్రకృతి యాప్‌ను రూపొందించండి.
 
-మీరు:
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  

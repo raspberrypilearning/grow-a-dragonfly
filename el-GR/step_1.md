@@ -2,7 +2,7 @@
 
 Φτιάξε μια εφαρμογή για τη φύση με μια λιβελούλα που μεγαλώνει καθώς τρώει έντομα.
 
-Θα χρειαστεί να:
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  

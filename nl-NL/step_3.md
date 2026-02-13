@@ -42,7 +42,7 @@ Voeg een nieuw uiterlijk toe aan de sprite met behulp van de **Teken**-optie:
 
 Klik op het pictogram **Plakken** om de sprite in het nieuwe uiterlijk te plakken. Sleep de vlieg naar de **midden** zodat deze uitgelijnd is met het raster.
 
-Je kunt je uiterlijk `Insect` hernoemen en de andere uiterlijken verwijderen, want die heb je niet nodig:
+Geef je uiterlijk `Insect` een andere naam en verwijder de andere uiterlijken, want die heb je niet nodig:
 
 ![De tekeneditor die een geplakt nieuw Insect-uiterlijk toont met het pictogram Plakken gemarkeerd. De uiterlijkenlijst laat zien dat de andere uiterlijken zijn verwijderd.](images/fly-costume.png)
 
@@ -122,7 +122,7 @@ De libel wordt niet erg groot als hij maar één vlieg kan eten!
 
 --- task ---
 
-Voeg een blok `ga naar een willekeurige positie`{:class="block3motion"} toe aan werkgebied, en laat je sprite `een seconde wachten`{:class="block3control"} en dan `verschijnen`{:class="block3looks"}:
+Voeg een blok `ga naar willekeurige positie`{:class="block3motion"} toe aan het werkgebied, en laat je sprite een seconde `wachten`{:class="block3control"} en dan `verschijnen`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked

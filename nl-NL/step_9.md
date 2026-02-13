@@ -1,19 +1,19 @@
-## What can you do now?
+## Wat kun je verder nog doen?
 
-If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+Als je het [Meer Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) -traject volgt, kun je verdergaan met het [Drum ster](https://projects.raspberrypi.org/en/projects/drum-star) -project. In dit project maak je een clickergame waarin je beats verdient om op nieuwe drums te spelen in grotere zalen.
 
---- task ---
+--- print-only ---
 
-![The Stage view of the completed Drum star project.](images/drum-star.png)
+![De toneelweergave van het voltooide sterdrummer project.](images/drum-star.png)
 
---- /task ---
+--- /print-only ---
 
---- collapse ---
+--- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /collapse ---
+--- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Als je meer plezier wilt hebben bij het verkennen van Scratch, dan kun je een van [deze projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) uitproberen.

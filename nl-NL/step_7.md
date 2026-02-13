@@ -1,17 +1,17 @@
-## Challenge
+## Uitdaging
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Verander de insecten totdat ze zich gedragen zoals jij dat wilt.
+Verander het gedrag van je insecten en voeg meer insecten toe.
 </div>
 <div>
-![Speelveldmet insecten die in verschillende richtingen wijzen.](images/random-movement.png){:width="300px"}
+![Het speelveld toont drie verschillende soorten insecten en de libel.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Je kunt ook de snelheid van de libel veranderen.
+Verander de snelheid van de libel.
 
 --- /task ---
 
@@ -23,39 +23,39 @@ Je kunt ook de grootte wijzigen die de libel nodig heeft om te groeien om de vol
 
 --- task ---
 
-Change the first **Insect** so that it can only be eaten with the dragonfly's mouth.
+Verander het eerste **insect** zodat het alleen met de mond van de libel gegeten kan worden.
 
 --- /task ---
 
-### Add more insects
+### Voeg meer insecten toe
 
-You can paint your own insects or trying adding an emoji mosquito!
+Je kunt je eigen insecten tekenen of proberen een emoji-mug toe te voegen!
 
 --- task ---
 
-Use the emoji keyboard to add a **Mosquito emoji** sprite.
+Gebruik het emoji-toetsenbord om een **mug-emoji** sprite toe te voegen.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Dupliceer een bestaande **insecten** sprite en klik vervolgens op het tabblad **Uiterlijken**. **Teken** een nieuw uiterlijk en selecteer het gereedschap **Tekst**. Gebruik in plaats van tekst te typen de emoji-sneltoets van je besturingssysteem:
 
 - Windows - <kbd>⊞ Win</kbd> + <kbd>.</kbd>
 - MacOS - <kbd>control</kbd> + <kbd>command</kbd> + <kbd>space</kbd>
 - Linux - <kbd>ctrl</kbd> + <kbd>.</kbd>
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![Het pop-up venster met het emoji-toetsenbord met de categorie 'dieren en natuur' geselecteerd.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Selecteer de **Mug** emoji om deze in de Paint-editor in te voegen. Gebruik het gereedschap **Selecteren** (pijl) om je mug te centreren, vergroten of verkleinen en roteren totdat je er tevreden mee bent.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![De mug-emoji in de tekeneditor.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Tip:** Emoji's kunnen er op verschillende computers anders uitzien, dus ze zien er mogelijk niet hetzelfde uit op een tablet en een desktopcomputer. Sommige emoji's zijn niet beschikbaar op sommige computers, maar de meeste moderne computers zullen ze wel ondersteunen.
 
 --- /task ---
 
-### Create random movement
+### Creëer willekeurige beweging
 
 Je gebruikt het `willekeurig getal tussen`{:class="block3operators"} blok om het insect op een meer natuurlijke manier te laten bewegen.
 
-![Stage showing insects pointing in different directions.](images/random-movement.png){:width="300px"}
+![Een speelveld waarop insecten in verschillende richtingen wijzen.](images/random-movement.png){:width="300px"}
 
 --- task ---
 
@@ -85,13 +85,13 @@ Je kunt dit script ook naar de sprite **Insect** slepen, zodat het ook willekeur
 
 --- /task ---
 
-### Share you insects
+### Deel je insecten
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+Gebruik je rugzak om insecten te ruilen met je vrienden uit hun 'Laat een libel groeien'-projecten.
 
-Send the link of your project to your friend who can go inside the project, click on Backpack (the one under the code space) and drag and drop the sprite.
+Stuur de link van je project naar een vriend(in) die het project kan openen, op Rugzak (het item onder de code) kan klikken en de sprite daarheen kan slepen.
 
 [[[scratch-backpack]]]
 
@@ -99,13 +99,13 @@ Send the link of your project to your friend who can go inside the project, clic
 
 --- task ---
 
-Check each sprite and costume has a name that describes the image. This makes your project easier to understand if you come back to it later.
+Controleer of elke sprite en uiterlijk een naam heeft die de afbeelding beschrijft. Hierdoor is je project gemakkelijker te begrijpen als je er later op terugkomt.
 
 --- /task ---
 
 --- task ---
 
-Right-click on the Code area and choose **Clean up Blocks** to get Scratch to tidy your code.
+Klik met de rechtermuisknop op het codegebied en kies **Blokken opruimen** om Scratch je code te laten opschonen.
 
 --- /task ---
 

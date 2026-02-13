@@ -17,15 +17,15 @@ Klik met de rechtermuisknop op de sprite **Insect** in de lijst Sprite onder het
 
 --- /task ---
 
-Het is handig als dit insect er anders uitziet dan de vlieg.
+Zorg ervoor dat dit insect er anders uitziet dan de vlieg.
 
 --- task ---
 
-Klik op het tabblad **Uiterlijken**.
+Klik op het tabblad **Uiterlijken** en maak een ander vliegend insect.
 
 + Je kunt het **Vulling** gereedschap gebruiken om de kleur van het insect te veranderen
 + **Schilder** je eigen insectenuiterlijk
-+ **Voeg** een ander insectsprite van Scratch toe
++ **Voeg** een ander insecten uiterlijk van Scratch toe.
 
 --- /task ---
 

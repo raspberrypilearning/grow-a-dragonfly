@@ -2,7 +2,7 @@
 
 कीटक खात असल्याने मोठा होणाऱ्या ड्रॅगनफ्लायसह नेचर ऍप बनवा.
 
-तुम्ही हे कारल:
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -15,7 +15,7 @@ Move the mouse around the Stage to eat insects. कीटक कसे हलत
 </div>
 </div>
 
-सर्व वेळ निर्णय घेण्यासाठी <span style="color: #0faeb0">**स्थिती**</span> चा वापर करा. आपण म्हणू शकतो “पेन्सिल बोथट असल्यास तीला टोक करा”. `If`{:class="block3control"} ब्लॉक्स आणि स्थिती आपण कोड लिहूया जो स्थिती चूक की बरोबर यावर आधारित काहीतरी वेगळे करेल.
+--- /no-print ---
 
 --- print-only ---
 

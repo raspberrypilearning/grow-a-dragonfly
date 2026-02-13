@@ -2,7 +2,7 @@
 
 Dyma gyfle i ti greu ap natur gyda gwas-y-neidr sy'n tyfu wrth iddo fwyta pryfetach.
 
-Byddi di'n:
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -15,7 +15,7 @@ Pa ran o'r gwas-y-neidr sydd angen cyffwrdd â'r pryfed er mwyn eu bwyta? Beth s
 </div>
 </div>
 
-Rydyn ni'n defnyddio <span style="color: #0faeb0">**amodau**</span> drwy'r amser i wneud penderfyniadau. Gallen ni ddweud “os nad oes min ar y pensil, mae angen ei finio”. Mae blociau ac amodau `Os`{:class="block3control"} yn gadael i ni ysgrifennu cod sy'n gwneud pethau gwahanol yn dibynnu a yw'r amod yn wir neu ddim.
+--- /no-print ---
 
 --- print-only ---
 

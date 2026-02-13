@@ -2,7 +2,7 @@
 
 Crea un'app naturalistica con una libellula che cresce mangiando insetti.
 
---- no-print --- --- task ---
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -15,7 +15,7 @@ Quale parte della libellula deve toccare gli insetti per mangiarli? Cosa succede
 </div>
 </div>
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 

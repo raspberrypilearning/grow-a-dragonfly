@@ -11,7 +11,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: Inleiding
+    title: Wat ga je maken
   - 
     title: Maak het speelveld
   - 
@@ -27,10 +27,10 @@ steps:
     completion:
       - internal
   - 
-    title: Willekeurige beweging van insecten
+    title: Uitdaging
     challenge: true
   - 
-    title: Reflectie
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1

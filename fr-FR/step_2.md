@@ -45,7 +45,7 @@ Ajoute un script pour que le sprite **Libellule** suive le pointeur de la souris
 when flag clicked
 set size to [25] % // to start small
 forever
-point towards (mouse-pointer v)
+point towards (pointeur de souris v)
 move [5] steps
 end
 ```

@@ -13,7 +13,7 @@ De libel 'hapert' en verandert heel snel van richting als de muisaanwijzer de li
 
 Selecteer de **libel** en zoek het script dat begint met `wanneer op de vlag wordt geklikt`{:class="block3events"}.
 
-Sleep een `als`{:class="block3control"} blok binnen in het `herhaal`{:class="block3control"} blok en de blokken binnen het `herhaal`{:class="block3control"} blok zullen naar binnenin het `als`{:class="block3control"} blok verplaatsen. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
+Sleep een `als`{:class="block3control"} blok binnen in het `herhaal`{:class="block3control"} blok en de blokken binnen het <0>herhaal</0>{:class="block3control"} blok zullen naar het <0>als</0>{:class="block3control"} blok worden verplaatst. De blokken in het `herhaal`{:class="block3control"} blok worden verplaatst naar het `als`{:class="block3control"} blok.
 
 ![](images/dragonfly-icon.png)
 
@@ -32,7 +32,7 @@ end
 
 --- task ---
 
-Sleep vervolgens een `niet`{:class="block3operators"} blok naar het `als`{:class="block3control"} blok en een `raak ik (muiswijzer)`{:class="block3sensing"} blok daarin.
+Sleep vervolgens een `niet`{:class="block3operators"} blok naar het `als`{:class="block3control"} blok en een `raak ik (muisaanwijzer)`{:class="block3sensing"} blok daarin.
 
 ```blocks3
 when flag clicked
@@ -56,7 +56,7 @@ end
 
 --- task ---
 
-Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
+Probeer een andere voorwaarde waardoor de libel beweegt als hij ver genoeg van de muisaanwijzer verwijderd is:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>

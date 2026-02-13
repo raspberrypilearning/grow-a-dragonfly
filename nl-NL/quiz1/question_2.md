@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
 Je hebt code geschreven om de libel alleen te laten bewegen als deze `niet`{:class="block3operators"} de muisaanwijzer `aanraakt`{:class="block3sensing"}.

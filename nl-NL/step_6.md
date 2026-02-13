@@ -43,15 +43,15 @@ Gebruik het vulgereedschap om de mond van de **libel** in te kleuren. We gebruik
 
 --- /task ---
 
-Je moet controleren of de **Insect2** sprite de **libel** sprite `en`{:class="block3operators"} de kleur van de mond van de libel raakt.
+Je moet controleren of de nieuwe sprite de **libel** sprite raakt `en`{:class="block3operators"} en ook de kleur van de mond van de libel raakt.
 
 --- task ---
 
-Selecteer de **Insect2** sprite en klik op het tabblad **Code**.
+Selecteer je nieuwe sprite en klik op het **Code** tabblad.
 
 Sleep een `en`{:class="block3operators"} blok in het `if`{:class="block3control"} blok.
 
-Sleep een `en`{:class="block3operators"} blok in het `if`{:class="block3control"} blok.
+Het `<touching [Dragonfly v] ?>`{:class="block3sensing"} blok verschijnt, sleep het naar een plek in het `en`{:class="block3operators"} blok:
 
 ![](images/insect2-icon.png)
 
@@ -95,17 +95,17 @@ Als de kleur van de mond van de libel niet is geselecteerd, klik dan op de kleur
 
 ![Het kleurencirkelmenu met pipetgereedschap.](images/colour-eyedropper.png)
 
-Klik op de mond van de libel in het toneel om de bijpassende kleur in te stellen:
+Klik op de mond van de libel in het speelveld om de kleur in te stellen:
 
 ![Het pipetgereedschap met markeerstift voor kleurselectie die over de paarse mond van de libel zweeft.](images/colour-select.png)
 
-**Tip:** Als dit lastig is om te doen, verander dan de grootte van de sprite **Dragonfly**, zodat hij erg groot is.
+**Tip:** Als de kleine mond moeilijk te selecteren is, maak dan de **Libel** sprite groter.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test nu of de libel het tweede insect alleen met zijn mond kan eten.
+**Test:** Controleer nu of de libel alleen het tweede insect met zijn bek kan opeten.
 
 --- /task ---
 

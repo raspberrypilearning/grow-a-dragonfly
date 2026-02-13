@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Vraag 3 van 3
+legend: Question 3 of 3
 ---
 
 In je project heb je `willekeurig getal`{:class="block3operators"} blokken gebruikt om de **Insect** sprite volgens een natuurlijk, onvoorspelbaar vliegpatroon te verplaatsen.
 
-Welk `willekeurig getal`{:class="block3operators"} blok zou het getal `10` kunnen krijgen?
+Welk `willekeurig getal `{:class="block3operators"} blok zou het getal `10` kunnen krijgen?
 
 --- choices ---
 

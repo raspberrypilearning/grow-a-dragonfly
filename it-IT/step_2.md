@@ -13,16 +13,11 @@ Preparerai la scena. Scegli lo sfondo e aggiungi una libellula che segue il punt
 
 Apri il progetto [Alleva una libellula](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch si aprirà in una nuova scheda del browser.
 
-[[[working-offline]]]
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Le libellule**</span> si trovano in tutto il mondo e esistono da oltre 300 milioni di anni!</p>
 
 --- task ---
 
-**Scegli:** Fai clic su **Scegli uno sfondo** e aggiungi uno sfondo a tua scelta. Abbiamo utilizzato lo sfondo **Giurassico**.
+Abbiamo utilizzato lo sfondo **Giurassico**. Abbiamo utilizzato lo sfondo **Giurassico**.
 
 ![Icona dello sfondo sull'interfaccia dell'app Scratch](images/choose-backdrop-icon.png)
 
@@ -48,9 +43,9 @@ Aggiungi del codice per fare in modo che lo sprite **Libellula** segua il puntat
 
 ```blocks3
 when flag clicked
-set size to [25] % // dimensione iniziale piccola
+set size to [25] % // to start small
 forever
-point towards (puntatore del mouse v)
+point towards (mouse-pointer v)
 move [5] steps
 end
 ```
@@ -66,11 +61,11 @@ Il costume della Libellula non è rivolto a destra, quindi la testa dello sprite
 
 --- task ---
 
-Clicca sulla scheda **Costumi** e usa lo strumento **Seleziona** (freccia) per selezionare il costume. Usa lo strumento **Ruota** nella parte inferiore del costume selezionato per girare la **libellula** verso destra.
+Clicca sulla scheda **Costumi** e usa lo strumento **Seleziona** (freccia) per selezionare il costume.
+
+Usa lo strumento **Ruota** nella parte inferiore del costume selezionato per girare la **libellula** verso destra.
 
 ![Un'immagine animata che mostra come ruotare il costume della libellula trascinando le frecce di rotazione in modo che la libellula sia rivolta verso destra.](images/rotated-costume.gif)
-
-![Il costume da libellula selezionato e ruotato verso destra.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,6 +85,10 @@ Aggiungi il suono **Crank** allo sprite **libellula**.
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 Fai clic sul pulsante **Riproduci** per poter ascoltare il suono.
 
 --- /task ---
@@ -104,9 +103,11 @@ Fai clic su **Copialo come nuovo suono** per creare un nuovo suono solo con la p
 
 ![La fine del suono Crank selezionato in blu con l'icona "Copialo come nuovo suono" evidenziata.](images/crank-copy-end.png)
 
-Rinomina il tuo nuovo suono da **Crank2** ad `Ali`.
+--- /task ---
 
-![Rinominare le proprietà del suono.](images/crank-wings-sound.png)
+--- task ---
+
+Rinomina il tuo nuovo suono da **Crank2** ad `Ali`. ![Rinominare le proprietà del suono.](images/crank-wings-sound.png)
 
 --- /task ---
 
@@ -136,8 +137,8 @@ Ora aggiungi un blocco per riprodurre il suono delle **Ali** quando la libellula
 when flag clicked
 set size to [25] %
 forever
-+start sound [Ali v]
-point towards (puntatore del mouse v)
++start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 ```

@@ -1,20 +1,14 @@
-## Reflectie
+## Snelle quiz
 
-Goed gedaan, je hebt een natuur-app gemaakt met een libel die wordt bestuurd door de gebruiker en insecten die een algoritme volgen!
+Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
-Je hebt `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Waarnemen`{:class="block3sensing"}, `Functies`{:class="block3operators"}, `Beweging`{:class="block3motion"}, `Uiterlijken`{:class="block3looks"} en `Geluid`{:class="block3sound"} blokken gebruikt!
-
-Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
-
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
 Veel plezier!
 
 --- question ---
 ---
-legend: Vraag 1 van 3
+legend: Question 1 of 3
 ---
 
 Een project maakt gebruik van de **Crab** (krab) sprite en de **Jellyfish** (kwal) sprite. De sprite **Crab** heeft deze code:

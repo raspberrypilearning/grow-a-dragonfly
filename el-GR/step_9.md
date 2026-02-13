@@ -2,11 +2,11 @@
 
 If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
 
-Μπορείς να βάψεις τα δικά σου έντομα ή να προσπαθήσεις να προσθέσεις ένα emoji κουνούπι!
+--- print-only ---
 
 ![The Stage view of the completed Drum star project.](images/drum-star.png)
 
-Χρησιμοποίησε το πληκτρολόγιο των emoji για να προσθέσεις ένα αντικείμενο **emoji Κουνούπι**.
+--- /print-only ---
 
 --- no-print ---
 

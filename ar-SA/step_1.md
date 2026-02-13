@@ -2,7 +2,7 @@
 
 اصنع تطبيقًا طبيعيًّا باستخدام اليعسوب الذي يكبر كلما أكل الحشرات.
 
---- no-print --- --- task ---
+--- no-print ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -15,7 +15,7 @@
 </div>
 </div>
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 

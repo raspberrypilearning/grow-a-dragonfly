@@ -1,6 +1,6 @@
 ## Snelle quiz
 
-Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
+Beantwoord de drie vragen. Er zijn aanwijzingen die je naar het juiste antwoord leiden.
 
 Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
@@ -8,7 +8,7 @@ Veel plezier!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
 Een project maakt gebruik van de **Crab** (krab) sprite en de **Jellyfish** (kwal) sprite. De sprite **Crab** heeft deze code:

@@ -5,7 +5,7 @@
 Jij gaat het speelveld bepalen. Kies je achtergrond en voeg een libel toe die de muisaanwijzer binnen het speelveld volgt.
 </div>
 <div>
-![](images/set-the-scene.png){:width="300px"}
+![Libel in een woestijnachtergrond](images/set-the-scene.png){:width="300px"}
 </div>
 </div>
 
@@ -13,18 +13,13 @@ Jij gaat het speelveld bepalen. Kies je achtergrond en voeg een libel toe die de
 
 Open het [Laat een libel groeien start-project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
-[[[working-offline]]]
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Libellen**</span> komen over de hele wereld voor en bestaan al meer dan 300 miljoen jaar!</p>
 
 --- task ---
 
-**Kies:** Klik op **Kies een achtergrond** en voeg een achtergrond naar keuze toe. We gebruikten de **Jurassic** achtergrond.
+Klik op **Kies een achtergrond** en voeg een achtergrond naar keuze toe. We gebruikten de **Jurassic** achtergrond.
 
-![](images/choose-backdrop-icon.png)
+![Achtergrondpictogram op de Scratch-app-interface](images/choose-backdrop-icon.png)
 
 ![Het speelveld met de Jurassic-achtergrond.](images/Jurassic-backdrop.png)
 
@@ -34,7 +29,7 @@ Open het [Laat een libel groeien start-project](https://scratch.mit.edu/projects
 
 Klik op **Kies een sprite** en zoek naar `dragonfly` (libel) en voeg vervolgens de **dragonfly** sprite toe.
 
-![](images/choose-sprite-icon.png)
+![Sprite-pictogram op de Scratch-app-interface](images/choose-sprite-icon.png)
 
 ![Het zoekvak met 'dragonfly' ingetypt en de sprite Dragonfly in de galerij.](images/dragonfly-search.png)
 
@@ -44,11 +39,11 @@ Klik op **Kies een sprite** en zoek naar `dragonfly` (libel) en voeg vervolgens 
 
 Voeg een script toe om de sprite **Dragonfly** de muisaanwijzer (of je vinger) te laten volgen:
 
-![](images/dragonfly-icon.png)
+![Libelle-icoon op de Scratch-app-interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
-set size to [25] % // klein beginnen
+set size to [25] % // to start small
 forever
 point towards (mouse-pointer v)
 move [5] steps
@@ -66,11 +61,11 @@ Het Dragonfly-uiterlijk is niet naar rechts gericht, dus het hoofd van de **Drag
 
 --- task ---
 
-Klik op het tabblad **Uiterlijken** en gebruik het gereedschap **Selecteren** (pijl) om het uiterlijk te selecteren. Gebruik het gereedschap **Roteren** onderaan het geselecteerde kostuum om het **Dragonfly**-uiterlijk naar rechts te draaien.
+Klik op het tabblad **Uiterlijken** en gebruik het gereedschap **Selecteren** (pijl) om het uiterlijk te selecteren.
+
+Gebruik het gereedschap **Roteren** onderaan het geselecteerde kostuum om het **Dragonfly**-uiterlijk naar rechts te draaien.
 
 ![Een geanimeerde afbeelding die laat zien hoe je het libel-uiterlijk kunt draaien door de rotatiepijlen te slepen zodat de libel naar rechts wijst.](images/rotated-costume.gif)
-
-![Het libel-uiterlijk geselecteerd en naar rechts gedraaid.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,7 +85,11 @@ Voeg het **Crank**-geluid toe aan de **Dragonfly**-sprite.
 
 ![](images/crank-sound-editor.png)
 
-Klik op de **afspeel** knop zodat je het geluid kan horen.
+--- /task ---
+
+--- task ---
+
+**Test:** Klik op de **Afspeel** knop zodat je het geluid kunt horen.
 
 --- /task ---
 
@@ -104,15 +103,17 @@ Klik op **Kopieer naar nieuw** om een nieuw geluid te maken met alleen het gesel
 
 ![Het einde van het crank-geluid is blauw geselecteerd met het pictogram 'Kopiëren naar nieuw' gemarkeerd.](images/crank-copy-end.png)
 
-Hernoem je nieuwe geluid van **Crank2** naar `Vleugels`.
+--- /task ---
 
-![De naam van het geluid wijzigen.](images/crank-wings-sound.png)
+--- task ---
+
+Hernoem je nieuwe geluid van **Crank2** naar `Vleugels`. ![De naam van het geluid wijzigen.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Speel het nieuwe geluid af. Klik een paar keer op de knop **Sneller** totdat het resultaat je bevalt:
+**Test:** Speel het nieuwe geluid af. Klik een paar keer op de knop **Sneller** totdat het resultaat je bevalt:
 
 ![Een snellere geluidsgolf met het pictogram 'Sneller' gemarkeerd.](images/wings-faster.png)
 
@@ -130,13 +131,13 @@ Als je wilt, kun je het einde van het **Vleugels**-geluid selecteren en vervolge
 
 Voeg nu een blok toe om het **Vleugels**-geluid te spelen wanneer de libel beweegt:
 
-![](images/dragonfly-icon.png)
+![Libelle sprite-icoon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
 set size to [25] %
 forever
-+start sound [Vleugels v]
++start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end

@@ -9,27 +9,24 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-現存する最大のトンボは中米に生息し、羽を広げると19cm(手のひらより少し大きい) にもなります。 これまで知られている最大の昆虫は、<span style="color: #0faeb0">**メガニューロプシス パーミアナ**</span> というトンボで、羽を広げると約75cm(大またの一歩くらい) ありました。</p>
+The Dragonfly needs to grow when it eats a fly.
 
-ハエは自分が食べられたことを知り、今度はトンボが成長するために知る必要があるのです。
-
-何かが起こったことを他のスプライトに知らせる必要があるときは、[呪文の送信](https://projects.raspberrypi.org/ja-JP/projects/broadcasting-spells){:target="_blank"}で行ったように、`()を送る`{:class="block3events"}ブロックを使用することができます。
+何かが起こったことを他のスプライトに知らせる必要があるときは、[呪文の送信](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}で行ったように、`()を送る`{:class="block3events"}ブロックを使用することができます。
 
 --- task ---
 
-`()を送信する`{:class="block3events"}ブロックを**昆虫**スプライトに追加し、新しいメッセージ`エサ`{:class="block3events"}をセットします：
+`()を送信する`ブロックを**昆虫**スプライトに追加し、新しいメッセージ`エサ`{:class="block3events"}をセットします：
 
 ![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
-show // 最初に表示
+show // show at the start
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
-+broadcast [エサ v]
++broadcast [food v]
 hide
 go to (random position v)
 wait [1] seconds
@@ -48,7 +45,7 @@ end
 ![](images/dragonfly-icon.png)
 
 ```blocks3 
-when I receive [エサ v]
+when I receive [food v]
 change size by [5]
 ```
 
@@ -58,10 +55,8 @@ change size by [5]
 
 トンボに**Chomp**という音を追加し、虫が食べられた時に`再生`{:class="block3sound"}します。
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
-when I receive [エサ v]
+when I receive [food v]
 +start sound [Chomp v]
 change size by [5]
 ```
@@ -79,12 +74,24 @@ change size by [5]
 
 `もし`{:class="block3control"}ブロックを追加する。
 
-`大きさ`{:class="block3looks"}`=`{:class="block3operators"}`100％`の場合、トンボはフルサイズです。 まず、六角形の入力に`=`{:class="block3operators"}という演算子を追加します。
-
-![](images/dragonfly-icon.png)
-
 ```blocks3
 when I receive [エサ v]
+start sound [Chomp v]
+change size by [5]
++if <[ ] = [ ]> then
+end
+```
+
+--- /task ---
+
+`大きさ`{:class="block3looks"}`=`{:class="block3operators"}`100％`の場合、トンボはフルサイズです。
+
+--- task ---
+
+まず、六角形の入力に`=`{:class="block3operators"}という演算子を追加します。
+
+```blocks3
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if <[ ] = [ ]> then
@@ -96,10 +103,8 @@ end
 
 組み込みの`大きさ`{:class="block3looks"}変数を追加して、値`100`を入力して条件構築を終了します。
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
-when I receive [エサ v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if <(size) = [100]> then
@@ -113,16 +118,14 @@ end
 
 最後に、`すべてを止める`{:class="block3control"} ブロックを追加して、他のトンボスクリプトを停止させます。
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
-when I receive [エサ v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 if <(size) = [100]> then
-+broadcast [終わり v]
-+say [大きくなったよ！]
-+stop [other scripts in sprite v] // 「すべてを止める」から変更
++broadcast [end v]
++say [I got to full size!]
++stop [other scripts in sprite v] // change from 'all'
 end
 ```
 --- /task ---
@@ -134,7 +137,7 @@ end
 ![](images/fly-icon.png)
 
 ```blocks3
-when I receive [終わり v]
+when I receive [end v]
 stop [other scripts in sprite v]
 ```
 

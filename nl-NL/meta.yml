@@ -1,30 +1,40 @@
 ---
 title: Laat een libel groeien
 hero_image: images/banner.png
-description: Maak een libel die groter wordt als hij vervelende muggen en andere insecten
-  eet.
+description: Maak een libel die groter wordt als hij vervelende muggen en andere insecten eet.
+pdf: resources/rpi-grow-a-dragonfly.pdf
+meta_title: Scratch-programmeerprojecten voor kinderen en tieners | Laat een libel groeien
+meta_description: Leer Scratch met de programmeerprojecten van de Raspberry Pi Foundation voor kinderen en tieners. Maak een Scratch-app waarin een libel groter wordt door insecten te eten.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
-- title: Inleiding
-- title: Maak het speelveld
-- title: Een vlieg om te eten
-  completion:
-  - engaged
-- title: Groei tot volledige grootte
-- title: Verbeterde beweging
-- title: Meer eten
-- title: Willekeurige beweging van insecten
-  completion:
-  - internal
-- title: Reflectie
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: Verbeter je project
+  - 
+    title: Wat ga je maken
+  - 
+    title: Maak het speelveld
+  - 
+    title: Een vlieg om te eten
+    completion:
+      - engaged
+  - 
+    title: Groei tot volledige grootte
+  - 
+    title: Verbeterde beweging
+  - 
+    title: Meer eten
+    completion:
+      - internal
+  - 
+    title: Uitdaging
+    challenge: true
+  - 
+    title: Snelle quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external

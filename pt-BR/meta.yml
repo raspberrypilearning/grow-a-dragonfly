@@ -1,0 +1,40 @@
+---
+title: Cresça uma libélula
+hero_image: images/banner.png
+description: Faça uma libélula que cresce à medida que come mosquitos irritantes e outros insetos.
+pdf: resources/rpi-grow-a-dragonfly.pdf
+meta_title: Projetos de programação Scratch para crianças e adolescentes | Cresça uma libélula
+meta_description: Aprenda Scratch com os projetos de programação da Raspberry Pi Foundation para crianças e adolescentes. Faça um aplicativo Scratch onde uma libélula cresce à medida que come insetos.
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-04-27'
+steps:
+  - 
+    title: What you will make
+  - 
+    title: Preparando o cenário
+  - 
+    title: Uma mosca para comer
+    completion:
+      - engaged
+  - 
+    title: Crescer ao máximo
+  - 
+    title: Movimento aprimorado
+  - 
+    title: Mais comida
+    completion:
+      - internal
+  - 
+    title: Challenge
+    challenge: true
+  - 
+    title: Teste rápido
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external

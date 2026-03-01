@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: प्रश्न 3 पैकी 2
+legend: Question 2 of 3
 ---
 
 ड्रॅगनफ्लाय माऊस-पॉइंटरला `touching`{:class="block3sensing"} `not`{:class="block3operators"} केवळ तो हलण्यासाठी तुम्ही कोड लिहीलात.

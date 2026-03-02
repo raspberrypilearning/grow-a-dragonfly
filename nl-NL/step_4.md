@@ -9,27 +9,24 @@ Je laat de libel groeien als hij een vlieg eet en stopt als hij zijn volledige g
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-De grootste levende libellen komen voor in Midden-Amerika en hebben een spanwijdte van 19 cm (iets groter dan je hand). Het grootste insect ooit bekend was <span style="color: #0faeb0">**Meganeuropsis permiana**</span>, een libel met een spanwijdte van ongeveer 75 cm (ter grootte van een grote voetstap).</p>
+De libel moet groeien als ze een vlieg eet.
 
-De vlieg weet dat hij is opgegeten, en nu moet de libel dat weten zodat hij groeit.
-
-Als je een andere sprite moet laten weten dat er iets is gebeurd, kun je een `zend signaal`{:class="block3events"}-blok gebruiken zoals je deed in [Verzend spreuken](https://projects.raspberrypi.org/nl-NL/projects/broadcasting-spells){:target="_blank"}.
+Als je een andere sprite moet laten weten dat er iets is gebeurd, kun je een `zend signaal`{:class="block3events"}-blok gebruiken zoals je deed in [Verzend spreuken](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
-Voeg een `broadcast`{:class="block3events"} blok toe aan de **Insect** sprite met nieuw bericht `eten`{:class="block3events"}:
+Voeg een `zend signaal`{:class="block3events"} blok toe aan de **Insect** sprite met nieuw bericht `eten`{:class="block3events"}:
 
 ![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
-show // toon aan het begin
+show // show at the start
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
-+broadcast [eten v]
++broadcast [food v]
 hide
 go to (random position v)
 wait [1] seconds
@@ -48,7 +45,7 @@ Selecteer de sprite **Dragonfly** en voeg dit script toe:
 ![](images/dragonfly-icon.png)
 
 ```blocks3 
-when I receive [eten v]
+when I receive [food v]
 change size by [5]
 ```
 
@@ -58,10 +55,8 @@ change size by [5]
 
 Voeg het **Chomp** -geluid toe aan de libel en `start`{:class="block3sound"} het wanneer een insect wordt opgegeten:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
-when I receive [eten v]
+when I receive [food v]
 +start sound [Chomp v]
 change size by [5]
 ```
@@ -79,12 +74,24 @@ Wanneer de libel zijn volledige grootte bereikt, zal het spel je feliciteren en 
 
 Voeg een `als`{:class="block3control"} blok toe.
 
-De libel is op volledige grootte wanneer de `grootte`{:class="block3looks"} `=`{:class="block3operators"} `100%` is. Voeg eerst een `=`{:class="block3operators"} functie toe aan de zeshoekige invoer:
+```blocks3
+when I receive [food v]
+start sound [Chomp v]
+change size by [5]
++if < > then
+end
+```
 
-![](images/dragonfly-icon.png)
+--- /task ---
+
+De libel is op volledige grootte wanneer de `grootte`{:class="block3looks"} `=`{:class="block3operators"} `100%` is.
+
+--- task ---
+
+Voeg eerst een `=`{:class="block3operators"} functie toe aan de zeshoekige invoer:
 
 ```blocks3
-when I receive [eten v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if <[ ] = [ ]> then
@@ -96,10 +103,8 @@ end
 
 Voltooi het opbouwen van de voorwaarde door een ingebouwde `grootte`{:class="block3looks"} variabele toe te voegen en typ de waarde `100`:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
-when I receive [eten v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if <(size) = [100]> then
@@ -113,16 +118,14 @@ Voeg blokken toe zodat `als`{:class="block3control"} de voorwaarde waar is `dan`
 
 Voeg ten slotte een `stop alle`{:class="block3control"} blok toe om de andere libel-scripts te stoppen:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
-when I receive [eten v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 if <(size) = [100]> then
-+broadcast [einde v]
-+say [Ik ben op maximale grootte!]
-+stop [other scripts in sprite v] // veranderen van 'alle'
++broadcast [end v]
++say [I got to full size!]
++stop [other scripts in sprite v] // change from 'all'
 end
 ```
 --- /task ---
@@ -134,7 +137,7 @@ Op dit moment beweegt de vlieg nog steeds nadat het project is afgelopen. Voeg d
 ![](images/fly-icon.png)
 
 ```blocks3
-when I receive [einde v]
+when I receive [end v]
 stop [other scripts in sprite v]
 ```
 

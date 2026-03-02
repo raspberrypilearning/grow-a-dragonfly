@@ -15,7 +15,7 @@ Waar zou je een `start geluid`{:class="block3sound"}-blok plaatsen om de libel e
 ```blocks3
 when flag clicked
 forever
-+start sound [Vleugels v]
++start sound [Wings v]
 if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class="block3control"} lus loopt, zelfs als de libel niet beweegt.
+Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class=" block3control"} lus loopt, zelfs als de libel niet beweegt.
 
 --- /feedback ---
 
@@ -35,7 +35,7 @@ Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich bu
 when flag clicked
 forever
 if <not <touching [mouse-pointer v] ?> > then
-+start sound [Vleugels v]
++start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end
@@ -58,13 +58,13 @@ if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
 end
-+start sound [Vleugels v]
++start sound [Wings v]
 end
 ```
 
   --- feedback ---
 
-Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class="block3control"} lus loopt, zelfs als de libel niet beweegt.
+Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class=" block3control"} lus loopt, zelfs als de libel niet beweegt.
 
   --- /feedback ---
 

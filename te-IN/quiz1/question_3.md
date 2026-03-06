@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: 3లో 3వ ప్రశ్న
+legend: Question 3 of 3
 ---
 
 మీ ప్రాజెక్ట్‌లో, మీరు **Insect** sprite సహజమైన, అనూహ్యమైన ఫ్లయింగ్ నమూనాలో `pick random`{:class="block3operators"} బ్లాక్‌లను ఉపయోగించారు.

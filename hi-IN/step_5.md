@@ -13,9 +13,7 @@
 
 **Dragonfly** का चयन करें और उस स्क्रिप्ट को खोजें जो `when flag clicked`{:class="block3events"} से शुरू होती है।
 
-एक `if`{:class="block3control"} को `forever`{:class="block3control"} ब्लॉक के अंदर खींचें और `forever`{:class="block3control"} के अंदर के ब्लॉक `if`{:class="block3control"} के अंदर चले जाएंगे।
-
-ध्यान से जांचें कि आपका कोड इस तरह दिखता है:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -34,11 +32,7 @@ end
 
 --- task ---
 
-फिर एक `not`{:class="block3operators"} ब्लॉक को `if`{:class="block3control"} में खींचें और एक `touching (mouse-pointer)`{:class="block3sensing"} को उसके अंदर खींचें।
-
-जांचें कि आपका कोड इस तरह दिखता है:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
 when flag clicked
@@ -52,23 +46,21 @@ end
 end
 ```
 
-`not`{:class="block3operators"} ब्लॉक एक कंडीशन को इसके विपरीत में बदल देता है, ठीक वैसे ही जैसे यह एक वाक्य में करेगा।
-
 --- /task ---
 
 --- task ---
 
 **परीक्षण:** जाँच करें कि गड़बड़ ठीक हो गई है, और ड्रैगनफ्लाई केवल तभी चलती है जब वह `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"} होती है।
 
-आज़माने के लिए एक अलग कंडीशन है:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-यह माउस-पॉइंटर से काफी दूर होने पर ड्रैगनफ्लाई को आगे बढ़ाता है।
-
-**सलाह:** आप ब्लॉक को Code क्षेत्र में कहीं भी खींच सकते हैं और अलग-अलग चीजों को आजमाने के दौरान उन्हें वहीं छोड़ सकते हैं।
 
 --- /task ---
 

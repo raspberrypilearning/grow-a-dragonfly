@@ -9,9 +9,6 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Персонажі, які рухаються у грі самі по собі, інколи називаються <span style="color: #0faeb0">**мобами**</span>, скорочено від «мобільні». Можеш згадати приклад гри, у якій є моби?</p>
-
 У спрайті **Frog 2** є муха, яку ти можеш використати.
 
 --- task ---
@@ -45,7 +42,7 @@
 
 Натисни на іконку **Вставити**, щоб вставити спрайт у новий образ. Перетягни муху до **центру**, щоб вона зрівнялася з прицілом.
 
-Можеш перейменувати свій образ на `Комаху` і видалити решту образів, бо вони тобі більше не потрібні:
+Rename your costume `Insect` and delete the other costumes, as you won't need those:
 
 ![Редактор Малювання зі вставленим новим образом комахи та підсвіченою іконкою «Вставити». Список образів показує, що решту образів було видалено.](images/fly-costume.png)
 
@@ -83,8 +80,6 @@ end
 
 Додай блок `якщо`{:class="block3control"} до скрипту руху спрайта **Комаха**:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
@@ -105,14 +100,12 @@ end
 
 Перетягни блок `торкається [Dragonfly v]`{:class="block3sensing"} всередину блока `якщо`{:class="block3control"}. Додай блок `сховати`{:class="block3looks"} всередину блока `якщо`{:class="block3control"}.
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-+if <touching [Dragonfly v] ?> then // зміни зі «вказівника»
++if <touching [Dragonfly v] ?> then // change from 'mouse-pointer'
 +hide // eaten
 end
 ```
@@ -129,21 +122,19 @@ end
 
 --- task ---
 
-Додай блоки до `перейти до випадкової позиції`{:class="block3motion"} на Сцені й дай своєму спрайту `зачекати`{:class="block3control"} одну секунду, а потім `показатися`{:class="block3looks"}:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
-+show // показувати на початку
++show // show at the start
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
 hide
-+go to (випадкова позиція v)
++go to (random position v)
 +wait [1] seconds
-+show // виглядає як інша муха
++show // to look like a new fly
 end
 end
 ```
@@ -154,7 +145,7 @@ end
 
 **Протестуй:** переконайся, що тепер твоя бабка може зʼїсти багато мух.
 
-Не забудь додати блок `показати`{:class="block3looks"} на початку.
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 

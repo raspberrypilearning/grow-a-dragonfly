@@ -8,7 +8,7 @@ Divertiti!
 
 --- question ---
 ---
-legend: Domanda 1 di 3
+legend: Question 1 of 3
 ---
 
 Un progetto utilizza lo sprite **Granchio** e lo sprite **Medusa**. Lo sprite **Granchio** ha questo codice:

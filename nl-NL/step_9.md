@@ -4,7 +4,7 @@ Als je het [Meer Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-s
 
 --- print-only ---
 
-![De toneelweergave van het voltooide sterdrummer project.](images/drum-star.png)
+![De speelveld-weergave van het voltooide drum ster-project.](images/drum-star.png)
 
 --- /print-only ---
 

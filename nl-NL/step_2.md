@@ -11,7 +11,7 @@ Jij gaat het speelveld bepalen. Kies je achtergrond en voeg een libel toe die de
 
 --- task ---
 
-Open het [Laat een libel groeien start-project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
+Open het [Laat een libel groeien start-project](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch opent een leeg project in een nieuw browsertabblad.
 
 --- /task ---
 
@@ -39,7 +39,7 @@ Klik op **Kies een sprite** en zoek naar `dragonfly` (libel) en voeg vervolgens 
 
 Voeg een script toe om de sprite **Dragonfly** de muisaanwijzer (of je vinger) te laten volgen:
 
-![Libelle-icoon op de Scratch-app-interface](images/dragonfly-icon.png)
+![Libelle-pictogram op de Scratch-app-interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -121,7 +121,7 @@ Hernoem je nieuwe geluid van **Crank2** naar `Vleugels`. ![De naam van het gelui
 
 --- task ---
 
-Als je wilt, kun je het einde van het **Vleugels**-geluid selecteren en vervolgens op **verwijder** klikken om het te verwijderen:
+Als je wilt, kun je het einde van het **Vleugels**-geluid selecteren en vervolgens op **Verwijder** klikken om het te verwijderen:
 
 ![Het einde van de geluidsgolf geselecteerd met het gereedschap 'Verwijder' gemarkeerd.](images/wings-shorter.png)
 
@@ -131,7 +131,7 @@ Als je wilt, kun je het einde van het **Vleugels**-geluid selecteren en vervolge
 
 Voeg nu een blok toe om het **Vleugels**-geluid te spelen wanneer de libel beweegt:
 
-![Libelle sprite-icoon](images/dragonfly-icon.png)
+![Libelle sprite-pictogram](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked

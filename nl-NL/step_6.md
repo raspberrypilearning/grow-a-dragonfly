@@ -24,8 +24,8 @@ Zorg ervoor dat dit insect er anders uitziet dan de vlieg.
 Klik op het tabblad **Uiterlijken** en maak een ander vliegend insect.
 
 + Je kunt het **Vulling** gereedschap gebruiken om de kleur van het insect te veranderen
-+ **Schilder** je eigen insectenuiterlijk
-+ **Voeg** een ander insecten uiterlijk van Scratch toe.
++ **Teken** je eigen insectenuiterlijk.
++ **Voeg** een ander insectenuiterlijk van Scratch toe.
 
 --- /task ---
 
@@ -43,7 +43,7 @@ Gebruik het vulgereedschap om de mond van de **libel** in te kleuren. We gebruik
 
 --- /task ---
 
-Je moet controleren of de nieuwe sprite de **libel** sprite raakt `en`{:class="block3operators"} en ook de kleur van de mond van de libel raakt.
+Je moet controleren of de nieuwe sprite de **Libel** sprite raakt `en`{:class="block3operators"} en ook de kleur van de mond van de libel raakt.
 
 --- task ---
 

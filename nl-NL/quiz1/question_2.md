@@ -16,8 +16,8 @@ Waar zou je een `start geluid`{:class="block3sound"}-blok plaatsen om de libel e
 when flag clicked
 forever
 +start sound [Vleugels v]
-if <not <touching [mouse-pointer v] ?> > then
-point towards (mouse-pointer v)
+if <not <touching [muisaanwijzer v] ?> > then
+point towards (muisaanwijzer v)
 move [5] steps
 end
 end
@@ -34,9 +34,9 @@ Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich bu
 ```blocks3
 when flag clicked
 forever
-if <not <touching [mouse-pointer v] ?> > then
+if <not <touching [muisaanwijzer v] ?> > then
 +start sound [Vleugels v]
-point towards (mouse-pointer v)
+point towards (muisaanwijzer v)
 move [5] steps
 end
 end
@@ -54,8 +54,8 @@ Ja dat is goed. Het plaatsen van het `start geluid`{:class="block3sound"} blok b
 ```blocks3
 when flag clicked
 forever
-if <not <touching [mouse-pointer v] ?> > then
-point towards (mouse-pointer v)
+if <not <touching [muisaanwijzer v] ?> > then
+point towards (muisaanwijzer v)
 move [5] steps
 end
 +start sound [Vleugels v]

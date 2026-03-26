@@ -22,7 +22,7 @@ hide
 end
 ```
 
-Wat moet er gebeuren om de sprite **Crab** te laten verdwijnen?
+Wat moet er gebeuren om de **Crab** sprite te laten verdwijnen?
 
 --- choices ---
 

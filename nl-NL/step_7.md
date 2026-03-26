@@ -53,7 +53,7 @@ Selecteer de **Mug** emoji om deze in de Paint-editor in te voegen. Gebruik het 
 
 ### Creëer willekeurige beweging
 
-Gebruik het `willekeurig getal tussen x en x`{:class="block3operators"} blok om het insect op een meer natuurlijke manier te laten bewegen.
+Gebruik het `willekeurig getal tussen .. en ..`{:class="block3operators"} blok om het insect op een meer natuurlijke manier te laten bewegen.
 
 ![Een speelveld waarop insecten in verschillende richtingen wijzen.](images/random-movement.png){:width="300px"}
 

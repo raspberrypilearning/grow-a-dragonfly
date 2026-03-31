@@ -89,7 +89,7 @@ Adicione o som **Crank** ao sprite **Dragonfly**.
 
 --- task ---
 
-**Test:** Click the **Play** button so you can hear the sound.
+**Teste:** Clique no botão **Play** para ouvir o som.
 
 --- /task ---
 
@@ -107,13 +107,13 @@ Clique em **Copy to New** para criar um novo som apenas com a parte selecionada:
 
 --- task ---
 
-Renomeie seu novo som de **Crank2** para `Wings`. ![A propriedade renomear sons.](images/crank-wings-sound.png)
+Renomeie seu novo som de **Crank2** para `Asas`. ![A propriedade renomear sons.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
+**Test:** Play the new sound. Clique no botão **Mais Rápido** algumas vezes até gostar do resultado:
 
 ![Uma onda sonora mais rápida com o ícone 'Faster' destacado.](images/wings-faster.png)
 
@@ -121,7 +121,7 @@ Renomeie seu novo som de **Crank2** para `Wings`. ![A propriedade renomear sons.
 
 --- task ---
 
-If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
+Se desejar, você pode selecionar o final do som **Asas** e clicar em **Apagar** para removê-lo:
 
 ![O final da onda sonora selecionada com a ferramenta 'Excluir' destacada.](images/wings-shorter.png)
 
@@ -129,7 +129,7 @@ If you like, you can select the very end of the **Wings** sound, and then click 
 
 --- task ---
 
-Now add a block to play the **Wings** sound when the dragonfly moves:
+Agora adicione um bloco para tocar o som **Asas** quando a libélula se mover:
 
 ![Ícone de sprite Dragonfly](images/dragonfly-icon.png)
 

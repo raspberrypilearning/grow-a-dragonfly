@@ -88,7 +88,7 @@ A libélula fica no tamanho maximo quando `tamanho`{:class="block3looks"} `=`{:c
 
 --- task ---
 
-First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
+Primeiro, adicione um operador `=`{:class="block3operators"} na entrada em forma de hexágono:
 
 ```blocks3
 when I receive [food v]

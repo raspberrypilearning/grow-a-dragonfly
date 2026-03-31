@@ -11,7 +11,7 @@ copyedit: false
 last_tested: '2021-04-27'
 steps:
   - 
-    title: What you will make
+    title: O que você vai fazer
   - 
     title: Preparando o cenário
   - 
@@ -27,7 +27,7 @@ steps:
     completion:
       - internal
   - 
-    title: Challenge
+    title: Desafio
     challenge: true
   - 
     title: Teste rápido

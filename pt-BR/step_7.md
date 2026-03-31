@@ -1,11 +1,11 @@
-## Challenge
+## Desafio
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Change the way your insects behave and add more insects.
 </div>
 <div>
-![The Stage showing three different types of insect and the dragonfly.](images/upgrade-project.png){:width="300px"}
+![O Stage mostrando três tipos diferentes de insetos e a libélula.](images/upgrade-project.png){:width="300px"}
 </div>
 </div>
 
@@ -27,27 +27,27 @@ Change the first **Insect** so that it can only be eaten with the dragonfly's mo
 
 --- /task ---
 
-### Add more insects
+### Adicione mais insetos
 
-You can paint your own insects or trying adding an emoji mosquito!
+Você pode pintar seus próprios insetos ou tentar adicionar um mosquito emoji!
 
 --- task ---
 
 Use the emoji keyboard to add a **Mosquito emoji** sprite.
 
-Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Instead of typing text, use the emoji keyboard shortcut for your Operating System:
+Duplicate an existing **insect** sprite then click on the **Costumes** tab. **Paint** a new costume and select the **Text** tool. Em vez de digitar texto, use o atalho de teclado emoji para seu sistema operacional:
 
 - Windows - <kbd>⊞ Win</kbd> + <kbd>.</kbd>
 - MacOS - <kbd>control</kbd> + <kbd>command</kbd> + <kbd>space</kbd>
 - Linux - <kbd>ctrl</kbd> + <kbd>.</kbd>
 
-![The popup emoji keyboard with the 'animals and nature' category selected.](images/emoji-keyboard.png)
+![O teclado emoji pop-up com a categoria 'animais e natureza' selecionada.](images/emoji-keyboard.png)
 
-Select the **Mosquito** emoji to insert it into the Paint editor. Use the **Select** (arrow) tool to centre, resize, and rotate your mosquito until you are happy with it.
+Select the **Mosquito** emoji to insert it into the Paint editor. Use a ferramenta **Select** (seta) para centralizar, redimensionar e girar seu mosquito até ficar satisfeito com ele.
 
-![The mosquito emoji in the paint editor.](images/emoji-mosquito.png)
+![O emoji de mosquito no editor de pintura.](images/emoji-mosquito.png)
 
-**Tip:** Emojis can look different on different computers, so they might not look the same on a tablet and a desktop computer. Some emojis aren't available on some computers, but most modern computers will support them.
+**Dica:** Emojis podem parecer diferentes em computadores diferentes, então eles podem não ter a mesma aparência em um tablet e um computador desktop. Alguns emojis não estão disponíveis em alguns computadores, mas a maioria dos computadores modernos os suporta.
 
 --- /task ---
 
@@ -89,7 +89,7 @@ Drag this script to the other **Insect** sprite to make it move randomly.
 
 --- task ---
 
-Use your Backpack to trade insects with your friends from their 'Grow a Dragonfly' projects.
+Use sua Backpack para trocar insetos com seus amigos de seus projetos 'Grow a Dragonfly'.
 
 Send the link of your project to your friend who can go inside the project, click on Backpack (the one under the code space) and drag and drop the sprite.
 

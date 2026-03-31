@@ -32,7 +32,7 @@ end
 
 --- task ---
 
-Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
+Em seguida, arraste um bloco `not`{:class="block3operators"} para dentro do bloco `if`{:class="block3control"} e um `touching (mouse-pointer)`{:class="block3sensing"} dentro dele.
 
 ```blocks3
 when flag clicked

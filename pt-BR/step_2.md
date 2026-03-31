@@ -115,7 +115,7 @@ Renomeie seu novo som de **Crank2** para `Wings`. ![A propriedade renomear sons.
 
 **Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
 
-![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
+![Uma onda sonora mais rápida com o ícone 'Faster' destacado.](images/wings-faster.png)
 
 --- /task ---
 
@@ -123,7 +123,7 @@ Renomeie seu novo som de **Crank2** para `Wings`. ![A propriedade renomear sons.
 
 If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
 
-![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+![O final da onda sonora selecionada com a ferramenta 'Excluir' destacada.](images/wings-shorter.png)
 
 --- /task ---
 
@@ -131,7 +131,7 @@ If you like, you can select the very end of the **Wings** sound, and then click 
 
 Now add a block to play the **Wings** sound when the dragonfly moves:
 
-![Dragonfly sprite icon](images/dragonfly-icon.png)
+![Ícone de sprite Dragonfly](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -146,7 +146,7 @@ end
 
 --- task ---
 
-**Test:** Try out your dragonfly movement and sound effect.
+**Teste:** Experimente o movimento da libélula e o efeito sonoro.
 
 --- /task ---
 

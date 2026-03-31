@@ -1,4 +1,4 @@
-## What you will make
+## O que você vai fazer
 
 Faça um aplicativo da natureza com uma libélula que cresce à medida que come insetos.
 
@@ -6,7 +6,7 @@ Faça um aplicativo da natureza com uma libélula que cresce à medida que come 
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Move the mouse around the Stage to eat insects. Como os insetos se movem?
+Mova o mouse pelo Palco para comer insetos. Como os insetos se movem?
 
 Qual parte da libélula precisa tocar os insetos para comê-los? O que acontece com a libélula quando a libélula come um inseto?
 </div>

@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: 質問2/3
+legend: Question 2 of 3
 ---
 
 トンボがマウスポインターに`触れた`の{:class="block3sensing"}`ではない`{:class="block3operators"}ときだけ動くようにコードを書きましたね。
@@ -15,7 +15,7 @@ legend: 質問2/3
 ```blocks3
 when flag clicked
 forever
-+start sound [羽音 v]
++start sound [Wings v]
 if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
@@ -35,7 +35,7 @@ end
 when flag clicked
 forever
 if <not <touching [mouse-pointer v] ?> > then
-+start sound [羽音 v]
++start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end
@@ -58,7 +58,7 @@ if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
 end
-+start sound [羽音 v]
++start sound [Wings v]
 end
 ```
 

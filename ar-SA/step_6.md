@@ -23,7 +23,6 @@
 
 انقر فوق علامة التبويب **الأزياء**.
 
-**اختر:** اصنع حشرةً طائرةً مختلفة.
 + يمكنك استخدام **ملء** لتغيير لون هذه الحشرة
 + **ارسم** الحشرات الخاص بك
 + **أضف** مظهر حشرة آخر من Scratch
@@ -36,7 +35,7 @@
 
 --- task ---
 
-حدد كائن **Dragonfly** وانقر فوق علامة التبويب **المظاهر**.
+حدد كائن ** Dragonfly ** وانقر فوق علامة التبويب **المظاهر**.
 
 استخدم أداة التعبئة لملء فم كائن اليعسوب **Dragonfly**. استخدمنا اللون الأرجواني (البنفسجي):
 
@@ -52,7 +51,7 @@
 
 اسحب كتلة `و`{:class="block3operators"} إلى الكتلة `إذا`{:class="block3control"}.
 
-ستظهر الكتلة `<touching [Dragonfly v] ?>`{:class="block3sensing"}، اسحبها إلى يسار كتلة `و`{:class="block3operators"}:
+اسحب كتلة `و`{:class="block3operators"} إلى الكتلة `إذا`{:class="block3control"}.
 
 ![](images/insect2-icon.png)
 
@@ -63,7 +62,7 @@ forever
 move [3] steps 
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <>> then
-broadcast [طعام v]
+broadcast [food v]
 hide
 go to (random position v)
 show
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-اسحب كتلة `ملامس للون`{:class="block3sensing"} إلى يمين الكتلة `و`{:class="block3operators"}:
-
-![](images/insect2-icon.png)
+ستظهر الكتلة `<touching [Dragonfly v] ?>`{:class="block3sensing"}، اسحبها إلى يسار كتلة `و`{:class="block3operators"}:
 
 ```blocks3
 when flag clicked
@@ -86,7 +83,7 @@ forever
 move [3] steps
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
-broadcast [طعام v]
+broadcast [food v]
 hide
 go to (random position v)
 show
@@ -109,8 +106,6 @@ end
 --- task ---
 
 **اختبار:** الآن اختبر أن اليعسوب لا يمكنه أكل الحشرة الثانية إلا بفمه.
-
-إذا أردت، يمكنك تغيير أول حشرة **Insect** بحيث لا يمكن أكلها إلا بفم اليعسوب.
 
 --- /task ---
 

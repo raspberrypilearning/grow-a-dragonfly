@@ -13,18 +13,13 @@
 
 افتح [مشروع البداية كبّر اليعسوب](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
-[[[working-offline]]]
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**اليعاسيب**</span> يمكن العثور عليها في جميع أنحاء العالم وهي موجودة منذ أكثر من 300 مليون سنة!</p>
 
 --- task ---
 
-**اختر:** انقر فوق **اختيار خلفية** وأضف خلفية من اختيارك. استخدمنا خلفية **Jurassic**.
+استخدمنا خلفية **Jurassic**. استخدمنا خلفية **Jurassic**.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![تُظهر المنصةُ الخلفيةَ Jurassic.](images/Jurassic-backdrop.png)
 
@@ -34,7 +29,7 @@
 
 انقر فوق **اختيار كائن** وابحث عن كلمة `dragonfly`، ثم أضف كائن **Dragonfly**.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![مربع البحث المكتوب فيه "dragonfly" وكائن اليعسوب في المعرض.](images/dragonfly-search.png)
 
@@ -44,11 +39,11 @@
 
 أضف نصًّا لجعل الكائن **Dragonfly** يتبع مؤشر الماوس (أو إصبعك):
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
-set size to [25] % // لتبدأ بحجم صغير
+set size to [25] % // to start small
 forever
 point towards (mouse-pointer v)
 move [5] steps
@@ -66,11 +61,11 @@ end
 
 --- task ---
 
-انقر فوق علامة التبويب **المظاهر** واستخدم أداة **حدد** (السهم) لتحديد الزي. استخدم أداة **دوّر** في الجزء السفلي من الزي المحدد لقلب شكل الكائن **Dragonfly** لمواجهة اليمين.
+انقر فوق علامة التبويب **المظاهر** واستخدم أداة **حدد** (السهم) لتحديد الزي.
+
+استخدم أداة **دوّر** في الجزء السفلي من الزي المحدد لقلب شكل الكائن **Dragonfly** لمواجهة اليمين.
 
 ![صورة متحركة توضح كيفية تدوير زي اليعسوب عن طريق سحب أسهم الدوران بحيث تواجه اليعسوب جهة اليمين.](images/rotated-costume.gif)
-
-![تم اختيار زي اليعسوب واستدار لمواجهة اليمين.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,11 +85,15 @@ end
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 انقر فوق الزر **تشغيل** حتى تتمكن من سماع الصوت.
 
 --- /task ---
 
-صوت **Crank** طويل جدًّا وبطيء جدًّا بالنسبة لأجنحة اليعسوب.
+صوت ** Crank ** طويل جدًّا وبطيء جدًّا بالنسبة لأجنحة اليعسوب.
 
 --- task ---
 
@@ -104,9 +103,11 @@ end
 
 ![تحديد نهاية صوت crank باللون الأزرق مع تمييز رمز "نسخ إلى صوت جديد".](images/crank-copy-end.png)
 
-أعد تسمية صوتك الجديد من **Crank2** إلى `أجنحة`.
+--- /task ---
 
-![خاصية إعادة تسمية الصوت.](images/crank-wings-sound.png)
+--- task ---
+
+أعد تسمية صوتك الجديد من **Crank2** إلى `أجنحة`. ![خاصية إعادة تسمية الصوت.](images/crank-wings-sound.png)
 
 --- /task ---
 
@@ -130,13 +131,13 @@ end
 
 أضف الآن كتلة لتشغيل صوت **أجنحة** عندما يتحرك اليعسوب:
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
 set size to [25] %
 forever
-+start sound [أجنحة v]
++start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end

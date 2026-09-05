@@ -1,61 +1,19 @@
 ## Вдоскональ свій проєкт
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-На цьому етапі спробуй додати більше комах, змінити зовнішній вигляд проєкту або його перебіг.
+If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+
+--- print-only ---
+
+![The Stage view of the completed Drum star project.](images/drum-star.png)
+
+--- /print-only ---
+
+--- no-print ---
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
 </div>
-<div>
-![Сцена, на якій є три різні типи комах і бабка.](images/upgrade-project.png){:width="300px"}
-</div>
-</div>
 
-### Додай більше комах
+--- /no-print ---
 
-Додай більше комах. Можливо, тобі потрібно буде зробити їх швидшими, щоб бабці було важче їх зловити.
-
-Ти можеш намалювати власних комах або додати емоджі комара!
-
---- task ---
-
-За допомогою клавіатури емоджі додай спрайт **Емоджі комара**.
-
-Здублюй наявний спрайт **комахи**, а потім натисни на вкладку **Образи**. Вибери **Малювати** новий образ і натисни на інструмент **Текст**. Не вводь текст, а натисни комбінацію клавіш для клавіатури емоджі своєї операційної системи:
-
-Windows: клавіша Windows + «.» MacOS: ctrl + cmd + пробіл Linux: ctrl + «.»
-
-![Спливна клавіатура емоджі з вибраною категорією «тварини і природа».](images/emoji-keyboard.png)
-
-Вибери емоджі **Комар** і встав його в редактор малювання. Застосуй інструмент **Обрати** (стрілка), щоб вирівняти, розвернути і змінити розмір свого комара, поки він тобі не сподобається.
-
-![Емоджі комара в редакторі малювання.](images/emoji-mosquito.png)
-
-**Порада:** емоджі можуть виглядати по-різному на різних компʼютерах, тому їхній вигляд може відрізнятися на планшеті та на персональному компʼютері. Деякі емоджі можуть бути недоступні на певних компʼютерах, але більшість сучасних компʼютерів підтримують емоджі.
-
---- /task ---
-
---- task ---
-
-За допомогою Сховку ти можеш обмінюватися комахами зі своїми друзями, які теж створити проєкт «Вирости бабку».
-
-[[[scratch-backpack]]]
-
---- /task ---
-
---- task ---
-
-**Порада:** переконайся, що всі твої спрайти й костюми мають зрозумілі логічні назви. Так тобі буде легше розібратися у проєкті, якщо ти повернешся до нього пізніше.
-
-**Порада:** переконайся, що твій код акуратно розміщений в області коду. Клацни правою кнопкою миші по області коду й вибери **Впорядкувати блоки**, щоб Скретч зробив твій код охайнішим.
-
---- /task ---
-
---- collapse ---
----
-title: Завершений проєкт
----
-
-Ти можеш переглянути [завершений проєкт тут](https://scratch.mit.edu/projects/1073815361/){:target="_blank"}.
-
---- /collapse ---
-
---- save ---
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

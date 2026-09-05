@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: 3ಪ್ರಶ್ನೆಗಳಲ್ಲಿ 2ನೆಯದು
+legend: Question 2 of 3
 ---
 
 ಡ್ರಾಗನ್‌ಫ್ಲೈ `not`{:class="block3operators"} `touching`{:class="block3sensing"} ಮೌಸ್-ಪಾಯಿಂಟರ್‌ ಆಗಿದ್ದರೆ ಮಾತ್ರ ಅದು ಚಲಿಸುವಂತೆ ಮಾಡಲು ನೀವು ಕೋಡ್‌ ಬರೆದಿರಿ.

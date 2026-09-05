@@ -9,12 +9,9 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-सबसे बड़ी जीवित ड्रैगनफलीज़ मध्य अमेरिका में पाई जा सकती हैं और उनके पंखों का फैलाव 19 सेमी (आपके हाथ से थोड़ा बड़ा) होता है। अब तक ज्ञात सबसे बड़ा कीट <span style="color: #0faeb0">**मेगन्यूरोप्सिस परमियाना**</span>था, एक ड्रैगनफ्लाई जिसका पंख लगभग 75 सेमी (एक बड़े कदम के आकार का) होता है।</p>
+सबसे बड़ी जीवित ड्रैगनफलीज़ मध्य अमेरिका में पाई जा सकती हैं और उनके पंखों का फैलाव 19 सेमी (आपके हाथ से थोड़ा बड़ा) होता है। अब तक ज्ञात सबसे बड़ा कीट <span style="color: #0faeb0">**मेगन्यूरोप्सिस परमियाना**</span>था, एक ड्रैगनफ्लाई जिसका पंख लगभग 75 सेमी (एक बड़े कदम के आकार का) होता है।
 
-मक्खी जानती है कि उसे खा लिया गया है, और अब ड्रैगनफ्लाई को भी यह जानने की जरूरत है ताकि यह बड़ी हो ।
-
-जब आपको किसी अन्य स्प्राइट को यह बताने की आवश्यकता होती है कि कुछ हुआ है, तो आप `broadcast`{:class="block3events"} ब्लॉक का उपयोग कर सकते हैं जैसा कि आपने [Broadcasting spells](https://projects.raspberrypi.org/hi-IN/projects/broadcasting-spells){:target="_blank"} में किया था।
+जब आपको किसी अन्य स्प्राइट को यह बताने की आवश्यकता होती है कि कुछ हुआ है, तो आप `broadcast`{:class="block3events"} ब्लॉक का उपयोग कर सकते हैं जैसा कि आपने [Broadcasting spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"} में किया था।
 
 --- task ---
 
@@ -24,7 +21,7 @@
 
 ```blocks3
 when flag clicked
-show // शुरुआत में दिखाओ
+show // show at the start
 forever
 move [3] steps
 if on edge, bounce
@@ -58,8 +55,6 @@ change size by [5]
 
 ड्रैगनफ्लाई में **Chomp** ध्वनि जोड़ें और इसे तब `start`{:class="block3sound"} करें जब कोई कीट खाया जाए:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
 when I receive [food v]
 +start sound [Chomp v]
@@ -79,9 +74,21 @@ change size by [5]
 
 `if`{:class="block3control"} ब्लॉक जोड़ें।
 
-जब `size`{:class="block3looks"} `=`{:class="block3operators"} `100%` हो तो ड्रैगनफ्लाई पूर्ण आकार की होती है। सबसे पहले, षट्भुज के आकार के इनपुट में एक `=`{:class="block3operators"} ऑपरेटर जोड़ें:
+```blocks3
+when I receive [food v]
+start sound [Chomp v]
+change size by [5]
++if < > then
+end
+```
 
-![](images/dragonfly-icon.png)
+--- /task ---
+
+जब `size`{:class="block3looks"} `=`{:class="block3operators"} `100%`हो तो ड्रैगनफ्लाई पूर्ण आकार की होती है।
+
+--- task ---
+
+First, add an `=`{:class="block3operators"} operator into the hexagon-shaped input:
 
 ```blocks3
 when I receive [food v]
@@ -95,8 +102,6 @@ end
 --- task ---
 
 अंतर्निर्मित `size`{:class="block3looks"} वेरिएबल जोड़कर कंडीशन बनाना समाप्त करें और `100` मान टाइप करें:
-
-![](images/dragonfly-icon.png)
 
 ```blocks3
 when I receive [food v]
@@ -113,8 +118,6 @@ end
 
 अंत में, अन्य ड्रैगनफ्लाई स्क्रिप्ट को रोकने के लिए `stop all`{:class="block3control"} ब्लॉक जोड़ें:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
 when I receive [food v]
 start sound [Chomp v]
@@ -122,7 +125,7 @@ change size by [5]
 if <(size) = [100]> then
 +broadcast [end v]
 +say [I got to full size!]
-+stop [other scripts in sprite v] // 'all' से बदलें
++stop [other scripts in sprite v] // change from 'all'
 end
 ```
 --- /task ---

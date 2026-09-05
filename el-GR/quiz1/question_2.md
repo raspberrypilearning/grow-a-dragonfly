@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Ερώτηση 2 από 3
+legend: Question 2 of 3
 ---
 
 Έγραψες κώδικα για να κάνεις τη λιβελούλα να κινείται μόνο αν `δεν`{:class="block3operators"} `αγγίζει`{:class="block3sensing"} τον δείκτη του ποντικιού.
@@ -13,33 +13,33 @@ legend: Ερώτηση 2 από 3
 - ( )
 
 ```blocks3
-when flag clicked
-forever
-+start sound [Φτερά v]
-if <not <touching [mouse-pointer v] ?> > then
-point towards (mouse-pointer v)
-move [5] steps
-end
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+παίξε τον ήχο [Φτερά v]
++εάν <not <touching [mouse-pointer v] ?> > τότε
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
+τέλος
 ```
 
 --- feedback ---
 
-Όχι, με αυτόν τον κώδικα το μπλοκ `παίξε ήχο`{:class="block3sound"} βρίσκεται εκτός του μπλοκ `εάν`{:class="block3control"}, επομένως θα εκτελείται κάθε φορά που ο βρόγχος `για πάντα`{:class="block3control"} εκτελείται, ακόμα κι αν η λιβελούλα δεν κινείται.
+Όχι, με αυτόν τον κώδικα το μπλοκ `παίξε ήχο`{:class="block3sound"} βρίσκεται εκτός του μπλοκ `εάν`{:class="block3control"}, επομένως θα εκτελείται κάθε φορά που ο βρόγχος `για πάντα`{:class=" block3control"} εκτελείται, ακόμα κι αν η λιβελούλα δεν κινείται.
 
 --- /feedback ---
 
 - (x)
 
 ```blocks3
-when flag clicked
-forever
-if <not <touching [mouse-pointer v] ?> > then
-+start sound [Φτερά v]
-point towards (mouse-pointer v)
-move [5] steps
-end
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+εάν <not <touching [mouse-pointer v] ?> > τότε
++παίξε τον ήχο [Φτερά v]
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
+τέλος
 ```
 
   --- feedback ---
@@ -52,19 +52,19 @@ end
 
 
 ```blocks3
-when flag clicked
-forever
-if <not <touching [mouse-pointer v] ?> > then
-point towards (mouse-pointer v)
-move [5] steps
-end
-+start sound [Φτερά v]
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+εάν <not <touching [mouse-pointer v] ?> > τότε
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
++παίξε τον ήχο [Φτερά v]
+τέλος
 ```
 
   --- feedback ---
 
-Όχι, με αυτόν τον κώδικα το μπλοκ `παίξε ήχο`{:class="block3sound"} βρίσκεται εκτός του μπλοκ `εάν`{:class="block3control"}, επομένως θα εκτελείται κάθε φορά που ο βρόγχος `για πάντα`{:class="block3control"} εκτελείται, ακόμα κι αν η λιβελούλα δεν κινείται.
+Όχι, με αυτόν τον κώδικα το μπλοκ `παίξε ήχο`{:class="block3sound"} βρίσκεται εκτός του μπλοκ `εάν`{:class="block3control"}, επομένως θα εκτελείται κάθε φορά που ο βρόγχος `για πάντα`{:class=" block3control"} εκτελείται, ακόμα κι αν η λιβελούλα δεν κινείται.
 
   --- /feedback ---
 

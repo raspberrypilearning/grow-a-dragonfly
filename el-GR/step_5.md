@@ -13,46 +13,38 @@
 
 Επίλεξε την **Λιβελούλα** και βρες το script που ξεκινά με `όταν γίνει κλικ στη σημαία`{:class="block3events"}.
 
-Σύρε ένα `εάν`{:class="block3control"} μέσα στο μπλοκ `για πάντα`{:class="block3control"} και τα μπλοκ μέσα στο `για πάντα`{:class="block3control"} θα μετακινηθούν μέσα στο `εάν`{:class="block3control"}.
-
-Έλεγξε προσεκτικά ότι ο κώδικά σου μοιάζει με αυτόν:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
 ```blocks3
-when flag clicked
-set size to [25] %
-forever
-+if < > then
-start sound [Φτερά v]
-point towards (mouse-pointer v)
-move [5] steps
-end
-end
+όταν γίνει κλικ στη σημαία
+όρισε μέγεθος σε [25] %
+για πάντα
++εάν < > τότε
+παίξε τον ήχο [Φτερά v]
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
+τέλος
 ```
 --- /task ---
 
 --- task ---
 
-Στη συνέχεια, σύρε ένα μπλοκ `όχι`{:class="block3operators"} στο `εάν`{:class="block3control"} και ένα `αγγίζει (δείκτη ποντικιού)`{:class="block3sensing"} μέσα σε αυτό.
-
-Έλεγξε ότι ο κώδικά σου μοιάζει με αυτόν:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
-when flag clicked
-set size to [25] %
-forever
-+if <not <touching [mouse-pointer v] ?> > then
-start sound [Φτερά v]
-point towards (mouse-pointer v)
-move [5] steps
-end
-end
+όταν γίνει κλικ στη σημαία
+όρισε μέγεθος σε [25] %
+για πάντα
++εάν <not <touching [mouse-pointer v] ?> > τότε
+παίξε τον ήχο [Φτερά v]
+δείξε προς (δείκτη ποντικιού v)
+κινήσου [5] βήματα
+τέλος
+τέλος
 ```
-
-Το μπλοκ `όχι`{:class="block3operators"} μετατρέπει μια συνθήκη στο αντίθετό της, ακριβώς όπως θα έκανε σε μια πρόταση.
 
 --- /task ---
 
@@ -60,15 +52,15 @@ end
 
 **Δοκιμή:** Έλεγξε ότι το σφάλμα έχει διορθωθεί και ότι η Λιβελούλα κινείται μόνο όταν `δεν`{:class="block3operators"} `αγγίζει τον (δείκτη ποντικιού)`{:class="block3sensing"}.
 
-Μια διαφορετική συνθήκη για να δοκιμάσεις είναι:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
-<(distance to [mouse-pointer v]) > [50]>
+<(απόσταση έως [δείκτη ποντικιού v]) > [50]>
 ```
-
-Αυτό κάνει τη λιβελούλα να κινείται όταν είναι αρκετά μακριά από το δείκτη του ποντικιού.
-
-**Συμβουλή:** Μπορείς να σύρεις μπλοκ οπουδήποτε στην περιοχή Κώδικα και να τα αφήσεις εκεί ενώ δοκιμάζεις διαφορετικά πράγματα.
 
 --- /task ---
 

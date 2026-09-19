@@ -23,7 +23,6 @@ Fai clic con il pulsante destro del mouse sullo sprite **insetto** nell'elenco S
 
 Clicca sulla scheda **Costumi**.
 
-**Scegli:** Crea un insetto volante diverso.
 + Usa lo strumento **Riempi** per cambiare il colore di questo insetto
 + **Disegna un nuovo** costume da insetto
 + **Aggiungi** un altro costume da insetto da Scratch
@@ -52,7 +51,7 @@ Seleziona lo sprite **insect2** e fai clic sulla scheda **Codice**.
 
 Trascina un blocco `e`{:class="block3operators"} nel blocco `se`{:class="block3control"}.
 
-Il blocco `<sta toccando [Dragonfly v] ?>`{:class="block3sensing"} si sgancerà, trascinalo sulla sinistra del blocco `e`{:class="block3operators"}:
+Trascina un blocco `e`{:class="block3operators"} nel blocco `se`{:class="block3control"}.
 
 ![](images/insect2-icon.png)
 
@@ -63,9 +62,9 @@ forever
 move [3] steps 
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <>> then
-broadcast [cibo v]
+broadcast [food v]
 hide
-go to (posizione a caso v)
+go to (random position v)
 show
 end
 end
@@ -77,8 +76,6 @@ end
 
 Trascina un blocco `sta toccando il colore`{:class="block3sensing"} a destra del blocco `e`{:class="block3operators"}:
 
-![](images/insect2-icon.png)
-
 ```blocks3
 when flag clicked
 show
@@ -86,9 +83,9 @@ forever
 move [3] steps
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
-broadcast [cibo v]
+broadcast [food v]
 hide
-go to (posizione a caso v)
+go to (random position v)
 show
 end
 end
@@ -102,15 +99,13 @@ Fai clic sulla bocca della libellula sullo Stage per impostare il colore in modo
 
 ![Lo strumento contagocce con l'evidenziatore di selezione del colore sospeso sulla bocca viola della libellula.](images/colour-select.png)
 
-**Suggerimento:** Ecco un trucco, cambia la dimensione dello sprite della **libellula** in modo che sia davvero grande.
+**Scegli:** Crea un insetto volante diverso.
 
 --- /task ---
 
 --- task ---
 
 **Test:** Ora verifica che la libellula possa mangiare solo il secondo insetto con la bocca.
-
-Se vuoi, puoi modificare anche il primo **insetto** in modo che possa essere mangiato solo con la bocca della libellula.
 
 --- /task ---
 

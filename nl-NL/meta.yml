@@ -10,19 +10,27 @@ listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
-  - title: Wat ga je maken
-  - title: Maak het speelveld
-  - title: Een vlieg om te eten
+  - 
+    title: Wat ga je maken
+  - 
+    title: Maak het speelveld
+  - 
+    title: Een vlieg om te eten
     completion:
       - engaged
-  - title: Groei tot volledige grootte
-  - title: Verbeterde beweging
-  - title: Meer eten
+  - 
+    title: Groei tot volledige grootte
+  - 
+    title: Verbeterde beweging
+  - 
+    title: Meer eten
     completion:
       - internal
-  - title: Uitdaging
+  - 
+    title: Uitdaging
     challenge: true
-  - title: Snelle quiz
+  - 
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1

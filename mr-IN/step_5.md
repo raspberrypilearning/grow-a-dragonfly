@@ -13,9 +13,7 @@
 
 **Dragonfly** निवडा आणि `when flag clicked`{:class="block3events"} ने चालू होणारी स्क्रिप्ट शोधा.
 
-`if`{:class="block3control"} ब्लॉक `forever`{:class="block3control"} ब्लॉकच्या आत ड्रॅग करा आणि `forever`{:class="block3control"} च्या आतील ब्लॉक्स `if`{:class="block3control"} ब्लॉक्सच्या आत हलेल.
-
-तुमचा कोड यासारखा दिसत आहे का ते काळजीपूर्वक तपासा:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -34,11 +32,7 @@ end
 
 --- task ---
 
-`not`{:class="block3operators"} ब्लॉक `if`{:class="block3control"} मध्ये ड्रॅग करा आणि `touching (mouse-pointer)`{:class="block3sensing"} त्याच्या आत.
-
-तुमचा कोड यासारखा दिसत आहे का ते तपासा:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
 when flag clicked
@@ -52,23 +46,21 @@ end
 end
 ```
 
-`not`{:class="block3operators"} ब्लॉक एका वाक्याप्रमाणे विरूद्ध स्थितीत बदलतो.
-
 --- /task ---
 
 --- task ---
 
 **चाचणी:** ग्लिच फिक्स केला का ते तपासा आणि ड्रॅगनफ्लाय केवळ तेव्हाच हलतो जेव्हा तो `not`{:class="block3operators"} `touching (mouse-pointer)`{:class="block3sensing"}.
 
-प्रयत्न करण्यासाठी वेगळी स्थिती:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
 <(distance to [mouse-pointer v]) > [50]>
 ```
-
-यामुळे ड्रॅगनफ्लाय माऊस-पॉइंटरपासून पुरेसा दूर असतांना तो हलतो.
-
-**टीप:** तुम्ही Code भागात कोठेही ब्लॉक्स ड्रॅग करू शकता आणि ते तुम्ही वेगळ्या गोष्टींचा प्रयत्न करत असतांना तेथेच सोडू शकता.
 
 --- /task ---
 

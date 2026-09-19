@@ -22,8 +22,8 @@ when flag clicked
 set size to [25] %
 forever
 +if < > then
-start sound [Vleugels v]
-point towards (muisaanwijzer v)
+start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -38,9 +38,9 @@ Sleep vervolgens een `niet`{:class="block3operators"} blok naar het `als`{:class
 when flag clicked
 set size to [25] %
 forever
-+if <not <touching [muisaanwijzer v] ?> > then
-start sound [Vleugels v]
-point towards (muisaanwijzer v)
++if <not <touching [mouse-pointer v] ?> > then
+start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -59,7 +59,7 @@ end
 Probeer een andere voorwaarde waardoor de libel beweegt als hij ver genoeg van de muisaanwijzer verwijderd is:
 
 ```blocks3
-<(distance to [muisaanwijzer v]) > [50]>
+<(distance to [mouse-pointer v]) > [50]>
 ```
 
 --- /task ---

@@ -15,9 +15,9 @@ Waar zou je een `start geluid`{:class="block3sound"}-blok plaatsen om de libel e
 ```blocks3
 when flag clicked
 forever
-+start sound [Vleugels v]
-if <not <touching [muisaanwijzer v] ?> > then
-point towards (muisaanwijzer v)
++start sound [Wings v]
+if <not <touching [mouse-pointer v] ?> > then
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -25,7 +25,7 @@ end
 
 --- feedback ---
 
-Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class="block3control"} lus loopt, zelfs als de libel niet beweegt.
+Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class=" block3control"} lus loopt, zelfs als de libel niet beweegt.
 
 --- /feedback ---
 
@@ -34,9 +34,9 @@ Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich bu
 ```blocks3
 when flag clicked
 forever
-if <not <touching [muisaanwijzer v] ?> > then
-+start sound [Vleugels v]
-point towards (muisaanwijzer v)
+if <not <touching [mouse-pointer v] ?> > then
++start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -54,17 +54,17 @@ Ja dat is goed. Het plaatsen van het `start geluid`{:class="block3sound"} blok b
 ```blocks3
 when flag clicked
 forever
-if <not <touching [muisaanwijzer v] ?> > then
-point towards (muisaanwijzer v)
+if <not <touching [mouse-pointer v] ?> > then
+point towards (mouse-pointer v)
 move [5] steps
 end
-+start sound [Vleugels v]
++start sound [Wings v]
 end
 ```
 
   --- feedback ---
 
-Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class="block3control"} lus loopt, zelfs als de libel niet beweegt.
+Nee, met deze code bevindt het `start geluid`{:class="block3sound"}-blok zich buiten het `als`{:class="block3control"}-blok, dus het wordt elke keer uitgevoerd als de `herhaal`{:class=" block3control"} lus loopt, zelfs als de libel niet beweegt.
 
   --- /feedback ---
 

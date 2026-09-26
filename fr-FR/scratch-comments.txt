@@ -22,4 +22,4 @@ touche la bouche de la libellule
 
 fait apparaître les mouches du bord
 
-Utilise le sprite Grenouille ou dessine le tien. Ou utilise l'emoji Moustique. Appuie sur la touche "Windows" et "." pour entrer.
+Utilise le sprite Frog ou dessine le tien. Ou utilise l'emoji Mosquito. Appuie sur la touche "Windows" et "." pour entrer.

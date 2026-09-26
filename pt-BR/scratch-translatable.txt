@@ -1,0 +1,21 @@
+para começar pequeno
+
+Asas
+
+muda para 'mouse-pointer'
+
+comido
+
+mostrar no início
+
+se parecer com uma nova mosca
+
+comida
+
+end
+
+Crescer ao máximo!
+
+mudar de 'todos'
+
+Continua mudando a direção

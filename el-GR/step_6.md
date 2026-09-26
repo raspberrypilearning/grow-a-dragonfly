@@ -23,7 +23,6 @@
 
 Κάνε κλικ στην καρτέλα **Ενδυμασίες**.
 
-**Επίλεξε:** Δημιουργία ενός διαφορετικού ιπτάμενου εντόμου.
 + Χρησιμοποίησε το εργαλείο **Γέμισμα** για να αλλάξεις το χρώμα αυτού του εντόμου
 + **Ζωγράφισε** τη δική σου ενδυμασία εντόμου
 + **Πρόσθεσε** άλλο κοστούμι εντόμου από το Scratch
@@ -44,73 +43,70 @@
 
 --- /task ---
 
-Πρέπει να ελέγξεις ότι το αντικείμενο **Έντομο2** αγγίζει το αντικείμενο **Λιβελούλα** `και`{:class="block3operators"} αγγίζει το χρώμα του στόματος της λιβελούλας.
+You need to check that the new sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
 
 --- task ---
 
-Επίλεξε το αντικείμενο **Έντομο2** και κάνε κλικ στην καρτέλα **Κώδικας**.
+Select your new sprite and click on the **Code** tab.
 
 Σύρε ένα μπλοκ `και`{:class="block3operators"} στο μπλοκ `εάν`{:class="block3control"}.
 
-Το μπλοκ `<touching [Dragonfly v] ?>`{:class="block3sensing"} θα αναδυθεί, σύρε το στα αριστερά του μπλοκ `και`{:class="block3operators"}:
+Σύρε ένα μπλοκ `και`{:class="block3operators"} στο μπλοκ `εάν`{:class="block3control"}.
 
 ![](images/insect2-icon.png)
 
 ```blocks3
-when flag clicked
-show
-forever
-move [3] steps 
-if on edge, bounce
-+if <<touching [Dragonfly v] ?> and <>> then
-broadcast [φαγητό v]
-hide
-go to (random position v)
-show
-end
-end
+όταν γίνει κλικ στη σημαία
+εμφανίσου
+για πάντα
+κινήσου [3] βήματα
+εάν σε όριο, αναπήδησε
++εάν <<touching [Dragonfly v] ?> και <>> τότε
++μετάδωσε [τροφή v]
+εξαφανίσου
+πήγαινε σε (τυχαία θέση v)
+περίμενε δευτερόλεπτα
+εμφανίσου
+τέλος
+τέλος
 ```
 
 --- /task ---
 
 --- task ---
+
+Drag a `touching color`{:class="block3sensing"} block into the other space of the `and`{:class="block3operators"} block:
+
+```blocks3
+όταν γίνει κλικ στη σημαία
+εμφανίσου
+για πάντα
+κινήσου [3] βήματα
+εάν σε όριο, αναπήδησε
++εάν <<touching [Dragonfly v] ?> και <touching color (#9966ff) ?>> τότε
++μετάδωσε [τροφή v]
+εξαφανίσου
+πήγαινε σε (τυχαία θέση v)
+εμφανίσου
+τέλος
+τέλος
+```
 
 Σύρε ένα μπλοκ `αγγίζει χρώμα`{:class="block3sensing"} στα δεξιά του μπλοκ `και`{:class="block3operators"}:
 
-![](images/insect2-icon.png)
-
-```blocks3
-when flag clicked
-show
-forever
-move [3] steps
-if on edge, bounce
-+if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
-broadcast [φαγητό v]
-hide
-go to (random position v)
-show
-end
-end
-```
+![Το μενού κύκλου χρώματος με το εργαλείο σταγονόμετρο.](images/colour-eyedropper.png)
 
 Εάν δεν έχει επιλεγεί το χρώμα του στόματος της λιβελούλας, κάνε κλικ στον κύκλο χρώματος και στη συνέχεια κάνε κλικ στο εργαλείο **Σταγονόμετρο** για να επιλέξεις ένα χρώμα.
 
-![Το μενού κύκλου χρώματος με το εργαλείο σταγονόμετρο.](images/colour-eyedropper.png)
-
-Κάνε κλικ στο στόμα της λιβελούλας στην Σκηνή για να ορίσεις το χρώμα που ταιριάζει:
-
 ![Το εργαλείο σταγονόμετρο με την επισήμανση επιλογής χρώματος να αιωρείται πάνω από το μωβ στόμα της λιβελούλας.](images/colour-select.png)
 
-**Συμβουλή:** Εάν είναι δύσκολο να το κάνεις, άλλαξε το μέγεθος του αντικειμένου **Λιβελούλα** ώστε να είναι πραγματικά μεγάλο.
+Κάνε κλικ στο στόμα της λιβελούλας στην Σκηνή για να ορίσεις το χρώμα που ταιριάζει:
 
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Τώρα δοκίμασε ότι η λιβελούλα μπορεί να φάει το δεύτερο έντομο μόνο με το στόμα της.
-
-Αν θέλεις, μπορείς να αλλάξεις το πρώτο **Έντομο** ώστε να μπορεί να φαγωθεί μόνο με το στόμα της λιβελούλας.
+**Test:** Check the dragonfly can only eat the second insect with its mouth.
 
 --- /task ---
 

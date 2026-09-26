@@ -9,9 +9,6 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Οι χαρακτήρες που κυκλοφορούν μόνοι τους στα παιχνίδια ονομάζονται μερικές φορές <span style="color: #0faeb0">**mobs (όχλοι)**</span>, συντομογραφία από το mobiles που σημαίνει κινούμενοι. Μπορείς να σκεφτείς ένα παιχνίδι που έχει mobs;</p>
-
 Υπάρχει μια μύγα στο αντικείμενο **Frog 2** που μπορείς να χρησιμοποιήσεις.
 
 --- task ---
@@ -45,7 +42,7 @@
 
 Κάνε κλικ στο εικονίδιο **Επικόλληση** για να επικολλήσεις το αντικείμενο στη νέα ενδυμασία. Σύρε τη μύγα στο **κέντρο** ώστε να ευθυγραμμιστεί με το σταυρόνημα.
 
-Μπορείς να μετονομάσεις την ενδυμασία σου `Έντομο` και να διαγράψεις τις άλλες ενδυμασίες, καθώς δεν θα τις χρειαστείς:
+Rename your costume `Insect` and delete the other costumes, as you won't need those:
 
 ![Το πρόγραμμα επεξεργασίας ζωγραφικής δείχνει επικολλημένο ένα νέο κοστούμι Έντομο με επισημασμένο το εικονίδιο Επικόλληση. Η λίστα ενδυμασιών δείχνει ότι οι άλλες ενδυμασίες έχουν διαγραφεί.](images/fly-costume.png)
 
@@ -66,11 +63,11 @@
 ![](images/fly-icon.png)
 
 ```blocks3
-when flag clicked
-forever
-move [3] steps
-if on edge, bounce
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+κινήσου [3] βήματα
+εάν σε όριο, αναπήδησε
+τέλος
 ```
 
 Το μπλοκ `εάν σε όριο, αναπήδησε`{:class="block3motion"} ελέγχει αν το αντικείμενο έχει φτάσει στην άκρη της σκηνής και στρέφει το αντικείμενο σε διαφορετική κατεύθυνση, αν έχει φτάσει.
@@ -83,15 +80,13 @@ end
 
 Πρόσθεσε ένα μπλοκ `εάν`{:class="block3control"} στο script κίνησης του αντικειμένου **Έντομο**:
 
-![](images/fly-icon.png)
-
 ```blocks3
-when flag clicked
-forever
-move [3] steps
-if on edge, bounce
-+if < > then 
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+κινήσου [3] βήματα
+εάν σε όριο, αναπήδησε
++εάν < > τότε 
+τέλος
 ```
 --- /task ---
 
@@ -105,16 +100,14 @@ end
 
 Σύρε ένα μπλοκ `αγγίζει [Λιβελούλα v]`{:class="block3sensing"} στο μπλοκ `εάν`{:class="block3control"}. Πρόσθεσε ένα μπλοκ `εξαφανίσου`{:class="block3looks"} μέσα στο μπλοκ `εάν`{:class="block3control"}.
 
-![](images/fly-icon.png)
-
 ```blocks3
-when flag clicked
-forever
-move [3] steps
-if on edge, bounce
-+if <touching [Dragonfly v] ?> then // αλλαγή από 'δείκτη-ποντικιού'
-+hide // φαγώθηκε
-end
+όταν γίνει κλικ στη σημαία
+για πάντα
+κινήσου [3] βήματα
+εάν σε όριο, αναπήδησε
++αν <touching [Dragonfly v] ?> τότε // αλλαγή από 'δείκτης του ποντικιού'
++εξαφανίσου // φαγώθηκε
+τέλος
 ```
 
 --- /task ---
@@ -129,23 +122,21 @@ end
 
 --- task ---
 
-Πρόσθεσε μπλοκ `πήγαινε σε τυχαία θέση`{:class="block3motion"} στη Σκηνή και κάνε το αντικείμενό σου να `περιμένει`{:class="block3control"} για ένα δευτερόλεπτο και μετά να `εμφανιστεί`{:class="block3looks"}:
-
-![](images/fly-icon.png)
+Add blocks to make the hidden insect sprite `go to a random position`{:class="block3motion"} on the Stage, `wait`{:class="block3control"} for one second then `show`{:class="block3looks"}:
 
 ```blocks3
-when flag clicked
-+show // εμφάνιση στην εκκίνηση
-forever
-move [3] steps
-if on edge, bounce
-if <touching [Dragonfly v] ?> then
-hide
-+go to (random position v)
-+wait [1] seconds
-+show // να μοιάζει με μια νέα μύγα
-end
-end
+όταν γίνει κλικ στη σημαία
++εμφανίσου // εμφάνιση στην εκκίνηση
+για πάντα
+κινήσου [3] βήματα
+εάν σε όριο, αναπήδησε
+εάν <touching [Dragonfly v] ?> τότε
+εξαφανίσου
++πήγαινε σε (τυχαία θέση v)
++περίμενε [1] δευτερόλεπτα
++εμφανίσου // να μοιάζει με νέα μύγα
+τέλος
+τέλος
 ```
 
 --- /task ---
@@ -154,7 +145,7 @@ end
 
 **Δοκιμή:** Δοκίμασε ότι η λιβελούλα σου μπορεί πλέον να φάει πολλές μύγες.
 
-Βεβαιώσου ότι έχεις προσθέσει το μπλοκ `εμφάνιση`{:class="block3looks"} για να εμφανιστεί στην αρχή.
+Make sure you have added the `show`{:class="block3looks"} block at the start.
 
 --- /task ---
 

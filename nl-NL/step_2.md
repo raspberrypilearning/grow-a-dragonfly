@@ -43,7 +43,7 @@ Voeg een script toe om de sprite **Dragonfly** de muisaanwijzer (of je vinger) t
 
 ```blocks3
 when flag clicked
-set size to [25] % // klein beginnen
+set size to [25] % // to start small
 forever
 point towards (mouse-pointer v)
 move [5] steps
@@ -91,7 +91,7 @@ Voeg het **Crank**-geluid toe aan de **Dragonfly**-sprite.
 
 **Test:** Klik op de **Afspeel** knop zodat je het geluid kunt horen.
 
---- /task --- 
+--- /task ---
 
 Het **Crank**-geluid is te lang en te langzaam voor libellenvleugels.
 
@@ -107,9 +107,7 @@ Klik op **Kopieer naar nieuw** om een nieuw geluid te maken met alleen het gesel
 
 --- task ---
 
-Hernoem je nieuwe geluid van **Crank2** naar `Vleugels`.
-
-![De naam van het geluid wijzigen.](images/crank-wings-sound.png)
+Hernoem je nieuwe geluid van **Crank2** naar `Vleugels`. ![De naam van het geluid wijzigen.](images/crank-wings-sound.png)
 
 --- /task ---
 
@@ -139,7 +137,7 @@ Voeg nu een blok toe om het **Vleugels**-geluid te spelen wanneer de libel bewee
 when flag clicked
 set size to [25] %
 forever
-+start sound [Vleugels v]
++start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end

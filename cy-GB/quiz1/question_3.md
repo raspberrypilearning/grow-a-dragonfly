@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Cwestiwn 3 o 3
+legend: Question 3 of 3
 ---
 
 Yn dy brosiect, fe wnes ti ddefnyddio'r blociau `dewis ar hap`{:class="block3operators"} i symud y corlun **Pryfedyn** mewn patrwm hedfan naturiol annisgwyliedig.

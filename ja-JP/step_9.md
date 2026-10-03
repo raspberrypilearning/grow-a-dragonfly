@@ -1,63 +1,19 @@
-## プロジェクトをアップグレードする
+## What can you do now?
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-このステップでは、昆虫を追加して、プロジェクトの外観と動作を変更してみてください。
+If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+
+--- print-only ---
+
+![The Stage view of the completed Drum star project.](images/drum-star.png)
+
+--- /print-only ---
+
+--- no-print ---
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
 </div>
-<div>
-![3種類の昆虫とトンボが登場するステージ。](images/upgrade-project.png){:width="300px"}
-</div>
-</div>
 
-### 昆虫を追加する
+--- /no-print ---
 
-昆虫を追加する. トンボに捕まりにくいように、動きを速くする必要があるかもしれません。
-
-自分で虫を描いたり、絵文字の蚊を追加してみたりできます！
-
---- task ---
-
-絵文字キーボードを使用して、**蚊の絵文字** スプライトを追加します。
-
-既存の**昆虫**スプライトを複製し、**コスチューム**タブをクリックします。 **描く**で新しいコスチュームを作り、**テキスト**ツールを選択します。 テキストを入力する代わりに、オペレーティングシステムの絵文字キーボードショートカットを使用します。
-
-Windows - Windowsキー + '.' 
-MacOS - ctrl + cmd + スペース 
-Linux - ctrl + '.'
-
-![「動物と自然」カテゴリが選択されたポップアップ絵文字キーボード。](images/emoji-keyboard.png)
-
-**蚊** 絵文字を選択して、ペイントエディタに挿入します。 **選択**(矢印) ツールを使って、蚊の中心を合わせたり、サイズを変えたり、回転させたりして、納得のいくまで調整します。
-
-![ペイントエディタの蚊の絵文字。](images/emoji-mosquito.png)
-
-**ヒント：** 絵文字はコンピューターによって異なる場合があるため、タブレットとデスクトップコンピューターでは同じように見えない場合があります。 一部の絵文字は一部のコンピューターでは使用できませんが、最近のほとんどのコンピューターはそれらをサポートします。
-
---- /task ---
-
---- task ---
-
-バックパックを使って、「トンボを育てよう」プロジェクトに参加した友だちと昆虫を交換しよう。
-
-[[[scratch-backpack]]]
-
---- /task ---
-
---- task ---
-
-**ヒント：** すべてのスプライトとコスチュームにわかりやすい名前が付いていることを確認します。 後で戻ってきた場合に、プロジェクトを理解しやすくなります。
-
-**ヒント：** コードがコード領域にきちんと配置されていることを確認してください。 コード領域を右クリックし、 **ブロック** をクリーンアップを選択して、Scratchでコードを整理します。
-
---- /task ---
-
---- collapse ---
----
-title: 完成したプロジェクト
----
-
-[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/660232712/){:target="_blank"}で確認できます。
-
---- /collapse ---
-
---- save ---
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

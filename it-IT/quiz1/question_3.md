@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Domanda 3 di 3
+legend: Question 3 of 3
 ---
 
 Nel tuo progetto, hai utilizzato il blocco `numero a caso tra`{:class="block3operators"} per spostare lo sprite **Insetto** in uno schema di volo naturale e imprevedibile.

@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: 質問3/3
+legend: Question 3 of 3
 ---
 
 このプロジェクトでは、`乱数`{:class="block3operators"} ブロックを使って、**昆虫** スプライトを自然で予測不可能な飛行パターンで動かしていましたね。

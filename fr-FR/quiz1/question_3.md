@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Question 3 sur 3
+legend: Question 3 of 3
 ---
 
 Dans ton projet, tu as utilisé les blocs `nombre aléatoire`{:class="block3operators"} pour déplacer le sprite **Insecte** selon un schéma de vol naturel et imprévisible.

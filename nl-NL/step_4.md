@@ -11,7 +11,7 @@ Je laat de libel groeien als hij een vlieg eet en stopt als hij zijn volledige g
 
 De libel moet groeien als ze een vlieg eet.
 
-Als je een andere sprite moet laten weten dat er iets is gebeurd, kun je een `zend signaal`{:class="block3events"}-blok gebruiken zoals je deed in [Verzend spreuken](https://projects.raspberrypi.org/nl-NL/projects/broadcasting-spells){:target="_blank"}.
+Als je een andere sprite moet laten weten dat er iets is gebeurd, kun je een `zend signaal`{:class="block3events"}-blok gebruiken zoals je deed in [Verzend spreuken](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
@@ -21,14 +21,14 @@ Voeg een `zend signaal`{:class="block3events"} blok toe aan de **Insect** sprite
 
 ```blocks3
 when flag clicked
-show // toon aan het begin
+show // show at the start
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
-+broadcast [eten v]
++broadcast [food v]
 hide
-go to (willekeurige positie v)
+go to (random position v)
 wait [1] seconds
 show
 end
@@ -45,7 +45,7 @@ Selecteer de sprite **Dragonfly** en voeg dit script toe:
 ![](images/dragonfly-icon.png)
 
 ```blocks3 
-when I receive [eten v]
+when I receive [food v]
 change size by [5]
 ```
 
@@ -53,10 +53,10 @@ change size by [5]
 
 --- task ---
 
-Voeg het **Chomp**-geluid toe aan de libel en `start`{:class="block3sound"} het wanneer een insect wordt opgegeten:
+Voeg het **Chomp** -geluid toe aan de libel en `start`{:class="block3sound"} het wanneer een insect wordt opgegeten:
 
 ```blocks3 
-when I receive [eten v]
+when I receive [food v]
 +start sound [Chomp v]
 change size by [5]
 ```
@@ -75,7 +75,7 @@ Wanneer de libel zijn volledige grootte bereikt, zal het spel je feliciteren en 
 Voeg een `als`{:class="block3control"} blok toe.
 
 ```blocks3
-when I receive [eten v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if < > then
@@ -91,7 +91,7 @@ De libel is op volledige grootte wanneer de `grootte`{:class="block3looks"} `=`{
 Voeg eerst een `=`{:class="block3operators"} functie toe aan de zeshoekige invoer:
 
 ```blocks3
-when I receive [eten v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if <[ ] = [ ]> then
@@ -104,7 +104,7 @@ end
 Voltooi het opbouwen van de voorwaarde door een ingebouwde `grootte`{:class="block3looks"} variabele toe te voegen en typ de waarde `100`:
 
 ```blocks3
-when I receive [eten v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if <(size) = [100]> then
@@ -119,13 +119,13 @@ Voeg blokken toe zodat `als`{:class="block3control"} de voorwaarde waar is `dan`
 Voeg ten slotte een `stop alle`{:class="block3control"} blok toe om de andere libel-scripts te stoppen:
 
 ```blocks3
-when I receive [eten v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 if <(size) = [100]> then
-+broadcast [einde v]
-+say [Ik ben op maximale grootte!]
-+stop [andere scripts in sprite v] // veranderen van 'alle'
++broadcast [end v]
++say [I got to full size!]
++stop [other scripts in sprite v] // change from 'all'
 end
 ```
 --- /task ---
@@ -137,8 +137,8 @@ Op dit moment beweegt de vlieg nog steeds nadat het project is afgelopen. Voeg d
 ![](images/fly-icon.png)
 
 ```blocks3
-when I receive [einde v]
-stop [andere scripts in sprite v]
+when I receive [end v]
+stop [other scripts in sprite v]
 ```
 
 --- /task ---

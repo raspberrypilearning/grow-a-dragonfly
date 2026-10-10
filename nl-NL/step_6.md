@@ -51,7 +51,7 @@ Selecteer je nieuwe sprite en klik op het **Code** tabblad.
 
 Sleep een `en`{:class="block3operators"} blok in het `if`{:class="block3control"} blok.
 
-Het `<raak ik [Dragonfly v] ?>`{:class="block3sensing"} blok verschijnt, sleep het naar een plek in het `en`{:class="block3operators"} blok:
+Het `<touching [Dragonfly v] ?>`{:class="block3sensing"} blok verschijnt, sleep het naar een plek in het `en`{:class="block3operators"} blok:
 
 ![](images/insect2-icon.png)
 
@@ -62,9 +62,9 @@ forever
 move [3] steps 
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <>> then
-broadcast [eten v]
+broadcast [food v]
 hide
-go to (willekeurige positie v)
+go to (random position v)
 show
 end
 end
@@ -83,9 +83,9 @@ forever
 move [3] steps
 if on edge, bounce
 +if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
-broadcast [eten v]
+broadcast [food v]
 hide
-go to (willekeurige positie v)
+go to (random position v)
 show
 end
 end

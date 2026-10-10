@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: 3 में से दूसरा प्रश्न
+legend: Question 2 of 3
 ---
 
 आपने ड्रैगनफ्लाई को केवल तभी स्थानांतरित करने के लिए कोड लिखा था जब वह माउस-पॉइंटर को `not`{:class="block3operators"} `touch`{:class="block3sensing"} हो।

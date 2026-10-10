@@ -65,7 +65,7 @@ Voeg een script toe aan **Insect 2** zodat het elke 1 tot 3 seconden in een will
 
 ```blocks3
 when flag clicked
-forever // Blijf van richting veranderen
+forever // Keep changing direction
 point in direction (pick random [0] to [259])
 wait (pick random [1] to [3]) seconds
 end

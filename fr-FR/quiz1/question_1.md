@@ -8,7 +8,7 @@ Amuse-toi bien !
 
 --- question ---
 ---
-legend: Question 1 sur 3
+legend: Question 1 of 3
 ---
 
 Un projet utilise le sprite **Crab** (Crabe) et le sprite **Jellyfish** (Méduse). Le sprite **Crabe** contient ce code :

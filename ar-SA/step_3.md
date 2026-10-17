@@ -9,14 +9,11 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-يطلق على الشخصيات التي تتحرك من تلقاء نفسها في الألعاب أحيانًا اسم <span style="color: #0faeb0">**موب**</span>، وهي اختصار لكلمة موبايل (الهاتف المحمول). هل يمكنك التفكير في لعبة بها كائنات متحركة (موب)؟</p>
-
 هناك ذبابة في كائن **Frog 2** يمكنك استخدامها.
 
 --- task ---
 
-أضف الكائن **Frog 2** إلى مشروعك. أعد تسمية الكائن إلى `Insect`:
+أضف الكائن **Frog 2** إلى مشروعك. أعد تسمية الكائن إلى ` Insect `:
 
 ![إضافة كائن Frog 2 إلى قائمة الكائنات. تعرض خاصيةُ اسم الكائنَ "Insect".](images/fly-sprite.png)
 
@@ -77,13 +74,11 @@ end
 
 --- /task ---
 
-تريد أن تقول لكائن الحشرة **Insect** `اختف`{:class="block3looks"} `إذا`{:class="block3control"} تم أكلها بواسطة كائن اليعسوب **Dragonfly**.
+تريد أن تقول لكائن الحشرة ** Insect ** `اختف`{:class="block3looks"} `إذا`{:class="block3control"} تم أكلها بواسطة كائن اليعسوب **Dragonfly**.
 
 --- task ---
 
 أضف كتلة `إذا`{:class="block3control"} إلى النص البرمجي لحركة كائن الحشرة **Insect**:
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -105,15 +100,13 @@ end
 
 اسحب كتلة `ملامس لـ [Dragonfly v]`{:class="block3sensing"} في داخل كتلة `إذا`{:class="block3control"}. أضف كتلة `اختفِ`{:class="block3looks"} داخل كتلة `إذا`{:class="block3control"}.
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-+if <touching [Dragonfly v] ?> then // تغيير من "مؤشر الماوس"
-+hide // يؤكل (يختفي)
++if <touching [Dragonfly v] ?> then // change from 'mouse-pointer'
++hide // eaten
 end
 ```
 
@@ -131,11 +124,9 @@ end
 
 أضف الكتلة `اذهب إلى موضع عشوائي`{:class="block3control"} على المنصة، واجعل الكائن الخاص بك `ينتظر`{:class="block3control"} لمدة ثانية واحدة ثم `يظهر`{:class="block3looks"}:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
-+show // تظهر في البداية
++show // show at the start
 forever
 move [3] steps
 if on edge, bounce
@@ -143,7 +134,7 @@ if <touching [Dragonfly v] ?> then
 hide
 +go to (random position v)
 +wait [1] seconds
-+show // لتبدو وكأنها ذبابة جديدة
++show // to look like a new fly
 end
 end
 ```

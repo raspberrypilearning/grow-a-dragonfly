@@ -22,8 +22,8 @@ when flag clicked
 set size to [25] %
 forever
 +if < > then
-start sound [Ailes v]
-point towards (pointeur de souris v)
+start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -38,9 +38,9 @@ Ensuite, fais glisser un bloc `non`{:class="block3operators"} dans le `si`{:clas
 when flag clicked
 set size to [25] %
 forever
-+if <not <touching [pointeur de souris v] ?> > then
-start sound [Ailes v]
-point towards (pointeur de souris v)
++if <not <touching [mouse-pointer v] ?> > then
+start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -59,7 +59,7 @@ end
 Essaie une autre condition qui fasse bouger la libellule lorsqu'elle est suffisamment éloignée du pointeur de la souris :
 
 ```blocks3
-<(distance to [pointeur de souris v]) > [50]>
+<(distance to [mouse-pointer v]) > [50]>
 ```
 
 --- /task ---

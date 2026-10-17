@@ -1,10 +1,10 @@
 
 --- question ---
 ---
-legend: Cwestiwn 2 o 3
+legend: Question 2 of 3
 ---
 
-Fe wnes ti ysgrifennu cod i wneud i'r gwas-y-neidr symud dim ond pan `na fydd`{:class="block3operators"} pwyntydd y llygoden yn `cyffwrdd`{:class="block3sensing"} ag ef.
+Fe wnes ti ysgrifennu cod i wneud i'r gwas-y-neidr symud dim ond pan `na fydd` {:class="block3operators"} pwyntydd y llygoden yn `cyffwrdd`{:class="block3sensing"} ag ef.
 
 Ble fydde ti'n rhoi bloc `cychwyn sain`{:class="block3sound"} i wneud i'r gwas-y-neidr wneud sŵn bob tro cyn iddo ddechrau symud?
 
@@ -15,7 +15,7 @@ Ble fydde ti'n rhoi bloc `cychwyn sain`{:class="block3sound"} i wneud i'r gwas-y
 ```blocks3
 when flag clicked
 forever
-+start sound [Adenydd v]
++start sound [Wings v]
 if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
@@ -35,7 +35,7 @@ Na, gyda'r cod hwn bydd y bloc `cychwyn sain`{:class="block3sound"} y tu allan i
 when flag clicked
 forever
 if <not <touching [mouse-pointer v] ?> > then
-+start sound [Adenydd v]
++start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end
@@ -58,7 +58,7 @@ if <not <touching [mouse-pointer v] ?> > then
 point towards (mouse-pointer v)
 move [5] steps
 end
-+start sound [Adenydd v]
++start sound [Wings v]
 end
 ```
 

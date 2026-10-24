@@ -2,13 +2,13 @@
 
 Ateba'r tri chwestiwn. Mae yna awgrymiadau i dy helpu i gael yr ateb cywir.
 
-Pan fyddi di wedi ateb bob cwestiwn, clicia ar **Gwiriwch fy ateb**.
+Pan fyddi di wedi ateb bob cwestiwn, clicia ar **Gwirio fy ateb**.
 
 Mwynha!
 
 --- question ---
 ---
-legend: Cwestiwn 1 o 3
+legend: Question 1 of 3
 ---
 
 Mae prosiect yn defnyddio'r corlun **Crab** a'r corlun **Jellyfish**. Dyma god y corlun **Crab**:

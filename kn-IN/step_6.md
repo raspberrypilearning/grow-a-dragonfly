@@ -23,7 +23,6 @@ Stage ಕೆಳಗಿರುವ Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿ **Ins
 
 **Costumes** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-**ಆಯ್ಕೆಮಾಡಿ:** ವಿಭಿನ್ನ ಹಾರುವ ಕೀಟವನ್ನು ರಚಿಸಿ.
 + ಈ ಕೀಟದ ಬಣ್ಣವನ್ನು ಬದಲಿಸಲು **Fill** ಟೂಲ್‌ ಉಪಯೋಗಿಸಿ
 + ನಿಮ್ಮದೇ ಕೀಟದ ಉಡುಪನ್ನು **Paint** ಮಾಡಿ
 + Scratch ನಿಂದ ಇನ್ನೊಂದು ಸಣ್ಣ ಕೀಟದ ಉಡುಪನ್ನು**ಸೇರಿಸಿ**
@@ -44,15 +43,15 @@ Stage ಕೆಳಗಿರುವ Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿ **Ins
 
 --- /task ---
 
-ನೀವು **Insect2** ಸ್ಪ್ರೈಟ್ **Dragonfly** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ `and`{:class="block3operators"} ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯ ಬಣ್ನವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಬೇಕು.
+You need to check that the new sprite is touching the **Dragonfly** sprite `and`{:class="block3operators"} touching the colour of the dragonfly's mouth.
 
 --- task ---
 
-**Insect2** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು **Code** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
+Select your new sprite and click on the **Code** tab.
 
 `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಎಳೆಯಿರಿ.
 
-`<touching [Dragonfly v] ?>`{:class="block3sensing"} ಬ್ಲಾಕ್‌ ಪಾಪ್‌ ಔಟ್‌ ಆಗುತ್ತದೆ, ಅದನ್ನು `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ ಎಡಭಾಗಕ್ಕೆ ಎಳೆಯಿರಿ:
+`and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `if`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ ಎಳೆಯಿರಿ.
 
 ![](images/insect2-icon.png)
 
@@ -75,9 +74,7 @@ end
 
 --- task ---
 
-`touching color`{:class="block3sensing"} ಬ್ಲಾಕ್‌ನ್ನು `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ ಬಲಭಾಗಕ್ಕೆ ಎಳೆಯಿರಿ:
-
-![](images/insect2-icon.png)
+Drag a `touching color`{:class="block3sensing"} block into the other space of the `and`{:class="block3operators"} block:
 
 ```blocks3
 when flag clicked
@@ -94,23 +91,21 @@ end
 end
 ```
 
-ಅದು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯ ಆಯ್ಕೆಮಾಡಿದ ಬಣ್ಣವನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ಬಣ್ಣದ ವೃತ್ತದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಲು **Eyedropper** ಟೂಲ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
+`touching color`{:class="block3sensing"} ಬ್ಲಾಕ್‌ನ್ನು `and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ ಬಲಭಾಗಕ್ಕೆ ಎಳೆಯಿರಿ:
 
 ![ಐಡ್ರಾಪರ್‌ ಟೂಲ್‌ನೊಂದಿಗೆ ಬಣ್ಣದ ವೃತ್ತದ ಮೇನು.](images/colour-eyedropper.png)
 
-ಬಣ್ಣವನ್ನು ಹೊಂದಿಸಲು Stage ಮೇಲಿನ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ:
+ಅದು ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯ ಆಯ್ಕೆಮಾಡಿದ ಬಣ್ಣವನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ಬಣ್ಣದ ವೃತ್ತದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಲು **Eyedropper** ಟೂಲ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 ![ಡ್ರಾಗನ್‌ಫ್ಲೈಯ ನೇರಳೆ ಬಣ್ಣದ ಬಾಯಿಯ ಮೇಲೆ ತೂಗಾಡುತ್ತಿರುವ colour select ಹೈಲೈಟರ್‌ ಇರುವ eyedropper ಟೂಲ್.](images/colour-select.png)
 
-**ಸಲಹೆ:** ಇದು ಮಾಡಲು ಕಷ್ಟವೆನಿಸಿದರೆ, **Dragonfly** ಸ್ಪ್ರೈಟ್‌ನ ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸಿ, ಆಗ ಅದು ಬಹಳ ದೊಡ್ಡದಾಗುತ್ತದೆ.
+ಬಣ್ಣವನ್ನು ಹೊಂದಿಸಲು Stage ಮೇಲಿನ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಿಯ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ:
 
 --- /task ---
 
 --- task ---
 
-**ಪರೀಕ್ಷೆ:** ಈಗ ಡ್ರಾಗನ್‌ಫ್ಲೈ ತನ್ನ ಬಾಯಿಯಿಂದ ಎರಡನೆಯ ಕೀಟವನ್ನು ಮಾತ್ರ ತಿನ್ನಬಹುದು ಎಂಬುವುದನ್ನು ಪರೀಕ್ಷಿಸಿ.
-
-ನೀವು ಬೇಕಾದರೆ, ಮೊದಲ **Insect** ನ್ನು ಬದಲಾಯಿಸಬಹುದು, ಆಗ ಡ್ರಾಗನ್‌ಫ್ಲೈ ಬಾಯಯಿಂದ ಅದನ್ನು ಮಾತ್ರ ತಿನ್ನಬಹುದು.
+**Test:** Check the dragonfly can only eat the second insect with its mouth.
 
 --- /task ---
 

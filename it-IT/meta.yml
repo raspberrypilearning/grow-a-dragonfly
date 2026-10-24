@@ -2,6 +2,7 @@
 title: Alleva una libellula
 hero_image: images/banner.png
 description: Crea una libellula che cresce man mano che mangia fastidiose zanzare e altri insetti.
+pdf: resources/rpi-grow-a-dragonfly.pdf
 meta_title: Progetti di programmazione con Scratch per bambini e ragazzi | Alleva una libellula
 meta_description: Impara Scratch con i progetti di programmazione della Raspberry Pi Foundation per bambini e adolescenti. Crea un'app Scratch in cui una libellula cresce mentre mangia gli insetti.
 version: 4
@@ -9,18 +10,27 @@ listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
-  - title: Quello che farai
-  - title: Imposta la scena
-  - title: Una mosca da mangiare
+  - 
+    title: Quello che farai
+  - 
+    title: Imposta la scena
+  - 
+    title: Una mosca da mangiare
     completion:
       - engaged
-  - title: Cresci a grandezza naturale
-  - title: Migliora il movimento
-  - title: Più cibo
-  - title: Movimento casuale degli insetti
+  - 
+    title: Cresci a grandezza naturale
+  - 
+    title: Migliora il movimento
+  - 
+    title: Più cibo
     completion:
       - internal
-  - title: Quiz veloce
+  - 
+    title: Movimento casuale degli insetti
+    challenge: true
+  - 
+    title: Quiz veloce
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -28,4 +38,3 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Migliora il tuo progetto

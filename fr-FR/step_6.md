@@ -47,11 +47,11 @@ Tu dois vérifier que le nouveau sprite touche le sprite **Libellule** `et`{:cla
 
 --- task ---
 
-Sélectionne ton nouveau sprite et clique sur l'onglet **Code**.
+Sélectionne ton nouveau sprite et clique sur l'onglet **Code** .
 
 Fais glisser un bloc `et`{:class="block3operators"} dans le bloc `si`{:class="block3control"}.
 
-Le bloc `<touche le [Libellule v] ?>`{:class="block3sensing"} apparaîtra, fais-le glisser à gauche du bloc `et`{:class="block3operators"} :
+Le bloc `<touching [Dragonfly v] ?>`{:class="block3sensing"} apparaîtra, fais-le glisser dans un espace du bloc `et`{:class="block3operators"} :
 
 ![](images/insect2-icon.png)
 
@@ -61,10 +61,10 @@ show
 forever
 move [3] steps 
 if on edge, bounce
-+if <<touching [Libellule v] ?> and <>> then
-broadcast [nourriture v]
++if <<touching [Dragonfly v] ?> and <>> then
+broadcast [food v]
 hide
-go to (position aléatoire v)
+go to (random position v)
 show
 end
 end
@@ -82,10 +82,10 @@ show
 forever
 move [3] steps
 if on edge, bounce
-+if <<touching [Libellule v] ?> and <touching color (#9966ff) ?>> then
-broadcast [nourriture v]
++if <<touching [Dragonfly v] ?> and <touching color (#9966ff) ?>> then
+broadcast [food v]
 hide
-go to (position aléatoire v)
+go to (random position v)
 show
 end
 end

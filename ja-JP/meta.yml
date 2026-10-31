@@ -2,28 +2,39 @@
 title: トンボを育てる
 hero_image: images/banner.png
 description: 迷惑な蚊や他の昆虫を食べると大きくなるトンボを作りましょう。
+pdf: resources/rpi-grow-a-dragonfly.pdf
+meta_title: Scratch coding projects for kids and teens | Grow a dragonfly
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
-- title: はじめに
-- title: シーンを設定する
-- title: 食べるハエ
-  completion:
-  - engaged
-- title: フルサイズに成長する
-- title: 動きの改善
-- title: より多くのエサ
-- title: ランダムな昆虫の動き
-  completion:
-  - internal
-- title: ふりかえり
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: プロジェクトをアップグレードする
+  - 
+    title: はじめに
+  - 
+    title: シーンを設定する
+  - 
+    title: 食べるハエ
+    completion:
+      - engaged
+  - 
+    title: フルサイズに成長する
+  - 
+    title: 動きの改善
+  - 
+    title: より多くのエサ
+    completion:
+      - internal
+  - 
+    title: ランダムな昆虫の動き
+    challenge: true
+  - 
+    title: ふりかえり
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external

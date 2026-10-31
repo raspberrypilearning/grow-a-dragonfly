@@ -9,9 +9,6 @@ Aggiungerai un insetto da mangiare per la libellula.
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-I personaggi che si muovono da soli nei giochi sono talvolta chiamati <span style="color: #0faeb0">**mobs**</span>, abbreviazione di oggetti mobili. Riesci a pensare a un gioco che abbia oggetti mobili?</p>
-
 C'è una mosca nello sprite **Rana 2** che puoi usare.
 
 --- task ---
@@ -77,13 +74,11 @@ Il blocco `rimbalza quando tocchi il bordo`{:class="block3motion"} controlla se 
 
 --- /task ---
 
-Vuoi che lo sprite **Insetto** si `nasconda`{:class="block3looks"} `se`{:class="block3control"} viene mangiato dallo sprite **libellula**.
+Vuoi che lo sprite **Insetto** si `nasconda`{:class="block3looks"} `se`{:class= "block3control"} viene mangiato dallo sprite **libellula**.
 
 --- task ---
 
 Aggiungi un blocco `se`{:class="block3control"} allo script di movimento dello sprite **insetto**:
-
-![](images/fly-icon.png)
 
 ```blocks3
 when flag clicked
@@ -105,15 +100,13 @@ Vuoi che l'insetto si `nasconda`{:class="block3looks"} `se`{:class="block3contro
 
 Trascina `sta toccando [libellula v]`{:class="block3sensing"} nel blocco `se`{:class="block3control"}. Aggiungi un blocco `nascondi`{:class="block3looks"} all'interno del blocco `se`{:class="block3control"}.
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-+if <touching [Dragonfly v] ?> then // cambiato da "puntatore del mouse"
-+hide // mangiato
++if <touching [Dragonfly v] ?> then // change from 'mouse-pointer'
++hide // eaten
 end
 ```
 
@@ -131,19 +124,17 @@ La libellula non diventerà molto grande se può mangiare solo una mosca!
 
 Aggiungi blocchi a `vai in una posizione casuale`{:class="block3motion"} sullo sfondo e fai aspettare il tuo sprite ``{:class="block3control"} per un secondo, quindi`mostra`{:class="block3looks"}:
 
-![](images/fly-icon.png)
-
 ```blocks3
 when flag clicked
-+show // mostrare all'inizio
++show // show at the start
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
 hide
-+go to (posizione a caso v)
++go to (random position v)
 +wait [1] seconds
-+show // per sembrare una nuova mosca
++show // to look like a new fly
 end
 end
 ```

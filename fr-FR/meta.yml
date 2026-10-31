@@ -10,19 +10,27 @@ listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
-  - title: Ce que tu vas faire
-  - title: Créer la scène
-  - title: Une mouche à manger
+  - 
+    title: Ce que tu vas faire
+  - 
+    title: Créer la scène
+  - 
+    title: Une mouche à manger
     completion:
       - engaged
-  - title: Faire grandir jusqu'à sa taille maximale
-  - title: Mouvement amélioré
-  - title: Plus de nourriture
+  - 
+    title: Faire grandir jusqu'à sa taille maximale
+  - 
+    title: Mouvement amélioré
+  - 
+    title: Plus de nourriture
     completion:
       - internal
-  - title: Défi
+  - 
+    title: Défi
     challenge: true
-  - title: Questionnaire rapide
+  - 
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1

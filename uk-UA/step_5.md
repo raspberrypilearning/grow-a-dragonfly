@@ -13,9 +13,7 @@
 
 Вибери спрайт **Dragonfly** і знайди скрипт, який починається блоком `коли прапорець натиснуто`{:class="block3events"}.
 
-Перетягни блок `якщо`{:class="block3control"} всередину блока `завжди`{:class="block3control"}, і блоки всередині `завжди`{:class="block3control"} перейдуть усередину `якщо`{:class="block3control"}.
-
-Твій код має виглядати так:
+Drag an `if`{:class="block3control"} inside the `forever`{:class="block3control"} block. The blocks inside the `forever`{:class="block3control"} will move inside the `if`{:class="block3control"}.
 
 ![](images/dragonfly-icon.png)
 
@@ -24,8 +22,8 @@ when flag clicked
 set size to [25] %
 forever
 +if < > then
-start sound [Крильця v]
-point towards (вказівник v)
+start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
@@ -34,25 +32,19 @@ end
 
 --- task ---
 
-Потім перетягни блок `не`{:class="block3operators"} у блок `якщо`{:class="block3control"}, а всередину `не`{:class="block3operators"} перемісти блок `торкається (вказівник)`{:class="block3sensing"}.
-
-Твій код має виглядати так:
-
-![](images/dragonfly-icon.png)
+Then drag a `not`{:class="block3operators"} block into the `if`{:class="block3control"} and a `touching (mouse-pointer)`{:class="block3sensing"} inside that.
 
 ```blocks3
 when flag clicked
 set size to [25] %
 forever
-+if <not <touching [вказівник v] ?> > then
-start sound [Крильця v]
-point towards (вказівник v)
++if <not <touching [mouse-pointer v] ?> > then
+start sound [Wings v]
+point towards (mouse-pointer v)
 move [5] steps
 end
 end
 ```
-
-Блок `не`{:class="block3operators"} перетворює умову на зворотну, як і у реченні.
 
 --- /task ---
 
@@ -60,15 +52,15 @@ end
 
 **Протестуй:** перевір, чи виправилась дивна поведінка бабки і чи вона рухається, лише якщо `не`{:class="block3operators"} `торкається (вказівника)`{:class="block3sensing"}.
 
-Ти також можеш спробувати таку умову:
+--- /task ---
+
+--- task ---
+
+Try a different condition that makes the dragonfly move when it is far enough from the mouse-pointer:
 
 ```blocks3
-<(distance to [вказівник v]) > [50]>
+<(distance to [mouse-pointer v]) > [50]>
 ```
-
-Вона змушує бабку рухатися, коли вона знаходиться на достатній відстані від вказівника миші.
-
-**Порада:** ти можеш перетягувати блоки в будь-яке місце в області коду й залишати їх там, поки пробуєш різні варіанти.
 
 --- /task ---
 

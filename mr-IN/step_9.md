@@ -1,63 +1,19 @@
 ## तुमचा प्रोजेक्ट अपग्रेड करा
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-या टप्प्यात, तुमचा प्रकल्प दिसण्याचा आणि वागण्याचा मार्ग बदलून अधिक कीटक जोडण्याचा प्रयत्न करा.
+If you are following the [More scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Drum star](https://projects.raspberrypi.org/en/projects/drum-star) project. In this project, you will make a clicker game where you earn beats to play new drums at bigger venues.
+
+--- print-only ---
+
+![The Stage view of the completed Drum star project.](images/drum-star.png)
+
+--- /print-only ---
+
+--- no-print ---
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/522323676/?autostart=false" frameborder="0"></iframe>
 </div>
-<div>
-![कीटक आणि ड्रॅगनफ्लायचे तीन वेगवेगळे प्रकार दाखवणारा Stage.](images/upgrade-project.png){:width="300px"}
-</div>
-</div>
 
-### अधिक कीटक जोडा
+--- /no-print ---
 
-अधिक कीटक जोडा. तुम्हाला त्यांना कदाचीत जलद हलवावे लागेल, त्यामुळे ड्रॅगनफ्लायसाठी ते पकडणे कठीण होईल.
-
-तुम्ही स्वतःचे कीटक पेंट करू शकता किंवा mosquito हा इमोजी जोडून प्रयत्न करू शकता!
-
---- task ---
-
-**Mosquito emoji** sprite जोडण्यासाठी इमोजी कीबोर्ड वापरा.
-
-आधीचा **insect** sprite डुप्लीकेट करा त्यानंतर **Costumes** टॅबवर क्लिक करा. नवीन कॉश्चुम **Paint** करा आणि **Text** टूल निवडा. टेक्स्ट टाईप करण्याऐवजी, तुमच्या ऑपरेटिंग सिस्टीमसाठी इमोजी कीबोर्ड शॉर्टकट वापरा:
-
-Windows - Windows key + '.' 
-MacOS - ctrl + cmd + space 
-Linux - ctrl + '.'
-
-![निवडलेल्या 'animals and nature' कॅटेगरीसह पॉपअप इमोजी कीबोर्ड.](images/emoji-keyboard.png)
-
-Paint एडिटरमध्ये तो इंसर्ट करण्यासाठी **Mosquito** इमोजी निवडा. तुमचे समाधान होईपर्यंत तुमच्या डासाला मध्यभागी आणण्यासाठी, रीसाईज करण्यासाठी आणि फिरवण्यासाठी **Select** (arrow) टूल वापरा.
-
-![Paint एडिटरमध्ये डासांचा इमोजी.](images/emoji-mosquito.png)
-
-**टीप:** इमोजी वेगवेगळ्या कंप्युटर्सवर वेगवेगळे दिसू शकतात, त्यामुळे ते टॅबलेट आणि डेस्कटॉप कंप्युटर यांवर कदाचीत सारखेच दिसणार नाहीत. काही इमोजी काही कंप्युटरवर उपलब्ध नाहीत, परंतु बहुतेक आधुनिक कंप्युटरवर ते चालतील.
-
---- /task ---
-
---- task ---
-
-त्यांच्या 'Grow a Dragonfly' प्रोजेक्टमधून तुमच्या मित्रांसोबत कीटकांचा व्यापार करण्यासाठी तुमचा बॅकपॅक वापरा.
-
-[[[scratch-backpack]]]
-
---- /task ---
-
---- task ---
-
-**टीप:** तुमच्या सर्व स्प्राईट्स आणि कॉश्चुम यांना योग्य नावे दिली आहेत ना ते तपासा. यामुळे तुम्ही तुमच्या प्रोजेक्टवर काही काळाने परत आलात तरीही तो समजून घेण्यास सोपा जाईल.
-
-**टीप:** तुमचा कोड Code एरियामध्ये व्यवस्थित मांडलेला असल्याची खात्री करा. Code एरियावर राईट-क्लिक करा आणि तुमचा कोड व्यवस्थित करून Scratch मिळवण्यासाठी **Clean up Blocks** निवडा.
-
---- /task ---
-
---- collapse ---
----
-title: पूर्ण झालेला प्रोजेक्ट
----
-
-तुम्ही [पूर्ण झालेला प्रोजेक्ट येथे](https://scratch.mit.edu/projects/660052855/){:target="_blank"} बघू शकता.
-
---- /collapse ---
-
---- save ---
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

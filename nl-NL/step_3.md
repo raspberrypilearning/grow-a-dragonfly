@@ -94,20 +94,19 @@ De `als`{:class="block3control"} heeft een zeshoekige invoer. Dit betekent dat j
 
 Wanneer het `als`{:class="block3control"}-blok wordt uitgevoerd, zal Scratch de voorwaarde controleren. Als de voorwaarde 'waar' is `dan`{:class="block3control"} wordt de code in het `als`{:class="block3control"}-blok uitgevoerd.
 
-Je wilt dat het insect `verdwijnt`{:class="block3looks"} `als`{:class="block3control"} het de **Dragonfly** sprite `aanraakt`{:class="block3sensing"}.
+Je wilt dat het insect `verdwijnt`{:class="block3looks"} ` als`{:class="block3control"} het de **Dragonfly** sprite `aanraakt`{:class="block3sensing"}.
 
 --- task ---
 
 Sleep een `raak ik [Dragonfly v]`{:class="block3sensing"} in het `als`{:class="block3control"}-blok. Voeg een `verdwijn`{:class="block3looks"} blok toe binnen het `als`{:class="block3control"} blok.
-
 
 ```blocks3
 when flag clicked
 forever
 move [3] steps
 if on edge, bounce
-+if <touching [Dragonfly v] ?> then // wijzigen van 'muisaanwijzer'
-+hide // opgegeten
++if <touching [Dragonfly v] ?> then // change from 'mouse-pointer'
++hide // eaten
 end
 ```
 
@@ -127,15 +126,15 @@ Voeg een blok `ga naar willekeurige positie`{:class="block3motion"} toe aan het 
 
 ```blocks3
 when flag clicked
-+show // toon aan het begin
++show // show at the start
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
 hide
-+go to (willekeurige positie v)
++go to (random position v)
 +wait [1] seconds
-+show // eruit zien als een nieuwe vlieg
++show // to look like a new fly
 end
 end
 ```

@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: 3లో 2వ ప్రశ్న
+legend: Question 2 of 3
 ---
 
 మౌస్ పాయింటర్ ను `touching`{:class="block3sensing"} `not`{:class="block3operators"} కండిషన్ ఉంటేనే తూనీగ కదిలేలా చేయడానికి మీరు కోడ్‌ని వ్రాసారు.

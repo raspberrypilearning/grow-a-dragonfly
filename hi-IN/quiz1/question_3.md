@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: 3 में से तीसरा प्रश्न
+legend: Question 3 of 3
 ---
 
 अपने प्रोजेक्ट में, आपने **Insect** स्प्राइट को एक प्राकृतिक, अप्रत्याशित उड़ान पैटर्न में स्थानांतरित करने के लिए `pick random`{:class="block3operators"} ब्लॉक का उपयोग किया।
@@ -12,7 +12,7 @@ legend: 3 में से तीसरा प्रश्न
 
 - ( )
 
-`pick random [0] to [9]`{:class="block3operators"}
+`यादृच्छिक [0] से [9] चुनें` {:class="block3operators"}
 
   --- feedback ---
 
@@ -22,7 +22,7 @@ legend: 3 में से तीसरा प्रश्न
 
 - ( )
 
-`pick random [20] to [100]`{:class="block3operators"}
+`यादृच्छिक [20] से [100] चुनें` {:class="block3operators"}
 
   --- feedback ---
 
@@ -32,7 +32,7 @@ legend: 3 में से तीसरा प्रश्न
 
 - (x)
 
-`pick random [1] to [50]`{:class="block3operators"}
+`यादृच्छिक [1] से [50] चुनें` {:class="block3operators"}
 
   --- feedback ---
 

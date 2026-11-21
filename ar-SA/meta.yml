@@ -2,28 +2,39 @@
 title: نمو اليعسوب
 hero_image: images/banner.png
 description: اجعل اليعسوب عندما يأكل البعوض المزعج والحشرات الأخرى.
+pdf: resources/rpi-grow-a-dragonfly.pdf
+meta_title: Scratch coding projects for kids and teens | Grow a dragonfly
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app where a dragonfly grows bigger as it eats insects.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-04-27'
 steps:
-- title: المقدمة
-- title: جهز المشهد
-- title: ذبابة للأكل
-  completion:
-  - engaged
-- title: تنمو إلى الحجم الكامل
-- title: تحسين الحركة
-- title: المزيد من الطعام
-- title: حركة الحشرات العشوائية
-  completion:
-  - internal
-- title: تفكير
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: قم بترقية مشروعك
+  - 
+    title: المقدمة
+  - 
+    title: جهز المشهد
+  - 
+    title: ذبابة للأكل
+    completion:
+      - engaged
+  - 
+    title: تنمو إلى الحجم الكامل
+  - 
+    title: تحسين الحركة
+  - 
+    title: المزيد من الطعام
+    completion:
+      - internal
+  - 
+    title: حركة الحشرات العشوائية
+    challenge: true
+  - 
+    title: تفكير
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external

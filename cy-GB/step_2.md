@@ -11,20 +11,15 @@ Byddi di'n gosod y cyd-destun. Dewisa dy gefnlen ac ychwanegu gwas-y-neidr sy'n 
 
 --- task ---
 
-Agora'r prosiect cychwynnol [Tyfu gwas-y-neidr](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
-
-[[[working-offline]]]
+Agora'r prosiect cychwynnol [Tyfu gwas-y-neidr](https://scratch.mit.edu/projects/535695413/editor){:target="_blank"}. Scratch will open a blank project in a new browser tab.
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Mae modd gweld <span style="color: #0faeb0">**Gweision y neidr**</span> ym mhedwar ban byd ac mae nhw wedi bodoli ers dros 300 miliwn o flynyddoedd!</p>
-
 --- task ---
 
-**Dewisa:** Clicia **Dewiswch Gefnlen** ac ychwanegu cefnlen o dy ddewis. Rydyn ni wedi defnyddio'r gefnlen **Jurassic**.
+Click **Choose a Backdrop** and add a backdrop of your choice. Rydyn ni wedi defnyddio'r gefnlen **Jurassic**.
 
-![](images/choose-backdrop-icon.png)
+![Backdrop icon on the Scratch app interface](images/choose-backdrop-icon.png)
 
 ![Y Llwyfan yn dangos y gefnlen Jurassic.](images/Jurassic-backdrop.png)
 
@@ -34,7 +29,7 @@ Mae modd gweld <span style="color: #0faeb0">**Gweision y neidr**</span> ym mhedw
 
 Clicia **Dewiswch Gorlun** a chwilia am `dragonfly`, wedyn ychwanegu'r corlun **Dragonfly**.
 
-![](images/choose-sprite-icon.png)
+![Sprite icon on the Scratch app interface](images/choose-sprite-icon.png)
 
 ![Y blwch chwilio gyda 'dragonfly' wedi'i deipio i mewn a'r corlun Dragonfly yn yr oriel.](images/dragonfly-search.png)
 
@@ -44,11 +39,11 @@ Clicia **Dewiswch Gorlun** a chwilia am `dragonfly`, wedyn ychwanegu'r corlun **
 
 Ychwanega sgript i wneud i'r corlun **Dragonfly** ddilyn pwyntydd y llygoden (neu dy fys):
 
-![](images/dragonfly-icon.png)
+![Dragonfly sprite icon on the Scratch app interface](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
-set size to [25] % // i ddechrau'n fach
+set size to [25] % // to start small
 forever
 point towards (mouse-pointer v)
 move [5] steps
@@ -66,11 +61,11 @@ Dydy'r wisg Dragonfly ddim yn wynebu i'r dde, felly dydy pen y corlun **Dragonfl
 
 --- task ---
 
-Cliciwch ar y tab **Gwisgoedd** a defnyddia'r offeryn **Dewis** (saeth) i ddewis y wisg. Defnyddia'r offeryn **Cylchdroi** ar waelod y wisg a ddewiswyd i droi'r wisg **Dragonfly** i wynebu'r dde.
+Cliciwch ar y tab **Gwisgoedd** a defnyddia'r offeryn **Dewis** (saeth) i ddewis y wisg.
+
+Defnyddia'r offeryn **Cylchdroi** ar waelod y wisg a ddewiswyd i droi'r wisg **Dragonfly** i wynebu'r dde.
 
 ![Delwedd animeiddiedig yn dangos sut i gylchdroi'r wisg dragonfly drwy lusgo'r saethau cylchdroi fel bod y gwas y neidr yn wynebu i'r dde.](images/rotated-costume.gif)
-
-![Y wisg dragonfly wedi'i dewis ac wedi'i throi i wynebu'r dde.](images/rotated-costume.png)
 
 --- /task ---
 
@@ -90,6 +85,10 @@ Ychwanega'r sain **Crank** at y corlun **Dragonfly**.
 
 ![](images/crank-sound-editor.png)
 
+--- /task ---
+
+--- task ---
+
 Clicia'r botwm **Chwarae** er mwyn i ti allu clywed y sain.
 
 --- /task ---
@@ -104,39 +103,41 @@ Clicia **Copïo i'r Newydd** i greu sain newydd gyda'r rhan a ddewiswyd yn unig:
 
 ![Diwedd y sain crank wedi'i ddewis mewn glas gyda'r eicon 'Copïo i'r Newydd' wedi'i hamlygu.](images/crank-copy-end.png)
 
-Newidia enw dy sain newydd o **Crank2** i `Adenydd`.
+--- /task ---
 
-![Y briodwedd rename sound.](images/crank-wings-sound.png)
+--- task ---
+
+Newidia enw dy sain newydd o **Crank2** i `Adenydd`. ![Y briodwedd rename sound.](images/crank-wings-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Chwaraea'r sain newydd. Clicia'r botwm **Yn gyflymach** ychydig o weithiau nes dy fod ti'n hoffi'r canlyniad:
+**Test:** Play the new sound. Click the **Faster** button a few times until you like the result:
 
-![Ton sain gyflymach gyda'r eicon 'Yn gyflymach' wedi'i hamlygu.](images/wings-faster.png)
-
---- /task ---
-
---- task ---
-
-Os wyt ti'n dymuno, galli di ddewis diwedd y sain **Adenydd**, ac wedyn clicio ar **Dileu** i'w dynnu:
-
-![Diwedd y don sain wedi'i ddewis gyda'r offeryn 'Dileu' wedi'i hamlygu.](images/wings-shorter.png)
+![A faster sound wave with the 'Faster' icon highlighted.](images/wings-faster.png)
 
 --- /task ---
 
 --- task ---
 
-Nawr ychwanega floc i chwarae'r sain **Adenydd** pan fydd y gwas-y-neidr yn symud:
+If you like, you can select the very end of the **Wings** sound, and then click **Delete** to remove it:
 
-![](images/dragonfly-icon.png)
+![The end of the sound wave selected with the 'Delete' tool highlighted.](images/wings-shorter.png)
+
+--- /task ---
+
+--- task ---
+
+Now add a block to play the **Wings** sound when the dragonfly moves:
+
+![Dragonfly sprite icon](images/dragonfly-icon.png)
 
 ```blocks3
 when flag clicked
 set size to [25] %
 forever
-+start sound [Adenydd v]
++start sound [Wings v]
 point towards (mouse-pointer v)
 move [5] steps
 end
@@ -145,7 +146,7 @@ end
 
 --- task ---
 
-**Profi:** Rho gynnig ar gael y gwas-y-neidr i symud a chwarae'r effaith sain.
+**Test:** Try out your dragonfly movement and sound effect.
 
 --- /task ---
 

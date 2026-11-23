@@ -9,12 +9,9 @@
 </div>
 </div>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-يمكن العثور على أكبر حشرات اليعسوب الحية في أمريكا الوسطى ويبلغ طول جناحيها 19 سم (أكبر قليلاً من يدك). كانت أكبر حشرة معروفة على الإطلاق هي حشرة <span style="color: #0faeb0">**Meganeuropsis permiana**</span>، وهي حشرة يعسوب يبلغ طول جناحيها حوالي 75 سم (بحجم خطوة كبيرة).</p>
+The Dragonfly needs to grow when it eats a fly.
 
-تعرف الذبابة أنه تم أكلها، والآن يحتاج اليعسوب إلى معرفة ذلك حتى ينمو.
-
-عندما تريد السماح لكائن آخر بمعرفة حدوث شيء ما، يمكنك استخدام كتلة `بث`{:class="block3events"} كما فعلت في [بث التعويذات](https://projects.raspberrypi.org/ar-SA/projects/broadcasting-spells){:target="_blank"}.
+عندما تريد السماح لكائن آخر بمعرفة حدوث شيء ما، يمكنك استخدام كتلة `بث`{:class="block3events"} كما فعلت في [بث التعويذات](https://projects.raspberrypi.org/en/projects/broadcasting-spells){:target="_blank"}.
 
 --- task ---
 
@@ -24,12 +21,12 @@
 
 ```blocks3
 when flag clicked
-show // تظهر في البداية
+show // show at the start
 forever
 move [3] steps
 if on edge, bounce
 if <touching [Dragonfly v] ?> then
-+broadcast [طعام v]
++broadcast [food v]
 hide
 go to (random position v)
 wait [1] seconds
@@ -48,7 +45,7 @@ end
 ![](images/dragonfly-icon.png)
 
 ```blocks3 
-when I receive [طعام v]
+when I receive [food v]
 change size by [5]
 ```
 
@@ -58,10 +55,8 @@ change size by [5]
 
 أضف صوت **Chomp** إلى اليعسوب و`ابدأ الصوت`{:class="block3sound"} عندما تؤكل الحشرة:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3 
-when I receive [طعام v]
+when I receive [food v]
 +start sound [Chomp v]
 change size by [5]
 ```
@@ -79,12 +74,24 @@ change size by [5]
 
 أضف كتلة `إذا`{:class="block3control"}.
 
-يصبح اليعسوب بالحجم الكامل عندما يكون `الحجم`{:class="block3looks"} `=`{:class="block3operators"} `100%`. أولًا، أضف العملية `=`{:class="block3operators"} إلى الإدخال على الشكل السداسي:
-
-![](images/dragonfly-icon.png)
-
 ```blocks3
 when I receive [طعام v]
+start sound [Chomp v]
+change size by [5]
++if <[ ] = [ ]> then
+end
+```
+
+--- /task ---
+
+يصبح اليعسوب بالحجم الكامل عندما يكون `الحجم`{:class="block3looks"} `=`{:class="block3operators"} `100%`.
+
+--- task ---
+
+أولًا، أضف العملية `=`{:class="block3operators"} إلى الإدخال على الشكل السداسي:
+
+```blocks3
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if <[ ] = [ ]> then
@@ -96,10 +103,8 @@ end
 
 قم بإنهاء بناء الشرط بإضافة متغير `الحجم`{:class="block3looks"} واكتب القيمة `100`:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
-when I receive [طعام v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 +if <(size) = [100]> then
@@ -113,28 +118,26 @@ end
 
 وأخيرًا، قم باضافة كتلة `إيقاف الكل`{:class="block3control"} لإيقاف باقي النصوص البرمجية لليعسوب:
 
-![](images/dragonfly-icon.png)
-
 ```blocks3
-when I receive [طعام v]
+when I receive [food v]
 start sound [Chomp v]
 change size by [5]
 if <(size) = [100]> then
-+broadcast [النهاية v]
-+say [اكتمل نموي!]
-+stop [other scripts in sprite v] // تغيير من "الكل"
++broadcast [end v]
++say [I got to full size!]
++stop [other scripts in sprite v] // change from 'all'
 end
 ```
 --- /task ---
 
 --- task ---
 
-في الوقت الحالي، لا زالت الذبابة تتحرك حتى بعد انتهاء تنفيذ المشروع. أضف هذا البرنامج النصي إلى كائن الحشرة **Insect**.
+في الوقت الحالي، لا زالت الذبابة تتحرك حتى بعد انتهاء تنفيذ المشروع. أضف هذا البرنامج النصي إلى كائن الحشرة ** Insect **.
 
 ![](images/fly-icon.png)
 
 ```blocks3
-when I receive [النهاية v]
+when I receive [end v]
 stop [other scripts in sprite v]
 ```
 
